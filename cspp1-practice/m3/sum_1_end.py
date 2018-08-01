@@ -1,8 +1,7 @@
 number = int(input("Enter Number:"))
-i = 1
 sum = 0
-while i <= number:
+for i in range(number + 1):
     sum += i
-    i = i + 1
+    
 
 print(sum)
