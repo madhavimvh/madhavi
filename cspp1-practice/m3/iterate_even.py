@@ -1,5 +1,6 @@
-i = 2
-while i <= 10:
+print("Hello!")
+i = 10
+while i >= 2:
     print(i)
-    i += 2
-print("Goodbye!")
+    i -= 2
+
