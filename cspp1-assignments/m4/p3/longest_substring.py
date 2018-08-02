@@ -15,7 +15,7 @@ If you've spent more than a few hours on this problem, we suggest that you move 
 If you have time, come back to this problem after you've had a break and cleared your head.'''
 
 def main():
-    s = input("enter")
+    s = input()
     m=0
     g=0
     c=0
