@@ -8,7 +8,6 @@ def main():
     '''
     Read any number from the input, store it in variable int_input.
     '''
-    def main():
     s = str(input())
     z = ""
     for n in s:
