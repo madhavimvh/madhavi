@@ -8,8 +8,8 @@ def main():
     z = ""
     for n in s:
         if n == "!" or n == "@" or n == "#" or n == "$" or n == "%" or n == "^" or n == "&" or n == "*":
-             z+=" "
+             z += " "
         else:
-            z+=n
+            z += n
     print(z)        
 main()
