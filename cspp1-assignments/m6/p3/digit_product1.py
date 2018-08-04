@@ -1,5 +1,5 @@
 def main():
-    n = int(input("entrr"))
+    n = int(input())
     p=1
     i=1
     """if n==0:
