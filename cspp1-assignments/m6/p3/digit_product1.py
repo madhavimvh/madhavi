@@ -9,7 +9,7 @@ def main():
             rem = n%10
             p = p*rem
             n = n//10
-        print(p)
+    print(p)
 main()
         
         
