@@ -12,7 +12,6 @@ def main():
         print(p)
     elif n<0:
         n = -n
-        print(n)
         while n>0:
             rem = n%10
             p = p*rem
