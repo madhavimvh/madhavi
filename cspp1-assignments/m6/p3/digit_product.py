@@ -8,8 +8,13 @@ def main():
     '''
     Read any number from the input, store it in variable int_input.
     '''
-    int_input = int(input())
-
-
-if __name__ == "__main__":
-    main()
+    def main():
+    s = str(input())
+    z = ""
+    for n in s:
+        if n =="!" or n =="@" or n =="#" or n =="$" or n =="%" or n =="^" or n =="&" or n =="*":
+             z+=" "
+        else:
+            z+=n
+    print(z)        
+main()
