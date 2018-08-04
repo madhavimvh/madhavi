@@ -11,5 +11,5 @@ def main():
              Z += " "
         else:
             Z += nn
-    print(Z)        
+    print(Z) 
 main()
