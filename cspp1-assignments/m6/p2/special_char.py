@@ -7,7 +7,12 @@ def main():
     '''
     Read string from the input, store it in variable str_input.
     '''
-    str_input = input()
-
-if __name__ == "__main__":
-    main()
+     s = str(input())
+    z = ""
+    for n in s:
+        if n =="!" or n =="@" or n =="#" or n =="$" or n =="%" or n =="^" or n =="&" or n =="*":
+             z+=" "
+        else:
+            z+=n
+    print(z)     
+main()
