@@ -4,12 +4,12 @@ example : ab!@#cd is the input, the output is ab   cd
 Output has three spaces, which are to be replaced with these special characters
 '''
 def main():
-    s = str(input())
-    z = ""
-    for n in s:
-        if n == "!" or n == "@" or n == "#" or n == "$" or n == "%" or n == "^" or n == "&" or n == "*":
-             z += " "
+    S = str(input())
+    Z = ""
+    for nn in S:
+        if nn == "!" or nn == "@" or nn == "#" or nn == "$" or nn == "%" or nn == "^" or nn == "&" or nn == "*":
+             Z += " "
         else:
-            z += n
-    print(z)        
+            Z += nn
+    print(Z)        
 main()
