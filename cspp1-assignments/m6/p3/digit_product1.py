@@ -1,15 +1,27 @@
 def main():
-    n = int(input())
+    n = int(input("entrr"))
     p=1
     i=1
-    if n==0:
-        print("0")
-    if n!=0:
+    """if n==0:
+        print("0")"""
+    if n>0:
         while n>0:
             rem = n%10
             p = p*rem
             n = n//10
-    print(p)
+        print(p)
+    elif n<0:
+        n = -n
+        print(n)
+        while n>0:
+            rem = n%10
+            p = p*rem
+            n = n//10
+        print("-",+p)
+    else:
+        print("0")
+        
+        
 main()
         
         
