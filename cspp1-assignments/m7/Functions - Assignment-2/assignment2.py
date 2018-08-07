@@ -28,28 +28,27 @@ Monthly unpaid balance = (Previous balance) - (Minimum fixed monthly payment)
 Updated balance each month = (Monthly unpaid balance) +
 (Monthly interest rate x Monthly unpaid balance)
 """
-
 def paying_debtoffinayear(bal_ance, annual_interestrate):
-   """defining paying function"""
-   ba_l = bal_ance
-   pa_y = 0
-   while True:
-       i = 12
-       ba_l = bal_ance
-       while i != 0:
-           u_bal = ba_l - pa_y
-           ba_l = u_bal + ((annual_interestrate / 12.0) * u_bal)
-           i -= 1
-       if ba_l > 0:
-           pa_y += 10
-       else:
-           break
-   return pa_y
+    """defining paying function"""
+    ba_l = bal_ance
+    pa_y = 0
+    while True:
+        i = 12
+        ba_l = bal_ance
+        while i != 0:
+            u_bal = ba_l - pa_y
+            ba_l = u_bal + ((annual_interestrate / 12.0) * u_bal)
+            i -= 1
+        if ba_l > 0:
+            pa_y += 10
+        else:
+            break
+    return pa_y
 def main():
-   """Defining main"""
-   data = input()
-   data = data.split(' ')
-   data = list(map(float, data))
-   print("Lowest Payment: " + str(paying_debtoffinayear(data[0], data[1])))
+    """Defining main"""
+    data = input()
+    data = data.split(' ')
+    data = list(map(float, data))
+    print("Lowest Payment: " + str(paying_debtoffinayear(data[0], data[1])))
 if __name__ == "__main__":
-   main()
+    main()
