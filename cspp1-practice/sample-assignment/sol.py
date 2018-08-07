@@ -4,8 +4,25 @@
 
 # This function takes in one number and returns one number.
 
-def main():
-    s = 'python is fun'
-    print(s[1::3])
-       
-main()
+def ispallindrome(s):
+   def tochars(s):
+    s = s.lower()
+    ans = " "
+    for c in s:
+        if c in "abcdefghijklmnopqrstuvwxyz":
+            ans = ans + c
+            print(ans)
+    return ans
+
+    def ispal(s):
+        print(s)
+        if len(s) <= 1:
+            return True
+        else:
+            return s[0] == s[-1] and ispal(s[1:-1])
+
+    return ispal(s)
+
+    
+    
+print(ispallindrome("madam"))
