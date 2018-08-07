@@ -9,7 +9,7 @@ def sumofdigits(var_n):
     n is positive Integer
     returns: a positive integer, the sum of digits of n.
     '''
-    while var_n > 0:
+    while var_n >= 0:
         if var_n == 0:
             return 0
         return (var_n % 10) + sumofdigits(var_n//10)
