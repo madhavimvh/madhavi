@@ -16,9 +16,9 @@ def is_word_guessed(secret_word, letters_guessed):
       False otherwise
     '''
     for i in secret_word:
-        for i in letters_guessed:
-            secret_word.replace(i, "")
-    if secret_word == "": 
+        if i in letters_guessed:
+            a = secret_word.replace(i, "$")
+    if len(secret_word) == len(a): 
         return(True)
     else:
         return(False)
