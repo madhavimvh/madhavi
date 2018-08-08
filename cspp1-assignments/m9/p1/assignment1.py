@@ -19,7 +19,7 @@ def is_word_guessed(secret_word, letters_guessed):
     for i in secret_word:
         if i in letters_guessed:
             var_c = secret_word.replace(i, "#")
-            secret_word = c
+            secret_word = var_c
             count += 1
     if count == len(secret_word):
         return True
