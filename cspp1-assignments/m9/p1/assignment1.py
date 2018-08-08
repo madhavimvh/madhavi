@@ -22,6 +22,7 @@ def is_word_guessed(secret_word, letters_guessed):
         return(True)
     else:
         return(False)
+    print(secret_word)
             
 
 def main():
