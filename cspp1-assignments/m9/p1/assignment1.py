@@ -16,15 +16,23 @@ def is_word_guessed(secret_word, letters_guessed):
       False otherwise
     '''
     a = []
-    for i in secret_word:
-        if i in letters_guessed:
-            a += " "
-        else:
-            a += i
-    if secret_word == a: 
-        return(True)
+    j = 0
+    if len(secret_word)>=len(letters_guessed):
+        m = len(secret_word)
     else:
-        return(False)
+        m = len(letters_guessed)
+    while j <= m:
+        for i in secret_word:
+            if i in letters_guessed:
+                a += " "
+                print(a)
+            else:
+                a += i
+                print(a)
+        if secret_word == a: 
+            return(True)
+        else:
+            return(False)
             
 
 def main():
