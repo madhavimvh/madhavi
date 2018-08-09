@@ -17,7 +17,8 @@ def get_available_letters(letters_guessed):
     for i in letters_guessed:
         if i in l_l:
             l_l.remove(i)
-    return l_l
+    ss_s = ''.join(l_l)
+    return ss_s
 def main():
     '''
     Main function for the given program
