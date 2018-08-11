@@ -24,10 +24,13 @@ def main():
     for i in range(int(n)):
     	s=input()
     	l=s.split()
+    	print(l)
     	if l[0][0] not in aDict:
     		aDict[l[0][0]]=[l[1]]
+    		print(aDict)
     	else:
     		aDict[l[0][0]].append(l[1])
+    		print(aDict)
     print(biggest(aDict))
 
 if __name__== "__main__":

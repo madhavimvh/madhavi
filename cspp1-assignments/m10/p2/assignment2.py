@@ -121,7 +121,7 @@ def hangman(secret_word):
     while i >= 1:
         print("you have " + str(i) + "guesses left")
         if i <= 8 and flag == 1:
-            print("available letters: " + get_available_letters(letters_guessed))
+            print("available letterskhk: " + get_available_letters(letters_guessed))
         if i == 8 and flag == 0:
             print("available letters: " + get_available_letters(letters_guessed))
             flag = 1

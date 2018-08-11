@@ -1,29 +1,17 @@
-# Exercise: Assignment-1
-# Write a Python function, factorial(n), that takes in one number and
-# returns the factorial of given number.
-# This function takes in one number and returns one number.
-def applyEachTo(L, x):
-   L[i]=f(L[i])
-   return(L)
-
-def square(a):
-    return a*a
-
-def halve(a):
-    return a/2
-
-def inc(a):
-    return a+1
-   
 def main():
-   data = input()
-   data = data.split()
-   list1 = []
-   for j in data:
-       list1.append(int(j))
-   print(applyEachTo(inc)
-   print(applyEachTo(square)
-   print(applyEachTo(inc)
-   print(applyEachTo(inc)
+	n = input()
+	dict = {}
+	for i in range(int(n)):
+		val = input()
+		val_list = val.split(" ")
+		print(val_list)
+		if val_list[0] not in dict:
+			dict[val_list[0]] = [val_list[1]]
+		elif val_list[1] not in dict[val_list[0]] :
+			dict[val_list[0]].append(val_list[1])
+	print(dict)
+if __name__== "__main__":
+	main()
 
-main()   
+
+

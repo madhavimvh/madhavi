@@ -15,7 +15,6 @@ def is_word_guessed(secret_word, letters_guessed):
     returns: boolean, True if all the letters of secret_word are in letters_guessed;
       False otherwise
     '''
-    count = 0
     for i in secret_word:
         if i in letters_guessed:
             secret_word = secret_word.replace(i,"")
@@ -38,7 +37,7 @@ def main():
         secret_word = ""
     list1 = []
     for j in range(1, len(data)):
-        list1.append(data[j][0])
+        list1.append(data[j])
     print(is_word_guessed(secret_word, list1))
 
 if __name__ == "__main__":

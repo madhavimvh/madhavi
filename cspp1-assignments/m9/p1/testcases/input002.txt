@@ -1,1 +1,2 @@
-durian h a c d i m n r t u
+
+data = data.splitlines()
