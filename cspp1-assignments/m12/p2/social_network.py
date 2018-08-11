@@ -38,11 +38,13 @@ def delete_person(network, arg1):
         update the network dictionary and return it
     '''
     for arg1 in network:
+        values = network.values()
+        values.remove(arg1)
         print(network)
-    return network    
+    return network
 def main():
     '''
-        handling testcase input and printing output
+    handling testcase input and printing output
     '''
     network = eval(input())
     lines = int(input())
