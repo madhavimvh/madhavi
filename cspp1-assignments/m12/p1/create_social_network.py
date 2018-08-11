@@ -38,12 +38,11 @@ def create_social_network(data):
         j = 0
     for j in range(len(data)-1):
         if data[j][0] not in dict:
-            data[j][1]=data[j][1].split(",")
-            dict[data[j][0]]=data[j][1]
+            data[j][1] = data[j][1].split(",")
+            dict[data[j][0]] = data[j][1]
         elif data[j][1] not in dict[data[j][0]]:
             dict[data[j][0]].append(data[j][1])
     return dict
-        
 def main():
     '''
         handling testcase input and printing output
