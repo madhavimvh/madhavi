@@ -26,9 +26,13 @@ def get_word_score(word, n):
     n: integer (HAND_SIZE; i.e., hand size required for additional points)
     returns: int >= 0
     """
-    # TO DO ... <-- Remove this comment when you code this function
-    
-
+    sum = 0
+    for letter in word:
+        sum = sum + SCRABBLE_LETTER_VALUES[letter]
+        scre = sum*len(word)
+    if len(word) == n:
+        return(scre + 50)
+    return(scre)
 
 def main():
     '''
@@ -36,6 +40,7 @@ def main():
     '''
     data = input()
     data = data.split()
+    print(data)
     print(get_word_score(data[0], int(data[1])))
 
 
