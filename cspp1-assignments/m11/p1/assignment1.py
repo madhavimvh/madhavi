@@ -14,7 +14,7 @@ SCRABBLE_LETTER_VALUES = {
 }
 WORDLIST_FILENAME = "words.txt"
 
-def get_word_score(word, n):
+def get_word_score(word, n_n):
     """
     Returns the score for a word. Assumes the word is a valid word.
 
@@ -33,7 +33,7 @@ def get_word_score(word, n):
     for letter in word:
         sum1 = sum1 + SCRABBLE_LETTER_VALUES[letter]
         scre = sum1*len(word)
-    if len(word) == n:
+    if len(word) == n_n:
         return scre + 50
     return scre
 def main():
