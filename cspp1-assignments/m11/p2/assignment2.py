@@ -19,8 +19,8 @@ def update_hand(hand, word):
             hand[letter]=hand[letter] - 1
     return hand
 def main():
-    "proram to take the input"""
-	n_n=input()
+    "program to take the input"""
+        n_n=input()
 	adict={}
 	for i in range(int(n_n)):
 		data=input()
