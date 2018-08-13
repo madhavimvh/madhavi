@@ -1,3 +1,4 @@
+"""
 def main():
 	n = input()
 	dict = {}
@@ -11,7 +12,19 @@ def main():
 			dict[val_list[0]].append(val_list[1])
 	print(dict)
 if __name__== "__main__":
-	main()
+	main()"""
+def calculateHandlen(hand):
+    """
+    Returns the length (number of letters) in the current hand.
+
+    hand: dictionary (string-> int)
+    returns: integer
+    """
+    sum = 0
+    for letter in hand:
+        sum = sum + hand[letter]
+    return sum
+
 
 
 
