@@ -26,7 +26,7 @@ def update_Hand(hand, word):
     return hand
             
 def main():
-    "proram to take input""
+    """proram to take input"""
 	n_n=input()
 	adict={}
 	for i in range(int(n_n)):
