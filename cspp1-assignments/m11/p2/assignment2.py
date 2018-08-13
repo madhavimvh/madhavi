@@ -20,8 +20,6 @@ def updateHand(hand, word):
     """
     
     for letter in word:
-        print(letter)
-        print(hand)
         if letter in hand:
             hand[letter]=hand[letter] - 1
     return hand
@@ -36,9 +34,7 @@ def main():
 		data=input()
 		l=data.split()
 		adict[l[0]]=int(l[1])
-		print(adict)
 	data1=input()
-	print(data1)
 	print(updateHand(adict,data1))
 		
 
