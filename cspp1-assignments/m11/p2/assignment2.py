@@ -20,7 +20,7 @@ def update_hand(hand, word):
     return hand
 def main():
     "program to take the input"""
-    n_n=input()
+    n_n = input()
     adict={}
     for i in range(int(n_n)):
 	data=input()
