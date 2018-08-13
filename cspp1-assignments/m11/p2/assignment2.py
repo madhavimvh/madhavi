@@ -23,7 +23,7 @@ def main():
     n_n = input()
     adict={}
     for i in range(int(n_n)):
-	data=input()
+        data = input()
 	l=data.split()
 	adict[l[0]]=int(l[1])
     data1=input()
