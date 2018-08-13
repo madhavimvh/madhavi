@@ -1,6 +1,9 @@
 '''
 Exercise: Assignment-1
-The first step is to implement some code that allows us to calculate the score for a single word. The function get_word_score should accept as input a string of lowercase letters (a word) and return the integer score for that word, using the game's scoring rules.
+The first step is to implement some code that allows us to calculate
+the score for a single word. The function get_word_score should accept
+as input a string of lowercase letters (a word) and return the integer
+score for that word, using the game's scoring rules.
 '''
 
 
@@ -26,14 +29,13 @@ def get_word_score(word, n):
     n: integer (HAND_SIZE; i.e., hand size required for additional points)
     returns: int >= 0
     """
-    sum = 0
+    sum1 = 0
     for letter in word:
-        sum = sum + SCRABBLE_LETTER_VALUES[letter]
-        scre = sum*len(word)
+        sum1 = sum1 + SCRABBLE_LETTER_VALUES[letter]
+        scre = sum1*len(word)
     if len(word) == n:
-        return(scre + 50)
-    return(scre)
-
+        return scre + 50
+    return scre
 def main():
     '''
     Main function for the given problem
@@ -41,7 +43,5 @@ def main():
     data = input()
     data = data.split()
     print(get_word_score(data[0], int(data[1])))
-
-
 if __name__ == "__main__":
     main()
