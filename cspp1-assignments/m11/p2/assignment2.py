@@ -34,8 +34,8 @@ def main():
 	adict={}
 	for i in range(int(n_n)):
 		data=input()
-		l_l=data.split()
-		adict[l[0]]=int(l_l[1])
+		l=data.split()
+		adict[l[0]]=int(l[1])
 	data1=input()
 	print(update_Hand(adict,data1))
 		
