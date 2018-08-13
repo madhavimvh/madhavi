@@ -20,13 +20,13 @@ def update_hand(hand, word):
     return hand
 def main():
     "program to take the input"""
-        n_n=input()
-	adict={}
-	for i in range(int(n_n)):
-		data=input()
-		l=data.split()
-		adict[l[0]]=int(l[1])
-	data1=input()
-	print(update_hand(adict,data1))
+    n_n=input()
+    adict={}
+    for i in range(int(n_n)):
+	data=input()
+	l=data.split()
+	adict[l[0]]=int(l[1])
+    data1=input()
+    print(update_hand(adict,data1))
 if __name__== "__main__":
 	main()
