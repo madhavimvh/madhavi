@@ -22,14 +22,17 @@ def update_hand(hand, word):
         if letter in hand:
             hand[letter] = hand[letter] - 1
     return hand
+"""
+program to take the input
+"""
 def main():
-    n = input()
+    n_n = input()
     adict = {}
-    for i in range(int(n)):
+    for i in range(int(n_n)):
         data = input()
         l = data.split()
         adict[l[0]] = int(l[1])
     data1 = input()
     print(update_hand(adict, data1))
 if __name__ == "__main__":
-        main()
+    main()
