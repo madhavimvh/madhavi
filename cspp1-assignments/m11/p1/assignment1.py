@@ -40,7 +40,6 @@ def main():
     '''
     data = input()
     data = data.split()
-    print(data)
     print(get_word_score(data[0], int(data[1])))
 
 
