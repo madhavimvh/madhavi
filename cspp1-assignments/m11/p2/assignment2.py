@@ -18,7 +18,15 @@ def updateHand(hand, word):
     hand: dictionary (string -> int)    
     returns: dictionary (string -> int)
     """
-    # TO DO ... <-- Remove this comment when you code this function
+    
+    for letter in word:
+        print(letter)
+        print(hand)
+        if letter in hand:
+            hand[letter]=hand[letter] - 1
+    return hand
+            
+        
     
 
 def main():
@@ -28,7 +36,9 @@ def main():
 		data=input()
 		l=data.split()
 		adict[l[0]]=int(l[1])
+		print(adict)
 	data1=input()
+	print(data1)
 	print(updateHand(adict,data1))
 		
 
