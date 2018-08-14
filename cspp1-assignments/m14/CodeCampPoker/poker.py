@@ -3,7 +3,7 @@
     Read about poker hands here.
     https://en.wikipedia.org/wiki/List_of_poker_hands
 '''
-dictionary = {'T' : "10", 'J' : "11", 'Q' : "12", 'K' : "13", "A" : "14"}
+DICTIONARY = {'T' : "10", 'J' : "11", 'Q' : "12", 'K' : "13", "A" : "14"}
 def is_straight(hand):
     '''
         How do we find out if the given hand is a straight?
@@ -16,8 +16,8 @@ def is_straight(hand):
     '''
     hands_int = []
     for n_n in range(len(hand)):
-        if hand[n_n][0] in dictionary:
-            hands_int.append(dictionary[hand[n_n][0]])
+        if hand[n_n][0] in DICTIONARY:
+            hands_int.append(DICTIONARY[hand[n_n][0]])
         else:
             hands_int.append(hand[n_n][0])
     hands_int1 = []
@@ -38,7 +38,7 @@ def is_flush(hand):
         Write the code for it and return True if it is a flush else return False
     '''
     #print(hand)
-    hands_flush=[]
+    hands_flush = []
     for n_n in range(len(hand)):
         hands_flush.append(hand[n_n][1])
     #print(hands_flush)
