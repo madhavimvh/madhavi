@@ -3,7 +3,7 @@
     Read about poker hands here.
     https://en.wikipedia.org/wiki/List_of_poker_hands
 '''
-Dictionary = {'T' : "10", 'J' : "11", 'Q' : "12", 'K' : "13", "A" : "14"}
+dictionary = {'T' : "10", 'J' : "11", 'Q' : "12", 'K' : "13", "A" : "14"}
 def is_straight(hand):
     '''
         How do we find out if the given hand is a straight?
@@ -16,8 +16,8 @@ def is_straight(hand):
     '''
     hands_int = []
     for n_n in range(len(hand)):
-        if hand[n_n][0] in Dictionary:
-            hands_int.append(Dictionary[hand[n_n][0]])
+        if hand[n_n][0] in dictionary:
+            hands_int.append(dictionary[hand[n_n][0]])
         else:
             hands_int.append(hand[n_n][0])
     hands_int1 = []
@@ -28,9 +28,7 @@ def is_straight(hand):
        and hands_int1[2] + 1 == hands_int1[3] and hands_int1[3] + 1 == hands_int1[4]:
         return True
     return False
-
 def is_flush(hand):
-    
     '''
         How do we find out if the given hand is a flush?
         The hand has a list of cards represented as strings.
@@ -78,19 +76,16 @@ def hand_rank(hand):
     # any other hand would be the fourth best with the return value 0
     # max in poker function uses these return values to select the best hand
     return 1
-
 def poker(hands):
     '''
-        This function is completed for you. Read it to learn the code.
+    This function is completed for you. Read it to learn the code.
 
         Input: List of 2 or more poker hands
                Each poker hand is represented as a list
                Print the hands to see the hand representation
 
         Output: Return the winning poker hand
-        
     '''
-    
     # the line below may be new to you
     # max function is provided by python library
     # learn how it works, in particular the key argument, from the link
@@ -99,8 +94,6 @@ def poker(hands):
     # hand_rank takes a hand and returns its rank
     # max uses the rank returned by hand_rank and returns the best hand
     return max(hands, key=hand_rank)
-    
-
 if __name__ == "__main__":
     # read the number of test cases
     COUNT = int(input())
@@ -112,5 +105,3 @@ if __name__ == "__main__":
         HANDS.append(ha)
     # test the poker function to see how it works
     print(' '.join(poker(HANDS)))
-    
-
