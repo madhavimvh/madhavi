@@ -3,8 +3,7 @@
     Read about poker hands here.
     https://en.wikipedia.org/wiki/List_of_poker_hands
 '''
-Dictionary = { 'T' : "10", 'J' : "11", 'Q' : "12", 'K' : "13", "A" : "14" }
-               
+Dictionary = {'T' : "10", 'J' : "11", 'Q' : "12", 'K' : "13", "A" : "14"}
 def is_straight(hand):
     '''
         How do we find out if the given hand is a straight?
@@ -25,8 +24,8 @@ def is_straight(hand):
     for i in range(len(hands_int)):
         hands_int1.append(int(hands_int[i]))
     hands_int1.sort()
-    #print(hands_int1)
-    if hands_int1[0] + 1 == hands_int1[1] and hands_int1[1] + 1 == hands_int1[2] and hands_int1[2] + 1 == hands_int1[3] and hands_int1[3] + 1 == hands_int1[4]:
+    if hands_int1[0] + 1 == hands_int1[1] and hands_int1[1] + 1 == hands_int1[2] \
+       and hands_int1[2] + 1 == hands_int1[3] and hands_int1[3] + 1 == hands_int1[4]:
         return True
     return False
 
