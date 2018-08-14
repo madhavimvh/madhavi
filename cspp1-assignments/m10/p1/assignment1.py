@@ -14,6 +14,7 @@ def get_available_letters(letters_guessed):
     '''
     s_s = "abcdefghijklmnopqrstuvwxyz"
     l_l = list(s_s)
+    print(l_l)
     for i in letters_guessed:
         if i in l_l:
             l_l.remove(i)

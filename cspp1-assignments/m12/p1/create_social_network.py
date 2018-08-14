@@ -33,15 +33,19 @@ def create_social_network(data_a):
     '''
     dict = {}
     data_a = data_a.split("\n")
+    print(data_a)
     for i in range(len(data_a)):
         data_a[i] = data_a[i].split(" follows ")
+        print("kj",data_a)
         j = 0
     for j in range(len(data_a)-1):
         if data_a[j][0] not in dict:
             data_a[j][1] = data_a[j][1].split(",")
             dict[data_a[j][0]] = data_a[j][1]
+            print("df",dict)
         elif data_a[j][1] not in dict[data_a[j][0]]:
             dict[data_a[j][0]].append(data_a[j][1])
+            print("dh", dict)
     return dict
 def main():
     '''

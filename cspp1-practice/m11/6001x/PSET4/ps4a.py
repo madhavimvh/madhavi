@@ -75,10 +75,10 @@ def getWordScore(word, n_n):
     sum1 = 0
     for letter in word:
         sum1 = sum1 + SCRABBLE_LETTER_VALUES[letter]
-        scre = sum1*len(word)
+    sum1 = sum1*len(word)
     if len(word) == n_n:
-        return scre + 50
-    return scre
+        return sum1 + 50
+    return sum1
     
 
 
@@ -151,10 +151,11 @@ def updateHand(hand, word):
     hand: dictionary (string -> int)
     returns: dictionary (string -> int)
     """
+    adict = dict(hand)
     for letter in word:
         if letter in hand:
-            hand[letter] = hand[letter] - 1
-    return hand
+            adict[letter] = adict[letter] - 1
+    return adict
 #
 # Problem #3: Test word validity
 #
