@@ -15,8 +15,6 @@ def is_straight(hand):
         Write the code for it and return True if it is a straight else return False
     '''
     face_values = get_onlyfacevalues(hand)
-    # 2, 3, 4, 5, 6
-    # 10, 11, 12, 13, 14
     face_set = set(sorted(face_values))
     if face_set == {2, 3, 4, 5, 14}:
         face_set = {1, 2, 3, 4, 5}
@@ -196,5 +194,4 @@ if __name__ == "__main__":
         HANDS.append(ha)
     # test the poker function to see how it works
     print(' '.join(poker(HANDS)))
-poker_new.py
-Displaying poker_new.py.
+
