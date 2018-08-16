@@ -3,7 +3,7 @@
     Read about poker hands here.
     https://en.wikipedia.org/wiki/List_of_poker_hands
 '''
-DICTIONARY = {'T' : "10", 'J' : "11", 'Q' : "12", 'K' : "13", "A" : "14"}
+DICTIONARY = {'T' : "10", 'J' : "11", 'Q' : "12", 'K' : "13", 'A' : "14"}
 def is_fourofakind(hand):
     global hands_four
     hands_four = []
@@ -22,6 +22,18 @@ def is_fourofakind(hand):
             if c == 4:
                 return True
             return False
+def get_handrank(hand, size):
+    face_values = hands_four
+
+    if size == 1:
+        return 1/100 * max(face_values)
+
+    for each_hand in face_values:
+        if face_values.count(each_hand) == 2:
+            return 1/100 * int(each_hand)
+    return 0
+def is_highcard(hand):
+   return len(set(hands_four)) == 5        
 def is_threeofakind(hand):
         is_fourofakind(hand)
         if len(s) == 3:
@@ -62,8 +74,9 @@ def is_fullhouse(hand):
 def is_onepair(hand):
     is_fourofakind(hand)
     if len(s) == 4:
+        mx = max()
         return True
-    return False  
+    return False          
 def is_straight(hand):
     '''
         How do we find out if the given hand is a straight?
@@ -105,6 +118,7 @@ def is_flush(hand):
     if hands_flush[0] == hands_flush[1] and hands_flush[1] == hands_flush[2] and hands_flush[2] == hands_flush[3]and hands_flush[3] == hands_flush[4]:
         return True
     return False
+
 def hand_rank(hand):
     '''
         You will code this function. The goal of the function is to
@@ -114,20 +128,22 @@ def hand_rank(hand):
         or a flush or a straight flush.
     '''
     if is_fourofakind(hand):
-        return 8
+        return 9
     if is_fullhouse(hand):
-        return 7
+        return 8
     if is_straight(hand) and is_flush(hand):
-        return 6
+        return 7
     if is_flush(hand):
-        return 5
+        return 6
     if is_straight(hand):
-        return 4
+        return 5
     if is_threeofakind(hand):
-        return 3
+        return 4
     if is_twopair(hand):
-        return 2
+        return 3
     if is_onepair(hand):
+        return 2
+    if is_highcard(hand):
         return 1
     return 0
     # By now you should have seen the way a card is represented.
