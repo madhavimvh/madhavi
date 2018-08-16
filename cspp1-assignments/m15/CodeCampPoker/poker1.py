@@ -1,32 +1,3 @@
-
-Conversation opened. 1 read message.
-
-Skip to content
-Using Msitprogram.net Mail with screen readers
-
-  More 
-1 of 167
- 
-Poker Game code 
-Inbox
-x 
-
-Rajesh Kumar Kakumanu
-Attachments5:43 PM (4 hours ago)
-to B8-225B 
-Hi all,
-
-PFA of solutions of poker game, go through code and understand how to optimise code.
-
-2 Attachments
-	
-Click here to Reply, Reply to all, or Forward
-Using 0.24 GB
-Program Policies
-Powered by Google
-Last account activity: 4 hours ago
-Details
-
 '''
     Write a program to evaluate poker hands and determine the winner
     Read about poker hands here.
