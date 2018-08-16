@@ -4,6 +4,66 @@
     https://en.wikipedia.org/wiki/List_of_poker_hands
 '''
 DICTIONARY = {'T' : "10", 'J' : "11", 'Q' : "12", 'K' : "13", "A" : "14"}
+def is_fourofakind(hand):
+    global hands_four
+    hands_four = []
+    for n_n in range(len(hand)):
+        if hand[n_n][0] in DICTIONARY:
+            hands_four.append(DICTIONARY[hand[n_n][0]])
+        else:
+            hands_four.append(hand[n_n][0])
+    #print(hands_four)
+    global s
+    s = set(hands_four)
+    #print(s)
+    if len(s) == 2:
+        for k in range(len(hands_four)):
+            c = hands_four.count(hands_four[k])
+            if c == 4:
+                return True
+            return False
+def is_threeofakind(hand):
+        is_fourofakind(hand)
+        if len(s) == 3:
+            for i in range(len(hands_four)):
+                c = hands_four.count(hands_four[i])
+                #print(c)
+                if c == 3 and c !=2:
+                    return True
+        return False
+def is_twopair(hand):
+    res = ""
+    j = 0
+    res = 0
+    is_fourofakind(hand)
+    for i in range(len(hands_four)):
+        c = hands_four.count(hands_four[i])
+        #print(c)
+        if c == 2 and c != 3:
+            j += 1
+            #print("j",j)
+            if j == 4:
+                return True
+    return False
+def is_fullhouse(hand):
+    is_fourofakind(hand)
+    j = 0
+    if len(s) == 2:
+        for i in range(len(hands_four)):
+            c = hands_four.count(hands_four[i])
+            #print(c)
+            if c != 4:
+                if c == 3 or c == 2:
+                    j += 1
+                    #print(j)
+                    if j == 5:
+                        return True
+        return False  
+def is_onepair(hand):
+    is_fourofakind(hand)
+    if len(s) == 4:
+        return True
+    return False  
 def is_straight(hand):
     '''
         How do we find out if the given hand is a straight?
@@ -53,11 +113,21 @@ def hand_rank(hand):
         The first version should identify if the given hand is a straight
         or a flush or a straight flush.
     '''
+    if is_fourofakind(hand):
+        return 8
+    if is_fullhouse(hand):
+        return 7
     if is_straight(hand) and is_flush(hand):
+        return 6
+    if is_flush(hand):
+        return 5
+    if is_straight(hand):
+        return 4
+    if is_threeofakind(hand):
         return 3
-    elif is_flush(hand):
+    if is_twopair(hand):
         return 2
-    elif is_straight(hand):
+    if is_onepair(hand):
         return 1
     return 0
     # By now you should have seen the way a card is represented.
