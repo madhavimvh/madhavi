@@ -34,10 +34,10 @@ def is_twopair(hand):
     is_fourofakind(hand)
     for i in range(len(hands_four)):
         c = hands_four.count(hands_four[i])
-        print(c)
+        #print(c)
         if c == 2 and c != 3:
             j += 1
-            print("j",j)
+            #print("j",j)
             if j == 4:
                 return True
     return False
@@ -47,11 +47,11 @@ def is_fullhouse(hand):
     if len(s) == 2:
         for i in range(len(hands_four)):
             c = hands_four.count(hands_four[i])
-            print(c)
+            #print(c)
             if c != 4:
                 if c == 3 or c == 2:
                     j += 1
-                    print(j)
+                    #print(j)
                     if j == 5:
                         return True
         return False
