@@ -57,7 +57,7 @@ def is_fullhouse(hand):
 def is_threeofakind(hand):
     face_list = get_onlyfacevalues(hand)
 
-    if len(set(face_list)) == 3:
+    #if len(set(face_list)) == 3:
         for each_face in face_list:
             if face_list.count(each_face) == 3:
                 return True
