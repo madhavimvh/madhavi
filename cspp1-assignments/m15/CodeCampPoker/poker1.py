@@ -66,13 +66,13 @@ def is_threeofakind(hand):
 
 def is_twopair(hand):
     face_list = get_onlyfacevalues(hand)
-    if len(set(face_list)) == 3:
-        count = 0
-        for each_face in set(face_list):
-            if face_list.count(each_face) == 2:
-                count += 1
-        if count == 2:
-            return True
+    #if len(set(face_list)) == 3:
+    count = 0
+    for each_face in set(face_list):
+        if face_list.count(each_face) == 2:
+            count += 1
+    if count == 2:
+        return True
 
     return False
 
