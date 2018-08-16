@@ -23,7 +23,7 @@ def is_fourofakind(hand):
                 return True
             return False
 def get_handrank(hand, size):
-    face_values = hands_four
+    face_values = sorted(hands_four)
 
     if size == 1:
         return 1/100 * max(face_values)
@@ -32,6 +32,9 @@ def get_handrank(hand, size):
         if face_values.count(each_hand) == 2:
             return 1/100 * int(each_hand)
     return 0
+def get_suitrank(hand):
+    face_values = sorted(hands_four)
+    return 1/100 * sum(face_values)
 def is_highcard(hand):
    return len(set(hands_four)) == 5        
 def is_threeofakind(hand):
@@ -132,7 +135,7 @@ def hand_rank(hand):
     if is_fullhouse(hand):
         return 8
     if is_straight(hand) and is_flush(hand):
-        return 7
+        return 7 + get_suitrank(hand)
     if is_flush(hand):
         return 6
     if is_straight(hand):
@@ -142,9 +145,9 @@ def hand_rank(hand):
     if is_twopair(hand):
         return 3
     if is_onepair(hand):
-        return 2
+        return 2 + get_highrank(hand, 2)
     if is_highcard(hand):
-        return 1
+        return 1 + get_highrank(hand, 1)
     return 0
     # By now you should have seen the way a card is represented.
     # If you haven't then go the main or poker function and print the hands
