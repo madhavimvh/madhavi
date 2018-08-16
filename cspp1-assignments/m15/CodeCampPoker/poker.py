@@ -24,6 +24,7 @@ def is_fourofakind(hand):
             return False
 def get_handrank(hand, size):
     face_values = sorted(hands_four)
+    print(face_values)
 
     if size == 1:
         return 1/100 * max(face_values)
@@ -145,9 +146,9 @@ def hand_rank(hand):
     if is_twopair(hand):
         return 3
     if is_onepair(hand):
-        return 2 + get_highrank(hand, 2)
+        return 2 + get_handrank(hand, 2)
     if is_highcard(hand):
-        return 1 + get_highrank(hand, 1)
+        return 1 + get_handrank(hand, 1)
     return 0
     # By now you should have seen the way a card is represented.
     # If you haven't then go the main or poker function and print the hands
