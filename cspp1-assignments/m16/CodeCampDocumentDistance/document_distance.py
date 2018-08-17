@@ -42,17 +42,17 @@ def frequency_list(words_list1, words_list2):
     freq_list = {}
     for each_word in words_list1:
         if len(each_word) > 0:
-        if each_word not in freq_list:
-            freq_list[each_word] = [1, 0]
-        else:
-            freq_list[each_word][0] += 1
+            if each_word not in freq_list:
+                freq_list[each_word] = [1, 0]
+            else:
+                freq_list[each_word][0] += 1
     
     for each_word in words_list2:
         if len(each_word) > 0:
-        if each_word not in freq_list:
-            freq_list[each_word] = [0, 1]
-        else:
-            freq_list[each_word][1] += 1
+            if each_word not in freq_list:
+                freq_list[each_word] = [0, 1]
+            else:
+                freq_list[each_word][1] += 1
     #print(freq_list)
     return freq_list
 
