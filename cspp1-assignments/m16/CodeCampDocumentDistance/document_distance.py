@@ -18,7 +18,7 @@ def similarity(dict1, dict2):
         words_list1.append(re.sub("[^a-z]", "",dict1[count]))
         count += 1
     words_list11 = remove_stopwords(words_list1)
-    print(words_list11)
+    #print(words_list11)
     count = 0
     words_list2 = []
     while count < len(dict2):
@@ -51,7 +51,7 @@ def frequency_list(words_list1, words_list2):
             freq_list[each_word] = [0, 1]
         else:
             freq_list[each_word][1] += 1
-    print(freq_list)
+    #print(freq_list)
     return freq_list
 
 def compute_similarities(freq_list):
@@ -63,10 +63,10 @@ def compute_similarities(freq_list):
         den_1 += freq_list[each_word][0]**2
         den_2 += freq_list[each_word][1]**2
     denominator = math.sqrt(den_1)*math.sqrt(den_2)
-    print(numerator)
-    print(den_1)
-    print(den_2)
-    print(denominator)
+    #print(numerator)
+    #print(den_1)
+    #print(den_2)
+    #print(denominator)
     return numerator/denominator  
 
 def load_stopwords(filename):
