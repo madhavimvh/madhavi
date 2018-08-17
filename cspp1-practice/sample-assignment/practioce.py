@@ -1,4 +1,4 @@
-def data(atuple):
+"""def data(atuple):
     nums = ()
     words = ()
     for t in atuple:
@@ -8,5 +8,8 @@ def data(atuple):
         minm = min(nums)
         maxm = max(nums)
         leng = len(words)
-    return (minm, maxm, leng)
+    return (minm, maxm, leng)"""
+import re
+sub = re.sub("[^a-z]+","","AKH KB.242HKkjdk")
+print(sub)
 
