@@ -98,5 +98,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-Displaying document_distance.py.
