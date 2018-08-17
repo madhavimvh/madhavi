@@ -3,80 +3,64 @@
 '''
 import re
 import math
-
-def clean_up(data):
-    data = data.lower()
-    data_list = data.split(" ")
-    count = 0
-    while count < len(data_list):
-        data_list[count] = re.sub("[^a-z]","",data_list[count])
-        count += 1
-
-    return data_list
-
-def remove_stop_words(word_list):
-    stop_words = load_stopwords("stopwords.txt")
-
-    temp_word_list = word_list[:]
-
-    for each_word in temp_word_list:
-        if each_word in stop_words:
-            word_list.remove(each_word)
-
-    return word_list
-
-def get_frequencydictionary(word_list_1, word_list_2):
-    freq_dict = {}
-
-    for each_word in word_list_1:
-        if len(each_word) > 0:
-            if each_word not in freq_dict:
-                freq_dict[each_word] = [1, 0]
-            else:
-                freq_dict[each_word][0] += 1
-        else:
-            print("Single Char Word 1:", len(each_word), ":END")
-
-    print(word_list_2)
-    for each_word in word_list_2:
-        if len(each_word) > 0:
-            if each_word not in freq_dict:
-                freq_dict[each_word] = [0, 1]
-            else:
-                freq_dict[each_word][1] += 1
-        else:
-            print("Single Char Word 2:", len(each_word), ":END")
-
-    return freq_dict
-
-def compute_similarity(freq_dict):
-    numerator = 0
-    den_one = 0
-    den_two = 0
-    for each_word in freq_dict:
-        freq_list = freq_dict[each_word]
-        numerator += (freq_list[0] * freq_list[1])
-        den_one += freq_list[0] ** 2
-        den_two += freq_list[1] ** 2
-
-    denominator = math.sqrt(den_one) * math.sqrt(den_two)
-
-    return numerator/denominator
-
-def similarity(d1, d2):
+def similarity(dict1, dict2):
     '''
         Compute the document distance as given in the PDF
     '''
+    dict1 = dict1.lower()
+    dict2 = dict2.lower()
+    dict1 = dict1.split(" ")
+    dict2 = dict2.split(" ")
+    count = 0
+    words_list1 = [] 
+    while count < len(dict1):
+        #print(dict1[count])
+        words_list1.append(re.sub("[^a-z]", "",dict1[count]))
+        count += 1
+    words_list11 = remove_stopwords(words_list1)
+    words_list2 = []
+    while count < len(dict2):
+        words_list2.append(re.sub("[^a-z]", "",dict2[count]))
+        count += 1
+    words_list22 = remove_stopwords(words_list1)
 
-    d1_list = clean_up(d1)
-    d2_list = clean_up(d2)
+    words_list111 = frequency_list(words_list11, words_list22)
+    return compute_similarities(words_list111)
 
-    d1_list = remove_stop_words(d1_list)
-    d2_list = remove_stop_words(d2_list)
+def remove_stopwords(words_list1):
+    stop_words = load_stopwords("stopwords.txt")
+    temp_wordlist1 = words_list1[:]
+    for each_word in temp_wordlist1:
+        if each_word in stop_words:
+            words_list1.remove(each_word)
+        return words_list1
+    
+def frequency_list(words_list1, words_list2):
+    freq_list = {}
+    for each_word in words_list1:
+        if each_word not in freq_list:
+            freq_list[each_word] = [1, 0]
+        else:
+            freq_list[each_word][0] += 1
+    
+    for each_word in words_list2:
+        if each_word not in freq_list:
+            freq_list[each_word] = [0, 1]
+        else:
+            freq_list[each_word][1] += 1
+    return freq_list
 
-    freq_dict = get_frequencydictionary(d1_list, d2_list)
+def compute_similarities(freq_list):
+    numerator = 0
+    den_1 = 0
+    den_2 = 0
+    for each_word in freq_list:
+        numerator += freq_list[each_word][0]*freq_list[each_word][1]
+        den_1 += freq_list[each_word][0]**2
+        den_2 += freq_list[each_word][1]**2
+    denominator = math.sqrt(den_1)*math.sqrt(den_2)
 
-    return compute_similarity(freq_dict)
+    return numerator/denominator  
 
 def load_stopwords(filename):
     '''
@@ -94,7 +78,10 @@ def main():
     '''
     input1 = input()
     input2 = input()
+
     print(similarity(input1, input2))
+    #print(remove_stopwords(input1))
 
 if __name__ == '__main__':
     main()
+
