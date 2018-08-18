@@ -48,6 +48,7 @@ def word_list(text):
         return a list of words
     '''
     text = ''.join(text)
+    print("tx",text)
     text = text.lower()
     words_list1 = text.split(" ")
     count = 0
@@ -78,22 +79,25 @@ def build_search_index(docs):
     words_list = word_list(docs)
     #print("gh",words_list)
     docs = clean_up(words_list)
+    print("dp1",docs)
     search1_index = {}
     i = 0
-    for each_word in docs:
-        #print("do",docs)
-        if each_word not in search1_index:
-            search1_index[each_word] = [1, 0]
-            #print("1",search1_index)
-        else:
-            search1_index[each_word][0] += 1
-            #print("2",search1_index)
+    while i < len(docs):
+        for each_word in docs:
+            print("do",docs)
+            if each_word not in search1_index:
+                search1_index[each_word] = [1, 0]
+                print("1",search1_index)
+            else:
+                search1_index[each_word][i][0] += 1
+                print("2",search1_index)
 
-    for each_word in docs:
-        if each_word not in search1_index:
-            search1_index[each_word] = [0, 1]
-        else:
-            search1_index[each_word][1] += 1
+    while i < len(docs):
+        for each_word in docs:
+            if each_word not in search1_index:
+                search1_index[each_word] = [0, 1]
+            else:
+                search1_index[each_word][1] += 1
 
     return search1_index
 
