@@ -89,7 +89,7 @@ def build_search_index(docs):
                 search1_index[each_word] = [1, 0]
                 #print("1",search1_index)
             else:
-                search1_index[each_word][i][0] += 1
+                search1_index[each_word][0] += 1
                 #print("2",search1_index)
 
     while i < len(docs):
