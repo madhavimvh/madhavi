@@ -81,8 +81,6 @@ def build_search_index(docs):
     docs = clean_up(words_list)
     #print("dp1",docs)
     search1_index = {}
-    i = 0
-    while i < len(docs):
         for each_word in docs:
             #print("do",docs)
             if each_word not in search1_index:
@@ -92,7 +90,6 @@ def build_search_index(docs):
                 search1_index[each_word][0] += 1
                 #print("2",search1_index)
 
-    while i < len(docs):
         for each_word in docs:
             if each_word not in search1_index:
                 search1_index[each_word] = [0, 1]
