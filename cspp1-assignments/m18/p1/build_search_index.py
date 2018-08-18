@@ -48,7 +48,7 @@ def word_list(text):
         return a list of words
     '''
     text = ''.join(text)
-    print("tx",text)
+    #print("tx",text)
     text = text.lower()
     words_list1 = text.split(" ")
     count = 0
