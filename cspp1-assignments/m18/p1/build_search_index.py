@@ -34,11 +34,10 @@ def load_stopwords(filename):
 
 def clean_up(words_list):
     stop_words = load_stopwords("stopwords.txt")
-    for each_word in words_list:
+    temp_words_list = words_list
+    for each_word in temp_words_list:
         if each_word in stop_words:
             words_list.remove(each_word)
-        else:
-            words_list.append(each_word)
     print(words_list)
     return words_list
 
