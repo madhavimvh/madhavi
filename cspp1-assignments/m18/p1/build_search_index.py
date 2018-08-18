@@ -37,6 +37,9 @@ def clean_up(words_list):
     for each_word in words_list:
         if each_word in stop_words:
             words_list.remove(each_word)
+        else:
+            words_list.append(each_word)
+    print(words_list)
     return words_list
 
 def word_list(text):
