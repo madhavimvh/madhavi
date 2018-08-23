@@ -13,17 +13,17 @@ def mult_matrix(m1, m2):
     result = [0]*size_m1
     for each in range(len(result)):
         result[each] = [0]*size_n2
-    print(result)
+    #print(result)
     
         
     
     if size_n1 == size_m2:
         for i in range(size_m1):
-            print(i)
+            #print(i)
             for j in range(size_n2):
-                print(j)
+                #print(j)
                 for k in range(size_m2):
-                    print(k)
+                    #print(k)
                     result[i][j] += int(m1[i][k]) * int(m2[k][j])
         return result
     else:
@@ -104,10 +104,10 @@ def main():
     #print("m2",m2)
     if m1 != False and m2 != False:
         # add matrix 1 and matrix 2
-        print(add_matrix(m1, m2))
+        return add_matrix(m1, m2)
 
         # multiply matrix 1 and matrix 2
-        print(mult_matrix(m1, m2))
+        return mult_matrix(m1, m2)
         
 
 if __name__ == '__main__':
