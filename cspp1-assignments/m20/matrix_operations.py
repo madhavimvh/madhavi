@@ -8,8 +8,8 @@ def mult_matrix(m1, m2):
     '''
     size_m1 = len(m1)
     size_n1 = len(m1[0])
-    size_m2 = len(n1)
-    size_n2 = len(n1[0])
+    size_m2 = len(m2)
+    size_n2 = len(m2[0])
     try:
         result = []
         if size_n1 == size_m2:
@@ -44,6 +44,7 @@ def add_matrix(m1, m2):
                     #print(m1[i][j])
                     #print(m2[i][j])
                     #print(result)
+        return result
     else:
         print("Error: Matrix shapes invalid for addition")
         
@@ -63,29 +64,23 @@ def read_matrix(n):
         print an error message and return None
         error message should be "Error: Invalid input for the matrix"
     '''
-   
-    rows = int(n[0])
-    #print("n",n[0])
-    cols = int(n[2])
-    """for i in range(rows):
-            mat = []
-            print(mat)"""
     try:
+        rows = int(n[0])
+        #print("n",n[0])
+        cols = int(n[2])
+        """for i in range(rows):
+                mat = []
+                print(mat)"""
+        
         mat = []
         for i in range(rows):
-            #print("i",i)
+        #print("i",i)
             mat.append(input().split(" "))
-            #print("spk",mat)
+        #print("spk",mat)
         return mat
-        
+                
     except:
         return False
-                    
-
-                  
-            
-    
-    
 
 def main():
     n = input()
@@ -99,12 +94,12 @@ def main():
     global m2
     m2 = read_matrix(m)
     #print("m2",m2)
-    if m1 == False and m2 == False:
+    if m1 != False and m2 != False:
         # add matrix 1 and matrix 2
-        sumofmatrices = add_matrix(m1, m2)
+        print(add_matrix(m1, m2))
 
         # multiply matrix 1 and matrix 2
-        productofmatrices = mult_matrix(m1, m2)
+        print(mult_matrix(m1, m2))
         
 
 if __name__ == '__main__':
