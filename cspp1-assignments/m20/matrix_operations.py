@@ -88,6 +88,7 @@ def read_matrix(n):
         return mat
                 
     except:
+        print("Error: Invalid input for the matrix")
         return False
 
 def main():
