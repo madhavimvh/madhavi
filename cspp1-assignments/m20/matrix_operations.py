@@ -32,17 +32,17 @@ def add_matrix(m1, m2):
     result = []
     if len(m1) == len(m2):
         for i in range(len(m1)):
-            print(i)
+            #print(i)
             if len(m1[i]) == len(m2[i]):
                 for j in range(len(m1)):
                     if j == 0:
                         result1 = []
                         result.append(result1)
-                    print(j)
+                    #print(j)
                     result1.append(int(m1[i][j]) + int(m2[i][j]))
-                    print(m1[i][j])
-                    print(m2[i][j])
-                    print(result)
+                    #print(m1[i][j])
+                    #print(m2[i][j])
+                    #print(result)
     else:
         print("Error: Matrix shapes invalid for addition")
         return result
@@ -64,7 +64,7 @@ def read_matrix(n):
     '''
    
     rows = int(n[0])
-    print("n",n[0])
+    #print("n",n[0])
     cols = int(n[2])
     """for i in range(rows):
             mat = []
@@ -91,13 +91,13 @@ def main():
     # read matrix 1
     global m1
     m1 = read_matrix(n)
-    print("m1",m1)
+    #print("m1",m1)
     
     # read matrix 2
     m = input("enter x,y")
     global m2
     m2 = read_matrix(m)
-    print("m2",m2)
+    #print("m2",m2)
     if m1 == False and m2 == False:
         # add matrix 1 and matrix 2
         sumofmatrices = add_matrix(m1, m2)
