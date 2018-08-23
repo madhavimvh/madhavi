@@ -72,9 +72,9 @@ def read_matrix(n):
     try:
         mat = []
         for i in range(rows):
-            print("i",i)
+            #print("i",i)
             mat.append(input().split(" "))
-            print("spk",mat)
+            #print("spk",mat)
         return mat
         
     except:
