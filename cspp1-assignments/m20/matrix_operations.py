@@ -87,14 +87,14 @@ def read_matrix(n):
     
 
 def main():
-    n = input("enter the values of x, y")
+    n = input()
     # read matrix 1
     global m1
     m1 = read_matrix(n)
     #print("m1",m1)
     
     # read matrix 2
-    m = input("enter x,y")
+    m = input()
     global m2
     m2 = read_matrix(m)
     #print("m2",m2)
