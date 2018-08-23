@@ -75,8 +75,8 @@ def read_matrix(n):
     for i in range(rows):
     #print("i",i)
         mat.append(input().split(" "))
-        print("s",mat)
-    print("spk",mat)
+        #print("s",mat)
+    #print("spk",mat)
     #return mat
         #for j in range(mat):
     if len(mat[i]) == cols:
