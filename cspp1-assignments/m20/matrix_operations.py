@@ -104,12 +104,12 @@ def main():
     #print("m2",m2)
     if m1 != False and m2 != False:
         # add matrix 1 and matrix 2
-        #print(add_matrix(m1, m2))
-        return add_matrix(m1, m2)
+        print(add_matrix(m1, m2))
+        #return add_matrix(m1, m2)
 
         # multiply matrix 1 and matrix 2
-        #print(mult_matrix(m1, m2))
-        return mult_matrix(m1, m2)
+        print(mult_matrix(m1, m2))
+        #return mult_matrix(m1, m2)
         
 
 if __name__ == '__main__':
