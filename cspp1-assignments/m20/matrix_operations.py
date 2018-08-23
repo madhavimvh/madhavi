@@ -41,18 +41,18 @@ def add_matrix(m1, m2):
     result = []
     if len(m1) == len(m2):
         for i in range(len(m1)):
-            print(i)
+            #print(i)
             if len(m1[i]) == len(m2[i]):
                 for j in range(len(m1[0])):
                     if j == 0:
                         result1 = []
                         result.append(result1)
-                    print(j)
+                    #print(j)
                     result1.append(int(m1[i][j]) + int(m2[i][j]))
-                    print(m1[i][j])
-                    print(m2[i][j])
-                    print(result)
-        print(result)
+                    #print(m1[i][j])
+                    #print(m2[i][j])
+                    #print(result)
+        #print(result)
         return result
     else:
         print("Error: Matrix shapes invalid for addition")
