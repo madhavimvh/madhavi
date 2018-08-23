@@ -56,14 +56,6 @@ def add_matrix(m1, m2):
     else:
         print("Error: Matrix shapes invalid for addition")
         
-                    
-                
-        
-        
-    
-        
-    
-
 def read_matrix(n):
     '''
         read the matrix dimensions from input
@@ -72,24 +64,27 @@ def read_matrix(n):
         print an error message and return None
         error message should be "Error: Invalid input for the matrix"
     '''
-    try:
-        rows = int(n[0])
+    rows = int(n[0])
         #print("n",n[0])
-        cols = int(n[2])
-        """for i in range(rows):
-                mat = []
-                print(mat)"""
+    cols = int(n[2])
+    """for i in range(rows):
+            mat = []
+            print(mat)"""
         
-        mat = []
-        for i in range(rows):
-        #print("i",i)
-            mat.append(input().split(" "))
-        #print("spk",mat)
+    mat = []
+    for i in range(rows):
+    #print("i",i)
+        mat.append(input().split(" "))
+        print("s",mat)
+    print("spk",mat)
+    #return mat
+        #for j in range(mat):
+    if len(mat[i]) == cols:
         return mat
-                
-    except:
+    else:
         print("Error: Invalid input for the matrix")
         return False
+        
 
 def main():
     n = input()
