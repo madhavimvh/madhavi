@@ -77,14 +77,14 @@ def read_matrix(n):
     #print("i",i)
         mat.append(input().split(" "))
         #print("s",mat)
-    print("spk",mat)
+    #print("spk",mat)
     #return mat
     flag = 0
     for j in range(len(mat)):
         if len(mat[j]) == cols:
-            print(mat[j])
-            print(len(mat[j]))
-            print(cols)
+            #print(mat[j])
+            #print(len(mat[j]))
+            #print(cols)
             flag = 1
         else:
             print("Error: Invalid input for the matrix")
@@ -98,13 +98,13 @@ def main():
     # read matrix 1
     global m1
     m1 = read_matrix(n)
-    print("m1",m1)
+    #print("m1",m1)
     
     # read matrix 2
     m = input()
     global m2
     m2 = read_matrix(m)
-    print("m2",m2)
+    #print("m2",m2)
     if m1 != False and m2 != False:
         # add matrix 1 and matrix 2
         print(add_matrix(m1, m2))
