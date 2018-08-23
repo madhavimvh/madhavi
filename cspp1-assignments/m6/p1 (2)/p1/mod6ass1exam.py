@@ -1,5 +1,8 @@
 """program to print nos from 1 to N"""
 
+
+
+
 def main():
     n = int(input())
     """input from the user"""

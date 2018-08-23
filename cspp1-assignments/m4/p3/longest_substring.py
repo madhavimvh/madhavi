@@ -13,7 +13,25 @@ Longest substring in alphabetical order is: abc
 Note: This problem may be challenging. We encourage you to work smart.
 If you've spent more than a few hours on this problem, we suggest that you move on to a different part of the course.
 If you have time, come back to this problem after you've had a break and cleared your head.'''
+def main():
+    s = input()
+    temp = s[0]
+    longest = ""
+    for i in range(len(s)-1):
+        if s[i] <= s[i+1]:
+            temp += s[i+1]
+            print(temp,"temp")
+            if len(longest) < len(temp):
+                longest = temp
+                print(longest,"l")
+        else:
+            temp = s[i+1] + ""
+    print(longest)
 
+main()
+        
+
+"""
 def main():
     s = input()
     m=0
@@ -30,3 +48,4 @@ def main():
         d = m-g+1
     print(s[d:d+g+1])
 main()
+"""

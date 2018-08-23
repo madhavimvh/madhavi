@@ -20,7 +20,7 @@
         .
     }
 '''
-import re
+
 # helper function to load the stop words from a file
 def load_stopwords(filename):
     '''
@@ -32,45 +32,40 @@ def load_stopwords(filename):
             stopwords[line.strip()] = 0
     return stopwords
 
-def clean_up(words_list):
-    stop_words = load_stopwords("stopwords.txt")
-    temp_words_list = words_list[:]
-    for each_word in temp_words_list:
-        if each_word in stop_words:
-            words_list.remove(each_word)
-    #print(words_list)
-    return words_list
-
+import re
 def word_list(text):
     '''
         Change case to lower and split the words using a SPACE
         Clean up the text by remvoing all the non alphabet characters
         return a list of words
     '''
-    words_list11 = []
-    print("tx",text)
-    for i in range(len(text)):
-        text_1 = text[i]
-        print("1",text[i])
-        text[i] = text[i].lower()
-        words_list1 = text[i].split(" ")
-        print(words_list1)
-        count = 0
-        while count < len(words_list1):
-            print("len",len(words_list1))
-            words_list11.append(re.sub("[^a-z]", "",words_list1[count]))
-            count += 1
-        print("words",words_list11)
-    
-    return words_list11
+    stop_words = load_stopwords("stopwords.txt")
+    filtered_text = []
+    text = text.lower().split(" ")
+    for each_word in text:
+        temp = re.sub("[^a-z]","",each_word)
+        if temp not in stop_words:
+            filtered_text.append(temp)
+    return filtered_text
 
 def build_search_index(docs):
     '''
         Process the docs step by step as given below
     '''
+    search_index = {}
 
     # initialize a search index (an empty dictionary)
+    for document in docs:
+        each_lst = word_list(document)
+        for each_word in each_lst:
+            if each_word in search_index:
+                search_index[each_word].append((docs.index(document), document.count(each_word)))
+            else:
+                search_index[each_word] = [(docs.index(document), document.count(each_word))]
 
+
+    # print(search_index)
+    return search_index
     # iterate through all the docs
     # keep track of doc_id which is the list index corresponding the document
     # hint: use enumerate to obtain the list index in the for loop
@@ -80,27 +75,6 @@ def build_search_index(docs):
         # add or update the words of the doc to the search index
 
     # return search index
-    words_list = word_list(docs)
-    #print("gh",words_list)
-    docs = clean_up(words_list)
-    #print("dp1",docs)
-    search1_index = {}
-    for each_word in docs:
-            #print("do",docs)
-        if each_word not in search1_index:
-            search1_index[each_word] = [1, 0]
-                #print("1",search1_index)
-        else:
-            search1_index[each_word][0] += 1
-                #print("2",search1_index)
-
-    for each_word in docs:
-        if each_word not in search1_index:
-            search1_index[each_word] = [0, 1]
-        else:
-            search1_index[each_word][1] += 1
-
-    return search1_index
 
 # helper function to print the search index
 # use this to verify how the search index looks
@@ -124,11 +98,10 @@ def main():
     # iterate through N times and add documents to the list
     for i in range(lines):
         documents.append(input())
-        i += 1
-    print(documents)
-    
+
     # call print to display the search index
     print_search_index(build_search_index(documents))
+    # build_search_index(documents)
 
 if __name__ == '__main__':
     main()

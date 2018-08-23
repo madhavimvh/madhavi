@@ -11,7 +11,6 @@
     Document ID is represented by the list index.
     For example: the document ID of the third document in the list is 2
     The second item of the tuple is the frequency of the word occuring in the document.
-
     Here is the sample format of the dictionary.
     {
         word1: [(doc_id, frequency),(doc_id, frequency),...],
@@ -21,6 +20,7 @@
     }
 '''
 import re
+
 # helper function to load the stop words from a file
 def load_stopwords(filename):
     '''
@@ -32,14 +32,6 @@ def load_stopwords(filename):
             stopwords[line.strip()] = 0
     return stopwords
 
-def clean_up(words_list):
-    stop_words = load_stopwords("stopwords.txt")
-    temp_words_list = words_list[:]
-    for each_word in temp_words_list:
-        if each_word in stop_words:
-            words_list.remove(each_word)
-    #print(words_list)
-    return words_list
 
 def word_list(text):
     '''
@@ -47,60 +39,76 @@ def word_list(text):
         Clean up the text by remvoing all the non alphabet characters
         return a list of words
     '''
-    words_list11 = []
     print("tx",text)
-    for i in range(len(text)):
-        text_1 = text[i]
-        print("1",text[i])
-        text[i] = text[i].lower()
-        words_list1 = text[i].split(" ")
-        print(words_list1)
-        count = 0
-        while count < len(words_list1):
-            print("len",len(words_list1))
-            words_list11.append(re.sub("[^a-z]", "",words_list1[count]))
-            count += 1
-        print("words",words_list11)
-    
-    return words_list11
+    stop_words = load_stopwords('stopwords.txt')
+    text_lst = text.lower().split(" ")
+    print(text_lst,"testlist")
+    count = 0
+    while count < len(text_lst):
+        text_lst[count] = re.sub('[^a-z]','',text_lst[count])
+        if text_lst[count] in stop_words:
+            print(text_lst[count])
+            text_lst.remove(text_lst[count])
+            count -= 1
+            print("cpun",count)
+        count += 1
+    print(text_lst)
+    return text_lst
+
 
 def build_search_index(docs):
     '''
         Process the docs step by step as given below
     '''
-
+    print("dci",docs)
     # initialize a search index (an empty dictionary)
-
+    search_index = {}
     # iterate through all the docs
+    count = 0
+    while count < len(docs):
     # keep track of doc_id which is the list index corresponding the document
     # hint: use enumerate to obtain the list index in the for loop
 
         # clean up doc and tokenize to words list
-
+        each_lst = word_list(docs[count])
         # add or update the words of the doc to the search index
+        new_count = 0
+        while new_count < len(each_lst):
+            if each_lst[new_count] not in search_index:
+                search_index[each_lst[new_count]] = [(count, 1)]
+                print("search_index",search_index)
+            else:
+                print("2nd search index",search_index[each_lst[new_count]])
+                each_word_freq_list = search_index[each_lst[new_count]]
+                flag = 0
+                freq_tuple = (count, 1)
 
+                freq_index = 0
+                while  freq_index < len(each_word_freq_list):
+                    freq_lst = list(each_word_freq_list[freq_index])
+                    print("index",freq_index)
+                    if freq_lst[0] == count:
+                        freq_lst[1] += 1
+                        each_word_freq_list[freq_index] = tuple(freq_lst)
+                        print("eachword",each_word_freq_list)
+                        flag = 1
+                        break
+
+                    freq_index += 1
+                    print("2nd freqindex",freq_index)
+
+                if flag == 0:
+                    each_word_freq_list.append(freq_tuple)
+                    print("last",each_word_freq_list)
+
+                # search_index[each_lst[new_count]] = each_word_freq_list
+
+            new_count += 1
+
+
+        count += 1
     # return search index
-    words_list = word_list(docs)
-    #print("gh",words_list)
-    docs = clean_up(words_list)
-    #print("dp1",docs)
-    search1_index = {}
-    for each_word in docs:
-            #print("do",docs)
-        if each_word not in search1_index:
-            search1_index[each_word] = [1, 0]
-                #print("1",search1_index)
-        else:
-            search1_index[each_word][0] += 1
-                #print("2",search1_index)
-
-    for each_word in docs:
-        if each_word not in search1_index:
-            search1_index[each_word] = [0, 1]
-        else:
-            search1_index[each_word][1] += 1
-
-    return search1_index
+    return search_index
 
 # helper function to print the search index
 # use this to verify how the search index looks
@@ -126,7 +134,7 @@ def main():
         documents.append(input())
         i += 1
     print(documents)
-    
+
     # call print to display the search index
     print_search_index(build_search_index(documents))
 
