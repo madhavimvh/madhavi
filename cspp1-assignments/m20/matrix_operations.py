@@ -10,15 +10,23 @@ def mult_matrix(m1, m2):
     size_n1 = len(m1[0])
     size_m2 = len(m2)
     size_n2 = len(m2[0])
-    try:
-        result = []
-        if size_n1 == size_m2:
-            for i in range(size_m1):
-                for j in range(size_n2):
-                    for k in range(size_m2):
-                        result[i][j] += m1[i][k] * m2[k][j]
+    result = [0]*size_m1
+    for each in range(len(result)):
+        result[each] = [0]*size_n2
+    print(result)
+    
+        
+    
+    if size_n1 == size_m2:
+        for i in range(size_m1):
+            print(i)
+            for j in range(size_n2):
+                print(j)
+                for k in range(size_m2):
+                    print(k)
+                    result[i][j] += int(m1[i][k]) * int(m2[k][j])
         return result
-    except:
+    else:
         print("Error: Matrix shapes invalid for mult")
     
 
