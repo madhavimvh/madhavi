@@ -44,9 +44,20 @@ def word_list(text):
     text = text.lower().split(" ")
     for each_word in text:
         temp = re.sub("[^a-z]","",each_word)
-        if temp not in stop_words:
+        print(temp)
+    for i in range(len(temp)):
+        print(temp[i])
+        if temp[i] in stop_words:
+            print(temp[i])
+            temp.remove(temp[i])
+            print(temp)
+            count -= 1
+            print(count)
+        count += 1
+        print("cu",count)
+        """if temp not in stop_words:
             filtered_text.append(temp)
-    return filtered_text
+    return filtered_text"""
 
 def build_search_index(docs):
     '''
