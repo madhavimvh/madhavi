@@ -5,19 +5,19 @@ each word
 import re
 def tokenize(string):
     string_1 = string.split(" ")
-    #print(string_1)
+    print("s",string_1)
     string_list = []
     string_dic = {}
     for each in range(len(string_1)):
         string_list.append(re.sub("[^a-z,A-Z,0-9]", "", string_1[each]))
-    #print(string_list)
+    print("ss",string_list)
     for word in string_list:
         if word not in string_dic:
             string_dic[word] = 1
-            #print(string_dic)
+            print("d",string_dic)
         else:
             string_dic[word] += 1
-    #print(string_dic)
+    print("dd",string_dic)
     return string_dic
     
     
@@ -29,7 +29,10 @@ def main():
         string += input()
         string += '\n'
         i += 1
-    #print(string)
+    for each in string:
+        if each == '\n':
+            string.replace(each, "")
+    print(string)
     print(tokenize(string))
         
 
