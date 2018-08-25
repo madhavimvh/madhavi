@@ -4,7 +4,7 @@ each word
 '''
 import re
 def tokenize(string):
-    string_1 = string.lower().split(" ")
+    string_1 = string.split(" ")
     #print(string_1)
     string_list = []
     string_dic = {}
