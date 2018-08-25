@@ -4,11 +4,12 @@ each word
 '''
 import re
 def tokenize(string):
-    string = string.lower().split(" ")
+    string_1 = string.lower().split(" ")
+    print(string_1)
     string_list = []
     string_dic = {}
-    for each in range(len(string)-1):
-        string_list.append(re.sub("[^a-z]", "", string[each]))
+    for each in range(len(string_1)-1):
+        string_list.append(re.sub("[^a-z]", "", string_1[each]))
     for word in string_list:
         if word not in string_dic:
             string_dic[word] = string.count(word)
