@@ -5,7 +5,7 @@ each word
 import re
 def tokenize(string):
     string_1 = string.lower().split(" ")
-    print(string_1)
+    #print(string_1)
     string_list = []
     string_dic = {}
     for each in range(len(string_1)-1):
