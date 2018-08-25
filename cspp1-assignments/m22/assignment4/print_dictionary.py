@@ -4,7 +4,7 @@ frequency of each word. Format of the printing should be one key per line and se
 the key and frequency with a SPACE - SPACE.
 '''
 def print_dictionary(dictionary):
-    for k, v in dictonary.items():
+    for k, v in dictionary.items():
         print(k, "-", v)
     #keys = sorted(index.keys())
     #print(keys)
