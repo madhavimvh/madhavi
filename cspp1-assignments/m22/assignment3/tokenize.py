@@ -9,7 +9,7 @@ def tokenize(string):
     string_list = []
     string_dic = {}
     for each in range(len(string_1)-1):
-        string_list.append(re.sub("[^a-z]", "", string_1[each]))
+        string_list.append(re.sub("[^a-z,A-Z]", "", string_1[each]))
     for word in string_list:
         if word not in string_dic:
             string_dic[word] = string.count(word)
