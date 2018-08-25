@@ -14,9 +14,9 @@ def clean_string(string):
     string_11 = ''.join(string_1)
     #print("ss",string_11)
     return string_11
+    "program to take input"
 def main():
     string = input()
-    "to call the clean_string function"
     print(clean_string(string))
 if __name__ == '__main__':
     main()
