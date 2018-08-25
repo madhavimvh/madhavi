@@ -5,7 +5,7 @@ the key and frequency with a SPACE - SPACE.
 '''
 from collections import OrderedDict 
 def print_dictionary(dictionary):
-    alpha = OrderedDict(sorted(ages.items(), key=lambda x: x[0]))
+    alpha = OrderedDict(sorted(dictionary.items(), key=lambda x: x[0]))
     for k, v in dictionary.items():
         print(k, "-", v)
     #keys = sorted(index.keys())
