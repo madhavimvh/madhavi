@@ -5,13 +5,14 @@ the key and frequency with a SPACE - SPACE.
 '''
 from collections import OrderedDict 
 def print_dictionary(dictionary):
-    alpha = OrderedDict(sorted(dictionary.items(), key=lambda x: x[0]))
+    """dictionary_1 = dictionary.keys()
+    print(dictionary)
     for k, v in dictionary.items():
-        print(k, "-", v)
-    #keys = sorted(index.keys())
-    #print(keys)
-    #for key in keys:
-        #print(key, " - ", index[key])"""
+        print(k, "-", v)"""
+    keys = sorted(dictionary.keys())
+    print(keys)
+    for key in keys:
+        print(key, " - ", index[key])
 
 def main():
     dictionary = eval(input())
