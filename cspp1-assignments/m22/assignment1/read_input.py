@@ -1,8 +1,8 @@
 '''
 Write a python program to read multiple lines of text input and store the input into a string.
 '''
-
 def main():
+    "program to take input"
     lines_n = input()
     string_n = ""
     for i in range(int(lines_n)):
