@@ -12,7 +12,7 @@ def print_dictionary(dictionary):
     keys = sorted(dictionary.keys())
     print(keys)
     for key in keys:
-        print(key, " - ", index[key])
+        print(key, " - ", dictionary[key])
 
 def main():
     dictionary = eval(input())
