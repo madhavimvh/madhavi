@@ -4,6 +4,7 @@ each word
 '''
 import re
 def tokenize(string):
+    "program to dictionary"
     string_1 = string.split(" ")
     #print("s",string_1)
     string_list = []
@@ -19,10 +20,8 @@ def tokenize(string):
             string_dic[word] += 1
     #print("dd",string_dic)
     return string_dic
-    
-    
-            
 def main():
+    "program to accept input"
     lines = int(input())
     string = ""
     for i in range(lines):
