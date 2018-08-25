@@ -9,7 +9,7 @@ def clean_string(string):
     #print("s",string)
     for each in string:
         #print(each)
-        string_1.append(re.sub("[^a-z]","",each))
+        string_1.append(re.sub("[^a-z,0-9]","",each))
     string_11 = ''.join(string_1)
     #print("ss",string_11)
     
