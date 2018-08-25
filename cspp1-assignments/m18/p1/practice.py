@@ -39,20 +39,20 @@ def word_list(text):
         Clean up the text by remvoing all the non alphabet characters
         return a list of words
     '''
-    print("tx",text)
+    #print("tx",text)
     stop_words = load_stopwords('stopwords.txt')
     text_lst = text.lower().split(" ")
-    print(text_lst,"testlist")
+    #print(text_lst,"testlist")
     count = 0
     while count < len(text_lst):
         text_lst[count] = re.sub('[^a-z]','',text_lst[count])
         if text_lst[count] in stop_words:
-            print(text_lst[count])
+            #print(text_lst[count])
             text_lst.remove(text_lst[count])
             count -= 1
-            print("cpun",count)
+            #print("cpun",count)
         count += 1
-    print(text_lst)
+    #print(text_lst)
     return text_lst
 
 
@@ -60,7 +60,7 @@ def build_search_index(docs):
     '''
         Process the docs step by step as given below
     '''
-    print("dci",docs)
+    #print("dci",docs)
     # initialize a search index (an empty dictionary)
     search_index = {}
     # iterate through all the docs
@@ -76,9 +76,9 @@ def build_search_index(docs):
         while new_count < len(each_lst):
             if each_lst[new_count] not in search_index:
                 search_index[each_lst[new_count]] = [(count, 1)]
-                print("search_index",search_index)
+                #print("search_index",search_index)
             else:
-                print("2nd search index",search_index[each_lst[new_count]])
+                #print("2nd search index",search_index[each_lst[new_count]])
                 each_word_freq_list = search_index[each_lst[new_count]]
                 flag = 0
                 freq_tuple = (count, 1)
@@ -86,20 +86,20 @@ def build_search_index(docs):
                 freq_index = 0
                 while  freq_index < len(each_word_freq_list):
                     freq_lst = list(each_word_freq_list[freq_index])
-                    print("index",freq_index)
+                    #print("index",freq_index)
                     if freq_lst[0] == count:
                         freq_lst[1] += 1
                         each_word_freq_list[freq_index] = tuple(freq_lst)
-                        print("eachword",each_word_freq_list)
+                        #print("eachword",each_word_freq_list)
                         flag = 1
                         break
 
                     freq_index += 1
-                    print("2nd freqindex",freq_index)
+                    #print("2nd freqindex",freq_index)
 
                 if flag == 0:
                     each_word_freq_list.append(freq_tuple)
-                    print("last",each_word_freq_list)
+                    #print("last",each_word_freq_list)
 
                 # search_index[each_lst[new_count]] = each_word_freq_list
 
@@ -108,6 +108,7 @@ def build_search_index(docs):
 
         count += 1
     # return search index
+    print(search_index)
     return search_index
 
 # helper function to print the search index
@@ -116,6 +117,7 @@ def print_search_index(index):
     '''
         print the search index
     '''
+    print("index",index)
     keys = sorted(index.keys())
     for key in keys:
         print(key, " - ", index[key])
@@ -133,7 +135,7 @@ def main():
     for i in range(lines):
         documents.append(input())
         i += 1
-    print(documents)
+    #print(documents)
 
     # call print to display the search index
     print_search_index(build_search_index(documents))

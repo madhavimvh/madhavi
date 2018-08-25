@@ -75,7 +75,7 @@ def build_search_index(docs):
                 search_index[each_word] = [(docs.index(document), document.count(each_word))]
 
 
-    # print(search_index)
+    print(search_index)
     return search_index
     # iterate through all the docs
     # keep track of doc_id which is the list index corresponding the document
