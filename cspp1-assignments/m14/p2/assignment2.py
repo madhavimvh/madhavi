@@ -1,27 +1,3 @@
-
-Conversation opened. 1 read message.
-
-
-Skip to content
-Using Gmail with screen readers
-
-m-14
-Inbox
-x
-
-Tulasi Jagan Meruga
-Attachments
-9:09 PM (46 minutes ago)
-to me
-
-
-
--- 
-Meruga Tulasi Jagan
-+91-8639050987.
-3 Attachments
-Thanks a lot.Thanks for the mail.Thank you for your mail.
-
 ''' Problem 2 - PlaintextMessage '''
 # For this problem, the graders will use our implementation of the Message class,
 # so don't worry if you did not get the previous parts correct.
