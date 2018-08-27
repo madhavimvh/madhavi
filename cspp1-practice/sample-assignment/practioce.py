@@ -9,7 +9,14 @@
         maxm = max(nums)
         leng = len(words)
     return (minm, maxm, leng)"""
-import re
+'''import re
 sub = re.sub("[^a-z]+","","AKH KB.242HKkjdk")
-print(sub)
+print(sub)'''
+def factorial(n):
+    n = input()
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return factorial(n - 1)*factorial(n)
 
+print(factorial(5))
