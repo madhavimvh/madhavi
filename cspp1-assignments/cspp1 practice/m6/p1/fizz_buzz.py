@@ -10,11 +10,11 @@ def main():
     '''
     num = int(input())
     for i in range(num):
-	    if num % 3 and num % 5 == 0:
+	    if i % 3 and i % 5 == 0:
 	    	print("FizzBuzz")
-	    if num % 3 == 0:
+	    if i % 3 == 0:
 	    	print("Fizz")
-	    if num % 5 == 0:
+	    if i % 5 == 0:
 	    	print("Buzz")
 	    else:
 	    	print(i)
