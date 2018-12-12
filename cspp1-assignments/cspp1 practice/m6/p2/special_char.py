@@ -15,7 +15,7 @@ def main():
     		a += " "
     	else:
     		a += ch
-    print(ch)
+    # print(ch)
 
 if __name__ == "__main__":
     main()
