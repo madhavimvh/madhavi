@@ -9,12 +9,13 @@ def main():
     Read number from the input, store it in variable num.
     '''
     num = int(input())
-    if num % 3 and num % 5 == 0:
-    	print("FizzBuzz")
-    elif num % 3 == 0:
-    	print("Fizz")
-    elif num % 5 == 0:
-    	print("Buzz")
+    for i in range(num):
+	    if num % 3 and num % 5 == 0:
+	    	print("FizzBuzz")
+	    elif num % 3 == 0:
+	    	print("Fizz")
+	    elif num % 5 == 0:
+	    	print("Buzz")
 
 if __name__ == "__main__":
     main()
