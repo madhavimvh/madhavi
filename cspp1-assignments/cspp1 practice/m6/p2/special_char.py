@@ -12,10 +12,9 @@ def main():
     for ch in str_input:
     	if ch == '!' or ch == '@' or ch == '#' or ch == '$' or ch == '%' or ch == '^' or ch == '&' or ch == '*':
     		a += " "
-    		print(a)
     	else:
     		a += ch
-    # print(ch)
+    print(a)
 
 if __name__ == "__main__":
     main()
