@@ -10,8 +10,10 @@ def main():
     '''
     int_input = int(input())
     product = 1
-    for no in int_input:
-    	product = product*no
+    while (int_input > 0):
+	    rem = rem % 10
+	    product = product*rem
+	    int_input = int_input/10
     print(product)
 
 
