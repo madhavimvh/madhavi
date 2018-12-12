@@ -9,7 +9,7 @@ def main():
     Read any number from the input, store it in variable int_input.
     '''
     n = int(input())
-    p = 1
+    product = 1
     if n == 0:
     	print(n)
     elif n > 0:
