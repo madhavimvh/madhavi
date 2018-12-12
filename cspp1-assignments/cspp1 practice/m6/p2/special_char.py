@@ -11,9 +11,9 @@ def main():
     a = ""
     for ch in str_input:
     	if ch == '!' or ch == '@' or ch == '#' or ch == '$' or ch == '%' or ch == '^' or ch == '&' or ch == '*':
+    		print(ch)
     		a += " "
     	else:
-    		print(ch)
     		a += ch
     print(ch)
 
