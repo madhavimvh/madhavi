@@ -13,6 +13,7 @@ def main():
     	if ch == '!' or ch == '@' or ch == '#' or ch == '$' or ch == '%' or ch == '^' or ch == '&' or ch == '*':
     		a += " "
     	else:
+    		print(ch)
     		a += ch
     print(ch)
 
