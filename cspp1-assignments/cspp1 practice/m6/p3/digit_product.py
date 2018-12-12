@@ -8,16 +8,23 @@ def main():
     '''
     Read any number from the input, store it in variable int_input.
     '''
-    int_input = int(input())
-    product = 1
-    rem = 0
-    while int_input > 0:
-	    rem = int_input % 10
-	    # print(rem)
-	    product = product*rem
-	    int_input = int(int_input/10)
-    print(product)
-
+    n = int(input())
+    p = 1
+    if n == 0:
+    	print(n)
+    elif n > 0:
+    	while n > 0:
+    		rem = n % 10
+    		product = product*rem
+    		n = n//10
+    	print(product)
+    else:
+    	n = -n
+    	while n > 0:
+    		rem = n % 10
+    		product = product*rem
+    		n = n//10
+    	print(-product)
 
 if __name__ == "__main__":
     main()
