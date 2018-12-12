@@ -12,7 +12,7 @@ def main():
     product = 1
     rem = 0
     while (int_input > 0):
-	    rem = rem % 10
+	    rem = int_input % 10
 	    product = product*rem
 	    int_input = int_input/10
     print(product)
