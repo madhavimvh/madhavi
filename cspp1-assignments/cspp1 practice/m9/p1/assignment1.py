@@ -22,7 +22,7 @@ def is_word_guessed(secret_word, letters_guessed):
     for i in secret_word:
         # print(i)
         if i not in letters_guessed:
-            print("not")
+            # print("not")
             return False
     return True
 def main():
