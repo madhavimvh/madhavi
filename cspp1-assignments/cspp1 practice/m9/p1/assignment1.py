@@ -15,6 +15,8 @@ def is_word_guessed(secret_word, letters_guessed):
       False otherwise
     '''
     # FILL IN YOUR CODE HERE...
+    if secret_word == "" and letters_guessed == []:
+        return true
     for i in secret_word:
         if i not in letters_guessed:
             return False
@@ -33,7 +35,7 @@ def main():
         data = []
         secret_word = ""
     list1 = []
-    for j in range(1,len(data)):
+    for j in range(1, len(data)):
         list1.append(data[j][0])
     # print(list1)
     print(is_word_guessed(secret_word, list1))
