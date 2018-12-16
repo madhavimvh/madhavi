@@ -24,7 +24,7 @@ def is_word_guessed(secret_word, letters_guessed):
         if i not in letters_guessed:
             print("not")
             return False
-    return true
+    return True
 def main():
     '''
     Main function for the program
