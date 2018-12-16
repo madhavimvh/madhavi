@@ -27,7 +27,7 @@ def main():
     user_input = input()
     if user_input:
         data = user_input.split()
-        print(data)
+        # print(data)
         secret_word = data[0]
     else:
         data = []
@@ -35,7 +35,7 @@ def main():
     list1 = []
     for j in range(1,len(data)):
         list1.append(data[j])
-    print(list1)
+    # print(list1)
     print(is_word_guessed(secret_word, list1))
 
 if __name__ == "__main__":
