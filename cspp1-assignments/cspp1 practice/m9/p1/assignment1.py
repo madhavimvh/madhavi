@@ -29,7 +29,7 @@ def main():
     else:
         data = []
         secret_word = ""
-        list1 = []
+    list1 = []
     for j in range(1,len(data)):
         list1.append(data[j])
     print(list1)
