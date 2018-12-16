@@ -16,7 +16,7 @@ def is_word_guessed(secret_word, letters_guessed):
     '''
     # FILL IN YOUR CODE HERE...
     if secret_word == "" and letters_guessed == []:
-        return true
+        return True
     for i in secret_word:
         if i not in letters_guessed:
             return False
