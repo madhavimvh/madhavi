@@ -30,7 +30,8 @@ def main():
         data = []
         secret_word = ""
     for j in range(1,len(data)):
-        list1.append(data[j][0])
+        list1.append(data[j])
+    print(list1)
     # print(is_word_guessed(secret_word, list1))
     # user_input = input()
     # if user_input:
