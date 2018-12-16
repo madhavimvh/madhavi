@@ -34,7 +34,7 @@ def main():
     	secret_word = ""
     list1 = []
     for i in range(1, len(data)):
-    	list1.append(data[j])
+    	list1.append(data[i])
     print(get_guessed_word(secret_word, list1))
 
     # user_input = input()
