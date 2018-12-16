@@ -15,37 +15,28 @@ def is_word_guessed(secret_word, letters_guessed):
       False otherwise
     '''
     # FILL IN YOUR CODE HERE...
-    pass
-
+    for i in secret_word:
+        if i not in letters_guessed:
+            return False
+        else:
+            return True
 def main():
     '''
     Main function for the program
     '''
-    # user_input = input()
-    # if user_input:
-    #     data = user_input.split()
-    #     print(data)
-    #     secret_word = data[0]
-    # else:
-    #     data = []
-    #     secret_word = ""
-    # list1 = []
-    # for j in range(1,len(data)):
-    #     list1.append(data[j])
-    # print(list1)
-    # print(is_word_guessed(secret_word, list1))
     user_input = input()
     if user_input:
         data = user_input.split()
+        print(data)
         secret_word = data[0]
     else:
         data = []
         secret_word = ""
     list1 = []
-    for j in range(1, len(data)):
-        list1.append(data[j][0])
+    for j in range(1,len(data)):
+        list1.append(data[j])
     print(list1)
-    # print(is_word_guessed(secret_word, list1))
+    print(is_word_guessed(secret_word, list1))
 
 if __name__ == "__main__":
     main()
