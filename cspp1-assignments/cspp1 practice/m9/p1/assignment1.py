@@ -23,7 +23,7 @@ def main():
     '''
     user_input = input()
     if user_input:
-        data = data.split()
+        data = user_input.split()
         print(data)
         secret_word = data[0]
     else:
