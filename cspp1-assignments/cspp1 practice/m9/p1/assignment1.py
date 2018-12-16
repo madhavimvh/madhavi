@@ -20,8 +20,8 @@ def is_word_guessed(secret_word, letters_guessed):
     if secret_word == "" or letters_guessed == []:
         return False
     for i in secret_word:
-        print(i)
         if i not in letters_guessed:
+            print(i)
             return False
         else:
             return True
