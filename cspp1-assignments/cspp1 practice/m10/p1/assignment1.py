@@ -14,10 +14,10 @@ def get_available_letters(letters_guessed):
     '''
     str1 = "abcdefghijklmnopqrstuvwxyz"
     list1 = str1.split()
+    print(list1)
     strr = ""
     for i in list1:
     	if i not in letters_guessed:
-    		print(i)
     		strr += i
     return strr
 
