@@ -32,6 +32,7 @@ def main():
     data = []
     for char in user_input:
         data.append(char[0])
+    print(data)
     print(get_available_letters(data))
 
 
