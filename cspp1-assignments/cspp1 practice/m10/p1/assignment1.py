@@ -17,6 +17,7 @@ def get_available_letters(letters_guessed):
     strr = ""
     for i in list1:
     	if i not in letters_guessed:
+    		print(i)
     		strr += i
     return strr
 
@@ -32,7 +33,6 @@ def main():
     data = []
     for char in user_input:
         data.append(char[0])
-    print(data)
     print(get_available_letters(data))
 
 
