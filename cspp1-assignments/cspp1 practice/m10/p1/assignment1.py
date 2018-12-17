@@ -13,7 +13,7 @@ def get_available_letters(letters_guessed):
       yet been guessed.
     '''
     str1 = "abcdefghijklmnopqrstuvwxyz"
-    list1 = str1.split()
+    list1 = str1.split("")
     print(list1)
     strr = ""
     for i in list1:
