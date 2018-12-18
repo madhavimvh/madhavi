@@ -39,7 +39,10 @@ def word_list(text):
         Clean up the text by remvoing all the non alphabet characters
         return a list of words
     '''
-    print(text)
+    # print(text)
+    pass
+
+
 def build_search_index(docs):
     '''
         Process the docs step by step as given below
@@ -47,7 +50,10 @@ def build_search_index(docs):
 
     # initialize a search index (an empty dictionary)
     adict = {}
-    # for i in docs
+    for i in range(len(docs)):
+    	word_list(docs[i])
+    	print(docs[i])
+
     # iterate through all the docs
     # keep track of doc_id which is the list index corresponding the document
     # hint: use enumerate to obtain the list index in the for loop
@@ -77,8 +83,8 @@ def main():
     lines = int(input())
     for i in range(lines):
     	documents.append(input())
-    print(documents)
-    # print_search_index(build_search_index(documents))
+    # print(documents)
+    print_search_index(build_search_index(documents))
     # empty document list
     # documents = []
     # # iterate for n times
