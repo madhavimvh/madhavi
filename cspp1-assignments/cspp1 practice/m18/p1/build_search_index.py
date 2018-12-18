@@ -41,16 +41,10 @@ def word_list(text):
         return a list of words
     '''
     stopwords = load_stopwords('stopwords.txt')
-    # print(stopwords)
-    textlist = text.lower().split(" ")
-    for word in textlist:
+    textlst = text.lower().split(' ')
+    for word in textlst:
     	word = re.sub('[^a-z]','',word)
-    	if word in stopwords:
-    		print(word)
-    		textlist.remove(word)
-    print(textlist)
-    return textlist
-
+    	print(word)
 
 
 
