@@ -46,7 +46,8 @@ def build_search_index(docs):
     '''
 
     # initialize a search index (an empty dictionary)
-
+    adict = {}
+    # for i in docs
     # iterate through all the docs
     # keep track of doc_id which is the list index corresponding the document
     # hint: use enumerate to obtain the list index in the for loop
@@ -76,7 +77,8 @@ def main():
     lines = int(input())
     for i in range(lines):
     	documents.append(input())
-    print_search_index(build_search_index(documents))
+    print(documents)
+    # print_search_index(build_search_index(documents))
     # empty document list
     # documents = []
     # # iterate for n times
