@@ -44,11 +44,11 @@ def word_list(text):
     textlst = text.lower().split(" ")
     for i in range(len(textlst)):
     	textlst[i] = re.sub('[^a-z]','',textlst[i])
-    print(textlst)
     temp = textlst[:]
     for word in temp:
     	if word in stopwords:
     		textlst.remove(word)
+    # print(textlst)
     return textlst
 
 
@@ -62,13 +62,25 @@ def build_search_index(docs):
     adict = {}
     for i in range(len(docs)):
     	each_lst = word_list(docs[i])
-    	# print(docs[i])
-
+    	print(each_lst)
+    	for word in each_lst:
+    		if word not in adict:
+    			adict[word] = [(i, each_lst.count(word))]
+    		else:
+    			adict[word].append((i, each_lst.count(word)))
+    return adict
+    #     for word in each_lst:
+    #     	if word not in adict:
+    #     		adict[word] = [(i, each_lst.count(word))]
+    #     	else:
+    #     		adict[word].append((i, each_lst.count(word)))
+    # return adict
     # iterate through all the docs
     # keep track of doc_id which is the list index corresponding the document
     # hint: use enumerate to obtain the list index in the for loop
 
         # clean up doc and tokenize to words list
+
 
         # add or update the words of the doc to the search index
 
