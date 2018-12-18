@@ -61,7 +61,9 @@ def main():
     '''
     strg = ''
     lines = int(input())
-
+    if lines == 1:
+        print("{}")
+        return
     for i in range(lines):
         strg += input()
         strg += '\n'
