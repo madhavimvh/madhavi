@@ -46,6 +46,7 @@ def word_list(text):
     for word in textlist:
     	word = re.sub('[^a-z]','',word)
     	if word in stopwords:
+    		print(word)
     		textlist.remove(word)
     print(textlist)
     return textlist
