@@ -39,14 +39,14 @@ def word_list(text):
         Clean up the text by remvoing all the non alphabet characters
         return a list of words
     '''
-    print(text)
     stopwords = load_stopwords('stopwords.txt')
-    print(stopwords)
+    # print(stopwords)
     textlist = text.lower().split(" ")
     for word in textlist:
     	word = re.sub('[^a-z]','',word)
     	if word in stopwords:
     		textlist.remove(word)
+    print(textlist)
     return textlist
 
 
@@ -60,7 +60,7 @@ def build_search_index(docs):
     # initialize a search index (an empty dictionary)
     adict = {}
     for i in range(len(docs)):
-    	word_list(docs[i])
+    	each_lst = word_list(docs[i])
     	# print(docs[i])
 
     # iterate through all the docs
