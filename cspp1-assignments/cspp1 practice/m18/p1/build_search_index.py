@@ -45,6 +45,10 @@ def word_list(text):
     for i in range(len(textlst)):
     	textlst[i] = re.sub('[^a-z]','',textlst[i])
     print(textlst)
+    temp = textlst[:]
+    for word in temp:
+    	if word in stopwords:
+    		textlst.remove(word)
     return textlst
 
 
