@@ -42,7 +42,6 @@ def word_list(text):
     '''
     stopwords = load_stopwords('stopwords.txt')
     textlst = text.lower().split(" ")
-    temp = textlst[:]
     print(textlst)
     for i in range(len(temp)):
     	# print(len(temp))
