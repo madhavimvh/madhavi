@@ -62,7 +62,7 @@ def build_search_index(docs):
     adict = {}
     for i in range(len(docs)):
     	each_lst = word_list(docs[i])
-    	print(each_lst)
+    	# print(each_lst)
     	for word in each_lst:
     		if word not in adict:
     			adict[word] = [(i, each_lst.count(word))]
