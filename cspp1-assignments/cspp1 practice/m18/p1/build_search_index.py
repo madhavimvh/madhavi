@@ -42,9 +42,9 @@ def word_list(text):
     '''
     stopwords = load_stopwords('stopwords.txt')
     textlst = text.lower().split(' ')
-    for word in textlst:
-    	word = re.sub('[^a-z]','',word)
-    	print(word)
+    for i in range(len(textlst)):
+    	textlst[i] = re.sub('[^a-z]','',textlst[i])
+    	# print(word)
     	if word in stopwords:
     		textlst.remove(word)
     print(textlst)
