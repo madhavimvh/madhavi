@@ -47,7 +47,7 @@ def create_social_network(data):
             aDict[data[i][0]] = data[i][1]
         else:
             aDict[data[i][0]].append(data[i][1])
-    print(aDict)
+    return(aDict)
 
 
 
@@ -61,11 +61,12 @@ def main():
     '''
     strg = ''
     lines = int(input())
+
     for i in range(lines):
         strg += input()
         strg += '\n'
     # print(strg)
-    create_social_network(strg)
+    print(create_social_network(strg))
     # string = ''
     # lines = int(input())
     # for i in range(lines):
