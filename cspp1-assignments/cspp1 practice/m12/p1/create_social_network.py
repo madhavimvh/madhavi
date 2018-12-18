@@ -31,8 +31,29 @@ def create_social_network(data):
         Return a empty dictionary if the string format of the data is invalid
         Empty dictionary is not None, it is a dictionary with no keys
     '''
+    aDict = {}
+    list1 = []
+    list2 = []
+    data = data.split('\n')
+    # print(data)
+    for i in range(len(data) - 1):
+        data[i] = data[i].split(" follows ")
+        # print(data[i])
+        # print("sdlk")
+        # for j in range(len(data[i])):
+            # print(data[i][j])
+        if data[i][0] not in aDict:
+            data[i][1] = data[i][1].split(",")
+            aDict[data[i][0]] = data[i][1]
+        else:
+            aDict[data[i][0]].append(data[i][1])
+    print(aDict)
 
-    # remove the pass below and start writing your code
+
+
+
+
+
 
 def main():
     '''
@@ -41,11 +62,10 @@ def main():
     strg = ''
     lines = int(input())
     for i in range(lines):
-        # i += 1
         strg += input()
         strg += '\n'
-    print(strg)
-    print(create_social_network(strg))
+    # print(strg)
+    create_social_network(strg)
     # string = ''
     # lines = int(input())
     # for i in range(lines):
