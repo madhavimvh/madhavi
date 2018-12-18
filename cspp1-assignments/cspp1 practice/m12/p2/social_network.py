@@ -28,9 +28,12 @@ def unfollow(network, arg1, arg2):
         so, this should result in removing arg2 from the followers list of arg1
         update the network dictionary and return it
     '''
-    for v in network.values():
-    	if arg2 in v:
-    		v.remove((arg2))
+    # for v in network.values():
+    # 	if arg2 in v:
+    # 		v.remove((arg2))
+    # return network
+    if arg1 in network:
+        network[arg1].remove(arg2)
     return network
 
 def delete_person(network, arg1):
