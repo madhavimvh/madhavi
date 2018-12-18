@@ -108,7 +108,7 @@ def build_search_index(docs):
 
         count += 1
     # return search index
-    print(search_index)
+    # print(search_index)
     return search_index
 
 # helper function to print the search index
@@ -117,7 +117,7 @@ def print_search_index(index):
     '''
         print the search index
     '''
-    print("index",index)
+    # print("index",index)
     keys = sorted(index.keys())
     for key in keys:
         print(key, " - ", index[key])
