@@ -41,8 +41,9 @@ def main():
     strg = ''
     lines = int(input())
     for i in range(lines):
+        # i += 1
         strg += input()
-        strg = '\n'
+        strg += '\n'
     print(strg)
     print(create_social_network(strg))
     # string = ''
