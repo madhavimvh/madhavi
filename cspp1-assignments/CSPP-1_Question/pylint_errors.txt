@@ -1,188 +1,82 @@
 ************* Module sudoku
-sudoku.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:16:21: C0326: Exactly one space required after comma
-				print(sudoku(grid,i,j))
-                     ^ (bad-whitespace)
-sudoku.py:16:23: C0326: Exactly one space required after comma
-				print(sudoku(grid,i,j))
+sudoku.py:4:18: C0326: Exactly one space required around comparison
+    if len(string)>81 or len(string)<81:
+                  ^ (bad-whitespace)
+sudoku.py:4:36: C0326: Exactly one space required around comparison
+    if len(string)>81 or len(string)<81:
+                                    ^ (bad-whitespace)
+sudoku.py:21:17: C0326: Exactly one space required after comparison
+        if count ==9:
+                 ^^ (bad-whitespace)
+sudoku.py:27:41: C0326: Exactly one space required after comma
+                        res = sudoku(grid,i,j)
+                                         ^ (bad-whitespace)
+sudoku.py:27:43: C0326: Exactly one space required after comma
+                        res = sudoku(grid,i,j)
+                                           ^ (bad-whitespace)
+sudoku.py:76:23: C0326: Exactly one space required after comma
+    inti = list(map(int,string))
                        ^ (bad-whitespace)
-sudoku.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:25:23: C0326: Exactly one space required after comma
-		for subrow in range(0,3):
-                       ^ (bad-whitespace)
-sudoku.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:26:24: C0326: Exactly one space required after comma
-			for subcol in range(0,3):
-                        ^ (bad-whitespace)
-sudoku.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:29:23: C0326: Exactly one space required after comma
-		for subrow in range(0,3):
-                       ^ (bad-whitespace)
-sudoku.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:30:24: C0326: Exactly one space required after comma
-			for subcol in range(3,6):
-                        ^ (bad-whitespace)
-sudoku.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:33:23: C0326: Exactly one space required after comma
-		for subrow in range(0,3):
-                       ^ (bad-whitespace)
-sudoku.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:34:24: C0326: Exactly one space required after comma
-			for subcol in range(6,9):
-                        ^ (bad-whitespace)
-sudoku.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:37:23: C0326: Exactly one space required after comma
-		for subrow in range(3,6):
-                       ^ (bad-whitespace)
-sudoku.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:38:24: C0326: Exactly one space required after comma
-			for subcol in range(0,3):
-                        ^ (bad-whitespace)
-sudoku.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:41:23: C0326: Exactly one space required after comma
-		for subrow in range(3,6):
-                       ^ (bad-whitespace)
-sudoku.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:42:24: C0326: Exactly one space required after comma
-			for subcol in range(3,6):
-                        ^ (bad-whitespace)
-sudoku.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:45:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:45:23: C0326: Exactly one space required after comma
-		for subrow in range(3,6):
-                       ^ (bad-whitespace)
-sudoku.py:46:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:46:24: C0326: Exactly one space required after comma
-			for subcol in range(6,9):
-                        ^ (bad-whitespace)
-sudoku.py:47:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:48:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:49:23: C0326: Exactly one space required after comma
-		for subrow in range(6,9):
-                       ^ (bad-whitespace)
-sudoku.py:50:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:50:24: C0326: Exactly one space required after comma
-			for subcol in range(0,3):
-                        ^ (bad-whitespace)
-sudoku.py:51:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:53:23: C0326: Exactly one space required after comma
-		for subrow in range(6,9):
-                       ^ (bad-whitespace)
-sudoku.py:54:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:54:24: C0326: Exactly one space required after comma
-			for subcol in range(3,6):
-                        ^ (bad-whitespace)
-sudoku.py:55:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:56:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:57:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:57:23: C0326: Exactly one space required after comma
-		for subrow in range(6,9):
-                       ^ (bad-whitespace)
-sudoku.py:58:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:58:24: C0326: Exactly one space required after comma
-			for subcol in range(6,9):
-                        ^ (bad-whitespace)
-sudoku.py:59:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:61:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:62:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:63:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:64:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:64:20: C0326: Exactly one space required after comma
-	inti = list(map(int,string))
-                    ^ (bad-whitespace)
-sudoku.py:65:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:65:11: C0326: Exactly one space required after comma
-	whole = [1,2,3,4,5,6,7,8,9]
-           ^ (bad-whitespace)
-sudoku.py:65:13: C0326: Exactly one space required after comma
-	whole = [1,2,3,4,5,6,7,8,9]
-             ^ (bad-whitespace)
-sudoku.py:65:15: C0326: Exactly one space required after comma
-	whole = [1,2,3,4,5,6,7,8,9]
-               ^ (bad-whitespace)
-sudoku.py:65:17: C0326: Exactly one space required after comma
-	whole = [1,2,3,4,5,6,7,8,9]
-                 ^ (bad-whitespace)
-sudoku.py:65:19: C0326: Exactly one space required after comma
-	whole = [1,2,3,4,5,6,7,8,9]
-                   ^ (bad-whitespace)
-sudoku.py:65:21: C0326: Exactly one space required after comma
-	whole = [1,2,3,4,5,6,7,8,9]
-                     ^ (bad-whitespace)
-sudoku.py:65:23: C0326: Exactly one space required after comma
-	whole = [1,2,3,4,5,6,7,8,9]
-                       ^ (bad-whitespace)
-sudoku.py:65:25: C0326: Exactly one space required after comma
-	whole = [1,2,3,4,5,6,7,8,9]
-                         ^ (bad-whitespace)
-sudoku.py:66:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:67:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:68:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:69:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:70:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:70:23: C0326: Exactly one space required after comma
-	string1 = list(map(str,numbers))
-                       ^ (bad-whitespace)
-sudoku.py:71:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:72:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:77:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:80:0: C0305: Trailing newlines (trailing-newlines)
+sudoku.py:82:26: C0326: Exactly one space required after comma
+    string1 = list(map(str,numbers))
+                          ^ (bad-whitespace)
+sudoku.py:89:14: C0326: Exactly one space required after comma
+    nos = ['1','2','3','4','5','6','7','8','9']
+              ^ (bad-whitespace)
+sudoku.py:89:18: C0326: Exactly one space required after comma
+    nos = ['1','2','3','4','5','6','7','8','9']
+                  ^ (bad-whitespace)
+sudoku.py:89:22: C0326: Exactly one space required after comma
+    nos = ['1','2','3','4','5','6','7','8','9']
+                      ^ (bad-whitespace)
+sudoku.py:89:26: C0326: Exactly one space required after comma
+    nos = ['1','2','3','4','5','6','7','8','9']
+                          ^ (bad-whitespace)
+sudoku.py:89:30: C0326: Exactly one space required after comma
+    nos = ['1','2','3','4','5','6','7','8','9']
+                              ^ (bad-whitespace)
+sudoku.py:89:34: C0326: Exactly one space required after comma
+    nos = ['1','2','3','4','5','6','7','8','9']
+                                  ^ (bad-whitespace)
+sudoku.py:89:38: C0326: Exactly one space required after comma
+    nos = ['1','2','3','4','5','6','7','8','9']
+                                      ^ (bad-whitespace)
+sudoku.py:89:42: C0326: Exactly one space required after comma
+    nos = ['1','2','3','4','5','6','7','8','9']
+                                          ^ (bad-whitespace)
+sudoku.py:96:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:97:0: C0304: Final newline missing (missing-final-newline)
 sudoku.py:1:0: C0111: Missing module docstring (missing-docstring)
 sudoku.py:1:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:17:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:24:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:24:29: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:28:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:28:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:32:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:32:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:36:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:36:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:40:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:40:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:44:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:44:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:48:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:48:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:52:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:52:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:56:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:56:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:67:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-sudoku.py:67:5: C0103: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:17:0: R0912: Too many branches (31/12) (too-many-branches)
+sudoku.py:16:8: C0103: Variable name "ch" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:18:8: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+sudoku.py:24:12: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+sudoku.py:29:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:36:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:36:32: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:40:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:40:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:44:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:44:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:48:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:48:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:52:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:52:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:56:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:56:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:60:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:60:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:64:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:64:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:68:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:68:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:79:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+sudoku.py:79:8: C0103: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:29:0: R0912: Too many branches (31/12) (too-many-branches)
+sudoku.py:87:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:91:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+sudoku.py:91:8: C0103: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
 
---------------------------------------------------------------------
-Your code has been rated at -7.57/10 (previous run: -7.57/10, +0.00)
+------------------------------------------------------------------
+Your code has been rated at 4.60/10 (previous run: 4.60/10, +0.00)
 

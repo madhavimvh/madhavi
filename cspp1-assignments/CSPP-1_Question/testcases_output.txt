@@ -1,9 +1,9 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Given sudoku is solved
 
 Your Output: 
-
+Given sudoku is solved
 ----------------------------------------
 
 ########## Testcase 1: Passed ##########
@@ -422,17 +422,12 @@ Your Output:
 123456
 ----------------------------------------
 
-########## Testcase 17: Failed ##########
+########## Testcase 17: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 78, in <module>
-    main()
-  File "sudoku.py", line 10, in main
-    grid1.append(string[i])
-IndexError: list index out of range
+Invalid input
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -577,17 +572,12 @@ Your Output:
 23689
 ----------------------------------------
 
-########## Testcase 20: Failed ##########
+########## Testcase 20: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 78, in <module>
-    main()
-  File "sudoku.py", line 10, in main
-    grid1.append(string[i])
-IndexError: list index out of range
+Invalid input
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
