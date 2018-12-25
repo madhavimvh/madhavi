@@ -18,7 +18,8 @@ def validateSudoku(sudoku):
 				list1.append(temp)
 				temp = []
 			temp.append(sudoku[i])
-			# checkduplicates(temp)
+			print(temp)
+			checkduplicates(temp)
 	list1.append(temp)
 	# print(list1)
 	# print(getColumnValues(0, list1))
