@@ -18,9 +18,9 @@ def validateSudoku(sudoku):
 				list1.append(temp)
 				temp = []
 			temp.append(sudoku[i])
-			checkduplicates(temp)
+			# checkduplicates(temp)
 	list1.append(temp)
-	# print(list1)
+	print(list1)
 	# print(getColumnValues(0, list1))
 	# print(getGridValues(0, 8, list1))
 	possibleValues(list1)
