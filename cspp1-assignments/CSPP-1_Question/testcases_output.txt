@@ -411,15 +411,7 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-456789
-456789
-456789
-123789
-123789
-123789
-123456
-123456
-123456
+duplicates are present
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########

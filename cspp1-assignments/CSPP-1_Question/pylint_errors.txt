@@ -12,9 +12,9 @@ sudoku.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-inde
 sudoku.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:28:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:27:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -22,12 +22,12 @@ sudoku.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-inde
 sudoku.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:50:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:51:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:54:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:60:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:61:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:62:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:63:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -64,122 +64,124 @@ sudoku.py:93:0: W0312: Found indentation with tabs instead of spaces (mixed-inde
 sudoku.py:94:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:95:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:96:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:97:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:101:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:104:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:100:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:103:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:110:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:111:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:112:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:113:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:114:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:116:20: C0326: No space allowed before comma
+sudoku.py:115:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:116:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:118:20: C0326: No space allowed before comma
 def possibilities(i , j, list1):
                     ^ (bad-whitespace)
-sudoku.py:119:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:119:13: C0326: Exactly one space required after comma
+sudoku.py:121:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:121:13: C0326: Exactly one space required after comma
 	numbers = [1,2,3,4,5,6,7,8,9]
              ^ (bad-whitespace)
-sudoku.py:119:15: C0326: Exactly one space required after comma
+sudoku.py:121:15: C0326: Exactly one space required after comma
 	numbers = [1,2,3,4,5,6,7,8,9]
                ^ (bad-whitespace)
-sudoku.py:119:17: C0326: Exactly one space required after comma
+sudoku.py:121:17: C0326: Exactly one space required after comma
 	numbers = [1,2,3,4,5,6,7,8,9]
                  ^ (bad-whitespace)
-sudoku.py:119:19: C0326: Exactly one space required after comma
+sudoku.py:121:19: C0326: Exactly one space required after comma
 	numbers = [1,2,3,4,5,6,7,8,9]
                    ^ (bad-whitespace)
-sudoku.py:119:21: C0326: Exactly one space required after comma
+sudoku.py:121:21: C0326: Exactly one space required after comma
 	numbers = [1,2,3,4,5,6,7,8,9]
                      ^ (bad-whitespace)
-sudoku.py:119:23: C0326: Exactly one space required after comma
+sudoku.py:121:23: C0326: Exactly one space required after comma
 	numbers = [1,2,3,4,5,6,7,8,9]
                        ^ (bad-whitespace)
-sudoku.py:119:25: C0326: Exactly one space required after comma
+sudoku.py:121:25: C0326: Exactly one space required after comma
 	numbers = [1,2,3,4,5,6,7,8,9]
                          ^ (bad-whitespace)
-sudoku.py:119:27: C0326: Exactly one space required after comma
+sudoku.py:121:27: C0326: Exactly one space required after comma
 	numbers = [1,2,3,4,5,6,7,8,9]
                            ^ (bad-whitespace)
-sudoku.py:120:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:122:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:123:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:128:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:124:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:125:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:130:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:130:6: C0326: Exactly one space required after assignment
+sudoku.py:132:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:132:6: C0326: Exactly one space required after assignment
 	str1 =""
       ^ (bad-whitespace)
-sudoku.py:131:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:132:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:133:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:134:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:138:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:139:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:136:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:140:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:141:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:142:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:143:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:144:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:147:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:148:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:148:28: C0326: Exactly one space required after comma
-	strrow = strrow.replace(".","")
-                            ^ (bad-whitespace)
+sudoku.py:145:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:146:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:149:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:150:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:150:20: C0326: Exactly one space required after comma
+sudoku.py:150:28: C0326: Exactly one space required after comma
+	strrow = strrow.replace(".","")
+                            ^ (bad-whitespace)
+sudoku.py:151:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:152:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:152:20: C0326: Exactly one space required after comma
 	inti = list(map(int,strrow))
                     ^ (bad-whitespace)
-sudoku.py:151:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:154:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:160:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:161:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:153:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:156:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:162:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:163:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:164:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:167:0: C0304: Final newline missing (missing-final-newline)
+sudoku.py:165:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:166:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:169:0: C0304: Final newline missing (missing-final-newline)
 sudoku.py:11:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:16:2: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 sudoku.py:14:1: W0612: Unused variable 'count' (unused-variable)
-sudoku.py:30:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:32:5: C0103: Variable name "no" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:38:4: W0101: Unreachable code (unreachable)
-sudoku.py:41:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:42:0: C0103: Function name "getRowValues" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:42:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:48:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:49:0: C0103: Function name "getColumnValues" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:49:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:59:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:60:0: C0103: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:60:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:62:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:62:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:66:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:66:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:70:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:70:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:74:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:74:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:78:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:78:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:82:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:82:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:86:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:86:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:90:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:90:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:94:5: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:94:28: R1716: Simplify chained comparison between the operands (chained-comparison)
-sudoku.py:60:0: R0912: Too many branches (27/12) (too-many-branches)
-sudoku.py:109:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:110:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:110:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:111:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-sudoku.py:116:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:146:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:158:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:159:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:163:8: W0703: Catching too general exception Exception (broad-except)
-sudoku.py:163:1: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:29:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:31:5: C0103: Variable name "no" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:37:4: W0101: Unreachable code (unreachable)
+sudoku.py:40:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:41:0: C0103: Function name "getRowValues" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:41:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:47:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:48:0: C0103: Function name "getColumnValues" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:48:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:58:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:59:0: C0103: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:59:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:61:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:61:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:65:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:65:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:69:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:69:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:73:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:73:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:77:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:77:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:81:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:81:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:85:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:85:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:89:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:89:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:93:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:93:28: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudoku.py:59:0: R0912: Too many branches (27/12) (too-many-branches)
+sudoku.py:108:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:109:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:109:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:110:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+sudoku.py:118:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:148:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:160:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:161:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:165:8: W0703: Catching too general exception Exception (broad-except)
+sudoku.py:165:1: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.39/10 (previous run: -4.38/10, -0.01)
+Your code has been rated at -4.31/10 (previous run: -4.39/10, +0.08)
 

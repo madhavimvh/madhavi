@@ -19,7 +19,6 @@ def validateSudoku(sudoku):
 				temp = []
 			temp.append(sudoku[i])
 			# print(temp)
-			checkduplicates(temp)
 	list1.append(temp)
 	# print(list1)
 	# print(getColumnValues(0, list1))
@@ -111,6 +110,9 @@ def possibleValues(list1):
 	for i in range(len(list1)):
 		for j in range(len(list1[0])):
 			if list1[i][j] == ".":
+				checkduplicates(getRowValues(i, list1))
+				checkduplicates(getColumnValues(i, list1))
+				checkduplicates(getGridValues(i, j, list1))
 				possibilities(i, j, list1)
 
 def possibilities(i , j, list1):
