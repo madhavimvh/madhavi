@@ -414,12 +414,12 @@ Your Output:
 Invalid Sudoku:Duplicate values
 ----------------------------------------
 
-########## Testcase 17: Failed ##########
+########## Testcase 17: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-
+Invalid input
 ----------------------------------------
 
 ########## Testcase 18: Passed ##########
@@ -564,12 +564,12 @@ Your Output:
 23689
 ----------------------------------------
 
-########## Testcase 20: Failed ##########
+########## Testcase 20: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-
+Invalid input
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
