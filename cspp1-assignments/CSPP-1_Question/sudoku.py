@@ -18,7 +18,7 @@ def validateSudoku(sudoku):
 				list1.append(temp)
 				temp = []
 			temp.append(sudoku[i])
-			print(temp)
+			# print(temp)
 			checkduplicates(temp)
 	list1.append(temp)
 	# print(list1)

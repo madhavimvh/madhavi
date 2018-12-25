@@ -11,7 +11,6 @@ sudoku.py:17:22: C0326: Exactly one space required around comparison
 sudoku.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -178,5 +177,5 @@ sudoku.py:150:-1: W0105: String statement has no effect (pointless-string-statem
 sudoku.py:151:0: C0111: Missing function docstring (missing-docstring)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.38/10 (previous run: -4.47/10, +0.09)
+Your code has been rated at -4.42/10 (previous run: -4.38/10, -0.04)
 
