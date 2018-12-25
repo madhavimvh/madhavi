@@ -406,12 +406,12 @@ Your Output:
 23689
 ----------------------------------------
 
-########## Testcase 16: Failed ##########
+########## Testcase 16: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-duplicates are present
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -422,12 +422,12 @@ Your Output:
 
 ----------------------------------------
 
-########## Testcase 18: Failed ##########
+########## Testcase 18: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-duplicates are present
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########

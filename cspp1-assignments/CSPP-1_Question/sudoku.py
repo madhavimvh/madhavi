@@ -33,7 +33,7 @@ def checkduplicates(temp):
 			if no not in list2:
 				list2.append(no)
 			else:
-				raise Exception("duplicates are present")
+				raise Exception("Invalid Sudoku:Duplicate values")
 				return
 """
 This  method should retunn all the values present in the ith row
