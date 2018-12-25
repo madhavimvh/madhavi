@@ -23,12 +23,14 @@ def validateSudoku(sudoku):
 	else:
 		raise Exception("Invalid input")
 	# print(list1)
-	for letter in sudoku:
-		if letter != ".":
-			raise Exception("Given sudoku is solved")
+	if sudoku.find("."):
+		possibleValues(list1)
+	else:
+		raise Exception("Given sudoku is solved")
+
+
 	# print(getColumnValues(0, list1))
 	# print(getGridValues(0, 8, list1))
-	possibleValues(list1)
 
 							
 
