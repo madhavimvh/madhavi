@@ -67,6 +67,7 @@ sudoku.py:81:27: C0326: Exactly one space required after comma
 sudoku.py:82:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:83:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:84:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:85:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:86:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:87:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:87:6: C0326: Exactly one space required after assignment
@@ -122,5 +123,5 @@ sudoku.py:114:-1: W0105: String statement has no effect (pointless-string-statem
 sudoku.py:115:0: C0111: Missing function docstring (missing-docstring)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.97/10 (previous run: -4.12/10, +0.15)
+Your code has been rated at -3.91/10 (previous run: -3.97/10, +0.06)
 

@@ -82,7 +82,7 @@ def possibilities(i , j, list1):
 	possible = []
 	rowvals = getRowValues(i, list1)
 	inti1 = converttoint(getRowValues(i, list1))
-	# print(inti1)
+	print(inti1)
 	inti2 = converttoint(getColumnValues(j, list1))
 	str1 =""
 	for each in numbers:
