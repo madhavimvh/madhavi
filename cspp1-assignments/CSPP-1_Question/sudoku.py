@@ -131,9 +131,10 @@ def possibilities(i , j, list1):
 				# print(j)
 				if each not in inti3:
 					possible.append(each)
+	print(possible)
 	str1 = list(map(str, possible))
 	str1 = ''.join(str1)
-	print(str1)
+	# print(str1)
 	return str1
 
 def converttoint(listx):

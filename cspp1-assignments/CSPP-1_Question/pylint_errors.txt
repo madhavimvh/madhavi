@@ -116,22 +116,22 @@ sudoku.py:133:0: W0312: Found indentation with tabs instead of spaces (mixed-ind
 sudoku.py:134:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:135:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:136:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:137:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:140:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:138:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:141:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:141:28: C0326: Exactly one space required after comma
+sudoku.py:142:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:142:28: C0326: Exactly one space required after comma
 	strrow = strrow.replace(".","")
                             ^ (bad-whitespace)
-sudoku.py:142:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:143:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:143:20: C0326: Exactly one space required after comma
+sudoku.py:144:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:144:20: C0326: Exactly one space required after comma
 	inti = list(map(int,strrow))
                     ^ (bad-whitespace)
-sudoku.py:144:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:147:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:153:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:145:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:148:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:154:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:157:0: C0304: Final newline missing (missing-final-newline)
+sudoku.py:155:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:158:0: C0304: Final newline missing (missing-final-newline)
 sudoku.py:11:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:16:2: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
@@ -173,10 +173,10 @@ sudoku.py:110:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:111:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 sudoku.py:116:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:119:1: W0612: Unused variable 'rowvals' (unused-variable)
-sudoku.py:139:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:151:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:152:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:140:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:152:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:153:0: C0111: Missing function docstring (missing-docstring)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.38/10 (previous run: -4.42/10, +0.04)
+Your code has been rated at -4.38/10 (previous run: -4.38/10, +0.00)
 
