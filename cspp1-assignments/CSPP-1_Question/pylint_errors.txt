@@ -15,6 +15,7 @@ sudoku.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-inde
 sudoku.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:26:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
 sudoku.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:34:0: C0303: Trailing whitespace (trailing-whitespace)
@@ -181,5 +182,5 @@ sudoku.py:172:8: W0703: Catching too general exception Exception (broad-except)
 sudoku.py:172:1: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.11/10 (previous run: -4.20/10, +0.09)
+Your code has been rated at -4.20/10 (previous run: -4.11/10, -0.09)
 
