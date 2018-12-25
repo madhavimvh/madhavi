@@ -23,7 +23,7 @@ def validateSudoku(sudoku):
 	else:
 		raise Exception("Invalid input")
 	# print(list1)
-	if (sudoku.count('.') == -1):
+	if (sudoku.find('.') == -1):
 		raise Exception("Given sudoku is solved")
 
 
