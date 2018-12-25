@@ -12,7 +12,6 @@ sudoku.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-inde
 sudoku.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:27:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -177,5 +176,5 @@ sudoku.py:149:-1: W0105: String statement has no effect (pointless-string-statem
 sudoku.py:150:0: C0111: Missing function docstring (missing-docstring)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.42/10 (previous run: -4.42/10, +0.00)
+Your code has been rated at -4.47/10 (previous run: -4.42/10, -0.04)
 
