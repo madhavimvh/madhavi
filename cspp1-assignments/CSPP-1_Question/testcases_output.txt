@@ -6,7 +6,7 @@ Your Output:
 
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 7
 7
@@ -19,25 +19,18 @@ Expected Output:
 7
 
 Your Output: 
-[2, 6, 4, 9, 3, 8, 1, 5]
 7
-[3, 1, 5, 2, 8, 9, 4, 6]
 7
-[4, 8, 9, 6, 5, 1, 2, 3]
 7
-[8, 5, 2, 1, 4, 6, 9, 3]
 7
-[6, 3, 9, 8, 5, 1, 2, 4]
 7
-[9, 4, 1, 3, 6, 2, 5, 8]
 7
-[1, 9, 4, 8, 3, 6, 5, 2]
 7
-[5, 6, 2, 1, 4, 3, 8, 9]
+7
 7
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 1
 2
@@ -50,22 +43,15 @@ Expected Output:
 9
 
 Your Output: 
-[4, 3, 5, 2, 6, 9, 7, 8]
 1
-[6, 8, 5, 7, 1, 4, 9, 3]
 2
-[1, 9, 7, 8, 4, 5, 6, 2]
 3
-[8, 2, 6, 1, 9, 5, 3, 7]
 4
-[3, 7, 4, 6, 8, 2, 9, 1]
 5
-[9, 5, 1, 7, 4, 3, 2, 8]
 6
-[5, 1, 9, 3, 2, 6, 8, 4]
 7
-[2, 4, 9, 5, 7, 1, 3, 6]
 8
+9
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -76,28 +62,27 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 120, in <module>
+  File "sudoku.py", line 121, in <module>
     main()
-  File "sudoku.py", line 117, in main
+  File "sudoku.py", line 118, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
-  File "sudoku.py", line 34, in checkduplicates
+  File "sudoku.py", line 35, in checkduplicates
     raise Exception("duplicates are present")
 Exception: duplicates are present
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 4
 6
 9
 
 Your Output: 
-[5, 1, 9, 3, 2, 6, 8, 7]
 4
-[2, 4, 8, 9, 5, 7, 1, 3]
 6
+9
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -114,18 +99,18 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 120, in <module>
+  File "sudoku.py", line 121, in <module>
     main()
-  File "sudoku.py", line 117, in main
+  File "sudoku.py", line 118, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
-  File "sudoku.py", line 34, in checkduplicates
+  File "sudoku.py", line 35, in checkduplicates
     raise Exception("duplicates are present")
 Exception: duplicates are present
 ----------------------------------------
 
-########## Testcase 6: Failed ##########
+########## Testcase 6: Passed ##########
 Expected Output: 
 2
 1
@@ -138,22 +123,15 @@ Expected Output:
 3
 
 Your Output: 
-[7, 6, 4, 9, 3, 8, 1, 5]
 2
-[3, 5, 7, 2, 8, 9, 4, 6]
 1
-[4, 9, 6, 5, 1, 2, 3, 7]
 8
-[8, 2, 1, 4, 7, 6, 9, 3]
 5
-[6, 3, 9, 8, 5, 1, 2, 4]
 7
-[9, 1, 3, 6, 2, 7, 5, 8]
 4
-[1, 4, 8, 3, 6, 5, 7, 2]
 9
-[5, 7, 2, 1, 4, 3, 8, 9]
 6
+3
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -170,13 +148,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 120, in <module>
+  File "sudoku.py", line 121, in <module>
     main()
-  File "sudoku.py", line 117, in main
+  File "sudoku.py", line 118, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
-  File "sudoku.py", line 34, in checkduplicates
+  File "sudoku.py", line 35, in checkduplicates
     raise Exception("duplicates are present")
 Exception: duplicates are present
 ----------------------------------------
@@ -195,13 +173,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 120, in <module>
+  File "sudoku.py", line 121, in <module>
     main()
-  File "sudoku.py", line 117, in main
+  File "sudoku.py", line 118, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
-  File "sudoku.py", line 34, in checkduplicates
+  File "sudoku.py", line 35, in checkduplicates
     raise Exception("duplicates are present")
 Exception: duplicates are present
 ----------------------------------------
@@ -220,18 +198,18 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 120, in <module>
+  File "sudoku.py", line 121, in <module>
     main()
-  File "sudoku.py", line 117, in main
+  File "sudoku.py", line 118, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
-  File "sudoku.py", line 34, in checkduplicates
+  File "sudoku.py", line 35, in checkduplicates
     raise Exception("duplicates are present")
 Exception: duplicates are present
 ----------------------------------------
 
-########## Testcase 10: Failed ##########
+########## Testcase 10: Passed ##########
 Expected Output: 
 1
 7
@@ -244,25 +222,18 @@ Expected Output:
 8
 
 Your Output: 
-[5, 2, 4, 8, 9, 3, 7, 6]
 1
-[3, 9, 2, 5, 6, 8, 4, 1]
 7
-[6, 8, 3, 7, 1, 2, 9, 5]
 4
-[8, 7, 1, 2, 4, 6, 5, 9]
 3
-[9, 1, 7, 6, 3, 4, 2, 8]
 5
-[4, 6, 8, 9, 5, 7, 1, 3]
 2
-[1, 4, 6, 3, 7, 5, 8, 2]
 9
-[2, 5, 9, 4, 8, 1, 3, 7]
 6
+8
 ----------------------------------------
 
-########## Testcase 11: Failed ##########
+########## Testcase 11: Passed ##########
 Expected Output: 
 6
 1
@@ -275,22 +246,15 @@ Expected Output:
 4
 
 Your Output: 
-[1, 5, 2, 4, 8, 9, 3, 7]
 6
-[7, 3, 9, 2, 5, 6, 8, 4]
 1
-[4, 6, 8, 3, 7, 1, 2, 9]
 5
-[3, 8, 7, 1, 2, 4, 6, 5]
 9
-[5, 9, 1, 7, 6, 3, 4, 2]
 8
-[2, 4, 6, 8, 9, 5, 7, 1]
 3
-[9, 1, 4, 6, 3, 7, 5, 8]
 2
-[6, 2, 5, 9, 4, 8, 1, 3]
 7
+4
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -307,13 +271,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 120, in <module>
+  File "sudoku.py", line 121, in <module>
     main()
-  File "sudoku.py", line 117, in main
+  File "sudoku.py", line 118, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
-  File "sudoku.py", line 34, in checkduplicates
+  File "sudoku.py", line 35, in checkduplicates
     raise Exception("duplicates are present")
 Exception: duplicates are present
 ----------------------------------------
@@ -332,13 +296,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 120, in <module>
+  File "sudoku.py", line 121, in <module>
     main()
-  File "sudoku.py", line 117, in main
+  File "sudoku.py", line 118, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
-  File "sudoku.py", line 34, in checkduplicates
+  File "sudoku.py", line 35, in checkduplicates
     raise Exception("duplicates are present")
 Exception: duplicates are present
 ----------------------------------------
@@ -366,13 +330,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 120, in <module>
+  File "sudoku.py", line 121, in <module>
     main()
-  File "sudoku.py", line 117, in main
+  File "sudoku.py", line 118, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
-  File "sudoku.py", line 34, in checkduplicates
+  File "sudoku.py", line 35, in checkduplicates
     raise Exception("duplicates are present")
 Exception: duplicates are present
 ----------------------------------------
@@ -414,13 +378,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 120, in <module>
+  File "sudoku.py", line 121, in <module>
     main()
-  File "sudoku.py", line 117, in main
+  File "sudoku.py", line 118, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
-  File "sudoku.py", line 34, in checkduplicates
+  File "sudoku.py", line 35, in checkduplicates
     raise Exception("duplicates are present")
 Exception: duplicates are present
 ----------------------------------------
@@ -431,13 +395,13 @@ Invalid Sudoku:Duplicate values
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 120, in <module>
+  File "sudoku.py", line 121, in <module>
     main()
-  File "sudoku.py", line 117, in main
+  File "sudoku.py", line 118, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
-  File "sudoku.py", line 34, in checkduplicates
+  File "sudoku.py", line 35, in checkduplicates
     raise Exception("duplicates are present")
 Exception: duplicates are present
 ----------------------------------------
@@ -456,13 +420,13 @@ Invalid Sudoku:Duplicate values
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 120, in <module>
+  File "sudoku.py", line 121, in <module>
     main()
-  File "sudoku.py", line 117, in main
+  File "sudoku.py", line 118, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
-  File "sudoku.py", line 34, in checkduplicates
+  File "sudoku.py", line 35, in checkduplicates
     raise Exception("duplicates are present")
 Exception: duplicates are present
 ----------------------------------------
@@ -536,13 +500,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 120, in <module>
+  File "sudoku.py", line 121, in <module>
     main()
-  File "sudoku.py", line 117, in main
+  File "sudoku.py", line 118, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
-  File "sudoku.py", line 34, in checkduplicates
+  File "sudoku.py", line 35, in checkduplicates
     raise Exception("duplicates are present")
 Exception: duplicates are present
 ----------------------------------------
@@ -611,13 +575,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 120, in <module>
+  File "sudoku.py", line 121, in <module>
     main()
-  File "sudoku.py", line 117, in main
+  File "sudoku.py", line 118, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
-  File "sudoku.py", line 34, in checkduplicates
+  File "sudoku.py", line 35, in checkduplicates
     raise Exception("duplicates are present")
 Exception: duplicates are present
 ----------------------------------------
@@ -685,13 +649,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 120, in <module>
+  File "sudoku.py", line 121, in <module>
     main()
-  File "sudoku.py", line 117, in main
+  File "sudoku.py", line 118, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
-  File "sudoku.py", line 34, in checkduplicates
+  File "sudoku.py", line 35, in checkduplicates
     raise Exception("duplicates are present")
 Exception: duplicates are present
 ----------------------------------------
@@ -725,13 +689,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 120, in <module>
+  File "sudoku.py", line 121, in <module>
     main()
-  File "sudoku.py", line 117, in main
+  File "sudoku.py", line 118, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
-  File "sudoku.py", line 34, in checkduplicates
+  File "sudoku.py", line 35, in checkduplicates
     raise Exception("duplicates are present")
 Exception: duplicates are present
 ----------------------------------------
@@ -778,13 +742,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 120, in <module>
+  File "sudoku.py", line 121, in <module>
     main()
-  File "sudoku.py", line 117, in main
+  File "sudoku.py", line 118, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
-  File "sudoku.py", line 34, in checkduplicates
+  File "sudoku.py", line 35, in checkduplicates
     raise Exception("duplicates are present")
 Exception: duplicates are present
 ----------------------------------------

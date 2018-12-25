@@ -19,6 +19,7 @@ def validateSudoku(sudoku):
 				temp = []
 			temp.append(sudoku[i])
 			checkduplicates(temp)
+	list1.append(temp)
 	# print(list1)
 	# print(getColumnValues(0, list1))
 	# print(getGridValues(0, 8, list1))
@@ -82,7 +83,7 @@ def possibilities(i , j, list1):
 	possible = []
 	rowvals = getRowValues(i, list1)
 	inti1 = converttoint(getRowValues(i, list1))
-	print(inti1)
+	# print(inti1)
 	inti2 = converttoint(getColumnValues(j, list1))
 	str1 =""
 	for each in numbers:
