@@ -116,12 +116,11 @@ sudoku.py:74:0: C0103: Function name "possibleValues" doesn't conform to snake_c
 sudoku.py:74:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:75:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 sudoku.py:80:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:97:5: C0103: Variable name "no" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:83:1: W0612: Unused variable 'rowvals' (unused-variable)
 sudoku.py:102:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:114:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku.py:115:0: C0111: Missing function docstring (missing-docstring)
 
--------------------------------------------------------------------
-Your code has been rated at -4.12/10 (previous run: 4.60/10, -8.72)
+--------------------------------------------------------------------
+Your code has been rated at -3.97/10 (previous run: -4.12/10, +0.15)
 

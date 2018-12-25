@@ -94,8 +94,8 @@ def possibilities(i , j, list1):
 				# print(j)
 				# if each not in getGridValues(i, j, list1):
 					possible.append(each)
-	for no in possible:
-		str1 += str(no) + "\n"
+	str1 = list(map(str, possible))
+	str1 = ''.join(str1)
 	print(str1)
 	return str1
 
