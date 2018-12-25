@@ -30,11 +30,12 @@ def validateSudoku(sudoku):
 def checkduplicates(temp):
 	list2 = []
 	for no in temp:
-		if no not in list2:
-			list2.append(no)
-		else:
-			raise Exception("duplicates are present")
-			return
+		if no != ".":
+			if no not in list2:
+				list2.append(no)
+			else:
+				raise Exception("duplicates are present")
+				return
 """
 This  method should retunn all the values present in the ith row
 """
