@@ -1,97 +1,120 @@
+"""
+In this method :
+ * Check there are only 81 values
+ * iterate through each row in the sudoku and if you find any duplicate values
+ 	raise an exception
+ * iterate through each column in the sudoku and if you find any duplicate values
+	raise an exception
+ * iterate through each subgrid(3x3) in the sudoku and if you find any duplicate values
+	raise an exception
+"""
+def validateSudoku(sudoku):
+	list1 = []
+	temp = []
+	count = 0
+	if len(sudoku) == 81:
+		for i in range(len(sudoku)):
+			if i % 9 == 0 and i!=0:
+				list1.append(temp)
+				temp = []
+			temp.append(sudoku[i])
+			checkduplicates(temp)
+	# print(list1)
+	# print(getColumnValues(0, list1))
+	# print(getGridValues(0, 8, list1))
+	possibleValues(list1)
+							
+
+def checkduplicates(temp):
+	list2 = []
+	for no in temp:
+		if no not in list2:
+			list2.append(no)
+		else:
+			raise Exception("duplicates are present")
+			return
+"""
+This  method should retunn all the values present in the ith row
+"""
+def getRowValues(i, list1):
+	return list1[i]
+
+
+"""
+This  method should retunn all the values present in the ith column
+"""
+def getColumnValues(i, list1):
+	column = []
+	for row in list1:
+		column.append(row[i])
+	# print(column)
+	return column
+
+
+"""
+This  method should retunn all the values present in the i,j th subgrid
+"""
+def getGridValues(i, j, list1):
+	gridvals = []
+	for row in range(i, i + 3):
+		# print(row)
+		# print("ij")
+		for col in range(j - 2, j + 1):
+			# print(colss)
+			gridvals.append(list1[row][col])
+	return gridvals
+
+
+	
+"""
+This method should collect all the available values present for a "."
+You should get the values present in row,column,grid.
+Then you should return the values that doesnot exist in the previous values.
+"""
+def possibleValues(list1):
+	for i in range(len(list1)):
+		for j in range(len(list1[0])):
+			if list1[i][j] == ".":
+				possibilities(i, j, list1)
+
+def possibilities(i , j, list1):
+	numbers = [1,2,3,4,5,6,7,8,9]
+	possible = []
+	rowvals = getRowValues(i, list1)
+	inti1 = converttoint(getRowValues(i, list1))
+	# print(inti1)
+	inti2 = converttoint(getColumnValues(j, list1))
+	str1 =""
+	for each in numbers:
+		if each not in inti1:
+			# print(each)
+			if each not in inti2:
+				# print(i)
+				# print("dls")
+				# print(j)
+				# if each not in getGridValues(i, j, list1):
+					possible.append(each)
+	for no in possible:
+		str1 += str(no) + "\n"
+	print(str1)
+	return str1
+
+def converttoint(listx):
+	strrow = ''.join(listx)
+	strrow = strrow.replace(".","")
+	strrow = list(strrow)
+	inti = list(map(int,strrow))
+	return inti
+
+
+	
+"""
+Read the input and store the values in an appropriate data sturcture.
+Then travese through each value, if you get a "." then collect the possible values
+"""
 def main():
-    string = input()
-    string = list(string)
-    if len(string)>81 or len(string)<81:
-        print("Invalid input")
-    else:
-        grid = []
-        grid1 = []
-        for i in range(81):
-            if i%9 == 0 and i != 0:
-                grid.append(grid1)
-                grid1 = []
-            grid1.append(string[i])
-        grid.append(grid1)
-        # print(grid)
-        ch = '.'
-        count = 0
-        for i in range(len(grid)):
-            if ch not in grid[i]:
-                count += 1
-        if count ==9:
-            print("Given sudoku is solved")
-        else:
-            for i in range(len(grid)):
-                for j in range(len(grid[0])):
-                    if grid[i][j] == '.':
-                        res = sudoku(grid,i,j)
-                        print(res)
-def sudoku(grid, i, j):
-    grid2 = []
-    for row in range(9):
-        grid2.append(grid[row][j])
-    for col in range(9):
-        grid2.append(grid[i][col])
-    # print(grid2)
-    if (i >= 0 and i <= 2) and (j >= 0 and j < 3):
-        for subrow in range(0, 3):
-            for subcol in range(0, 3):
-                grid2.append(grid[subrow][subcol])
-    if (i >= 0 and i < 3) and (j >= 3 and j < 6):
-        for subrow in range(0, 3):
-            for subcol in range(3, 6):
-                grid2.append(grid[subrow][subcol])
-    if (i >= 0 and i < 3) and (j >= 6 and j < 9):
-        for subrow in range(0, 3):
-            for subcol in range(6, 9):
-                grid2.append(grid[subrow][subcol])
-    if (i >= 3 and i < 6) and (j >= 0 and j < 3):
-        for subrow in range(3, 6):
-            for subcol in range(0, 3):
-                grid2.append(grid[subrow][subcol])
-    if (i >= 3 and i < 6) and (j >= 3 and j < 6):
-        for subrow in range(3, 6):
-            for subcol in range(3, 6):
-                grid2.append(grid[subrow][subcol])
-    if (i >= 3 and i < 6) and (j >= 6 and j < 9):
-        for subrow in range(3, 6):
-            for subcol in range(6, 9):
-                grid2.append(grid[subrow][subcol])
-    if (i >= 6 and i < 9) and (j >= 0 and j < 3):
-        for subrow in range(6, 9):
-            for subcol in range(0, 3):
-                grid2.append(grid[subrow][subcol])
-    if (i >= 6 and i < 9) and (j >= 3 and j < 6):
-        for subrow in range(6, 9):
-            for subcol in range(3, 6):
-                grid2.append(grid[subrow][subcol])
-    if (i >= 6 and i < 9) and (j >= 6 and j < 9):
-        for subrow in range(6, 9):
-            for subcol in range(6, 9):
-                grid2.append(grid[subrow][subcol])
-    # print(grid2)
-    string = ''.join(grid2)
-    string = string.replace(".", "")
-    string = list(string)
-    inti = list(map(int,string))
-    whole = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    numbers = []
-    for h in range(len(whole)):
-        if whole[h] not in inti:
-            numbers.append(whole[h])
-    string1 = list(map(str,numbers))
-    string1 = ''.join(string1)
-    return string1
+	string = input()
+	validateSudoku(string)
 
-    # print(gridlist)
-def checksudoku(gridx):
-    # return num
-    nos = ['1','2','3','4','5','6','7','8','9']
-    numbers = []
-    for h in range(len(nos)):
-        if nos[h] not in gridx:
-            numbers.append(nos[h])
-    return numbers
-
-    
-main()
+if __name__ == "__main__":
+    main()
