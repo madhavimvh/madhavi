@@ -62,9 +62,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 121, in <module>
+  File "sudoku.py", line 155, in <module>
     main()
-  File "sudoku.py", line 118, in main
+  File "sudoku.py", line 152, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
@@ -99,9 +99,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 121, in <module>
+  File "sudoku.py", line 155, in <module>
     main()
-  File "sudoku.py", line 118, in main
+  File "sudoku.py", line 152, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
@@ -148,9 +148,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 121, in <module>
+  File "sudoku.py", line 155, in <module>
     main()
-  File "sudoku.py", line 118, in main
+  File "sudoku.py", line 152, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
@@ -173,9 +173,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 121, in <module>
+  File "sudoku.py", line 155, in <module>
     main()
-  File "sudoku.py", line 118, in main
+  File "sudoku.py", line 152, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
@@ -198,9 +198,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 121, in <module>
+  File "sudoku.py", line 155, in <module>
     main()
-  File "sudoku.py", line 118, in main
+  File "sudoku.py", line 152, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
@@ -271,9 +271,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 121, in <module>
+  File "sudoku.py", line 155, in <module>
     main()
-  File "sudoku.py", line 118, in main
+  File "sudoku.py", line 152, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
@@ -296,9 +296,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 121, in <module>
+  File "sudoku.py", line 155, in <module>
     main()
-  File "sudoku.py", line 118, in main
+  File "sudoku.py", line 152, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
@@ -330,9 +330,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 121, in <module>
+  File "sudoku.py", line 155, in <module>
     main()
-  File "sudoku.py", line 118, in main
+  File "sudoku.py", line 152, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
@@ -378,9 +378,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 121, in <module>
+  File "sudoku.py", line 155, in <module>
     main()
-  File "sudoku.py", line 118, in main
+  File "sudoku.py", line 152, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
@@ -395,9 +395,9 @@ Invalid Sudoku:Duplicate values
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 121, in <module>
+  File "sudoku.py", line 155, in <module>
     main()
-  File "sudoku.py", line 118, in main
+  File "sudoku.py", line 152, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
@@ -420,9 +420,9 @@ Invalid Sudoku:Duplicate values
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 121, in <module>
+  File "sudoku.py", line 155, in <module>
     main()
-  File "sudoku.py", line 118, in main
+  File "sudoku.py", line 152, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
@@ -500,9 +500,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 121, in <module>
+  File "sudoku.py", line 155, in <module>
     main()
-  File "sudoku.py", line 118, in main
+  File "sudoku.py", line 152, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
@@ -575,9 +575,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 121, in <module>
+  File "sudoku.py", line 155, in <module>
     main()
-  File "sudoku.py", line 118, in main
+  File "sudoku.py", line 152, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
@@ -649,9 +649,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 121, in <module>
+  File "sudoku.py", line 155, in <module>
     main()
-  File "sudoku.py", line 118, in main
+  File "sudoku.py", line 152, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
@@ -689,9 +689,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 121, in <module>
+  File "sudoku.py", line 155, in <module>
     main()
-  File "sudoku.py", line 118, in main
+  File "sudoku.py", line 152, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)
@@ -742,9 +742,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudoku.py", line 121, in <module>
+  File "sudoku.py", line 155, in <module>
     main()
-  File "sudoku.py", line 118, in main
+  File "sudoku.py", line 152, in main
     validateSudoku(string)
   File "sudoku.py", line 21, in validateSudoku
     checkduplicates(temp)

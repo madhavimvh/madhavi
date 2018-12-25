@@ -57,12 +57,45 @@ This  method should retunn all the values present in the i,j th subgrid
 """
 def getGridValues(i, j, list1):
 	gridvals = []
-	for row in range(i, i + 3):
-		# print(row)
-		# print("ij")
-		for col in range(j - 2, j + 1):
-			# print(colss)
-			gridvals.append(list1[row][col])
+	if (i >= 0 and i < 3) and (j >= 0 and j < 3):
+		for subrow in range(0, 3):
+			for subcol in range(0, 3):
+				gridvals.append(list1[subrow][subcol])
+	if (i >= 0 and i < 3) and (j >= 3 and j < 6):
+		for subrow in range(0, 3):
+			for subcol in range(3, 6):
+				gridvals.append(list1[subrow][subcol])
+	if (i >= 0 and i < 3) and (j >= 6 and j < 9):
+		for subrow in range(0, 3):
+			for subcol in range(6, 9):
+				gridvals.append(list1[subrow][subcol])
+	if (i >= 3 and i < 6) and (j >= 0 and j < 3):
+		for subrow in range(3, 6):
+			for subcol in range(0, 3):
+				gridvals.append(list1[subrow][subcol])
+	if (i >= 3 and i < 6) and (j >= 3 and j < 6):
+		for subrow in range(3, 6):
+			for subcol in range(3, 6):
+				gridvals.append(list1[subrow][subcol])
+	if (i >= 3 and i < 6) and (j >= 6 and j < 9):
+		for subrow in range(3, 6):
+			for subcol in range(6, 9):
+				gridvals.append(list1[subrow][subcol])
+	if (i >= 6 and i < 9) and (j >= 0 and j < 3):
+		for subrow in range(6, 9):
+			for subcol in range(0, 3):
+				gridvals.append(list1[subrow][subcol])
+	if (i >= 6 and i < 9) and (j >= 3 and j < 6):
+		for subrow in range(6, 9):
+			for subcol in range(3, 6):
+				gridvals.append(list1[subrow][subcol])
+	if (i >= 6 and i < 9) and (j >= 6 and j < 9):
+		for subrow in range(6, 9):
+			for subcol in range(6, 9):
+				gridvals.append(list1[subrow][subcol])
+
+
+	# print(gridvals)
 	return gridvals
 
 
@@ -85,6 +118,7 @@ def possibilities(i , j, list1):
 	inti1 = converttoint(getRowValues(i, list1))
 	# print(inti1)
 	inti2 = converttoint(getColumnValues(j, list1))
+	inti3 = converttoint(getGridValues(i, j, list1))
 	str1 =""
 	for each in numbers:
 		if each not in inti1:
@@ -93,7 +127,7 @@ def possibilities(i , j, list1):
 				# print(i)
 				# print("dls")
 				# print(j)
-				# if each not in getGridValues(i, j, list1):
+				if each not in inti3:
 					possible.append(each)
 	str1 = list(map(str, possible))
 	str1 = ''.join(str1)
