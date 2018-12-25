@@ -23,6 +23,9 @@ def validateSudoku(sudoku):
 	else:
 		raise Exception("Invalid input")
 	# print(list1)
+	for letter in sudoku:
+		if letter != ".":
+			raise Exception("Given sudoku is solved")
 	# print(getColumnValues(0, list1))
 	# print(getGridValues(0, 8, list1))
 	possibleValues(list1)
@@ -150,9 +153,9 @@ def possibilities(i , j, list1):
 
 def converttoint(listx):
 	strrow = ''.join(listx)
-	strrow = strrow.replace(".","")
+	strrow = strrow.replace(".", "")
 	strrow = list(strrow)
-	inti = list(map(int,strrow))
+	inti = list(map(int, strrow))
 	return inti
 
 
