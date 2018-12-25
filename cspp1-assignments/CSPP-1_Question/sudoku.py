@@ -114,13 +114,19 @@ def possibleValues(list1):
 				possibilities(i, j, list1)
 
 def possibilities(i , j, list1):
+	# for x in list1:
+	# 	print(x)
 	numbers = [1,2,3,4,5,6,7,8,9]
 	possible = []
-	rowvals = getRowValues(i, list1)
+	# print(getRowValues(i, list1))
 	inti1 = converttoint(getRowValues(i, list1))
-	# print(inti1)
 	inti2 = converttoint(getColumnValues(j, list1))
+	# print(inti1)
+	# print("col")
+	# print(inti2)
+	# print("sub")
 	inti3 = converttoint(getGridValues(i, j, list1))
+	# print(inti3)
 	str1 =""
 	for each in numbers:
 		if each not in inti1:
@@ -131,10 +137,10 @@ def possibilities(i , j, list1):
 				# print(j)
 				if each not in inti3:
 					possible.append(each)
-	print(possible)
+	# print(possible)
 	str1 = list(map(str, possible))
 	str1 = ''.join(str1)
-	# print(str1)
+	print(str1)
 	return str1
 
 def converttoint(listx):
@@ -152,7 +158,10 @@ Then travese through each value, if you get a "." then collect the possible valu
 """
 def main():
 	string = input()
-	validateSudoku(string)
+	try:
+		validateSudoku(string)
+	except Exception as e:
+				print(e)
 
 if __name__ == "__main__":
     main()
