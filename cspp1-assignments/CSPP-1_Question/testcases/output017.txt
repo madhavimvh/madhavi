@@ -1,1 +1,1 @@
-Invalid input
+Invalid Sudoku:Duplicate values
