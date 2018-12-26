@@ -1,13 +1,12 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Given sudoku is solved
 
 Your Output: 
-81
 Given sudoku is solved
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 7
 7
@@ -20,7 +19,6 @@ Expected Output:
 7
 
 Your Output: 
-81
 7
 7
 7
@@ -32,7 +30,7 @@ Your Output:
 7
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 1
 2
@@ -45,7 +43,6 @@ Expected Output:
 9
 
 Your Output: 
-81
 1
 2
 3
@@ -57,33 +54,31 @@ Your Output:
 9
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 5
 6
 2
 
 Your Output: 
-81
 5
 6
 2
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 4
 6
 9
 
 Your Output: 
-81
 4
 6
 9
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 3
 7
@@ -96,7 +91,6 @@ Expected Output:
 5
 
 Your Output: 
-81
 3
 7
 4
@@ -108,7 +102,7 @@ Your Output:
 5
 ----------------------------------------
 
-########## Testcase 6: Failed ##########
+########## Testcase 6: Passed ##########
 Expected Output: 
 2
 1
@@ -121,7 +115,6 @@ Expected Output:
 3
 
 Your Output: 
-81
 2
 1
 8
@@ -133,7 +126,7 @@ Your Output:
 3
 ----------------------------------------
 
-########## Testcase 7: Failed ##########
+########## Testcase 7: Passed ##########
 Expected Output: 
 7
 2
@@ -146,7 +139,6 @@ Expected Output:
 9
 
 Your Output: 
-81
 7
 2
 6
@@ -158,7 +150,7 @@ Your Output:
 9
 ----------------------------------------
 
-########## Testcase 8: Failed ##########
+########## Testcase 8: Passed ##########
 Expected Output: 
 1
 5
@@ -171,7 +163,6 @@ Expected Output:
 6
 
 Your Output: 
-81
 1
 5
 2
@@ -183,7 +174,7 @@ Your Output:
 6
 ----------------------------------------
 
-########## Testcase 9: Failed ##########
+########## Testcase 9: Passed ##########
 Expected Output: 
 8
 7
@@ -196,7 +187,6 @@ Expected Output:
 4
 
 Your Output: 
-81
 8
 7
 3
@@ -208,7 +198,7 @@ Your Output:
 4
 ----------------------------------------
 
-########## Testcase 10: Failed ##########
+########## Testcase 10: Passed ##########
 Expected Output: 
 1
 7
@@ -221,7 +211,6 @@ Expected Output:
 8
 
 Your Output: 
-81
 1
 7
 4
@@ -233,7 +222,7 @@ Your Output:
 8
 ----------------------------------------
 
-########## Testcase 11: Failed ##########
+########## Testcase 11: Passed ##########
 Expected Output: 
 6
 1
@@ -246,7 +235,6 @@ Expected Output:
 4
 
 Your Output: 
-81
 6
 1
 5
@@ -258,7 +246,7 @@ Your Output:
 4
 ----------------------------------------
 
-########## Testcase 12: Failed ##########
+########## Testcase 12: Passed ##########
 Expected Output: 
 1
 5
@@ -271,7 +259,6 @@ Expected Output:
 8
 
 Your Output: 
-81
 1
 5
 2
@@ -283,7 +270,7 @@ Your Output:
 8
 ----------------------------------------
 
-########## Testcase 13: Failed ##########
+########## Testcase 13: Passed ##########
 Expected Output: 
 5
 8
@@ -296,7 +283,6 @@ Expected Output:
 4
 
 Your Output: 
-81
 5
 8
 2
@@ -308,7 +294,7 @@ Your Output:
 4
 ----------------------------------------
 
-########## Testcase 14: Failed ##########
+########## Testcase 14: Passed ##########
 Expected Output: 
 1
 5
@@ -330,7 +316,6 @@ Expected Output:
 4
 
 Your Output: 
-81
 1
 5
 2
@@ -351,7 +336,7 @@ Your Output:
 4
 ----------------------------------------
 
-########## Testcase 15: Failed ##########
+########## Testcase 15: Passed ##########
 Expected Output: 
 12357
 13
@@ -387,7 +372,6 @@ Expected Output:
 23689
 
 Your Output: 
-81
 12357
 13
 57
@@ -422,34 +406,31 @@ Your Output:
 23689
 ----------------------------------------
 
-########## Testcase 16: Failed ##########
+########## Testcase 16: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-81
 Invalid Sudoku:Duplicate values
 ----------------------------------------
 
-########## Testcase 17: Failed ##########
+########## Testcase 17: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-73
 Invalid input
 ----------------------------------------
 
-########## Testcase 18: Failed ##########
+########## Testcase 18: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-81
 Invalid Sudoku:Duplicate values
 ----------------------------------------
 
-########## Testcase 19: Failed ##########
+########## Testcase 19: Passed ##########
 Expected Output: 
 1679
 12679
@@ -517,7 +498,6 @@ Expected Output:
 23689
 
 Your Output: 
-81
 1679
 12679
 139
@@ -584,16 +564,15 @@ Your Output:
 23689
 ----------------------------------------
 
-########## Testcase 20: Failed ##########
+########## Testcase 20: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-71
 Invalid input
 ----------------------------------------
 
-########## Testcase 21: Failed ##########
+########## Testcase 21: Passed ##########
 Expected Output: 
 124
 26
@@ -648,7 +627,6 @@ Expected Output:
 1346
 
 Your Output: 
-81
 124
 26
 2468
@@ -702,7 +680,7 @@ Your Output:
 1346
 ----------------------------------------
 
-########## Testcase 22: Failed ##########
+########## Testcase 22: Passed ##########
 Expected Output: 
 2369
 2467
@@ -764,7 +742,6 @@ Expected Output:
 4567
 
 Your Output: 
-81
 2369
 2467
 24679
@@ -825,7 +802,7 @@ Your Output:
 4567
 ----------------------------------------
 
-########## Testcase 23: Failed ##########
+########## Testcase 23: Passed ##########
 Expected Output: 
 2
 1
@@ -853,7 +830,6 @@ Expected Output:
 6
 
 Your Output: 
-81
 2
 1
 5
@@ -880,7 +856,7 @@ Your Output:
 6
 ----------------------------------------
 
-########## Testcase 24: Failed ##########
+########## Testcase 24: Passed ##########
 Expected Output: 
 2
 6
@@ -921,7 +897,6 @@ Expected Output:
 19
 
 Your Output: 
-81
 2
 6
 346

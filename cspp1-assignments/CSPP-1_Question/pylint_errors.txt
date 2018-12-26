@@ -1,5 +1,4 @@
 ************* Module sudoku
-sudoku.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -183,5 +182,5 @@ sudoku.py:175:8: W0703: Catching too general exception Exception (broad-except)
 sudoku.py:175:1: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.16/10 (previous run: -4.09/10, -0.07)
+Your code has been rated at -4.20/10 (previous run: -4.16/10, -0.04)
 

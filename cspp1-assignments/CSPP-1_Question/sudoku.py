@@ -9,7 +9,7 @@ In this method :
 	raise an exception
 """
 def validateSudoku(sudoku):
-	print(len(sudoku))
+	# print(len(sudoku))
 	list1 = []
 	temp = []
 	count = 0
