@@ -14,13 +14,16 @@ def validateSudoku(sudoku):
 	temp = []
 	count = 0
 	if len(sudoku) == 81:
-		for i in range(len(sudoku)):
-			if i % 9 == 0 and i!=0:
-				list1.append(temp)
-				temp = []
-			temp.append(sudoku[i])
-			# print(temp)
-		list1.append(temp)
+		for i in range(0, 81, 9):
+			list1.append(list(sudoku[i:i+10]))
+		print(list1)
+		# for i in range(len(sudoku)):
+		# 	if i % 9 == 0 and i!=0:
+		# 		list1.append(temp)
+		# 		temp = []
+		# 	temp.append(sudoku[i])
+		# 	# print(temp)
+		# list1.append(temp)
 	else:
 		raise Exception("Invalid input")
 	# print(list1)
