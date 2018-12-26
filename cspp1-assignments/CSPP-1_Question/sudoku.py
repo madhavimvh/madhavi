@@ -65,8 +65,8 @@ def getColumnValues(i, list1):
 This  method should retunn all the values present in the i,j th subgrid
 """
 def getGridValues(i, j, list1):
-	for each in list1:
-		print(each)
+	# for each in list1:
+		# print(each)
 	gridvals = []
 	if (i >= 0 and i < 3) and (j >= 0 and j < 3):
 		for subrow in range(0, 3):
