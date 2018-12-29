@@ -141,11 +141,11 @@ def checkfortag(posttag):
 def main():
 	html = open("webpage5.html", errors='ignore').read()
 	# print(html)
-	string = input()
-	if string == "image":
-		image(html)
-	elif string == "background":
-		background(html)
-	elif string == "list":
-		listtext(html)
+	# string = input()
+	# if string == "image":
+	# 	image(html)
+	# elif string == "background":
+	# 	background(html)
+	# elif string == "list":
+	listtext(html)
 main()
