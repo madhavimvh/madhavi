@@ -92,16 +92,60 @@ def checkbackground(each):
 
 
 def listtext(html):
-	pass
-	
+	data = html.split("</li>")
+	count = 0
+	tag = "<li "
+	tag1 = "<li>"
+	midtag = ">"
+	endtag = "<"
+	for each in data:
+		if tag in each:
+			ind = each.index(tag)
+			posttag = each[ind + len(tag):]
+			count += checkfortag(posttag)
+		elif tag1 in each:
+			ind = each.index(tag1)
+			posttag = each[ind + len(tag1):]
+			count += checkfortag(posttag)
+	print(count)
+def checkfortag(posttag):
+	count1 = 0
+	# print(posttag)
+	posttag1 = list(posttag)
+	str3 = ""
+	for i in range(len(posttag1) - 2):
+		if posttag1[i] == ">" and posttag1[i + 1] != " " and posttag1[i+1] != "<" and posttag1[i + 2] != "<":
+			a = i + 1
+			while True:
+				if a == len(posttag1) - 1:
+					break
+				str3 += posttag1[a]
+				# print(posttag1)
+				# print(str3)
+				a = a + 1
+				if posttag1[a] == "<":
+					# str3 += "\n"
+					break
+	# print(str3)
+	str4 = []
+	str4 = str3.replace("\t","").split("\n")
+	# countlis
+	# print(str4)
+	# countlist.append(str4)
+	for each in str4:
+		if "{" not in each:
+			if len(each) != 0:
+				print(each)
+				count1 += 1
+	return count1
 def main():
 	html = open("webpage5.html", errors='ignore').read()
 	# print(html)
-	string = input()
-	if string == "image":
-		image(html)
-	elif string == "background":
-		background(html)
-	elif string == "list":
-		listtext(html)
+	# string = input()
+	# if string == "image":
+	# 	image(html)
+	# elif string == "background":
+	# 	background(html)
+	# elif string == "list":
+	listtext(html)
 main()
