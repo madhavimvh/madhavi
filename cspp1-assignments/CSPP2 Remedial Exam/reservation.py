@@ -42,7 +42,7 @@ def reserveN(name, roomno):
     dictx[name] = int(roomno)
     str1 += name + " " + str(roomno) + "\n"
     
-    print(name + " " + str(roomno))
+    # print(name + " " + str(roomno))
 def display():
     print(str1.strip())
     # listkeys = list(dictx.keys())
