@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 rehana 1
 karan 3
@@ -12,6 +12,8 @@ kalyani 4
 rajiv 5
 
 Your Output: 
+karan 3
+rajiv 5
 rehana 1
 karan 3
 murthy 2
@@ -24,7 +26,7 @@ kalyani 4
 rajiv 5
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -39,6 +41,8 @@ kalyani 4
 kumar 5
 
 Your Output: 
+kiran 2
+murthy 1
 kiran 2
 murthy 1
 rajiv 3
@@ -70,15 +74,17 @@ kumar 5
 Your Output: 
 kiran 2
 murthy 1
+kiran 2
+murthy 1
 rajiv 3
 kalyani 4
 kumar 5
+All Rooms are reserved
 All Rooms are reserved
 murthy 1
 kiran 2
 rajiv 3
 kalyani 4
-alekhya 5
 kumar 5
 ----------------------------------------
 
@@ -100,17 +106,17 @@ swathi 5
 Your Output: 
 kiran 2
 murthy 1
-rajiv 2
+kiran 2
+murthy 1
+All Rooms are reserved
 kalyani 3
 kumar 4
 swathi 5
-alekhya 5
+All Rooms are reserved
 murthy 1
 kiran 2
-rajiv 2
 kalyani 3
 kumar 4
-alekhya 5
 swathi 5
 ----------------------------------------
 
@@ -136,14 +142,16 @@ manasa 7
 Your Output: 
 kiran 2
 murthy 1
-rajiv 2
+kiran 2
+murthy 1
+All Rooms are reserved
 kalyani 3
 kumar 4
 swathi 5
 All Rooms are reserved
+All Rooms are reserved
 murthy 1
 kiran 2
-rajiv 2
 kalyani 3
 kumar 4
 swathi 5
@@ -188,13 +196,22 @@ reddy 10
 Your Output: 
 kiran 2
 murthy 1
+kiran 2
+murthy 1
 kumar 3
+All Rooms are reserved
 murthy 1
 kiran 2
 kumar 3
 kiran 2
 murthy 1
+kumar 3
+All Rooms are reserved
+All Rooms are reserved
+manasa 4
 kumar 5
+All Rooms are reserved
+All Rooms are reserved
 All Rooms are reserved
 murthy 1
 kiran 2
@@ -235,38 +252,39 @@ kumar 7
 Your Output: 
 kiran 2
 murthy 1
-rajiv 2
+kiran 2
+murthy 1
+All Rooms are reserved
 kalyani 3
 kumar 4
 swathi 5
 murthy 1
 kiran 2
-rajiv 2
 kalyani 3
 kumar 4
 swathi 5
 kiran 2
 murthy 1
-rajiv 2
+All Rooms are reserved
 kalyani 3
 kumar 4
 swathi 5
 murthy 1
 kiran 2
-rajiv 2
 kalyani 3
 kumar 4
 swathi 5
 kiran 2
 murthy 1
-rajiv 2
+All Rooms are reserved
 kalyani 3
 kumar 4
 swathi 5
 All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
 murthy 1
 kiran 2
-rajiv 2
 kalyani 3
 kumar 4
 swathi 5
@@ -311,33 +329,41 @@ reddy 10
 Your Output: 
 kiran 2
 murthy 1
-rajiv 2
+kiran 2
+murthy 1
+All Rooms are reserved
 kalyani 3
+kumar 4
 kumar 5
 murthy 1
 kiran 2
-rajiv 2
-kalyani 3
-kumar 5
-kiran 2
-murthy 1
-rajiv 2
-kalyani 3
-kumar 5
-murthy 1
-kiran 2
-rajiv 2
 kalyani 3
 kumar 5
 kiran 2
 murthy 1
-rajiv 2
+All Rooms are reserved
+kalyani 3
+kumar 4
+kumar 5
+murthy 1
+kiran 2
 kalyani 3
 kumar 5
+kiran 2
+murthy 1
+All Rooms are reserved
+kalyani 3
+kumar 4
+kumar 5
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
+All Rooms are reserved
 All Rooms are reserved
 murthy 1
 kiran 2
-rajiv 2
 kalyani 3
 kumar 5
 ----------------------------------------
