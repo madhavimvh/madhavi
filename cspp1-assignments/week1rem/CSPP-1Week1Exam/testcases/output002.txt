@@ -1,13 +1,39 @@
+Sections
+Home
+Politics
+Opinions
+Sports
+Local
+National
+World
+Business
+Tech
+Lifestyle
+Arts &amp; Entertainment
+Video
+Jobs
+Classifieds
+WP BrandStudio
+Gift Subscriptions
+Try 1 month for $1
+Username
+Sign In
+Account and Profile
 Newsletters &amp; Alerts
 Gift Subscriptions
 Contact Us
 Help Desk
+Subscribe
+Account and Profile
 Newsletters &amp; Alerts
 Gift Subscriptions
 Contact Us
 Help Desk
 Edition:
+U.S. &amp; World
+|
 Regional
+In the News
 Military pay
 Cyrus wedding
 Der Spiegel
@@ -21,9 +47,84 @@ TV blackouts
 FDR
 N.J. wrestler
 Redskins
+By Paul Sonneand Philip Rucker
+By Paul Sonne
+By Erica Werner, Paul Kaneand Felicia Sonmez
+By Wesley Lowery, Steven Rich and Salwan Georges | Photos by Salwan Georges
+By Ariana Eunjung Cha | Photos by Carolyn Van Houten
+By Catherine Rampell
+By Mark R. Warner
+By Robert S. Ford
+By Eugene Robinson
+By Josh Rogin
+Editorial Board
+By Maria Sacchetti
+By Jim Mustian and Michael R. Sisak | AP
+2 hours ago
+By Petula Dvorak
 More than 4 million children endured lockdowns last school year. Many were traumatized.
+By Hank Stuever
 The 10 best TV episodes of 2018, from ‘Atlanta’ to ‘This Is Us’
+By Ian Shapira
+By Matt Schudel
+1 A Russian bank gave Marine Le Pen’s party a loan. Then weird things began happening.
+2 Opinion Following backlash, NBC News revises story about Trump’s ‘Christmastime’ visit to Iraq
+3 Trump’s visit to Iraq prompts concerns about politicization of military
+4 Opinion Who’s afraid of the MAGA mob? Only Trump.
+5 Opinion The way out of the shutdown has been obvious for weeks
 Today's print stories
+View e-Replica edition
+Content from Kaiser PermanenteEmployee well-being boosts the health of small businesses
+Content from T. Rowe PriceReducing packaging waste in the age of e-commerce
+Content from Tiny Jewel BoxA guide to the best local holiday shopping
+Disinformation campaign targeting Roy Moore’s Senate bid may have violated law, Alabama attorney general says
+‘Green New Deal’ divides Democrats intent on addressing climate change
+AnalysisThe 11 most consequential political trends of 2018
+AnalysisLiberal Democrats seem to be looking for new national faces
+Saudi crown prince shores up support in government overhaul&nbsp;
+A Venezuelan doctor leaves his home to rebuild his life from the bottom up
+China holds a secret trial for a rights lawyer after 3 years in detention. It backfired.
+AnalysisThis man just crossed Antarctica alone — and in record time
+A millionaire paid Jews to move to a small town in Alabama. Now, a couple struggle with their choice.
+Before leaving office, Rep. Bob Goodlatte blocked a bill intended to help abused Native American women
+This choir features singers with dementia
+After 2nd child dies in U.S. custody, Nielsen expands medical screenings, will head to border
+PerspectiveTrump can launch nuclear weapons whenever he wants, with or without Mattis
+PerspectiveHow TV shows use serious archaeology to promote bogus history
+PerspectiveHow women used civil disobedience to change American politics
+PerspectiveMattis was a deeply flawed defense secretary
+A 400-year first: Filler-Corn breaks many barriers as new Democratic leader in Virginia’s House
+Anne Arundel’s new Democratic executive says deal with ICE is over
+D.C. firefighter charged with armed robbery during sneaker puchase
+Advocates rally after Maryland’s oldest fair housing group folds
+Oklahoma and its much-mocked defense prep for Alabama, toughened by the ridicule
+TV and radio listings: December 28
+PerspectiveNick Saban wants to limit the College Football Playoff to four teams because of course he does.
+Capitals defenseman Matt Niskanen exits game after scary crash into boards
+In just 30 minutes, you can turn flank steak into juicy gyros
+Champagne cocktails and other bubbly beverages for your New Year’s Eve celebrations
+Andrew Zimmern’s homage to chef Peter Chang is not winning over diners — or Chang’s business partner
+PerspectiveCarolyn Hax: It’s way past time to hang up on this abusive relationship
+PerspectiveThe Rockettes, still kicking after 85 years. Here’s why we love them.
+ReviewWhy is this genius artist only now getting a show worthy of her art?
+The King’s Singers bring their pitch-perfect a cappella songs to Washington National Cathedral
+Review‘Play That Goes Wrong’ breaks a leg (plus a few noses, noggins and funny bones)
+Fortnite was the biggest pop culture phenomenon of 2018
+NFL playoff games could go dark on Verizon and Spectrum thanks to disputes with big media companies
+PerspectiveTech predictions for 2019: It gets worse before it gets better
+‘Imaginative attacks’: Elon Musk says his insults aimed at Thai-cave rescue volunteer are protected by First Amendment
+U.S. markets close in positive territory after challenging day
+Decline in fixed mortgage rates continues unabated through the holidays
+AnalysisHere’s how much the federal minimum wage fell this year
+As partial government shutdown heads into Day 6, the ‘cold reality’ sinks in
+PerspectivePartial shutdown is a total failure, and it could last until the new year
+What happens when the government shuts down: Late paychecks, closed museums and more
+Everything you need to know about a government shutdown
+PerspectiveChristmas in China: Another holiday away in a long Foreign Service trek
+Jack O’Dwyer, newsletter publisher and ‘soul and conscience’ of PR industry, dies at 85
+Simcha Rotem, Jewish resistance fighter and Holocaust survivor, dies at 94
+Paddy Ashdown, leader of Britain’s Liberal Democrats, dies at 77
+Jim Rogers, Duke Energy executive who promoted clean energy, dies at 71
 Help and Contact Us
 Digital Products Terms of Sale
 Print Products Terms of Sale
@@ -61,4 +162,4 @@ Newspaper in Education
 Today's Paper
 WP BrandStudio
 Events
-63
+164

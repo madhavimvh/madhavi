@@ -134,5 +134,5 @@ week1rem.py:137:6: C1801: Do not use `len(SEQUENCE)` to determine if a sequence 
 week1rem.py:141:0: C0111: Missing function docstring (missing-docstring)
 
 --------------------------------------------------------------------
-Your code has been rated at -1.12/10 (previous run: -1.18/10, +0.06)
+Your code has been rated at -1.12/10 (previous run: -1.12/10, +0.00)
 
