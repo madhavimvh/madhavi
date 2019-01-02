@@ -15,7 +15,7 @@ def reserve(name):
     global dictx
     count += 1
     if count not in dictx.values():
-        print(dictx.values())
+        # print(dictx.values())
         dictx[name] = count
     else:
         reserve(name)
@@ -23,7 +23,7 @@ def reserve(name):
 
 def reserveN(name, roomno):
     dictx[name] = int(roomno)
-    print(dictx)
+    # print(dictx)
 def display():
     for each in dictx.keys():
         print(str(each) + " " + str(dictx[each]))
