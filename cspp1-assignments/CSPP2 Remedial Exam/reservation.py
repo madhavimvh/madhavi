@@ -14,6 +14,8 @@ def reserve(name):
     global count
     global dictx
     count += 1
+    if count > 6:
+        return
     if count not in dictx.values():
         # print(dictx.values())
         dictx[name] = count
@@ -26,6 +28,10 @@ def reserveN(name, roomno):
     # print(dictx)
 def display():
     for each in dictx.keys():
+        if dictx[each] >= 6:
+            dictx.pop(each, None)
+            print("All Rooms are reserved")
+            break
         print(str(each) + " " + str(dictx[each]))
     # for key, value in sorted(dictx.items(), key = lambda kv: (-kv,kv[0])):
     #     print("%s: %s" % (key, value))

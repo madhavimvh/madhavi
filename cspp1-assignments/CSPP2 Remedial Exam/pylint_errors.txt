@@ -1,11 +1,11 @@
 ************* Module reservation
-reservation.py:32:48: C0326: No space allowed around keyword argument assignment
+reservation.py:38:48: C0326: No space allowed around keyword argument assignment
     for key, value in sorted(dictx.items(), key = lambda kv:(kv[1], kv[0])):
                                                 ^ (bad-whitespace)
-reservation.py:32:59: C0326: Exactly one space required after :
+reservation.py:38:59: C0326: Exactly one space required after :
     for key, value in sorted(dictx.items(), key = lambda kv:(kv[1], kv[0])):
                                                            ^ (bad-whitespace)
-reservation.py:47:0: C0304: Final newline missing (missing-final-newline)
+reservation.py:53:0: C0304: Final newline missing (missing-final-newline)
 reservation.py:1:0: C0111: Missing module docstring (missing-docstring)
 reservation.py:1:0: C0103: Constant name "dictx" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:1:0: W0604: Using the global statement at the module level (global-at-module-level)
@@ -18,13 +18,13 @@ reservation.py:14:4: C0103: Constant name "count" doesn't conform to UPPER_CASE 
 reservation.py:14:4: W0603: Using the global statement (global-statement)
 reservation.py:15:4: C0103: Constant name "dictx" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:15:4: W0603: Using the global statement (global-statement)
-reservation.py:24:0: C0103: Function name "reserveN" doesn't conform to snake_case naming style (invalid-name)
-reservation.py:24:0: C0111: Missing function docstring (missing-docstring)
-reservation.py:27:0: C0111: Missing function docstring (missing-docstring)
-reservation.py:28:16: C0201: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
-reservation.py:34:0: C0111: Missing function docstring (missing-docstring)
-reservation.py:38:8: W0612: Unused variable 'i' (unused-variable)
+reservation.py:26:0: C0103: Function name "reserveN" doesn't conform to snake_case naming style (invalid-name)
+reservation.py:26:0: C0111: Missing function docstring (missing-docstring)
+reservation.py:29:0: C0111: Missing function docstring (missing-docstring)
+reservation.py:30:16: C0201: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+reservation.py:40:0: C0111: Missing function docstring (missing-docstring)
+reservation.py:44:8: W0612: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.00/10 (previous run: 3.44/10, -0.44)
+Your code has been rated at 4.17/10 (previous run: 3.00/10, +1.17)
 
