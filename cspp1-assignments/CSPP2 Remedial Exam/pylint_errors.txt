@@ -41,11 +41,13 @@ reservation.py:39:4: C0103: Constant name "variable" doesn't conform to UPPER_CA
 reservation.py:39:4: W0603: Using the global statement (global-statement)
 reservation.py:58:0: C0111: Missing function docstring (missing-docstring)
 reservation.py:70:0: C0111: Missing function docstring (missing-docstring)
+reservation.py:72:4: W0621: Redefining name 'str1' from outer scope (line 6) (redefined-outer-name)
 reservation.py:71:4: C0103: Constant name "variable" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:71:4: W0603: Using the global statement (global-statement)
+reservation.py:72:4: E0602: Undefined variable 'str1' (undefined-variable)
 reservation.py:74:0: C0111: Missing function docstring (missing-docstring)
 reservation.py:78:8: W0612: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.23/10 (previous run: 3.11/10, +0.11)
+Your code has been rated at 2.26/10 (previous run: 3.23/10, -0.97)
 

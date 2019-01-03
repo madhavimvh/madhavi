@@ -132,22 +132,14 @@ alekhya 6
 manasa 7
 
 Your Output: 
-Added 2 more rooms
-kiran 2
-murthy 1
-Room is already reserved
-kalyani 3
-kumar 4
-swathi 5
-alekhya 6
-manasa 7
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-swathi 5
-alekhya 6
-manasa 7
+Traceback (most recent call last):
+  File "reservation.py", line 90, in <module>
+    main()
+  File "reservation.py", line 88, in main
+    build(int(string1[1]))
+  File "reservation.py", line 72, in build
+    str1 += "Added 2 more rooms" + "\n"
+UnboundLocalError: local variable 'str1' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -194,24 +186,14 @@ All Rooms are reserved
 murthy 1
 kiran 2
 kumar 3
-Added 2 more rooms
-kiran 2
-murthy 1
-kumar 3
-All Rooms are reserved
-alekhya 6
-manasa 4
-kumar 5
-karthik 7
-manohar 8
-kumar 9
-murthy 1
-kiran 2
-manasa 4
-alekhya 6
-karthik 7
-manohar 8
-kumar 9
+Traceback (most recent call last):
+  File "reservation.py", line 90, in <module>
+    main()
+  File "reservation.py", line 88, in main
+    build(int(string1[1]))
+  File "reservation.py", line 72, in build
+    str1 += "Added 2 more rooms" + "\n"
+UnboundLocalError: local variable 'str1' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -267,23 +249,14 @@ kiran 2
 kalyani 3
 kumar 4
 swathi 5
-Added 2 more rooms
-kiran 2
-murthy 1
-Room is already reserved
-kalyani 3
-kumar 4
-swathi 5
-alekhya 6
-manasa 7
-All Rooms are reserved
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-swathi 5
-alekhya 6
-manasa 7
+Traceback (most recent call last):
+  File "reservation.py", line 90, in <module>
+    main()
+  File "reservation.py", line 88, in main
+    build(int(string1[1]))
+  File "reservation.py", line 72, in build
+    str1 += "Added 2 more rooms" + "\n"
+UnboundLocalError: local variable 'str1' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -343,27 +316,13 @@ murthy 1
 kiran 2
 kalyani 3
 kumar 5
-Added 2 more rooms
-kiran 2
-murthy 1
-Room is already reserved
-kalyani 3
-kumar 4
-kumar 5
-alekhya 6
-manasa 7
-kumar 8
-karthik 9
-manohar 10
-All Rooms are reserved
-All Rooms are reserved
-murthy 1
-kiran 2
-kalyani 3
-alekhya 6
-manasa 7
-kumar 8
-karthik 9
-manohar 10
+Traceback (most recent call last):
+  File "reservation.py", line 90, in <module>
+    main()
+  File "reservation.py", line 88, in main
+    build(int(string1[1]))
+  File "reservation.py", line 72, in build
+    str1 += "Added 2 more rooms" + "\n"
+UnboundLocalError: local variable 'str1' referenced before assignment
 ----------------------------------------
 
