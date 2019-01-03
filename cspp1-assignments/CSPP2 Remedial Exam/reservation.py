@@ -85,6 +85,7 @@ def build(number):
     variable += number
 
 def cancel(name):
+    global count
     listk = list(dictx.keys())
     # print(listres)
     for each in listk:
