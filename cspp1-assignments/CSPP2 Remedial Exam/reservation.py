@@ -4,6 +4,8 @@ global count
 count = 0
 global str1
 str1 = ""
+global listres
+listres = []
 # def getroomno(count):
 #   count += 1
 #   if count not in dictx.values():
@@ -23,6 +25,7 @@ def reserve(name):
     if count not in dictx.values():
         # print(dictx.values())
         dictx[name] = count
+        listres.append(count)
         str1 += name + " " + str(count) + "\n"
     else:
         reserve(name)
@@ -30,11 +33,15 @@ def reserve(name):
 
 def reserveN(name, roomno):
     global str1
-    for each in dictx.values():
+    for each in listres:
         if int(roomno) == int(each):
             str1 += "All Rooms are reserved" + "\n"
+    for each in dictx.values():
+        if int(roomno) == int(each):
+            str1 += "Room is already reserved" + "\n"
             # print(str(roomno) + " " + str(each))
             return
+
         if int(roomno) >= 6:
             str1 += "All Rooms are reserved" + "\n"
             return

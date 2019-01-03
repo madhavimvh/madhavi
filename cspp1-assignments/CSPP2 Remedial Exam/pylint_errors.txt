@@ -1,12 +1,12 @@
 ************* Module reservation
-reservation.py:44:0: C0303: Trailing whitespace (trailing-whitespace)
-reservation.py:56:48: C0326: No space allowed around keyword argument assignment
+reservation.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
+reservation.py:63:48: C0326: No space allowed around keyword argument assignment
     for key, value in sorted(dictx.items(), key = lambda kv:(kv[1], kv[0])):
                                                 ^ (bad-whitespace)
-reservation.py:56:59: C0326: Exactly one space required after :
+reservation.py:63:59: C0326: Exactly one space required after :
     for key, value in sorted(dictx.items(), key = lambda kv:(kv[1], kv[0])):
                                                            ^ (bad-whitespace)
-reservation.py:71:0: C0304: Final newline missing (missing-final-newline)
+reservation.py:78:0: C0304: Final newline missing (missing-final-newline)
 reservation.py:1:0: C0111: Missing module docstring (missing-docstring)
 reservation.py:1:0: C0103: Constant name "dictx" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:1:0: W0604: Using the global statement at the module level (global-at-module-level)
@@ -17,21 +17,24 @@ reservation.py:4:0: C0103: Constant name "count" doesn't conform to UPPER_CASE n
 reservation.py:5:0: C0103: Constant name "str1" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:5:0: W0604: Using the global statement at the module level (global-at-module-level)
 reservation.py:6:0: C0103: Constant name "str1" doesn't conform to UPPER_CASE naming style (invalid-name)
-reservation.py:15:0: C0111: Missing function docstring (missing-docstring)
-reservation.py:16:4: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
-reservation.py:16:4: W0603: Using the global statement (global-statement)
-reservation.py:17:4: C0103: Constant name "dictx" doesn't conform to UPPER_CASE naming style (invalid-name)
-reservation.py:17:4: W0603: Using the global statement (global-statement)
-reservation.py:18:4: C0103: Constant name "str1" doesn't conform to UPPER_CASE naming style (invalid-name)
+reservation.py:7:0: C0103: Constant name "listres" doesn't conform to UPPER_CASE naming style (invalid-name)
+reservation.py:7:0: W0604: Using the global statement at the module level (global-at-module-level)
+reservation.py:8:0: C0103: Constant name "listres" doesn't conform to UPPER_CASE naming style (invalid-name)
+reservation.py:17:0: C0111: Missing function docstring (missing-docstring)
+reservation.py:18:4: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:18:4: W0603: Using the global statement (global-statement)
-reservation.py:31:0: C0103: Function name "reserveN" doesn't conform to snake_case naming style (invalid-name)
-reservation.py:31:0: C0111: Missing function docstring (missing-docstring)
-reservation.py:32:4: C0103: Constant name "str1" doesn't conform to UPPER_CASE naming style (invalid-name)
-reservation.py:32:4: W0603: Using the global statement (global-statement)
-reservation.py:46:0: C0111: Missing function docstring (missing-docstring)
-reservation.py:58:0: C0111: Missing function docstring (missing-docstring)
-reservation.py:62:8: W0612: Unused variable 'i' (unused-variable)
+reservation.py:19:4: C0103: Constant name "dictx" doesn't conform to UPPER_CASE naming style (invalid-name)
+reservation.py:19:4: W0603: Using the global statement (global-statement)
+reservation.py:20:4: C0103: Constant name "str1" doesn't conform to UPPER_CASE naming style (invalid-name)
+reservation.py:20:4: W0603: Using the global statement (global-statement)
+reservation.py:34:0: C0103: Function name "reserveN" doesn't conform to snake_case naming style (invalid-name)
+reservation.py:34:0: C0111: Missing function docstring (missing-docstring)
+reservation.py:35:4: C0103: Constant name "str1" doesn't conform to UPPER_CASE naming style (invalid-name)
+reservation.py:35:4: W0603: Using the global statement (global-statement)
+reservation.py:53:0: C0111: Missing function docstring (missing-docstring)
+reservation.py:65:0: C0111: Missing function docstring (missing-docstring)
+reservation.py:69:8: W0612: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.78/10 (previous run: 3.78/10, +0.00)
+Your code has been rated at 3.92/10 (previous run: 3.78/10, +0.14)
 
