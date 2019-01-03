@@ -260,7 +260,7 @@ Traceback (most recent call last):
   File "reservation.py", line 109, in main
     cancel(string1[1]) 
   File "reservation.py", line 87, in cancel
-    for each in dictx:
+    for each in dictx.keys():
 RuntimeError: dictionary changed size during iteration
 ----------------------------------------
 
@@ -318,7 +318,7 @@ Traceback (most recent call last):
   File "reservation.py", line 109, in main
     cancel(string1[1]) 
   File "reservation.py", line 87, in cancel
-    for each in dictx:
+    for each in dictx.keys():
 RuntimeError: dictionary changed size during iteration
 ----------------------------------------
 

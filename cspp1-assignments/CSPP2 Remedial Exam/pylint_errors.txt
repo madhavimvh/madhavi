@@ -40,9 +40,10 @@ reservation.py:81:4: W0603: Using the global statement (global-statement)
 reservation.py:82:4: C0103: Constant name "str1" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:82:4: W0603: Using the global statement (global-statement)
 reservation.py:86:0: C0111: Missing function docstring (missing-docstring)
+reservation.py:87:16: C0201: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
 reservation.py:93:0: C0111: Missing function docstring (missing-docstring)
 reservation.py:97:8: W0612: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.86/10 (previous run: 3.86/10, +0.00)
+Your code has been rated at 3.71/10 (previous run: 3.86/10, -0.14)
 
