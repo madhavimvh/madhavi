@@ -259,9 +259,9 @@ Traceback (most recent call last):
     main()
   File "reservation.py", line 109, in main
     cancel(string1[1]) 
-  File "reservation.py", line 88, in cancel
-    if dictx[each] == name:
-KeyError: (2, 'kiran')
+  File "reservation.py", line 87, in cancel
+    for each in dictx:
+RuntimeError: dictionary changed size during iteration
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -317,8 +317,8 @@ Traceback (most recent call last):
     main()
   File "reservation.py", line 109, in main
     cancel(string1[1]) 
-  File "reservation.py", line 88, in cancel
-    if dictx[each] == name:
-KeyError: (2, 'kiran')
+  File "reservation.py", line 87, in cancel
+    for each in dictx:
+RuntimeError: dictionary changed size during iteration
 ----------------------------------------
 
