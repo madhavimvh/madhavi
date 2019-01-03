@@ -29,7 +29,7 @@ def reserve(name):
     if count not in dictx.values():
         # print(dictx.values())
         if name not in dictx.keys():
-            dictx[name] = count
+            dictx[name] = [count]
             listres.append(count)
             print(name + " " + str(count))
             # str1 += name + " " + str(count) + "\n"
@@ -62,7 +62,7 @@ def reserveN(name, roomno):
             # str1 += "All Rooms are reserved" + "\n"
             print("All Rooms are reserved")
             return
-    dictx[name] = int(roomno)
+    dictx[name] = [int(roomno)]
     # str1 += name + " " + str(roomno) + "\n"
     print(name + " " + str(roomno))
 def display():
