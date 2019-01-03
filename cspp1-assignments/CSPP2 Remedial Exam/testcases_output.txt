@@ -255,22 +255,14 @@ kalyani 3
 kumar 4
 swathi 5
 kumar now has no reservations.
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-swathi 5
-Added 2 more rooms
-alekhya 6
-manasa 7
-All Rooms are reserved
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-swathi 5
-alekhya 6
-manasa 7
+Traceback (most recent call last):
+  File "reservation.py", line 108, in <module>
+    main()
+  File "reservation.py", line 107, in main
+    cancel(string1[1]) 
+  File "reservation.py", line 89, in cancel
+    del dictx[name]
+KeyError: 'kumar'
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -322,28 +314,13 @@ kalyani 3
 kumar 4
 kumar 5
 kumar now has no reservations.
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-kumar 5
-Added 5 more rooms
-alekhya 6
-manasa 7
-kumar 8
-karthik 9
-manohar 10
-All Rooms are reserved
-All Rooms are reserved
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-kumar 5
-alekhya 6
-manasa 7
-kumar 8
-karthik 9
-manohar 10
+Traceback (most recent call last):
+  File "reservation.py", line 108, in <module>
+    main()
+  File "reservation.py", line 107, in main
+    cancel(string1[1]) 
+  File "reservation.py", line 89, in cancel
+    del dictx[name]
+KeyError: 'kumar'
 ----------------------------------------
 
