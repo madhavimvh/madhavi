@@ -86,12 +86,14 @@ def build(number):
 
 def cancel(name):
     listk = list(dictx.keys())
-    print(listres)
+    # print(listres)
     for each in listk:
         if dictx[each] == name:
             dictx.pop(each, None)
             listres.remove(each)
-            print(listres)
+            if count > each:
+                count = each
+            # print(listres)
     print("kumar now has no reservations.")
     # del dictx[name]
     # print(dictx)

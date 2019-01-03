@@ -1,6 +1,6 @@
 ************* Module reservation
-reservation.py:114:30: C0303: Trailing whitespace (trailing-whitespace)
-reservation.py:115:0: C0304: Final newline missing (missing-final-newline)
+reservation.py:116:30: C0303: Trailing whitespace (trailing-whitespace)
+reservation.py:117:0: C0304: Final newline missing (missing-final-newline)
 reservation.py:1:0: C0111: Missing module docstring (missing-docstring)
 reservation.py:1:0: C0103: Constant name "dictx" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:1:0: W0604: Using the global statement at the module level (global-at-module-level)
@@ -40,9 +40,10 @@ reservation.py:81:4: W0603: Using the global statement (global-statement)
 reservation.py:82:4: C0103: Constant name "str1" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:82:4: W0603: Using the global statement (global-statement)
 reservation.py:87:0: C0111: Missing function docstring (missing-docstring)
-reservation.py:98:0: C0111: Missing function docstring (missing-docstring)
-reservation.py:102:8: W0612: Unused variable 'i' (unused-variable)
+reservation.py:95:16: W0621: Redefining name 'count' from outer scope (line 4) (redefined-outer-name)
+reservation.py:100:0: C0111: Missing function docstring (missing-docstring)
+reservation.py:104:8: W0612: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.11/10 (previous run: 4.03/10, +0.08)
+Your code has been rated at 3.97/10 (previous run: 4.11/10, -0.14)
 
