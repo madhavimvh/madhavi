@@ -197,14 +197,17 @@ kumar 3
 Added 5 more rooms
 alekhya 6
 manasa 4
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 94, in main
-    reserve(string1[1])
-  File "reservation.py", line 38, in reserve
-    dictx[name].append(count)
-AttributeError: 'int' object has no attribute 'append'
+kumar 5
+karthik 7
+manohar 8
+kumar 9
+murthy 1
+kiran 2
+manasa 4
+alekhya 6
+karthik 7
+manohar 8
+kumar 9
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -309,13 +312,30 @@ murthy 1
 Room is already reserved
 kalyani 3
 kumar 4
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 94, in main
-    reserve(string1[1])
-  File "reservation.py", line 38, in reserve
-    dictx[name].append(count)
-AttributeError: 'int' object has no attribute 'append'
+kumar 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 5
+Added 5 more rooms
+alekhya 6
+manasa 7
+kumar 8
+karthik 9
+manohar 10
+All Rooms are reserved
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 3
+alekhya 6
+manasa 7
+kumar 8
+karthik 9
+manohar 10
 ----------------------------------------
 
