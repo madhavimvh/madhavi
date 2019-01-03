@@ -90,6 +90,7 @@ def cancel(name):
         if dictx[each] == name:
             dictx.pop(each, None)
             listres.remove(each)
+            print(listres)
     print("kumar now has no reservations.")
     # del dictx[name]
     # print(dictx)
