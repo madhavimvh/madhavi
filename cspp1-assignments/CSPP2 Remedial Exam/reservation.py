@@ -75,8 +75,8 @@ def display():
     #         # break
     #     else:
     #         print(str(each) + " " + str(dictx[each]))
-    for key, value in sorted(dictx.items(), key = lambda kv:(kv[1], kv[0])):
-        print("%s %s" %(value, key))
+    for key in sorted(mydict):
+        print("%s: %s" % (mydict[key], key))
 def build(number):
     global variable
     global str1
