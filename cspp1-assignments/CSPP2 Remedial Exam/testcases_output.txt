@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 rehana 1
 karan 3
@@ -17,6 +17,7 @@ karan 3
 murthy 2
 rajiv 5
 kalyani 4
+kalyani 4
 rehana 1
 murthy 2
 karan 3
@@ -24,7 +25,7 @@ kalyani 4
 rajiv 5
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -42,9 +43,10 @@ Your Output:
 kiran 2
 murthy 1
 rajiv 3
+rajiv 3
+rajiv 3
 kalyani 4
 kumar 5
-All Rooms are reserved
 murthy 1
 kiran 2
 rajiv 3
@@ -52,7 +54,7 @@ kalyani 4
 kumar 5
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -71,9 +73,10 @@ Your Output:
 kiran 2
 murthy 1
 rajiv 3
+rajiv 3
+rajiv 3
 kalyani 4
 kumar 5
-All Rooms are reserved
 All Rooms are reserved
 murthy 1
 kiran 2
@@ -82,7 +85,7 @@ kalyani 4
 kumar 5
 ----------------------------------------
 
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -102,6 +105,8 @@ kiran 2
 murthy 1
 Room is already reserved
 kalyani 3
+kalyani 3
+kalyani 3
 kumar 4
 swathi 5
 All Rooms are reserved
@@ -112,26 +117,8 @@ kumar 4
 swathi 5
 ----------------------------------------
 
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
-kiran 2
-murthy 1
-Room is already reserved
-kalyani 3
-kumar 4
-swathi 5
-Added 2 more rooms
-alekhya 6
-manasa 7
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-swathi 5
-alekhya 6
-manasa 7
-
-Your Output: 
 kiran 2
 murthy 1
 Room is already reserved
@@ -148,6 +135,24 @@ kumar 4
 swathi 5
 alekhya 6
 manasa 7
+
+Your Output: 
+kiran 2
+murthy 1
+Room is already reserved
+kalyani 3
+kalyani 3
+kalyani 3
+kumar 4
+swathi 5
+Traceback (most recent call last):
+  File "reservation.py", line 97, in <module>
+    main()
+  File "reservation.py", line 95, in main
+    build(int(string1[1]))
+  File "reservation.py", line 79, in build
+    str1 += "Added" + number+ "more rooms" + "\n"
+TypeError: can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -190,28 +195,20 @@ Your Output:
 kiran 2
 murthy 1
 kumar 3
+kumar 3
+kumar 3
 All Rooms are reserved
 murthy 1
 kiran 2
 kumar 3
-kiran 2
-murthy 1
-kumar 3
-All Rooms are reserved
-Added 2 more rooms
-alekhya 6
-manasa 4
-kumar 5
-karthik 7
-manohar 8
-kumar 9
-murthy 1
-kiran 2
-manasa 4
-alekhya 6
-karthik 7
-manohar 8
-kumar 9
+Traceback (most recent call last):
+  File "reservation.py", line 97, in <module>
+    main()
+  File "reservation.py", line 95, in main
+    build(int(string1[1]))
+  File "reservation.py", line 79, in build
+    str1 += "Added" + number+ "more rooms" + "\n"
+TypeError: can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -249,16 +246,7 @@ kiran 2
 murthy 1
 Room is already reserved
 kalyani 3
-kumar 4
-swathi 5
-murthy 1
-kiran 2
 kalyani 3
-kumar 4
-swathi 5
-kiran 2
-murthy 1
-Room is already reserved
 kalyani 3
 kumar 4
 swathi 5
@@ -267,23 +255,19 @@ kiran 2
 kalyani 3
 kumar 4
 swathi 5
-kiran 2
-murthy 1
-Room is already reserved
-kalyani 3
-kumar 4
-swathi 5
-Added 2 more rooms
-alekhya 6
-manasa 7
-All Rooms are reserved
 murthy 1
 kiran 2
 kalyani 3
 kumar 4
 swathi 5
-alekhya 6
-manasa 7
+Traceback (most recent call last):
+  File "reservation.py", line 97, in <module>
+    main()
+  File "reservation.py", line 95, in main
+    build(int(string1[1]))
+  File "reservation.py", line 79, in build
+    str1 += "Added" + number+ "more rooms" + "\n"
+TypeError: can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -327,43 +311,16 @@ kiran 2
 murthy 1
 Room is already reserved
 kalyani 3
-kumar 4
-kumar 5
-murthy 1
-kiran 2
 kalyani 3
-kumar 5
-kiran 2
-murthy 1
-Room is already reserved
 kalyani 3
 kumar 4
-kumar 5
-murthy 1
-kiran 2
-kalyani 3
-kumar 5
-kiran 2
-murthy 1
-Room is already reserved
-kalyani 3
-kumar 4
-kumar 5
-Added 2 more rooms
-alekhya 6
-manasa 7
-kumar 8
-karthik 9
-manohar 10
-All Rooms are reserved
-All Rooms are reserved
-murthy 1
-kiran 2
-kalyani 3
-alekhya 6
-manasa 7
-kumar 8
-karthik 9
-manohar 10
+Traceback (most recent call last):
+  File "reservation.py", line 97, in <module>
+    main()
+  File "reservation.py", line 89, in main
+    reserve(string1[1])
+  File "reservation.py", line 36, in reserve
+    dictx[name].append(count)
+AttributeError: 'int' object has no attribute 'append'
 ----------------------------------------
 

@@ -27,36 +27,42 @@ def reserve(name):
         return
     if count not in dictx.values():
         # print(dictx.values())
-        dictx[name] = count
-        listres.append(count)
-        str1 += name + " " + str(count) + "\n"
+        if name not in dictx.keys():
+            dictx[name] = count
+            listres.append(count)
+            # str1 += name + " " + str(count) + "\n"
+            # print(name + " " + str(count))
+        else:
+            dictx[name].append(count)
+            listres.append(count)
+            # str1
     else:
         reserve(name)
-    # print(name + " " + str(count))
+    print(name + " " + str(count))
 
 def reserveN(name, roomno):
     global str1
     global variable
     for each in listres:
         if int(roomno) == int(each):
-            str1 += "All Rooms are reserved" + "\n"
+            # str1 += "All Rooms are reserved" + "\n"
+            print("All Rooms are reserved")
             return
     for each in dictx.values():
         if int(roomno) == int(each):
-            str1 += "Room is already reserved" + "\n"
-            # print(str(roomno) + " " + str(each))
+            # str1 += "Room is already reserved" + "\n"
+            print("Room is already reserved")
             return
 
         if int(roomno) >= variable:
-            str1 += "All Rooms are reserved" + "\n"
+            # str1 += "All Rooms are reserved" + "\n"
+            print("All Rooms are reserved")
             return
-            # print(dictx.values())
     dictx[name] = int(roomno)
-    str1 += name + " " + str(roomno) + "\n"
-    
-    # print(name + " " + str(roomno))
+    # str1 += name + " " + str(roomno) + "\n"
+    print(name + " " + str(roomno))
 def display():
-    print(str1.strip())
+    # print(str1.strip())
     # listkeys = list(dictx.keys())
     # for each in listkeys:
     #     if dictx[each] >= 6:
@@ -70,7 +76,7 @@ def display():
 def build(number):
     global variable
     global str1
-    str1 += "Added 2 more rooms" + "\n"
+    str1 += "Added" + number+ "more rooms" + "\n"
     variable += number
 def main():
     # getroomno(count)
