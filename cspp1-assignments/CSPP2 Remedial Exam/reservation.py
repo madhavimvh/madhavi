@@ -26,10 +26,10 @@ def reserve(name):
         # str1 += "All Rooms are reserved" + '\n'
         print("All Rooms are reserved")
         return
-    if count not in dictx.values():
+    if count not in dictx.keys():
         # print(dictx.values())
         # if name not in dictx.keys():
-        dictx[name] = count
+        dictx[count] = name
         listres.append(count)
         print(name + " " + str(count))
             # str1 += name + " " + str(count) + "\n"
@@ -52,7 +52,7 @@ def reserveN(name, roomno):
             # str1 += "All Rooms are reserved" + "\n"
             print("All Rooms are reserved")
             return
-    for each in dictx.values():
+    for each in dictx.keys():
         if int(roomno) == int(each):
             # str1 += "Room is already reserved" + "\n"
             print("Room is already reserved")
@@ -62,7 +62,7 @@ def reserveN(name, roomno):
             # str1 += "All Rooms are reserved" + "\n"
             print("All Rooms are reserved")
             return
-    dictx[name] = int(roomno)
+    dictx[int(roomno)] = name
     # str1 += name + " " + str(roomno) + "\n"
     print(name + " " + str(roomno))
 def display():
@@ -76,7 +76,7 @@ def display():
     #     else:
     #         print(str(each) + " " + str(dictx[each]))
     for key, value in sorted(dictx.items(), key = lambda kv:(kv[1], kv[0])):
-        print("%s %s" %(key, value))
+        print("%s %s" %(value, key))
 def build(number):
     global variable
     global str1
