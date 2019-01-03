@@ -81,7 +81,7 @@ def build(number):
     global variable
     global str1
     # str1 += "Added" + number+ "more rooms" + "\n"
-    print("Added" + number + "more rooms")
+    print("Added" + str(number) + "more rooms")
     variable += number
 def main():
     # getroomno(count)
