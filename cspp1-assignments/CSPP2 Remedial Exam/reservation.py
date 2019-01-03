@@ -80,7 +80,8 @@ def display():
 def build(number):
     global variable
     global str1
-    str1 += "Added" + number+ "more rooms" + "\n"
+    # str1 += "Added" + number+ "more rooms" + "\n"
+    print("Added" + number + "more rooms")
     variable += number
 def main():
     # getroomno(count)

@@ -139,12 +139,12 @@ kalyani 3
 kumar 4
 swathi 5
 Traceback (most recent call last):
-  File "reservation.py", line 101, in <module>
+  File "reservation.py", line 102, in <module>
     main()
-  File "reservation.py", line 99, in main
+  File "reservation.py", line 100, in main
     build(int(string1[1]))
-  File "reservation.py", line 83, in build
-    str1 += "Added" + number+ "more rooms" + "\n"
+  File "reservation.py", line 84, in build
+    print("Added" + number + "more rooms")
 TypeError: can only concatenate str (not "int") to str
 ----------------------------------------
 
@@ -193,12 +193,12 @@ murthy 1
 kiran 2
 kumar 3
 Traceback (most recent call last):
-  File "reservation.py", line 101, in <module>
+  File "reservation.py", line 102, in <module>
     main()
-  File "reservation.py", line 99, in main
+  File "reservation.py", line 100, in main
     build(int(string1[1]))
-  File "reservation.py", line 83, in build
-    str1 += "Added" + number+ "more rooms" + "\n"
+  File "reservation.py", line 84, in build
+    print("Added" + number + "more rooms")
 TypeError: can only concatenate str (not "int") to str
 ----------------------------------------
 
@@ -250,12 +250,12 @@ kalyani 3
 kumar 4
 swathi 5
 Traceback (most recent call last):
-  File "reservation.py", line 101, in <module>
+  File "reservation.py", line 102, in <module>
     main()
-  File "reservation.py", line 99, in main
+  File "reservation.py", line 100, in main
     build(int(string1[1]))
-  File "reservation.py", line 83, in build
-    str1 += "Added" + number+ "more rooms" + "\n"
+  File "reservation.py", line 84, in build
+    print("Added" + number + "more rooms")
 TypeError: can only concatenate str (not "int") to str
 ----------------------------------------
 
@@ -302,9 +302,9 @@ Room is already reserved
 kalyani 3
 kumar 4
 Traceback (most recent call last):
-  File "reservation.py", line 101, in <module>
+  File "reservation.py", line 102, in <module>
     main()
-  File "reservation.py", line 93, in main
+  File "reservation.py", line 94, in main
     reserve(string1[1])
   File "reservation.py", line 38, in reserve
     dictx[name].append(count)
