@@ -32,7 +32,7 @@ def reserveN(name, roomno):
     global str1
     for each in dictx.values():
         if int(roomno) == int(each):
-            str1 += "Room is already reserved" + "\n"
+            str1 += "All Rooms are reserved" + "\n"
             # print(str(roomno) + " " + str(each))
             return
         if int(roomno) >= 6:
