@@ -255,12 +255,12 @@ kalyani 3
 kumar 4
 swathi 5
 Traceback (most recent call last):
-  File "reservation.py", line 110, in <module>
+  File "reservation.py", line 111, in <module>
     main()
-  File "reservation.py", line 109, in main
+  File "reservation.py", line 110, in main
     cancel(string1[1]) 
-  File "reservation.py", line 87, in cancel
-    for each in dictx.keys():
+  File "reservation.py", line 88, in cancel
+    for each in listk:
 RuntimeError: dictionary changed size during iteration
 ----------------------------------------
 
@@ -313,12 +313,12 @@ kalyani 3
 kumar 4
 kumar 5
 Traceback (most recent call last):
-  File "reservation.py", line 110, in <module>
+  File "reservation.py", line 111, in <module>
     main()
-  File "reservation.py", line 109, in main
+  File "reservation.py", line 110, in main
     cancel(string1[1]) 
-  File "reservation.py", line 87, in cancel
-    for each in dictx.keys():
+  File "reservation.py", line 88, in cancel
+    for each in listk:
 RuntimeError: dictionary changed size during iteration
 ----------------------------------------
 
