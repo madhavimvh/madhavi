@@ -13,14 +13,15 @@ rajiv 5
 
 Your Output: 
 rehana 1
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 96, in main
-    reserveN(string1[1], string1[2])
-  File "reservation.py", line 56, in reserveN
-    if int(roomno) == int(each):
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+karan 3
+murthy 2
+rajiv 5
+kalyani 3
+rehana [1]
+murthy [2]
+kalyani [3]
+karan [3]
+rajiv [5]
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -39,14 +40,17 @@ kumar 5
 
 Your Output: 
 kiran 2
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 96, in main
-    reserveN(string1[1], string1[2])
-  File "reservation.py", line 56, in reserveN
-    if int(roomno) == int(each):
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+murthy 1
+rajiv 1
+kalyani 2
+kumar 3
+swathi 4
+murthy [1]
+rajiv [1]
+kalyani [2]
+kiran [2]
+kumar [3]
+swathi [4]
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -66,14 +70,19 @@ kumar 5
 
 Your Output: 
 kiran 2
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 96, in main
-    reserveN(string1[1], string1[2])
-  File "reservation.py", line 56, in reserveN
-    if int(roomno) == int(each):
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+murthy 1
+rajiv 1
+kalyani 2
+kumar 3
+swathi 4
+alekhya 5
+murthy [1]
+rajiv [1]
+kalyani [2]
+kiran [2]
+kumar [3]
+swathi [4]
+alekhya [5]
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -93,14 +102,18 @@ swathi 5
 
 Your Output: 
 kiran 2
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 96, in main
-    reserveN(string1[1], string1[2])
-  File "reservation.py", line 56, in reserveN
-    if int(roomno) == int(each):
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+murthy 1
+Room is already reserved
+kalyani 1
+kumar 2
+swathi 3
+alekhya 5
+kalyani [1]
+murthy [1]
+kiran [2]
+kumar [2]
+swathi [3]
+alekhya [5]
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -124,14 +137,21 @@ manasa 7
 
 Your Output: 
 kiran 2
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 96, in main
-    reserveN(string1[1], string1[2])
-  File "reservation.py", line 56, in reserveN
-    if int(roomno) == int(each):
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+murthy 1
+Room is already reserved
+kalyani 1
+kumar 2
+swathi 3
+Added2more rooms
+alekhya 6
+manasa 4
+kalyani [1]
+murthy [1]
+kiran [2]
+kumar [2]
+swathi [3]
+manasa [4]
+alekhya [6]
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -172,14 +192,26 @@ reddy 10
 
 Your Output: 
 kiran 2
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 96, in main
-    reserveN(string1[1], string1[2])
-  File "reservation.py", line 56, in reserveN
-    if int(roomno) == int(each):
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+murthy 1
+kumar 1
+kumar 3
+murthy [1]
+kiran [2]
+kumar [3]
+Added5more rooms
+alekhya 6
+manasa 2
+kumar 3
+karthik 4
+manohar 5
+kumar 6
+murthy [1]
+kiran [2]
+manasa [2]
+kumar [3, 3, 6]
+karthik [4]
+manohar [5]
+alekhya [6]
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -214,14 +246,32 @@ kumar 7
 
 Your Output: 
 kiran 2
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 96, in main
-    reserveN(string1[1], string1[2])
-  File "reservation.py", line 56, in reserveN
-    if int(roomno) == int(each):
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+murthy 1
+Room is already reserved
+kalyani 1
+kumar 2
+swathi 3
+kalyani [1]
+murthy [1]
+kiran [2]
+kumar [2]
+swathi [3]
+kalyani [1]
+murthy [1]
+kiran [2]
+kumar [2]
+swathi [3]
+Added2more rooms
+alekhya 6
+manasa 4
+kumar 5
+kalyani [1]
+murthy [1]
+kiran [2]
+kumar [2, 5]
+swathi [3]
+manasa [4]
+alekhya [6]
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -262,13 +312,36 @@ reddy 10
 
 Your Output: 
 kiran 2
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 96, in main
-    reserveN(string1[1], string1[2])
-  File "reservation.py", line 56, in reserveN
-    if int(roomno) == int(each):
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+murthy 1
+Room is already reserved
+kalyani 1
+kumar 2
+kumar 3
+kalyani [1]
+murthy [1]
+kiran [2]
+kumar [2, 3]
+kalyani [1]
+murthy [1]
+kiran [2]
+kumar [2, 3]
+Added5more rooms
+alekhya 6
+manasa 4
+kumar 5
+karthik 6
+manohar 7
+swetha 8
+reddy 9
+kalyani [1]
+murthy [1]
+kiran [2]
+kumar [2, 3, 5]
+manasa [4]
+alekhya [6]
+karthik [6]
+manohar [7]
+swetha [8]
+reddy [9]
 ----------------------------------------
 

@@ -52,11 +52,12 @@ def reserveN(name, roomno):
             # str1 += "All Rooms are reserved" + "\n"
             print("All Rooms are reserved")
             return
-    for each in dictx.values():
-        if int(roomno) == int(each):
-            # str1 += "Room is already reserved" + "\n"
-            print("Room is already reserved")
-            return
+    for each1 in dictx.values():
+        for each in each1:
+            if int(roomno) == int(each):
+                # str1 += "Room is already reserved" + "\n"
+                print("Room is already reserved")
+                return
 
         if int(roomno) >= variable:
             # str1 += "All Rooms are reserved" + "\n"
