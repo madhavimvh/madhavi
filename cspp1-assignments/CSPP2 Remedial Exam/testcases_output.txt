@@ -132,6 +132,7 @@ alekhya 6
 manasa 7
 
 Your Output: 
+Added 2 more rooms
 kiran 2
 murthy 1
 Room is already reserved
@@ -193,6 +194,7 @@ All Rooms are reserved
 murthy 1
 kiran 2
 kumar 3
+Added 2 more rooms
 kiran 2
 murthy 1
 kumar 3
@@ -265,6 +267,7 @@ kiran 2
 kalyani 3
 kumar 4
 swathi 5
+Added 2 more rooms
 kiran 2
 murthy 1
 Room is already reserved
@@ -340,6 +343,7 @@ murthy 1
 kiran 2
 kalyani 3
 kumar 5
+Added 2 more rooms
 kiran 2
 murthy 1
 Room is already reserved
