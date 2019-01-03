@@ -68,6 +68,7 @@ def display():
     for key, value in sorted(dictx.items(), key = lambda kv:(kv[1], kv[0])):
         print("%s %s" %(key, value))
 def build(number):
+    global variable
     variable += number
 def main():
     # getroomno(count)

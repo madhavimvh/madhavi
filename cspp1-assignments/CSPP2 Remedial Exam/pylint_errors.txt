@@ -6,8 +6,8 @@ reservation.py:68:48: C0326: No space allowed around keyword argument assignment
 reservation.py:68:59: C0326: Exactly one space required after :
     for key, value in sorted(dictx.items(), key = lambda kv:(kv[1], kv[0])):
                                                            ^ (bad-whitespace)
-reservation.py:87:39: C0303: Trailing whitespace (trailing-whitespace)
-reservation.py:88:0: C0304: Final newline missing (missing-final-newline)
+reservation.py:88:39: C0303: Trailing whitespace (trailing-whitespace)
+reservation.py:89:0: C0304: Final newline missing (missing-final-newline)
 reservation.py:1:0: C0111: Missing module docstring (missing-docstring)
 reservation.py:1:0: C0103: Constant name "dictx" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:1:0: W0604: Using the global statement at the module level (global-at-module-level)
@@ -41,11 +41,11 @@ reservation.py:39:4: C0103: Constant name "variable" doesn't conform to UPPER_CA
 reservation.py:39:4: W0603: Using the global statement (global-statement)
 reservation.py:58:0: C0111: Missing function docstring (missing-docstring)
 reservation.py:70:0: C0111: Missing function docstring (missing-docstring)
-reservation.py:71:4: W0621: Redefining name 'variable' from outer scope (line 10) (redefined-outer-name)
-reservation.py:71:4: E0602: Undefined variable 'variable' (undefined-variable)
-reservation.py:72:0: C0111: Missing function docstring (missing-docstring)
-reservation.py:76:8: W0612: Unused variable 'i' (unused-variable)
+reservation.py:71:4: C0103: Constant name "variable" doesn't conform to UPPER_CASE naming style (invalid-name)
+reservation.py:71:4: W0603: Using the global statement (global-statement)
+reservation.py:73:0: C0111: Missing function docstring (missing-docstring)
+reservation.py:77:8: W0612: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 2.33/10 (previous run: 4.04/10, -1.71)
+Your code has been rated at 3.11/10 (previous run: 2.33/10, +0.78)
 
