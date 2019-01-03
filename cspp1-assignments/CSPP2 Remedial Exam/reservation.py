@@ -36,6 +36,7 @@ def reserveN(name, roomno):
     for each in listres:
         if int(roomno) == int(each):
             str1 += "All Rooms are reserved" + "\n"
+            return
     for each in dictx.values():
         if int(roomno) == int(each):
             str1 += "Room is already reserved" + "\n"
