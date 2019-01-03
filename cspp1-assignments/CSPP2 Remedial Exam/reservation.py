@@ -76,7 +76,7 @@ def display():
     #     else:
     #         print(str(each) + " " + str(dictx[each]))
     for key in sorted(dictx):
-        print("%s: %s" % (dictx[key], key))
+        print("%s %s" % (dictx[key], key))
 def build(number):
     global variable
     global str1
