@@ -84,6 +84,6 @@ def main():
         elif string1[0].strip() == "print":
             display()
         elif string1[0].strip() == "build":
-            build(string1[1])
+            build(int(string1[1]))
         # elif string1[0].strip() == "" 
 main()
