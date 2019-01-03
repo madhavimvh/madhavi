@@ -86,7 +86,7 @@ def build(number):
 def cancel(name):
     print("kumar now has no reservations.")
     dictx.pop(name, None)
-    del dictx[name]
+    # del dictx[name]
     print(dictx)
 def main():
     # getroomno(count)
