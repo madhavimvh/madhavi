@@ -69,6 +69,7 @@ def display():
         print("%s %s" %(key, value))
 def build(number):
     global variable
+    global str1
     str1 += "Added 2 more rooms" + "\n"
     variable += number
 def main():
