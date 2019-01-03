@@ -23,22 +23,26 @@ def reserve(name):
     global variable
     count += 1
     if count >= variable:
-        str1 += "All Rooms are reserved" + '\n'
+        # str1 += "All Rooms are reserved" + '\n'
+        print("All Rooms are reserved")
         return
     if count not in dictx.values():
         # print(dictx.values())
         if name not in dictx.keys():
             dictx[name] = count
             listres.append(count)
+            print(name + " " + str(count))
             # str1 += name + " " + str(count) + "\n"
             # print(name + " " + str(count))
         else:
             dictx[name].append(count)
             listres.append(count)
+            print(name + " " + str(count))
             # str1
     else:
         reserve(name)
-    print(name + " " + str(count))
+
+
 
 def reserveN(name, roomno):
     global str1

@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 rehana 1
 karan 3
@@ -17,7 +17,6 @@ karan 3
 murthy 2
 rajiv 5
 kalyani 4
-kalyani 4
 rehana 1
 murthy 2
 karan 3
@@ -25,7 +24,7 @@ kalyani 4
 rajiv 5
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -43,10 +42,9 @@ Your Output:
 kiran 2
 murthy 1
 rajiv 3
-rajiv 3
-rajiv 3
 kalyani 4
 kumar 5
+All Rooms are reserved
 murthy 1
 kiran 2
 rajiv 3
@@ -54,7 +52,7 @@ kalyani 4
 kumar 5
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -73,10 +71,9 @@ Your Output:
 kiran 2
 murthy 1
 rajiv 3
-rajiv 3
-rajiv 3
 kalyani 4
 kumar 5
+All Rooms are reserved
 All Rooms are reserved
 murthy 1
 kiran 2
@@ -85,7 +82,7 @@ kalyani 4
 kumar 5
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -104,8 +101,6 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-kalyani 3
-kalyani 3
 kalyani 3
 kumar 4
 swathi 5
@@ -141,16 +136,14 @@ kiran 2
 murthy 1
 Room is already reserved
 kalyani 3
-kalyani 3
-kalyani 3
 kumar 4
 swathi 5
 Traceback (most recent call last):
-  File "reservation.py", line 97, in <module>
+  File "reservation.py", line 101, in <module>
     main()
-  File "reservation.py", line 95, in main
+  File "reservation.py", line 99, in main
     build(int(string1[1]))
-  File "reservation.py", line 79, in build
+  File "reservation.py", line 83, in build
     str1 += "Added" + number+ "more rooms" + "\n"
 TypeError: can only concatenate str (not "int") to str
 ----------------------------------------
@@ -195,18 +188,16 @@ Your Output:
 kiran 2
 murthy 1
 kumar 3
-kumar 3
-kumar 3
 All Rooms are reserved
 murthy 1
 kiran 2
 kumar 3
 Traceback (most recent call last):
-  File "reservation.py", line 97, in <module>
+  File "reservation.py", line 101, in <module>
     main()
-  File "reservation.py", line 95, in main
+  File "reservation.py", line 99, in main
     build(int(string1[1]))
-  File "reservation.py", line 79, in build
+  File "reservation.py", line 83, in build
     str1 += "Added" + number+ "more rooms" + "\n"
 TypeError: can only concatenate str (not "int") to str
 ----------------------------------------
@@ -246,8 +237,6 @@ kiran 2
 murthy 1
 Room is already reserved
 kalyani 3
-kalyani 3
-kalyani 3
 kumar 4
 swathi 5
 murthy 1
@@ -261,11 +250,11 @@ kalyani 3
 kumar 4
 swathi 5
 Traceback (most recent call last):
-  File "reservation.py", line 97, in <module>
+  File "reservation.py", line 101, in <module>
     main()
-  File "reservation.py", line 95, in main
+  File "reservation.py", line 99, in main
     build(int(string1[1]))
-  File "reservation.py", line 79, in build
+  File "reservation.py", line 83, in build
     str1 += "Added" + number+ "more rooms" + "\n"
 TypeError: can only concatenate str (not "int") to str
 ----------------------------------------
@@ -311,15 +300,13 @@ kiran 2
 murthy 1
 Room is already reserved
 kalyani 3
-kalyani 3
-kalyani 3
 kumar 4
 Traceback (most recent call last):
-  File "reservation.py", line 97, in <module>
+  File "reservation.py", line 101, in <module>
     main()
-  File "reservation.py", line 89, in main
+  File "reservation.py", line 93, in main
     reserve(string1[1])
-  File "reservation.py", line 36, in reserve
+  File "reservation.py", line 38, in reserve
     dictx[name].append(count)
 AttributeError: 'int' object has no attribute 'append'
 ----------------------------------------

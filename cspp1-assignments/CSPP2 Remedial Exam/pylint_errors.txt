@@ -1,12 +1,12 @@
 ************* Module reservation
-reservation.py:74:48: C0326: No space allowed around keyword argument assignment
+reservation.py:78:48: C0326: No space allowed around keyword argument assignment
     for key, value in sorted(dictx.items(), key = lambda kv:(kv[1], kv[0])):
                                                 ^ (bad-whitespace)
-reservation.py:74:59: C0326: Exactly one space required after :
+reservation.py:78:59: C0326: Exactly one space required after :
     for key, value in sorted(dictx.items(), key = lambda kv:(kv[1], kv[0])):
                                                            ^ (bad-whitespace)
-reservation.py:96:39: C0303: Trailing whitespace (trailing-whitespace)
-reservation.py:97:0: C0304: Final newline missing (missing-final-newline)
+reservation.py:100:39: C0303: Trailing whitespace (trailing-whitespace)
+reservation.py:101:0: C0304: Final newline missing (missing-final-newline)
 reservation.py:1:0: C0111: Missing module docstring (missing-docstring)
 reservation.py:1:0: C0103: Constant name "dictx" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:1:0: W0604: Using the global statement at the module level (global-at-module-level)
@@ -32,21 +32,21 @@ reservation.py:22:4: C0103: Constant name "str1" doesn't conform to UPPER_CASE n
 reservation.py:22:4: W0603: Using the global statement (global-statement)
 reservation.py:23:4: C0103: Constant name "variable" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:23:4: W0603: Using the global statement (global-statement)
-reservation.py:43:0: C0103: Function name "reserveN" doesn't conform to snake_case naming style (invalid-name)
-reservation.py:43:0: C0111: Missing function docstring (missing-docstring)
-reservation.py:44:4: C0103: Constant name "str1" doesn't conform to UPPER_CASE naming style (invalid-name)
-reservation.py:44:4: W0603: Using the global statement (global-statement)
-reservation.py:45:4: C0103: Constant name "variable" doesn't conform to UPPER_CASE naming style (invalid-name)
-reservation.py:45:4: W0603: Using the global statement (global-statement)
-reservation.py:64:0: C0111: Missing function docstring (missing-docstring)
-reservation.py:76:0: C0111: Missing function docstring (missing-docstring)
-reservation.py:77:4: C0103: Constant name "variable" doesn't conform to UPPER_CASE naming style (invalid-name)
-reservation.py:77:4: W0603: Using the global statement (global-statement)
-reservation.py:78:4: C0103: Constant name "str1" doesn't conform to UPPER_CASE naming style (invalid-name)
-reservation.py:78:4: W0603: Using the global statement (global-statement)
-reservation.py:81:0: C0111: Missing function docstring (missing-docstring)
-reservation.py:85:8: W0612: Unused variable 'i' (unused-variable)
+reservation.py:47:0: C0103: Function name "reserveN" doesn't conform to snake_case naming style (invalid-name)
+reservation.py:47:0: C0111: Missing function docstring (missing-docstring)
+reservation.py:48:4: C0103: Constant name "str1" doesn't conform to UPPER_CASE naming style (invalid-name)
+reservation.py:48:4: W0603: Using the global statement (global-statement)
+reservation.py:49:4: C0103: Constant name "variable" doesn't conform to UPPER_CASE naming style (invalid-name)
+reservation.py:49:4: W0603: Using the global statement (global-statement)
+reservation.py:68:0: C0111: Missing function docstring (missing-docstring)
+reservation.py:80:0: C0111: Missing function docstring (missing-docstring)
+reservation.py:81:4: C0103: Constant name "variable" doesn't conform to UPPER_CASE naming style (invalid-name)
+reservation.py:81:4: W0603: Using the global statement (global-statement)
+reservation.py:82:4: C0103: Constant name "str1" doesn't conform to UPPER_CASE naming style (invalid-name)
+reservation.py:82:4: W0603: Using the global statement (global-statement)
+reservation.py:85:0: C0111: Missing function docstring (missing-docstring)
+reservation.py:89:8: W0612: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.38/10 (previous run: 3.02/10, +0.37)
+Your code has been rated at 3.48/10 (previous run: 3.38/10, +0.10)
 
