@@ -86,6 +86,7 @@ def build(number):
 
 def cancel(name):
     listk = list(dictx.keys())
+    print(listres)
     for each in listk:
         if dictx[each] == name:
             dictx.pop(each, None)
