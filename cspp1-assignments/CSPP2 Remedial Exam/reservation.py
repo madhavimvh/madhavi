@@ -6,6 +6,8 @@ global str1
 str1 = ""
 global listres
 listres = []
+global variable
+variable = 6
 # def getroomno(count):
 #   count += 1
 #   if count not in dictx.values():
@@ -18,8 +20,9 @@ def reserve(name):
     global count
     global dictx
     global str1
+    global variable
     count += 1
-    if count >= 6:
+    if count >= variable:
         str1 += "All Rooms are reserved" + '\n'
         return
     if count not in dictx.values():
@@ -33,6 +36,7 @@ def reserve(name):
 
 def reserveN(name, roomno):
     global str1
+    global variable
     for each in listres:
         if int(roomno) == int(each):
             str1 += "All Rooms are reserved" + "\n"
@@ -43,7 +47,7 @@ def reserveN(name, roomno):
             # print(str(roomno) + " " + str(each))
             return
 
-        if int(roomno) >= 6:
+        if int(roomno) >= variable:
             str1 += "All Rooms are reserved" + "\n"
             return
             # print(dictx.values())
@@ -63,6 +67,8 @@ def display():
     #         print(str(each) + " " + str(dictx[each]))
     for key, value in sorted(dictx.items(), key = lambda kv:(kv[1], kv[0])):
         print("%s %s" %(key, value))
+def build(number):
+    variable += number
 def main():
     # getroomno(count)
     num = int(input())
@@ -76,4 +82,7 @@ def main():
             reserveN(string1[1], string1[2])
         elif string1[0].strip() == "print":
             display()
+        elif string1[0].strip() == "build":
+            build(string1[1])
+        # elif string1[0].strip() == "" 
 main()

@@ -132,19 +132,14 @@ alekhya 6
 manasa 7
 
 Your Output: 
-kiran 2
-murthy 1
-Room is already reserved
-kalyani 3
-kumar 4
-swathi 5
-All Rooms are reserved
-All Rooms are reserved
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-swathi 5
+Traceback (most recent call last):
+  File "reservation.py", line 88, in <module>
+    main()
+  File "reservation.py", line 86, in main
+    build(string1[1])
+  File "reservation.py", line 71, in build
+    variable += number
+UnboundLocalError: local variable 'variable' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -191,20 +186,14 @@ All Rooms are reserved
 murthy 1
 kiran 2
 kumar 3
-kiran 2
-murthy 1
-kumar 3
-All Rooms are reserved
-All Rooms are reserved
-manasa 4
-kumar 5
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
-murthy 1
-kiran 2
-manasa 4
-kumar 5
+Traceback (most recent call last):
+  File "reservation.py", line 88, in <module>
+    main()
+  File "reservation.py", line 86, in main
+    build(string1[1])
+  File "reservation.py", line 71, in build
+    variable += number
+UnboundLocalError: local variable 'variable' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -260,20 +249,14 @@ kiran 2
 kalyani 3
 kumar 4
 swathi 5
-kiran 2
-murthy 1
-Room is already reserved
-kalyani 3
-kumar 4
-swathi 5
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-swathi 5
+Traceback (most recent call last):
+  File "reservation.py", line 88, in <module>
+    main()
+  File "reservation.py", line 86, in main
+    build(string1[1])
+  File "reservation.py", line 71, in build
+    variable += number
+UnboundLocalError: local variable 'variable' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -333,22 +316,13 @@ murthy 1
 kiran 2
 kalyani 3
 kumar 5
-kiran 2
-murthy 1
-Room is already reserved
-kalyani 3
-kumar 4
-kumar 5
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
-All Rooms are reserved
-murthy 1
-kiran 2
-kalyani 3
-kumar 5
+Traceback (most recent call last):
+  File "reservation.py", line 88, in <module>
+    main()
+  File "reservation.py", line 86, in main
+    build(string1[1])
+  File "reservation.py", line 71, in build
+    variable += number
+UnboundLocalError: local variable 'variable' referenced before assignment
 ----------------------------------------
 
