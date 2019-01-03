@@ -93,7 +93,7 @@ def cancel(name):
             dictx.pop(each, None)
             listres.remove(each)
             if count > each:
-                count = each
+                count = each - 1
             # print(listres)
     print("kumar now has no reservations.")
     # del dictx[name]

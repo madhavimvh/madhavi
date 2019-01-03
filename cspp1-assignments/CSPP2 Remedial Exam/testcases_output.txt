@@ -212,7 +212,7 @@ manohar 8
 kumar 9
 ----------------------------------------
 
-########## Testcase 6: Failed ##########
+########## Testcase 6: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -261,17 +261,18 @@ kalyani 3
 swathi 5
 Added 2 more rooms
 alekhya 6
-manasa 7
-All Rooms are reserved
+manasa 4
+kumar 7
 murthy 1
 kiran 2
 kalyani 3
+manasa 4
 swathi 5
 alekhya 6
-manasa 7
+kumar 7
 ----------------------------------------
 
-########## Testcase 7: Failed ##########
+########## Testcase 7: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -325,20 +326,21 @@ kiran 2
 kalyani 3
 Added 5 more rooms
 alekhya 6
-manasa 5
-kumar 7
-karthik 8
-manohar 9
-swetha 10
-All Rooms are reserved
+manasa 4
+kumar 5
+karthik 7
+manohar 8
+swetha 9
+reddy 10
 murthy 1
 kiran 2
 kalyani 3
-manasa 5
+manasa 4
+kumar 5
 alekhya 6
-kumar 7
-karthik 8
-manohar 9
-swetha 10
+karthik 7
+manohar 8
+swetha 9
+reddy 10
 ----------------------------------------
 
