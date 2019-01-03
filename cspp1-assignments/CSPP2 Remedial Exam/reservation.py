@@ -83,6 +83,8 @@ def build(number):
     # str1 += "Added" + number+ "more rooms" + "\n"
     print("Added " + str(number) + " more rooms")
     variable += number
+def cancel(name):
+    dictx.pop(name, None)
 def main():
     # getroomno(count)
     num = int(input())
@@ -98,5 +100,6 @@ def main():
             display()
         elif string1[0].strip() == "build":
             build(int(string1[1]))
-        # elif string1[0].strip() == "" 
+        elif string1[0].strip() == "cancel":
+            cancel(string1[1]) 
 main()
