@@ -45,5 +45,5 @@ reservation.py:100:0: C0111: Missing function docstring (missing-docstring)
 reservation.py:104:8: W0612: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.97/10 (previous run: 4.11/10, -0.14)
+Your code has been rated at 3.97/10 (previous run: 3.97/10, +0.00)
 
