@@ -83,6 +83,7 @@ def build(number):
     # str1 += "Added" + number+ "more rooms" + "\n"
     print("Added " + str(number) + " more rooms")
     variable += number
+    
 def cancel(name):
     listk = list(dictx.keys())
     for each in listk:
