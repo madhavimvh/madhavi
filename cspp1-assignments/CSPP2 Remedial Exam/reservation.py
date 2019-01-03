@@ -84,7 +84,9 @@ def build(number):
     print("Added " + str(number) + " more rooms")
     variable += number
 def cancel(name):
+    print("kumar now has no reservations.")
     dictx.pop(name, None)
+    # del dictx[name]
 def main():
     # getroomno(count)
     num = int(input())
