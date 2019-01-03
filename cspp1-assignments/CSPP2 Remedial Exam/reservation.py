@@ -90,7 +90,7 @@ def cancel(name):
             dictx.pop(each, None)
     print("kumar now has no reservations.")
     # del dictx[name]
-    print(dictx)
+    # print(dictx)
 def main():
     # getroomno(count)
     num = int(input())

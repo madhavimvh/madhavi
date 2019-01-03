@@ -255,7 +255,6 @@ kalyani 3
 kumar 4
 swathi 5
 kumar now has no reservations.
-{2: 'kiran', 1: 'murthy', 3: 'kalyani', 5: 'swathi'}
 murthy 1
 kiran 2
 kalyani 3
@@ -321,7 +320,6 @@ kalyani 3
 kumar 4
 kumar 5
 kumar now has no reservations.
-{2: 'kiran', 1: 'murthy', 3: 'kalyani'}
 murthy 1
 kiran 2
 kalyani 3
