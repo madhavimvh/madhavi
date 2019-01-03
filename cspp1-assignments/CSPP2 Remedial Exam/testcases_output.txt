@@ -254,24 +254,14 @@ kiran 2
 kalyani 3
 kumar 4
 swathi 5
-kumar now has no reservations.
-{2: 'kiran', 1: 'murthy', 3: 'kalyani', 4: 'kumar', 5: 'swathi'}
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-swathi 5
-Added 2 more rooms
-alekhya 6
-manasa 7
-All Rooms are reserved
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-swathi 5
-alekhya 6
-manasa 7
+Traceback (most recent call last):
+  File "reservation.py", line 110, in <module>
+    main()
+  File "reservation.py", line 109, in main
+    cancel(string1[1]) 
+  File "reservation.py", line 88, in cancel
+    if dictx[each] == name:
+KeyError: (2, 'kiran')
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -322,30 +312,13 @@ kiran 2
 kalyani 3
 kumar 4
 kumar 5
-kumar now has no reservations.
-{2: 'kiran', 1: 'murthy', 3: 'kalyani', 4: 'kumar', 5: 'kumar'}
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-kumar 5
-Added 5 more rooms
-alekhya 6
-manasa 7
-kumar 8
-karthik 9
-manohar 10
-All Rooms are reserved
-All Rooms are reserved
-murthy 1
-kiran 2
-kalyani 3
-kumar 4
-kumar 5
-alekhya 6
-manasa 7
-kumar 8
-karthik 9
-manohar 10
+Traceback (most recent call last):
+  File "reservation.py", line 110, in <module>
+    main()
+  File "reservation.py", line 109, in main
+    cancel(string1[1]) 
+  File "reservation.py", line 88, in cancel
+    if dictx[each] == name:
+KeyError: (2, 'kiran')
 ----------------------------------------
 

@@ -84,8 +84,10 @@ def build(number):
     print("Added " + str(number) + " more rooms")
     variable += number
 def cancel(name):
+    for each in dictx.items():
+        if dictx[each] == name:
+            dictx.pop(each, None)
     print("kumar now has no reservations.")
-    dictx.pop(name, None)
     # del dictx[name]
     print(dictx)
 def main():
