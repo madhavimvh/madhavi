@@ -17,14 +17,11 @@ karan 3
 murthy 2
 rajiv 5
 kalyani 4
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 98, in main
-    display()
-  File "reservation.py", line 78, in display
-    for key in sorted(mydict):
-NameError: name 'mydict' is not defined
+rehana: 1
+murthy: 2
+karan: 3
+kalyani: 4
+rajiv: 5
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -48,14 +45,11 @@ rajiv 3
 kalyani 4
 kumar 5
 All Rooms are reserved
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 98, in main
-    display()
-  File "reservation.py", line 78, in display
-    for key in sorted(mydict):
-NameError: name 'mydict' is not defined
+murthy: 1
+kiran: 2
+rajiv: 3
+kalyani: 4
+kumar: 5
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -81,14 +75,11 @@ kalyani 4
 kumar 5
 All Rooms are reserved
 All Rooms are reserved
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 98, in main
-    display()
-  File "reservation.py", line 78, in display
-    for key in sorted(mydict):
-NameError: name 'mydict' is not defined
+murthy: 1
+kiran: 2
+rajiv: 3
+kalyani: 4
+kumar: 5
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -114,14 +105,11 @@ kalyani 3
 kumar 4
 swathi 5
 All Rooms are reserved
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 98, in main
-    display()
-  File "reservation.py", line 78, in display
-    for key in sorted(mydict):
-NameError: name 'mydict' is not defined
+murthy: 1
+kiran: 2
+kalyani: 3
+kumar: 4
+swathi: 5
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -153,14 +141,13 @@ swathi 5
 Added 2 more rooms
 alekhya 6
 manasa 7
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 98, in main
-    display()
-  File "reservation.py", line 78, in display
-    for key in sorted(mydict):
-NameError: name 'mydict' is not defined
+murthy: 1
+kiran: 2
+kalyani: 3
+kumar: 4
+swathi: 5
+alekhya: 6
+manasa: 7
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -204,14 +191,25 @@ kiran 2
 murthy 1
 kumar 3
 All Rooms are reserved
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 98, in main
-    display()
-  File "reservation.py", line 78, in display
-    for key in sorted(mydict):
-NameError: name 'mydict' is not defined
+murthy: 1
+kiran: 2
+kumar: 3
+Added 5 more rooms
+alekhya 6
+manasa 4
+kumar 5
+karthik 7
+manohar 8
+kumar 9
+murthy: 1
+kiran: 2
+kumar: 3
+manasa: 4
+kumar: 5
+alekhya: 6
+karthik: 7
+manohar: 8
+kumar: 9
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -251,14 +249,27 @@ Room is already reserved
 kalyani 3
 kumar 4
 swathi 5
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 98, in main
-    display()
-  File "reservation.py", line 78, in display
-    for key in sorted(mydict):
-NameError: name 'mydict' is not defined
+murthy: 1
+kiran: 2
+kalyani: 3
+kumar: 4
+swathi: 5
+murthy: 1
+kiran: 2
+kalyani: 3
+kumar: 4
+swathi: 5
+Added 2 more rooms
+alekhya 6
+manasa 7
+All Rooms are reserved
+murthy: 1
+kiran: 2
+kalyani: 3
+kumar: 4
+swathi: 5
+alekhya: 6
+manasa: 7
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -304,13 +315,33 @@ Room is already reserved
 kalyani 3
 kumar 4
 kumar 5
-Traceback (most recent call last):
-  File "reservation.py", line 102, in <module>
-    main()
-  File "reservation.py", line 98, in main
-    display()
-  File "reservation.py", line 78, in display
-    for key in sorted(mydict):
-NameError: name 'mydict' is not defined
+murthy: 1
+kiran: 2
+kalyani: 3
+kumar: 4
+kumar: 5
+murthy: 1
+kiran: 2
+kalyani: 3
+kumar: 4
+kumar: 5
+Added 5 more rooms
+alekhya 6
+manasa 7
+kumar 8
+karthik 9
+manohar 10
+All Rooms are reserved
+All Rooms are reserved
+murthy: 1
+kiran: 2
+kalyani: 3
+kumar: 4
+kumar: 5
+alekhya: 6
+manasa: 7
+kumar: 8
+karthik: 9
+manohar: 10
 ----------------------------------------
 
