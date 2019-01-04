@@ -110,6 +110,6 @@ if __name__ == "__main__":
         line = input()
         ha = line.split(" ")
         HANDS.append(ha)
-    print(HANDS)
+    # print(HANDS)
     # test the poker function to see how it works
     print(' '.join(poker(HANDS)))
