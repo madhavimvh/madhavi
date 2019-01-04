@@ -106,23 +106,33 @@ def listtext(html):
 		elif tag1 in each:
 			ind = each.index(tag1)
 			posttag = each[ind + len(tag1):]
+			# print(posttag)
 			count += checkfortag(posttag)
 	print(count)
 def checkfortag(posttag):
+	listx = []
 	count1 = 0
-	# print(posttag)
-	posttag1 = list(posttag)
+	midtag = ">"
 	str3 = ""
+	if midtag not in posttag and posttag != "\t" and posttag != '' and len(posttag) != 0:
+		# count1 += 1
+		# print("sfhkh")
+		# print(posttag)
+		str3 += posttag
+		# listx.append(posttag.strip())
+		# print(listx)
+	posttag1 = list(posttag)
 	for i in range(len(posttag1) - 2):
-		if posttag1[i] == ">" and posttag1[i + 1] != " " and posttag1[i+1] != "<" and posttag1[i + 2] != "<":
+		# print(posttag)
+		if posttag1[i] == ">" and posttag1[i+1] != "<" and posttag1[i + 2] != "<":
 			a = i + 1
 			while True:
-				if a == len(posttag1) - 1:
-					break
 				str3 += posttag1[a]
 				# print(posttag1)
 				# print(str3)
 				a = a + 1
+				if a == len(posttag1):
+					break
 				if posttag1[a] == "<":
 					# str3 += "\n"
 					break
@@ -134,18 +144,22 @@ def checkfortag(posttag):
 	# countlist.append(str4)
 	for each in str4:
 		if "{" not in each:
-			if len(each) != 0:
-				print(each)
+			if len(each) != 0 and each != '':
+				listx.append(each.strip())
+				# print(listx)
+				print(each.strip())
 				count1 += 1
-	return count1
+	# print(listx)
+	# return count1
+	return len(listx)
 def main():
 	html = open("webpage5.html", errors='ignore').read()
 	# print(html)
-	string = input()
-	if string == "image":
-		image(html)
-	elif string == "background":
-		background(html)
-	elif string == "list":
-		listtext(html)
+	# string = input()
+	# if string == "image":
+	# 	image(html)
+	# elif string == "background":
+	# 	background(html)
+	# elif string == "list":
+	listtext(html)
 main()

@@ -1,0 +1,8 @@
+warning: LF will be replaced by CRLF in cspp1-assignments/week1rem/CSPP-1Week1Exam/testcases/output002.txt.
+The file will have its original line endings in your working directory.
+[master 5247548] "cspp1_m10_a1_1: 2/3 testcases passed. Cannot run hidden testcases as Server is unreachablepylint score: -1/10 "
+ 6 files changed, 207 insertions(+), 6 deletions(-)
+ delete mode 100644 cspp1-assignments/week1rem/CSPP-1Week1Exam/md5/score.txt
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/madhavimvh/madhavi.git
+   474777f..5247548  master -> master
