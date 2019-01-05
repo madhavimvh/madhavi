@@ -1,5 +1,8 @@
 def main():
-	string = list(map(int, input().split()))
-
+	string = list(input())
+	list1 = []
 	print(string)
+
+
+
 main()
