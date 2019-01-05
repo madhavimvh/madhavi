@@ -11,6 +11,7 @@ def listsoflists(string):
 			check(each)
 			count += 1
 	print(sum1)
+	print(type(sum1))
 	print(count)
 def check(each):
 	global sum1

@@ -1,10 +1,11 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 76.8
 6
 
 Your Output: 
 76.8
+<class 'float'>
 6
 ----------------------------------------
 
@@ -15,9 +16,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "listsoflists.py", line 35, in <module>
+  File "listsoflists.py", line 36, in <module>
     main()
-  File "listsoflists.py", line 31, in main
+  File "listsoflists.py", line 32, in main
     listsoflists(string)
   File "listsoflists.py", line 8, in listsoflists
     sum1 += float(each)
@@ -31,6 +32,7 @@ Expected Output:
 
 Your Output: 
 1.0
+<class 'float'>
 6
 ----------------------------------------
 
@@ -41,16 +43,18 @@ Expected Output:
 
 Your Output: 
 5.0
+<class 'float'>
 4
 ----------------------------------------
 
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 0
 8
 
 Your Output: 
 0
+<class 'int'>
 8
 ----------------------------------------
 
@@ -61,15 +65,15 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "listsoflists.py", line 35, in <module>
+  File "listsoflists.py", line 36, in <module>
     main()
-  File "listsoflists.py", line 31, in main
+  File "listsoflists.py", line 32, in main
     listsoflists(string)
   File "listsoflists.py", line 11, in listsoflists
     check(each)
-  File "listsoflists.py", line 24, in check
+  File "listsoflists.py", line 25, in check
     check(each1)
-  File "listsoflists.py", line 21, in check
+  File "listsoflists.py", line 22, in check
     sum1 += float(each1)
 ValueError: could not convert string to float: 'dfgdfg'
 ----------------------------------------
