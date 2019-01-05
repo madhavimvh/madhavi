@@ -1,5 +1,5 @@
 def main():
-	string = list(input())
+	string = list(map(int, list(input())))
 
 	print(string)
 main()
