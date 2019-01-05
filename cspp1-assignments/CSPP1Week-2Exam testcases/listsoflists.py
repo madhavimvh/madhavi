@@ -1,6 +1,7 @@
 def listsfloat(string):
 	global sum1
 	global count
+	size = 0
 	count = 0
 	sum1 = 0
 	for each in string:
@@ -34,11 +35,29 @@ def check(each):
 			count += 1
 	# print(sum1)
 # def liststr(string):
-
+# def depth(l):
+#     if isinstance(l, list):
+#         return 1 + max(depth(item) for item in l)
+#     else:
+#         return 0
+def list_depth(list_of_lists):
+    if isinstance(list_of_lists, list):
+        if(len(list_of_lists) == 0):
+            depth = 1
+        else:
+            depth = 1 + max([list_depth(l) for l in list_of_lists])
+    else:
+        depth = 0
+    return depth
 def main():
 	global string
 	string = eval(input())
 	listsfloat(string)
+	# try:
+	print(list_depth(string))
+	# except:
+		# print("cannot find depth")
+
 	# for each in string:
 	# 	if type(each) in [list]:
 	# 		for each1 in each: 
