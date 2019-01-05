@@ -8,20 +8,14 @@ Your Output:
 6
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 5.5
 1
 
 Your Output: 
-Traceback (most recent call last):
-  File "listsoflists.py", line 43, in <module>
-    main()
-  File "listsoflists.py", line 39, in main
-    listsfloat(string)
-  File "listsoflists.py", line 8, in listsfloat
-    sum1 += float(each)
-ValueError: could not convert string to float: 'a,'
+5.5
+1
 ----------------------------------------
 
 ########## Testcase 2: Passed ##########
@@ -54,23 +48,13 @@ Your Output:
 8
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 5654134.9
 10
 
 Your Output: 
-Traceback (most recent call last):
-  File "listsoflists.py", line 43, in <module>
-    main()
-  File "listsoflists.py", line 39, in main
-    listsfloat(string)
-  File "listsoflists.py", line 11, in listsfloat
-    check(each)
-  File "listsoflists.py", line 32, in check
-    check(each1)
-  File "listsoflists.py", line 29, in check
-    sum1 += float(each1)
-ValueError: could not convert string to float: 'dfgdfg'
+5654134.9
+10
 ----------------------------------------
 

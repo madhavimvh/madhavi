@@ -5,7 +5,8 @@ def listsfloat(string):
 	sum1 = 0
 	for each in string:
 		if type(each) not in [list]:
-			sum1 += float(each)
+			if type(each) not in [str]:
+				sum1 += float(each)
 			# print("sum" + str(sum1))
 		else:
 			check(each)
@@ -25,18 +26,23 @@ def check(each):
 	global count
 	for each1 in each:
 		if type(each1) not in [list]:
-			# print(each1)
-			sum1 += float(each1)
+			if type(each1) not in [str]:
+				sum1 += float(each1)
 		else:
 			# print("list")
 			check(each1)
 			count += 1
 	# print(sum1)
+# def liststr(string):
+
 def main():
 	global string
 	string = eval(input())
-	# print(string)
 	listsfloat(string)
+	# for each in string:
+	# 	if type(each) in [list]:
+	# 		for each1 in each: 
+	# 			print(type(each1))
 
 	
 
