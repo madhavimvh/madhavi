@@ -56,7 +56,7 @@ def main():
 	global string
 	string = eval(input())
 	listsfloat(string)
-	# print(list_depth(string))
+	print(list_depth(string))
 
 main()
 
