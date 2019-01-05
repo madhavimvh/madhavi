@@ -1,0 +1,10 @@
+************* Module listsoflists
+listsoflists.py:2:0: C0304: Final newline missing (missing-final-newline)
+listsoflists.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+listsoflists.py:1:0: C0111: Missing module docstring (missing-docstring)
+listsoflists.py:1:0: C0111: Missing function docstring (missing-docstring)
+listsoflists.py:2:1: W0612: Unused variable 'string' (unused-variable)
+
+-------------------------------------
+Your code has been rated at -15.00/10
+
