@@ -10,8 +10,8 @@ def listsfloat(string):
 		else:
 			check(each)
 			count += 1
-	sumstr = str(sum1).split(".")
-	if "." in sumstr:
+	if "." in str(sum1):
+		sumstr = str(sum1).split(".")
 		if sumstr[1] != 0:
 			print(sum1)
 		else:

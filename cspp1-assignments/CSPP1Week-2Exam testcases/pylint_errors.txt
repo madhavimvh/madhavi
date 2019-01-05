@@ -49,5 +49,5 @@ listsoflists.py:34:1: W0601: Global variable 'string' undefined at the module le
 listsoflists.py:35:10: W0123: Use of eval (eval-used)
 
 --------------------------------------------------------------------
-Your code has been rated at -6.55/10 (previous run: -6.79/10, +0.23)
+Your code has been rated at -6.55/10 (previous run: -6.55/10, +0.00)
 
