@@ -11,7 +11,8 @@ def listsoflists(string):
 			check(each)
 			count += 1
 	print(sum1)
-	print(type(sum1))
+	if type(sum1) == 'float':
+		print('essef')
 	print(count)
 def check(each):
 	global sum1
