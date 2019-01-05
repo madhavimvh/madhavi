@@ -5,6 +5,6 @@ listsoflists.py:1:0: C0111: Missing module docstring (missing-docstring)
 listsoflists.py:1:0: C0111: Missing function docstring (missing-docstring)
 listsoflists.py:2:1: W0612: Unused variable 'string' (unused-variable)
 
--------------------------------------
-Your code has been rated at -15.00/10
+----------------------------------------------------------------------
+Your code has been rated at -15.00/10 (previous run: -15.00/10, +0.00)
 
