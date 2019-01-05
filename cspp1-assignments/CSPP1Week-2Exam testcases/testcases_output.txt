@@ -8,8 +8,8 @@ Traceback (most recent call last):
   File "listsoflists.py", line 5, in <module>
     main()
   File "listsoflists.py", line 2, in main
-    string = list(map(int, list(input())))
-ValueError: invalid literal for int() with base 10: '['
+    string = list(map(int, input().split()))
+ValueError: invalid literal for int() with base 10: '[[1,2,3],[1,2,[1,2,3,4,9,[3,4],6,7],7],[0,6.8,[1,2,3],9]]'
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -22,8 +22,8 @@ Traceback (most recent call last):
   File "listsoflists.py", line 5, in <module>
     main()
   File "listsoflists.py", line 2, in main
-    string = list(map(int, list(input())))
-ValueError: invalid literal for int() with base 10: '['
+    string = list(map(int, input().split()))
+ValueError: invalid literal for int() with base 10: '["a,",'
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -36,8 +36,8 @@ Traceback (most recent call last):
   File "listsoflists.py", line 5, in <module>
     main()
   File "listsoflists.py", line 2, in main
-    string = list(map(int, list(input())))
-ValueError: invalid literal for int() with base 10: '['
+    string = list(map(int, input().split()))
+ValueError: invalid literal for int() with base 10: '[[[[[[[1]]]]]]]'
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -50,8 +50,8 @@ Traceback (most recent call last):
   File "listsoflists.py", line 5, in <module>
     main()
   File "listsoflists.py", line 2, in main
-    string = list(map(int, list(input())))
-ValueError: invalid literal for int() with base 10: '['
+    string = list(map(int, input().split()))
+ValueError: invalid literal for int() with base 10: '[1,[1,[1,[1,[1]]]]]'
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -64,8 +64,8 @@ Traceback (most recent call last):
   File "listsoflists.py", line 5, in <module>
     main()
   File "listsoflists.py", line 2, in main
-    string = list(map(int, list(input())))
-ValueError: invalid literal for int() with base 10: '['
+    string = list(map(int, input().split()))
+ValueError: invalid literal for int() with base 10: '[[[[[[[[[]]]]]]]]]'
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -78,7 +78,7 @@ Traceback (most recent call last):
   File "listsoflists.py", line 5, in <module>
     main()
   File "listsoflists.py", line 2, in main
-    string = list(map(int, list(input())))
-ValueError: invalid literal for int() with base 10: '['
+    string = list(map(int, input().split()))
+ValueError: invalid literal for int() with base 10: '[[1,2,3,4,5654665,[3,45,-0,0,-666,"dfgdfg","jkkk"],[1,2,4,"ii",8.9,["i","j"],4,5,6,[7,8,8],"r","p",6,-9],[8,6,9],1],3,[[],[]],[]]'
 ----------------------------------------
 
