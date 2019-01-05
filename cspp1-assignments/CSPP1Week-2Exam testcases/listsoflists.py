@@ -16,6 +16,8 @@ def listsfloat(string):
 			print(sum1)
 		else:
 			print(int(sum))
+	else:
+		print(sum1)
 	print(count)
 
 def check(each):
