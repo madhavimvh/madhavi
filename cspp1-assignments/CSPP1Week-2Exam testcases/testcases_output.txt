@@ -1,10 +1,9 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 76.8
 6
 
 Your Output: 
-76.8
 6
 ----------------------------------------
 
@@ -15,9 +14,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "listsoflists.py", line 40, in <module>
+  File "listsoflists.py", line 41, in <module>
     main()
-  File "listsoflists.py", line 36, in main
+  File "listsoflists.py", line 37, in main
     listsfloat(string)
   File "listsoflists.py", line 8, in listsfloat
     sum1 += float(each)
@@ -30,7 +29,6 @@ Expected Output:
 6
 
 Your Output: 
-1.0
 6
 ----------------------------------------
 
@@ -40,7 +38,6 @@ Expected Output:
 4
 
 Your Output: 
-5.0
 4
 ----------------------------------------
 
@@ -50,14 +47,7 @@ Expected Output:
 8
 
 Your Output: 
-Traceback (most recent call last):
-  File "listsoflists.py", line 40, in <module>
-    main()
-  File "listsoflists.py", line 36, in main
-    listsfloat(string)
-  File "listsoflists.py", line 14, in listsfloat
-    if sumstr[1] != 0:
-IndexError: list index out of range
+8
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -67,15 +57,15 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "listsoflists.py", line 40, in <module>
+  File "listsoflists.py", line 41, in <module>
     main()
-  File "listsoflists.py", line 36, in main
+  File "listsoflists.py", line 37, in main
     listsfloat(string)
   File "listsoflists.py", line 11, in listsfloat
     check(each)
-  File "listsoflists.py", line 29, in check
+  File "listsoflists.py", line 30, in check
     check(each1)
-  File "listsoflists.py", line 26, in check
+  File "listsoflists.py", line 27, in check
     sum1 += float(each1)
 ValueError: could not convert string to float: 'dfgdfg'
 ----------------------------------------
