@@ -1,4 +1,5 @@
 def main():
-	string = input()
+	string = list(input())
+
 	print(string)
 main()
