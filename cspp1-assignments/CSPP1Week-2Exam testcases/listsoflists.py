@@ -1,28 +1,37 @@
+def listsoflists(string):
+	global sum1
+	global count
+	count = 0
+	sum1 = 0
+	for each in string:
+		if type(each) not in [list]:
+			sum1 += float(each)
+			# print("sum" + str(sum1))
+		else:
+			check(each)
+			count += 1
+	print(sum1)
+	print(count)
+def check(each):
+	global sum1
+	global count
+	for each1 in each:
+		if type(each1) not in [list]:
+			# print(each1)
+			sum1 += float(each1)
+		else:
+			# print("list")
+			check(each1)
+			count += 1
+	# print(sum1)
 def main():
 	global string
-	string = input().split()
-	print(string)
-	list1 = []
-	list2 = []
-	for i in range(len(string) - 1):
-		if string[i] == '[':
-			num = check(string[i + 1], i + 1)
-			a = num + 1
-			while True:
-				list2.append(string[a])
-				a = a + 1
-				if string[a] == ']':
-					list1.append(list2)
-					list2 = []
-					break
-	print(list1)
+	string = eval(input())
+	# print(string)
+	listsoflists(string)
+
+	
 
 main()
-def check(string, i):
-	if '[' in string:
-		a = i + 1
-		check(string[a], a)
-	else:
-		return i
 
 
