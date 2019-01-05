@@ -1,4 +1,4 @@
-def listsoflists(string):
+def listsfloat(string):
 	global sum1
 	global count
 	count = 0
@@ -10,10 +10,13 @@ def listsoflists(string):
 		else:
 			check(each)
 			count += 1
-	print(sum1)
-	if type(sum1) == 'float':
-		print('essef')
+	sumstr = str(sum1).split(".")
+	if sumstr[1] != 0:
+		print(sum1)
+	else:
+		print(int(sum))
 	print(count)
+
 def check(each):
 	global sum1
 	global count
@@ -30,7 +33,7 @@ def main():
 	global string
 	string = eval(input())
 	# print(string)
-	listsoflists(string)
+	listsfloat(string)
 
 	
 
