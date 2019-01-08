@@ -58,7 +58,6 @@ Poll.py:10:2: E0602: Undefined variable 'list2' (undefined-variable)
 Poll.py:10:15: E0602: Undefined variable 'optinvotes' (undefined-variable)
 Poll.py:11:1: C0103: Method name "setOptionVotes" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:11:1: C0111: Missing method docstring (missing-docstring)
-Poll.py:13:8: E0602: Undefined variable 'list2' (undefined-variable)
 Poll.py:14:1: C0103: Method name "commonSelectedOption" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:14:1: C0111: Missing method docstring (missing-docstring)
 Poll.py:15:2: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
@@ -81,5 +80,5 @@ Poll.py:55:3: C0103: Variable name "p" doesn't conform to snake_case naming styl
 Poll.py:55:3: W0612: Unused variable 'p' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -6.73/10 (previous run: -4.15/10, -2.58)
+Your code has been rated at -5.82/10 (previous run: -6.73/10, +0.91)
 

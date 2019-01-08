@@ -10,7 +10,7 @@ class Question:
 		list2.append(optinvotes)
 	def setOptionVotes(self, optin):
 		self.optinvotes[optin] += 1
-		print(list2)
+		print(self.list2)
 	def commonSelectedOption(self):
 		n = max(self.optinvotes.values())
 		# print(n)
