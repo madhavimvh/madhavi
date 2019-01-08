@@ -3,6 +3,7 @@ class Question:
 		self.question = question
 		self.options = options
 		self.optinvotes = {}
+		print(options)
 		for opt in options:
 			optinvotes[opt] = 0
 	def setOptionVotes(optin):
@@ -37,7 +38,7 @@ def main():
 		options = []
 		for i in range(4):
 			options.append(input())
-		quiz.addquestion(Question(ques, options))
+		quiz.addQuestion(Question(ques, options))
 	participants = int(input())
 	for i in range(participants):
 		name = input()

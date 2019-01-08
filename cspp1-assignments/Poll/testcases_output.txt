@@ -3,12 +3,15 @@ Expected Output:
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 
 Your Output: 
+['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 Traceback (most recent call last):
-  File "Poll.py", line 53, in <module>
+  File "Poll.py", line 54, in <module>
     main()
-  File "Poll.py", line 40, in main
-    quiz.addquestion(Question(ques, options))
-AttributeError: 'Quiz' object has no attribute 'addquestion'
+  File "Poll.py", line 41, in main
+    quiz.addQuestion(Question(ques, options))
+  File "Poll.py", line 8, in __init__
+    optinvotes[opt] = 0
+NameError: name 'optinvotes' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -18,12 +21,15 @@ Highest number of votes for question : Who will be the next cm for Telangana? : 
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
+['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 Traceback (most recent call last):
-  File "Poll.py", line 53, in <module>
+  File "Poll.py", line 54, in <module>
     main()
-  File "Poll.py", line 40, in main
-    quiz.addquestion(Question(ques, options))
-AttributeError: 'Quiz' object has no attribute 'addquestion'
+  File "Poll.py", line 41, in main
+    quiz.addQuestion(Question(ques, options))
+  File "Poll.py", line 8, in __init__
+    optinvotes[opt] = 0
+NameError: name 'optinvotes' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -33,11 +39,14 @@ Highest number of votes for question : Who will be the next cm for Telangana? : 
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
+['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 Traceback (most recent call last):
-  File "Poll.py", line 53, in <module>
+  File "Poll.py", line 54, in <module>
     main()
-  File "Poll.py", line 40, in main
-    quiz.addquestion(Question(ques, options))
-AttributeError: 'Quiz' object has no attribute 'addquestion'
+  File "Poll.py", line 41, in main
+    quiz.addQuestion(Question(ques, options))
+  File "Poll.py", line 8, in __init__
+    optinvotes[opt] = 0
+NameError: name 'optinvotes' is not defined
 ----------------------------------------
 
