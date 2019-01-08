@@ -18,7 +18,7 @@ class Question:
 class Quiz:
 	def __init__(self):
 		self.questions = []
-	def addQuestion(Question):
+	def addQuestion(self, Question):
 		questions.append(Question)
 	def getQuestion(i):
 		return questions[i]
