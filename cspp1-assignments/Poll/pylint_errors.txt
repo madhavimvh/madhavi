@@ -45,7 +45,7 @@ Poll.py:51:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 Poll.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:54:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:55:0: C0301: Line too long (129/100) (line-too-long)
+Poll.py:55:0: C0301: Line too long (134/100) (line-too-long)
 Poll.py:55:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:1:0: C0103: Module name "Poll" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:1:0: C0111: Missing module docstring (missing-docstring)
@@ -75,5 +75,5 @@ Poll.py:51:3: C0103: Variable name "p" doesn't conform to snake_case naming styl
 Poll.py:51:3: W0612: Unused variable 'p' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -6.08/10 (previous run: -6.20/10, +0.12)
+Your code has been rated at -6.08/10 (previous run: -6.08/10, +0.00)
 

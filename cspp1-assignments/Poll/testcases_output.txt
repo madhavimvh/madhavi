@@ -4,12 +4,15 @@ Highest number of votes for question : Who should be the next Prime Minister? : 
 
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
+2
 Traceback (most recent call last):
   File "Poll.py", line 57, in <module>
     main()
   File "Poll.py", line 55, in main
-    print("Highest number of votes for question :" + quiz.getQuestion(i) + " : " + str(quiz.getQuestion(i).commonSelectedOption()))
-TypeError: can only concatenate str (not "Question") to str
+    print("Highest number of votes for question :" + str(quiz.getQuestion(i)) + " : " + str(quiz.getQuestion(i).commonSelectedOption()))
+  File "Poll.py", line 14, in commonSelectedOption
+    for each in optinvotes:
+NameError: name 'optinvotes' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -22,12 +25,15 @@ Your Output:
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
+2
 Traceback (most recent call last):
   File "Poll.py", line 57, in <module>
     main()
   File "Poll.py", line 55, in main
-    print("Highest number of votes for question :" + quiz.getQuestion(i) + " : " + str(quiz.getQuestion(i).commonSelectedOption()))
-TypeError: can only concatenate str (not "Question") to str
+    print("Highest number of votes for question :" + str(quiz.getQuestion(i)) + " : " + str(quiz.getQuestion(i).commonSelectedOption()))
+  File "Poll.py", line 14, in commonSelectedOption
+    for each in optinvotes:
+NameError: name 'optinvotes' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -40,11 +46,14 @@ Your Output:
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
+5
 Traceback (most recent call last):
   File "Poll.py", line 57, in <module>
     main()
   File "Poll.py", line 55, in main
-    print("Highest number of votes for question :" + quiz.getQuestion(i) + " : " + str(quiz.getQuestion(i).commonSelectedOption()))
-TypeError: can only concatenate str (not "Question") to str
+    print("Highest number of votes for question :" + str(quiz.getQuestion(i)) + " : " + str(quiz.getQuestion(i).commonSelectedOption()))
+  File "Poll.py", line 14, in commonSelectedOption
+    for each in optinvotes:
+NameError: name 'optinvotes' is not defined
 ----------------------------------------
 
