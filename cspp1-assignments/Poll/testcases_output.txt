@@ -9,9 +9,7 @@ Traceback (most recent call last):
     main()
   File "Poll.py", line 41, in main
     quiz.addQuestion(Question(ques, options))
-  File "Poll.py", line 8, in __init__
-    optinvotes[opt] = 0
-NameError: name 'optinvotes' is not defined
+TypeError: addQuestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -27,9 +25,7 @@ Traceback (most recent call last):
     main()
   File "Poll.py", line 41, in main
     quiz.addQuestion(Question(ques, options))
-  File "Poll.py", line 8, in __init__
-    optinvotes[opt] = 0
-NameError: name 'optinvotes' is not defined
+TypeError: addQuestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -45,8 +41,6 @@ Traceback (most recent call last):
     main()
   File "Poll.py", line 41, in main
     quiz.addQuestion(Question(ques, options))
-  File "Poll.py", line 8, in __init__
-    optinvotes[opt] = 0
-NameError: name 'optinvotes' is not defined
+TypeError: addQuestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 

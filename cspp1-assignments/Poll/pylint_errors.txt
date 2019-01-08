@@ -46,7 +46,6 @@ Poll.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 Poll.py:1:0: C0103: Module name "Poll" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:1:0: C0111: Missing module docstring (missing-docstring)
 Poll.py:1:0: C0111: Missing class docstring (missing-docstring)
-Poll.py:8:3: E0602: Undefined variable 'optinvotes' (undefined-variable)
 Poll.py:9:1: C0103: Method name "setOptionVotes" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:9:1: C0111: Missing method docstring (missing-docstring)
 Poll.py:9:1: E0213: Method should have "self" as first argument (no-self-argument)
@@ -84,5 +83,5 @@ Poll.py:52:91: E1121: Too many positional arguments for method call (too-many-fu
 Poll.py:48:3: W0612: Unused variable 'p' (unused-variable)
 
 ----------------------------------------------------------------------
-Your code has been rated at -19.79/10 (previous run: -19.79/10, +0.00)
+Your code has been rated at -18.75/10 (previous run: -19.79/10, +1.04)
 

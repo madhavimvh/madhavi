@@ -5,7 +5,7 @@ class Question:
 		self.options = options
 		print(options)
 		for opt in options:
-			optinvotes[opt] = 0
+			self.optinvotes[opt] = 0
 	def setOptionVotes(optin):
 		optinvotes[optin] += 1
 	def commonSelectedOption():
