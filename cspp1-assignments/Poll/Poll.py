@@ -14,7 +14,7 @@ class Question:
 		for each in self.optinvotes:
 			if self.optinvotes[each] == n:
 				return each
-	def gettext():
+	def gettext(self):
 		return self.question
 
 class Quiz:

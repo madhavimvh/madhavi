@@ -59,8 +59,6 @@ Poll.py:11:1: C0111: Missing method docstring (missing-docstring)
 Poll.py:12:2: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:11:1: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
 Poll.py:17:1: C0111: Missing method docstring (missing-docstring)
-Poll.py:17:1: E0211: Method has no argument (no-method-argument)
-Poll.py:18:9: E0602: Undefined variable 'self' (undefined-variable)
 Poll.py:20:0: C0111: Missing class docstring (missing-docstring)
 Poll.py:24:1: C0103: Method name "addQuestion" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:24:1: C0103: Argument name "Question" doesn't conform to snake_case naming style (invalid-name)
@@ -78,5 +76,5 @@ Poll.py:52:3: C0103: Variable name "p" doesn't conform to snake_case naming styl
 Poll.py:52:3: W0612: Unused variable 'p' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -6.04/10 (previous run: -6.04/10, +0.00)
+Your code has been rated at -4.15/10 (previous run: -6.04/10, +1.89)
 

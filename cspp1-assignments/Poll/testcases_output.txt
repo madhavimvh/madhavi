@@ -7,11 +7,9 @@ Your Output:
 Traceback (most recent call last):
   File "Poll.py", line 59, in <module>
     main()
-  File "Poll.py", line 53, in main
-    question = quiz.getQuestion(q - 1)
-  File "Poll.py", line 27, in getQuestion
-    return self.questions[i].gettext()
-TypeError: gettext() takes 0 positional arguments but 1 was given
+  File "Poll.py", line 54, in main
+    question.setOptionVotes(line[1])
+AttributeError: 'str' object has no attribute 'setOptionVotes'
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -27,11 +25,9 @@ Your Output:
 Traceback (most recent call last):
   File "Poll.py", line 59, in <module>
     main()
-  File "Poll.py", line 53, in main
-    question = quiz.getQuestion(q - 1)
-  File "Poll.py", line 27, in getQuestion
-    return self.questions[i].gettext()
-TypeError: gettext() takes 0 positional arguments but 1 was given
+  File "Poll.py", line 54, in main
+    question.setOptionVotes(line[1])
+AttributeError: 'str' object has no attribute 'setOptionVotes'
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -47,10 +43,8 @@ Your Output:
 Traceback (most recent call last):
   File "Poll.py", line 59, in <module>
     main()
-  File "Poll.py", line 53, in main
-    question = quiz.getQuestion(q - 1)
-  File "Poll.py", line 27, in getQuestion
-    return self.questions[i].gettext()
-TypeError: gettext() takes 0 positional arguments but 1 was given
+  File "Poll.py", line 54, in main
+    question.setOptionVotes(line[1])
+AttributeError: 'str' object has no attribute 'setOptionVotes'
 ----------------------------------------
 
