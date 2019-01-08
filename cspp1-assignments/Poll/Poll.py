@@ -50,7 +50,6 @@ def main():
 			line = input().split()
 			q = int(line[0])
 			p = Participant(name, q - 1, line[1])
-			question = Question() 
 			question = quiz.getQuestion(q - 1)
 			print(question)
 			question.setOptionVotes(line[1])

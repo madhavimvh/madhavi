@@ -43,15 +43,13 @@ Poll.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 Poll.py:50:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:51:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:53:24: C0303: Trailing whitespace (trailing-whitespace)
 Poll.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:54:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:55:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:56:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:57:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:58:0: C0301: Line too long (134/100) (line-too-long)
 Poll.py:58:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:59:0: C0301: Line too long (134/100) (line-too-long)
-Poll.py:59:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:1:0: C0103: Module name "Poll" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:1:0: C0111: Missing module docstring (missing-docstring)
 Poll.py:1:0: C0111: Missing class docstring (missing-docstring)
@@ -76,10 +74,8 @@ Poll.py:42:2: W0621: Redefining name 'i' from outer scope (line 39) (redefined-o
 Poll.py:49:2: W0621: Redefining name 'i' from outer scope (line 47) (redefined-outer-name)
 Poll.py:51:3: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:52:3: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
-Poll.py:53:14: E1120: No value for argument 'question' in constructor call (no-value-for-parameter)
-Poll.py:53:14: E1120: No value for argument 'options' in constructor call (no-value-for-parameter)
 Poll.py:52:3: W0612: Unused variable 'p' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -6.00/10 (previous run: -4.15/10, -1.85)
+Your code has been rated at -4.07/10 (previous run: -6.00/10, +1.93)
 
