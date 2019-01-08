@@ -5,11 +5,11 @@ Highest number of votes for question : Who should be the next Prime Minister? : 
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 Traceback (most recent call last):
-  File "Poll.py", line 60, in <module>
+  File "Poll.py", line 61, in <module>
     main()
-  File "Poll.py", line 55, in main
-    question.setOptionVotes(line[1])
-AttributeError: 'str' object has no attribute 'setOptionVotes'
+  File "Poll.py", line 53, in main
+    question = Question() 
+TypeError: __init__() missing 2 required positional arguments: 'question' and 'options'
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -23,11 +23,11 @@ Your Output:
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
 Traceback (most recent call last):
-  File "Poll.py", line 60, in <module>
+  File "Poll.py", line 61, in <module>
     main()
-  File "Poll.py", line 55, in main
-    question.setOptionVotes(line[1])
-AttributeError: 'str' object has no attribute 'setOptionVotes'
+  File "Poll.py", line 53, in main
+    question = Question() 
+TypeError: __init__() missing 2 required positional arguments: 'question' and 'options'
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -41,10 +41,10 @@ Your Output:
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
 Traceback (most recent call last):
-  File "Poll.py", line 60, in <module>
+  File "Poll.py", line 61, in <module>
     main()
-  File "Poll.py", line 55, in main
-    question.setOptionVotes(line[1])
-AttributeError: 'str' object has no attribute 'setOptionVotes'
+  File "Poll.py", line 53, in main
+    question = Question() 
+TypeError: __init__() missing 2 required positional arguments: 'question' and 'options'
 ----------------------------------------
 
