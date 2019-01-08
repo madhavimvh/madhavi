@@ -58,6 +58,6 @@ def main():
 			question.setOptionVotes(line[1])
 	for i in range(noofques):
 		# print(quiz.getQuestion(i))
-		print("Highest number of votes for question :" + str(quiz.getQuestion(i).gettext()) + " : " + str(quiz.getQuestion(i).commonSelectedOption()))
+		print("Highest number of votes for question : " + str(quiz.getQuestion(i).gettext()) + " : " + str(quiz.getQuestion(i).commonSelectedOption()))
 
 main()
