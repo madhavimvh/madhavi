@@ -1,4 +1,5 @@
 class Question:
+	list2 = []
 	optinvotes = {}
 	def __init__(self, question, options):
 		self.question = question
@@ -6,9 +7,10 @@ class Question:
 		print(options)
 		for opt in options:
 			self.optinvotes[opt] = 0
+		list2.append(optinvotes)
 	def setOptionVotes(self, optin):
 		self.optinvotes[optin] += 1
-		print(self.optinvotes)
+		print(list2)
 	def commonSelectedOption(self):
 		n = max(self.optinvotes.values())
 		# print(n)

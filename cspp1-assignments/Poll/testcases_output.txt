@@ -4,10 +4,14 @@ Highest number of votes for question : Who should be the next Prime Minister? : 
 
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
-{'RahulGandhi': 1, 'NarendraModi': 0, 'ManmohanSingh': 0, 'None': 0}
-{'RahulGandhi': 1, 'NarendraModi': 1, 'ManmohanSingh': 0, 'None': 0}
-{'RahulGandhi': 1, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}
-Highest number of votes for question :Who should be the next Prime Minister? : NarendraModi
+Traceback (most recent call last):
+  File "Poll.py", line 63, in <module>
+    main()
+  File "Poll.py", line 47, in main
+    ques1 = Question(ques, options)	
+  File "Poll.py", line 10, in __init__
+    list2.append(optinvotes)
+NameError: name 'list2' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -18,20 +22,14 @@ Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
-['KCR', 'KTR', 'PK', 'None']
-['CBN', 'PK', 'Jagan', 'None']
-{'RahulGandhi': 0, 'NarendraModi': 1, 'ManmohanSingh': 0, 'None': 0, 'KCR': 0, 'KTR': 0, 'PK': 0, 'CBN': 0, 'Jagan': 0}
-{'RahulGandhi': 0, 'NarendraModi': 1, 'ManmohanSingh': 0, 'None': 0, 'KCR': 1, 'KTR': 0, 'PK': 0, 'CBN': 0, 'Jagan': 0}
-{'RahulGandhi': 0, 'NarendraModi': 1, 'ManmohanSingh': 0, 'None': 0, 'KCR': 1, 'KTR': 0, 'PK': 0, 'CBN': 1, 'Jagan': 0}
-{'RahulGandhi': 0, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 1, 'KTR': 0, 'PK': 0, 'CBN': 1, 'Jagan': 0}
-{'RahulGandhi': 0, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 0, 'PK': 0, 'CBN': 1, 'Jagan': 0}
-{'RahulGandhi': 0, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 0, 'PK': 0, 'CBN': 1, 'Jagan': 1}
-{'RahulGandhi': 1, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 0, 'PK': 0, 'CBN': 1, 'Jagan': 1}
-{'RahulGandhi': 1, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 1, 'PK': 0, 'CBN': 1, 'Jagan': 1}
-{'RahulGandhi': 1, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 1, 'PK': 0, 'CBN': 2, 'Jagan': 1}
-Highest number of votes for question :Who should be the next Prime Minister? : NarendraModi
-Highest number of votes for question :Who will be the next cm for Telangana? : NarendraModi
-Highest number of votes for question :Who will be the next cm for AP? : NarendraModi
+Traceback (most recent call last):
+  File "Poll.py", line 63, in <module>
+    main()
+  File "Poll.py", line 47, in main
+    ques1 = Question(ques, options)	
+  File "Poll.py", line 10, in __init__
+    list2.append(optinvotes)
+NameError: name 'list2' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -42,28 +40,13 @@ Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
-['KCR', 'KTR', 'PK', 'None']
-['CBN', 'PK', 'Jagan', 'None']
-{'RahulGandhi': 0, 'NarendraModi': 1, 'ManmohanSingh': 0, 'None': 0, 'KCR': 0, 'KTR': 0, 'PK': 0, 'CBN': 0, 'Jagan': 0}
-{'RahulGandhi': 0, 'NarendraModi': 1, 'ManmohanSingh': 0, 'None': 0, 'KCR': 1, 'KTR': 0, 'PK': 0, 'CBN': 0, 'Jagan': 0}
-{'RahulGandhi': 0, 'NarendraModi': 1, 'ManmohanSingh': 0, 'None': 0, 'KCR': 1, 'KTR': 0, 'PK': 0, 'CBN': 1, 'Jagan': 0}
-{'RahulGandhi': 0, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 1, 'KTR': 0, 'PK': 0, 'CBN': 1, 'Jagan': 0}
-{'RahulGandhi': 0, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 0, 'PK': 0, 'CBN': 1, 'Jagan': 0}
-{'RahulGandhi': 0, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 0, 'PK': 0, 'CBN': 1, 'Jagan': 1}
-{'RahulGandhi': 1, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 0, 'PK': 0, 'CBN': 1, 'Jagan': 1}
-{'RahulGandhi': 1, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 1, 'PK': 0, 'CBN': 1, 'Jagan': 1}
-{'RahulGandhi': 1, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 1, 'PK': 0, 'CBN': 2, 'Jagan': 1}
-{'RahulGandhi': 2, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 1, 'PK': 0, 'CBN': 2, 'Jagan': 1}
-{'RahulGandhi': 2, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 2, 'PK': 0, 'CBN': 2, 'Jagan': 1}
-{'RahulGandhi': 2, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 2, 'PK': 0, 'CBN': 3, 'Jagan': 1}
-{'RahulGandhi': 3, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 2, 'PK': 0, 'CBN': 3, 'Jagan': 1}
-{'RahulGandhi': 3, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 3, 'PK': 0, 'CBN': 3, 'Jagan': 1}
-{'RahulGandhi': 3, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 3, 'PK': 0, 'CBN': 4, 'Jagan': 1}
-{'RahulGandhi': 4, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 3, 'PK': 0, 'CBN': 4, 'Jagan': 1}
-{'RahulGandhi': 4, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 4, 'PK': 0, 'CBN': 4, 'Jagan': 1}
-{'RahulGandhi': 4, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0, 'KCR': 2, 'KTR': 4, 'PK': 0, 'CBN': 5, 'Jagan': 1}
-Highest number of votes for question :Who should be the next Prime Minister? : CBN
-Highest number of votes for question :Who will be the next cm for Telangana? : CBN
-Highest number of votes for question :Who will be the next cm for AP? : CBN
+Traceback (most recent call last):
+  File "Poll.py", line 63, in <module>
+    main()
+  File "Poll.py", line 47, in main
+    ques1 = Question(ques, options)	
+  File "Poll.py", line 10, in __init__
+    list2.append(optinvotes)
+NameError: name 'list2' is not defined
 ----------------------------------------
 
