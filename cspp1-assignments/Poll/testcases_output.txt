@@ -10,8 +10,8 @@ Traceback (most recent call last):
   File "Poll.py", line 47, in main
     ques1 = Question(ques, options)	
   File "Poll.py", line 10, in __init__
-    list2.append(optinvotes)
-NameError: name 'list2' is not defined
+    self.list2.append(optinvotes)
+NameError: name 'optinvotes' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -28,8 +28,8 @@ Traceback (most recent call last):
   File "Poll.py", line 47, in main
     ques1 = Question(ques, options)	
   File "Poll.py", line 10, in __init__
-    list2.append(optinvotes)
-NameError: name 'list2' is not defined
+    self.list2.append(optinvotes)
+NameError: name 'optinvotes' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -46,7 +46,7 @@ Traceback (most recent call last):
   File "Poll.py", line 47, in main
     ques1 = Question(ques, options)	
   File "Poll.py", line 10, in __init__
-    list2.append(optinvotes)
-NameError: name 'list2' is not defined
+    self.list2.append(optinvotes)
+NameError: name 'optinvotes' is not defined
 ----------------------------------------
 

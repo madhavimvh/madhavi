@@ -7,7 +7,7 @@ class Question:
 		print(options)
 		for opt in options:
 			self.optinvotes[opt] = 0
-		list2.append(optinvotes)
+		self.list2.append(optinvotes)
 	def setOptionVotes(self, optin):
 		self.optinvotes[optin] += 1
 		print(self.list2)
