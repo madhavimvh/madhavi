@@ -5,11 +5,11 @@ Highest number of votes for question : Who should be the next Prime Minister? : 
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 Traceback (most recent call last):
-  File "Poll.py", line 55, in <module>
+  File "Poll.py", line 56, in <module>
     main()
-  File "Poll.py", line 42, in main
+  File "Poll.py", line 43, in main
     quiz.addQuestion(ques1)
-  File "Poll.py", line 22, in addQuestion
+  File "Poll.py", line 23, in addQuestion
     questions.append(Question)
 NameError: name 'questions' is not defined
 ----------------------------------------
@@ -23,11 +23,11 @@ Highest number of votes for question : Who will be the next cm for AP? : CBN
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 Traceback (most recent call last):
-  File "Poll.py", line 55, in <module>
+  File "Poll.py", line 56, in <module>
     main()
-  File "Poll.py", line 42, in main
+  File "Poll.py", line 43, in main
     quiz.addQuestion(ques1)
-  File "Poll.py", line 22, in addQuestion
+  File "Poll.py", line 23, in addQuestion
     questions.append(Question)
 NameError: name 'questions' is not defined
 ----------------------------------------
@@ -41,11 +41,11 @@ Highest number of votes for question : Who will be the next cm for AP? : CBN
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 Traceback (most recent call last):
-  File "Poll.py", line 55, in <module>
+  File "Poll.py", line 56, in <module>
     main()
-  File "Poll.py", line 42, in main
+  File "Poll.py", line 43, in main
     quiz.addQuestion(ques1)
-  File "Poll.py", line 22, in addQuestion
+  File "Poll.py", line 23, in addQuestion
     questions.append(Question)
 NameError: name 'questions' is not defined
 ----------------------------------------
