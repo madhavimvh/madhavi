@@ -4,10 +4,11 @@ Highest number of votes for question : Who should be the next Prime Minister? : 
 
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
+RahulGandhi
 Traceback (most recent call last):
-  File "Poll.py", line 59, in <module>
+  File "Poll.py", line 60, in <module>
     main()
-  File "Poll.py", line 54, in main
+  File "Poll.py", line 55, in main
     question.setOptionVotes(line[1])
 AttributeError: 'str' object has no attribute 'setOptionVotes'
 ----------------------------------------
@@ -22,10 +23,11 @@ Your Output:
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
+NarendraModi
 Traceback (most recent call last):
-  File "Poll.py", line 59, in <module>
+  File "Poll.py", line 60, in <module>
     main()
-  File "Poll.py", line 54, in main
+  File "Poll.py", line 55, in main
     question.setOptionVotes(line[1])
 AttributeError: 'str' object has no attribute 'setOptionVotes'
 ----------------------------------------
@@ -40,10 +42,11 @@ Your Output:
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
+NarendraModi
 Traceback (most recent call last):
-  File "Poll.py", line 59, in <module>
+  File "Poll.py", line 60, in <module>
     main()
-  File "Poll.py", line 54, in main
+  File "Poll.py", line 55, in main
     question.setOptionVotes(line[1])
 AttributeError: 'str' object has no attribute 'setOptionVotes'
 ----------------------------------------

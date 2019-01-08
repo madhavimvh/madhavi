@@ -10,7 +10,7 @@ class Question:
 		self.optinvotes[optin] += 1
 	def commonSelectedOption(self):
 		n = max(self.optinvotes.values())
-		print(n)
+		# print(n)
 		for each in self.optinvotes:
 			if self.optinvotes[each] == n:
 				return each
@@ -51,6 +51,7 @@ def main():
 			q = int(line[0])
 			p = Participant(name, q - 1, line[1])
 			question = quiz.getQuestion(q - 1)
+			print(line[1])
 			question.setOptionVotes(line[1])
 	for i in range(noofques):
 		# print(quiz.getQuestion(i))
