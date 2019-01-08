@@ -3,10 +3,6 @@ Expected Output:
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 
 Your Output: 
-['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
-[{'RahulGandhi': 1, 'NarendraModi': 0, 'ManmohanSingh': 0, 'None': 0}]
-[{'RahulGandhi': 1, 'NarendraModi': 1, 'ManmohanSingh': 0, 'None': 0}]
-[{'RahulGandhi': 1, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}]
 Highest number of votes for question :Who should be the next Prime Minister? : NarendraModi
 ----------------------------------------
 
@@ -17,18 +13,6 @@ Highest number of votes for question : Who will be the next cm for Telangana? : 
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
-['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
-['KCR', 'KTR', 'PK', 'None']
-['CBN', 'PK', 'Jagan', 'None']
-[{'RahulGandhi': 0, 'NarendraModi': 1, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 0, 'KTR': 0, 'PK': 0, 'None': 0}, {'CBN': 0, 'PK': 0, 'Jagan': 0, 'None': 0}]
-[{'RahulGandhi': 0, 'NarendraModi': 1, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 1, 'KTR': 0, 'PK': 0, 'None': 0}, {'CBN': 0, 'PK': 0, 'Jagan': 0, 'None': 0}]
-[{'RahulGandhi': 0, 'NarendraModi': 1, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 1, 'KTR': 0, 'PK': 0, 'None': 0}, {'CBN': 1, 'PK': 0, 'Jagan': 0, 'None': 0}]
-[{'RahulGandhi': 0, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 1, 'KTR': 0, 'PK': 0, 'None': 0}, {'CBN': 1, 'PK': 0, 'Jagan': 0, 'None': 0}]
-[{'RahulGandhi': 0, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 0, 'PK': 0, 'None': 0}, {'CBN': 1, 'PK': 0, 'Jagan': 0, 'None': 0}]
-[{'RahulGandhi': 0, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 0, 'PK': 0, 'None': 0}, {'CBN': 1, 'PK': 0, 'Jagan': 1, 'None': 0}]
-[{'RahulGandhi': 1, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 0, 'PK': 0, 'None': 0}, {'CBN': 1, 'PK': 0, 'Jagan': 1, 'None': 0}]
-[{'RahulGandhi': 1, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 1, 'PK': 0, 'None': 0}, {'CBN': 1, 'PK': 0, 'Jagan': 1, 'None': 0}]
-[{'RahulGandhi': 1, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 1, 'PK': 0, 'None': 0}, {'CBN': 2, 'PK': 0, 'Jagan': 1, 'None': 0}]
 Highest number of votes for question :Who should be the next Prime Minister? : NarendraModi
 Highest number of votes for question :Who will be the next cm for Telangana? : KCR
 Highest number of votes for question :Who will be the next cm for AP? : CBN
@@ -41,27 +25,6 @@ Highest number of votes for question : Who will be the next cm for Telangana? : 
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
-['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
-['KCR', 'KTR', 'PK', 'None']
-['CBN', 'PK', 'Jagan', 'None']
-[{'RahulGandhi': 0, 'NarendraModi': 1, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 0, 'KTR': 0, 'PK': 0, 'None': 0}, {'CBN': 0, 'PK': 0, 'Jagan': 0, 'None': 0}]
-[{'RahulGandhi': 0, 'NarendraModi': 1, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 1, 'KTR': 0, 'PK': 0, 'None': 0}, {'CBN': 0, 'PK': 0, 'Jagan': 0, 'None': 0}]
-[{'RahulGandhi': 0, 'NarendraModi': 1, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 1, 'KTR': 0, 'PK': 0, 'None': 0}, {'CBN': 1, 'PK': 0, 'Jagan': 0, 'None': 0}]
-[{'RahulGandhi': 0, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 1, 'KTR': 0, 'PK': 0, 'None': 0}, {'CBN': 1, 'PK': 0, 'Jagan': 0, 'None': 0}]
-[{'RahulGandhi': 0, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 0, 'PK': 0, 'None': 0}, {'CBN': 1, 'PK': 0, 'Jagan': 0, 'None': 0}]
-[{'RahulGandhi': 0, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 0, 'PK': 0, 'None': 0}, {'CBN': 1, 'PK': 0, 'Jagan': 1, 'None': 0}]
-[{'RahulGandhi': 1, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 0, 'PK': 0, 'None': 0}, {'CBN': 1, 'PK': 0, 'Jagan': 1, 'None': 0}]
-[{'RahulGandhi': 1, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 1, 'PK': 0, 'None': 0}, {'CBN': 1, 'PK': 0, 'Jagan': 1, 'None': 0}]
-[{'RahulGandhi': 1, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 1, 'PK': 0, 'None': 0}, {'CBN': 2, 'PK': 0, 'Jagan': 1, 'None': 0}]
-[{'RahulGandhi': 2, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 1, 'PK': 0, 'None': 0}, {'CBN': 2, 'PK': 0, 'Jagan': 1, 'None': 0}]
-[{'RahulGandhi': 2, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 2, 'PK': 0, 'None': 0}, {'CBN': 2, 'PK': 0, 'Jagan': 1, 'None': 0}]
-[{'RahulGandhi': 2, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 2, 'PK': 0, 'None': 0}, {'CBN': 3, 'PK': 0, 'Jagan': 1, 'None': 0}]
-[{'RahulGandhi': 3, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 2, 'PK': 0, 'None': 0}, {'CBN': 3, 'PK': 0, 'Jagan': 1, 'None': 0}]
-[{'RahulGandhi': 3, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 3, 'PK': 0, 'None': 0}, {'CBN': 3, 'PK': 0, 'Jagan': 1, 'None': 0}]
-[{'RahulGandhi': 3, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 3, 'PK': 0, 'None': 0}, {'CBN': 4, 'PK': 0, 'Jagan': 1, 'None': 0}]
-[{'RahulGandhi': 4, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 3, 'PK': 0, 'None': 0}, {'CBN': 4, 'PK': 0, 'Jagan': 1, 'None': 0}]
-[{'RahulGandhi': 4, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 4, 'PK': 0, 'None': 0}, {'CBN': 4, 'PK': 0, 'Jagan': 1, 'None': 0}]
-[{'RahulGandhi': 4, 'NarendraModi': 2, 'ManmohanSingh': 0, 'None': 0}, {'KCR': 2, 'KTR': 4, 'PK': 0, 'None': 0}, {'CBN': 5, 'PK': 0, 'Jagan': 1, 'None': 0}]
 Highest number of votes for question :Who should be the next Prime Minister? : RahulGandhi
 Highest number of votes for question :Who will be the next cm for Telangana? : KTR
 Highest number of votes for question :Who will be the next cm for AP? : CBN

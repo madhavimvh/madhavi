@@ -4,13 +4,13 @@ class Question:
 		self.question = question
 		self.options = options
 		self.optinvotes = {}
-		print(options)
+		# print(options)
 		for opt in options:
 			self.optinvotes[opt] = 0
 		self.list2.append(self.optinvotes)
 	def setOptionVotes(self, optin):
 		self.optinvotes[optin] += 1
-		print(self.list2)
+		# print(self.list2)
 	def commonSelectedOption(self):
 		n = max(self.optinvotes.values())
 		# print(n)

@@ -4,13 +4,11 @@ Poll.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indenta
 Poll.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -78,5 +76,5 @@ Poll.py:55:3: C0103: Variable name "p" doesn't conform to snake_case naming styl
 Poll.py:55:3: W0612: Unused variable 'p' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.00/10 (previous run: -4.00/10, +0.00)
+Your code has been rated at -4.15/10 (previous run: -4.00/10, -0.15)
 
