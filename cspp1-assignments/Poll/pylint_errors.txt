@@ -54,7 +54,6 @@ Poll.py:61:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 Poll.py:1:0: C0103: Module name "Poll" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:1:0: C0111: Missing module docstring (missing-docstring)
 Poll.py:1:0: C0111: Missing class docstring (missing-docstring)
-Poll.py:10:20: E0602: Undefined variable 'optinvotes' (undefined-variable)
 Poll.py:11:1: C0103: Method name "setOptionVotes" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:11:1: C0111: Missing method docstring (missing-docstring)
 Poll.py:14:1: C0103: Method name "commonSelectedOption" doesn't conform to snake_case naming style (invalid-name)
@@ -79,5 +78,5 @@ Poll.py:55:3: C0103: Variable name "p" doesn't conform to snake_case naming styl
 Poll.py:55:3: W0612: Unused variable 'p' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.91/10 (previous run: -5.82/10, +0.91)
+Your code has been rated at -4.00/10 (previous run: -4.91/10, +0.91)
 
