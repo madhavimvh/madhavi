@@ -1,30 +1,36 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 
 Your Output: 
+['Rehana', '1 RahulGandhi', 'Rajesh', '1 NarendraModi', 'Radhika', '1 NarendraModi']
+Counter({'1 NarendraModi': 2, 'Rehana': 1, '1 RahulGandhi': 1, 'Rajesh': 1, 'Radhika': 1})
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 Highest number of votes for question : Who will be the next cm for Telangana? : KCR
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
+['Rehana', '1 NarendraModi', '2 KCR', '3 CBN', 'Murthy', '1 NarendraModi', '2 KCR', '3 Jagan', 'Rajesh', '1 RahulGandhi', '2 KTR', '3 CBN']
+Counter({'1 NarendraModi': 2, '2 KCR': 2, '3 CBN': 2, 'Rehana': 1, 'Murthy': 1, '3 Jagan': 1, 'Rajesh': 1, '1 RahulGandhi': 1, '2 KTR': 1})
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 Highest number of votes for question : Who will be the next cm for Telangana? : KCR
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 Highest number of votes for question : Who should be the next Prime Minister? : RahulGandhi
 Highest number of votes for question : Who will be the next cm for Telangana? : KTR
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
+['Rehana', '1 NarendraModi', '2 KCR', '3 CBN', 'Murthy', '1 NarendraModi', '2 KCR', '3 Jagan', 'Rajesh', '1 RahulGandhi', '2 KTR', '3 CBN', 'Manasa', '1 RahulGandhi', '2 KTR', '3 CBN', 'Manikanta', '1 RahulGandhi', '2 KTR', '3 CBN', 'Ziva', '1 RahulGandhi', '2 KTR', '3 CBN']
+Counter({'3 CBN': 5, '1 RahulGandhi': 4, '2 KTR': 4, '1 NarendraModi': 2, '2 KCR': 2, 'Rehana': 1, 'Murthy': 1, '3 Jagan': 1, 'Rajesh': 1, 'Manasa': 1, 'Manikanta': 1, 'Ziva': 1})
 Highest number of votes for question : Who should be the next Prime Minister? : RahulGandhi
 Highest number of votes for question : Who will be the next cm for Telangana? : KTR
 Highest number of votes for question : Who will be the next cm for AP? : CBN
