@@ -4,9 +4,14 @@ Highest number of votes for question : Who should be the next Prime Minister? : 
 
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
-<__main__.Question object at 0x000001BA8CC0CDD8>
-2
-Highest number of votes for question :<__main__.Question object at 0x000001BA8CC0CDD8> : NarendraModi
+Traceback (most recent call last):
+  File "Poll.py", line 59, in <module>
+    main()
+  File "Poll.py", line 53, in main
+    question = quiz.getQuestion(q - 1)
+  File "Poll.py", line 27, in getQuestion
+    return self.questions[i].gettext()
+TypeError: gettext() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -19,15 +24,14 @@ Your Output:
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
-<__main__.Question object at 0x000001F2BA57CDD8>
-2
-Highest number of votes for question :<__main__.Question object at 0x000001F2BA57CDD8> : NarendraModi
-<__main__.Question object at 0x000001F2BA57CEF0>
-2
-Highest number of votes for question :<__main__.Question object at 0x000001F2BA57CEF0> : NarendraModi
-<__main__.Question object at 0x000001F2BA57CFD0>
-2
-Highest number of votes for question :<__main__.Question object at 0x000001F2BA57CFD0> : NarendraModi
+Traceback (most recent call last):
+  File "Poll.py", line 59, in <module>
+    main()
+  File "Poll.py", line 53, in main
+    question = quiz.getQuestion(q - 1)
+  File "Poll.py", line 27, in getQuestion
+    return self.questions[i].gettext()
+TypeError: gettext() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -40,14 +44,13 @@ Your Output:
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
-<__main__.Question object at 0x0000021EBF52CDD8>
-5
-Highest number of votes for question :<__main__.Question object at 0x0000021EBF52CDD8> : CBN
-<__main__.Question object at 0x0000021EBF52CEF0>
-5
-Highest number of votes for question :<__main__.Question object at 0x0000021EBF52CEF0> : CBN
-<__main__.Question object at 0x0000021EBF52CFD0>
-5
-Highest number of votes for question :<__main__.Question object at 0x0000021EBF52CFD0> : CBN
+Traceback (most recent call last):
+  File "Poll.py", line 59, in <module>
+    main()
+  File "Poll.py", line 53, in main
+    question = quiz.getQuestion(q - 1)
+  File "Poll.py", line 27, in getQuestion
+    return self.questions[i].gettext()
+TypeError: gettext() takes 0 positional arguments but 1 was given
 ----------------------------------------
 

@@ -14,7 +14,8 @@ class Question:
 		for each in self.optinvotes:
 			if self.optinvotes[each] == n:
 				return each
-
+	def gettext():
+		return question
 
 class Quiz:
 	questions = []
@@ -23,7 +24,7 @@ class Quiz:
 	def addQuestion(self, Question):
 		self.questions.append(Question)
 	def getQuestion(self, i):
-		return self.questions[i]
+		return self.questions[i].gettext()
 class Participant():
 	def __init__(self, name, qno, option):
 		self.name = name
@@ -52,7 +53,7 @@ def main():
 			question = quiz.getQuestion(q - 1)
 			question.setOptionVotes(line[1])
 	for i in range(noofques):
-		print(quiz.getQuestion(i))
+		# print(quiz.getQuestion(i))
 		print("Highest number of votes for question :" + str(quiz.getQuestion(i)) + " : " + str(quiz.getQuestion(i).commonSelectedOption()))
 
 main()
