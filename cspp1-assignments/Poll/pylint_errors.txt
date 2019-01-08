@@ -78,5 +78,5 @@ Poll.py:55:3: C0103: Variable name "p" doesn't conform to snake_case naming styl
 Poll.py:55:3: W0612: Unused variable 'p' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.00/10 (previous run: -4.91/10, +0.91)
+Your code has been rated at -4.00/10 (previous run: -4.00/10, +0.00)
 
