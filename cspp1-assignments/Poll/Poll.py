@@ -11,8 +11,8 @@ class Question:
 	def commonSelectedOption(self):
 		n = max(self.optinvotes.values())
 		print(n)
-		for each in optinvotes:
-			if optinvotes[each] == n:
+		for each in self.optinvotes:
+			if self.optinvotes[each] == n:
 				return each
 
 

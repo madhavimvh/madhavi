@@ -5,14 +5,7 @@ Highest number of votes for question : Who should be the next Prime Minister? : 
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 2
-Traceback (most recent call last):
-  File "Poll.py", line 57, in <module>
-    main()
-  File "Poll.py", line 55, in main
-    print("Highest number of votes for question :" + str(quiz.getQuestion(i)) + " : " + str(quiz.getQuestion(i).commonSelectedOption()))
-  File "Poll.py", line 14, in commonSelectedOption
-    for each in optinvotes:
-NameError: name 'optinvotes' is not defined
+Highest number of votes for question :<__main__.Question object at 0x0000028AEA91CDD8> : NarendraModi
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -26,14 +19,11 @@ Your Output:
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
 2
-Traceback (most recent call last):
-  File "Poll.py", line 57, in <module>
-    main()
-  File "Poll.py", line 55, in main
-    print("Highest number of votes for question :" + str(quiz.getQuestion(i)) + " : " + str(quiz.getQuestion(i).commonSelectedOption()))
-  File "Poll.py", line 14, in commonSelectedOption
-    for each in optinvotes:
-NameError: name 'optinvotes' is not defined
+Highest number of votes for question :<__main__.Question object at 0x000001E7131FCDD8> : NarendraModi
+2
+Highest number of votes for question :<__main__.Question object at 0x000001E7131FCEF0> : NarendraModi
+2
+Highest number of votes for question :<__main__.Question object at 0x000001E7131FCFD0> : NarendraModi
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -47,13 +37,10 @@ Your Output:
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
 5
-Traceback (most recent call last):
-  File "Poll.py", line 57, in <module>
-    main()
-  File "Poll.py", line 55, in main
-    print("Highest number of votes for question :" + str(quiz.getQuestion(i)) + " : " + str(quiz.getQuestion(i).commonSelectedOption()))
-  File "Poll.py", line 14, in commonSelectedOption
-    for each in optinvotes:
-NameError: name 'optinvotes' is not defined
+Highest number of votes for question :<__main__.Question object at 0x000001C29ACFCDD8> : CBN
+5
+Highest number of votes for question :<__main__.Question object at 0x000001C29ACFCEF0> : CBN
+5
+Highest number of votes for question :<__main__.Question object at 0x000001C29ACFCFD0> : CBN
 ----------------------------------------
 
