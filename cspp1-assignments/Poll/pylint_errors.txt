@@ -51,13 +51,9 @@ Poll.py:1:0: C0111: Missing module docstring (missing-docstring)
 Poll.py:1:0: C0111: Missing class docstring (missing-docstring)
 Poll.py:9:1: C0103: Method name "setOptionVotes" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:9:1: C0111: Missing method docstring (missing-docstring)
-Poll.py:9:1: E0213: Method should have "self" as first argument (no-self-argument)
-Poll.py:10:2: E0602: Undefined variable 'optinvotes' (undefined-variable)
 Poll.py:11:1: C0103: Method name "commonSelectedOption" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:11:1: C0111: Missing method docstring (missing-docstring)
-Poll.py:11:1: E0211: Method has no argument (no-method-argument)
 Poll.py:12:2: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-Poll.py:12:10: E0602: Undefined variable 'optinvotes' (undefined-variable)
 Poll.py:13:14: E0602: Undefined variable 'optinvotes' (undefined-variable)
 Poll.py:14:6: E0602: Undefined variable 'optinvotes' (undefined-variable)
 Poll.py:11:1: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
@@ -66,12 +62,8 @@ Poll.py:22:1: C0103: Method name "addQuestion" doesn't conform to snake_case nam
 Poll.py:22:1: C0103: Argument name "Question" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:22:1: C0111: Missing method docstring (missing-docstring)
 Poll.py:22:23: W0621: Redefining name 'Question' from outer scope (line 1) (redefined-outer-name)
-Poll.py:23:2: E0602: Undefined variable 'questions' (undefined-variable)
-Poll.py:22:1: R0201: Method could be a function (no-self-use)
 Poll.py:24:1: C0103: Method name "getQuestion" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:24:1: C0111: Missing method docstring (missing-docstring)
-Poll.py:24:1: E0213: Method should have "self" as first argument (no-self-argument)
-Poll.py:25:9: E0602: Undefined variable 'questions' (undefined-variable)
 Poll.py:26:0: C0111: Missing class docstring (missing-docstring)
 Poll.py:26:0: R0903: Too few public methods (0/2) (too-few-public-methods)
 Poll.py:34:0: C0111: Missing function docstring (missing-docstring)
@@ -79,11 +71,8 @@ Poll.py:40:2: W0621: Redefining name 'i' from outer scope (line 37) (redefined-o
 Poll.py:47:2: W0621: Redefining name 'i' from outer scope (line 45) (redefined-outer-name)
 Poll.py:49:3: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:50:3: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
-Poll.py:51:14: E1121: Too many positional arguments for method call (too-many-function-args)
-Poll.py:54:51: E1121: Too many positional arguments for method call (too-many-function-args)
-Poll.py:54:91: E1121: Too many positional arguments for method call (too-many-function-args)
 Poll.py:50:3: W0612: Unused variable 'p' (unused-variable)
 
 ----------------------------------------------------------------------
-Your code has been rated at -16.40/10 (previous run: -16.73/10, +0.33)
+Your code has been rated at -6.20/10 (previous run: -16.40/10, +10.20)
 

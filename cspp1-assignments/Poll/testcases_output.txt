@@ -7,11 +7,9 @@ Your Output:
 Traceback (most recent call last):
   File "Poll.py", line 56, in <module>
     main()
-  File "Poll.py", line 43, in main
-    quiz.addQuestion(ques1)
-  File "Poll.py", line 23, in addQuestion
-    questions.append(Question)
-NameError: name 'questions' is not defined
+  File "Poll.py", line 54, in main
+    print("Highest number of votes for question :" + quiz.getQuestion(i).getText() + " : " + quiz.getQuestion(i).commonSelectedOption())
+AttributeError: 'Question' object has no attribute 'getText'
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -22,14 +20,14 @@ Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
+['KCR', 'KTR', 'PK', 'None']
+['CBN', 'PK', 'Jagan', 'None']
 Traceback (most recent call last):
   File "Poll.py", line 56, in <module>
     main()
-  File "Poll.py", line 43, in main
-    quiz.addQuestion(ques1)
-  File "Poll.py", line 23, in addQuestion
-    questions.append(Question)
-NameError: name 'questions' is not defined
+  File "Poll.py", line 54, in main
+    print("Highest number of votes for question :" + quiz.getQuestion(i).getText() + " : " + quiz.getQuestion(i).commonSelectedOption())
+AttributeError: 'Question' object has no attribute 'getText'
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -40,13 +38,13 @@ Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
+['KCR', 'KTR', 'PK', 'None']
+['CBN', 'PK', 'Jagan', 'None']
 Traceback (most recent call last):
   File "Poll.py", line 56, in <module>
     main()
-  File "Poll.py", line 43, in main
-    quiz.addQuestion(ques1)
-  File "Poll.py", line 23, in addQuestion
-    questions.append(Question)
-NameError: name 'questions' is not defined
+  File "Poll.py", line 54, in main
+    print("Highest number of votes for question :" + quiz.getQuestion(i).getText() + " : " + quiz.getQuestion(i).commonSelectedOption())
+AttributeError: 'Question' object has no attribute 'getText'
 ----------------------------------------
 

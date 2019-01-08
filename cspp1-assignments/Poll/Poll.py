@@ -6,10 +6,10 @@ class Question:
 		print(options)
 		for opt in options:
 			self.optinvotes[opt] = 0
-	def setOptionVotes(optin):
-		optinvotes[optin] += 1
-	def commonSelectedOption():
-		n = max(optinvotes.values())
+	def setOptionVotes(self, optin):
+		self.optinvotes[optin] += 1
+	def commonSelectedOption(self):
+		n = max(self.optinvotes.values())
 		for each in optinvotes:
 			if optinvotes[each] == n:
 				return each
@@ -20,9 +20,9 @@ class Quiz:
 	def __init__(self):
 		pass
 	def addQuestion(self, Question):
-		questions.append(Question)
-	def getQuestion(i):
-		return questions[i]
+		self.questions.append(Question)
+	def getQuestion(self, i):
+		return self.questions[i]
 class Participant():
 	def __init__(self, name, qno, option):
 		self.name = name
