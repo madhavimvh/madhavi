@@ -4,10 +4,6 @@ Highest number of votes for question : Who should be the next Prime Minister? : 
 
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
-<__main__.Question object at 0x000001C77A87CE10>
-<__main__.Question object at 0x000001C77A87CE10>
-<__main__.Question object at 0x000001C77A87CE10>
-<__main__.Question object at 0x000001C77A87CE10>
 Highest number of votes for question :Who should be the next Prime Minister? : NarendraModi
 ----------------------------------------
 
@@ -21,20 +17,8 @@ Your Output:
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
-<__main__.Question object at 0x000001FDD6B4CE10>
-<__main__.Question object at 0x000001FDD6B4CF28>
-<__main__.Question object at 0x000001FDD6C58080>
-<__main__.Question object at 0x000001FDD6B4CE10>
-<__main__.Question object at 0x000001FDD6B4CF28>
-<__main__.Question object at 0x000001FDD6C58080>
-<__main__.Question object at 0x000001FDD6B4CE10>
-<__main__.Question object at 0x000001FDD6B4CF28>
-<__main__.Question object at 0x000001FDD6C58080>
-<__main__.Question object at 0x000001FDD6B4CE10>
 Highest number of votes for question :Who should be the next Prime Minister? : NarendraModi
-<__main__.Question object at 0x000001FDD6B4CF28>
 Highest number of votes for question :Who will be the next cm for Telangana? : NarendraModi
-<__main__.Question object at 0x000001FDD6C58080>
 Highest number of votes for question :Who will be the next cm for AP? : NarendraModi
 ----------------------------------------
 
@@ -48,29 +32,8 @@ Your Output:
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
-<__main__.Question object at 0x00000235A688CE10>
-<__main__.Question object at 0x00000235A688CF28>
-<__main__.Question object at 0x00000235A6998080>
-<__main__.Question object at 0x00000235A688CE10>
-<__main__.Question object at 0x00000235A688CF28>
-<__main__.Question object at 0x00000235A6998080>
-<__main__.Question object at 0x00000235A688CE10>
-<__main__.Question object at 0x00000235A688CF28>
-<__main__.Question object at 0x00000235A6998080>
-<__main__.Question object at 0x00000235A688CE10>
-<__main__.Question object at 0x00000235A688CF28>
-<__main__.Question object at 0x00000235A6998080>
-<__main__.Question object at 0x00000235A688CE10>
-<__main__.Question object at 0x00000235A688CF28>
-<__main__.Question object at 0x00000235A6998080>
-<__main__.Question object at 0x00000235A688CE10>
-<__main__.Question object at 0x00000235A688CF28>
-<__main__.Question object at 0x00000235A6998080>
-<__main__.Question object at 0x00000235A688CE10>
 Highest number of votes for question :Who should be the next Prime Minister? : CBN
-<__main__.Question object at 0x00000235A688CF28>
 Highest number of votes for question :Who will be the next cm for Telangana? : CBN
-<__main__.Question object at 0x00000235A6998080>
 Highest number of votes for question :Who will be the next cm for AP? : CBN
 ----------------------------------------
 

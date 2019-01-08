@@ -51,10 +51,10 @@ def main():
 			q = int(line[0])
 			p = Participant(name, q - 1, line[1])
 			question = quiz.getQuestion(q - 1)
-			print(question)
+			# print(question)
 			question.setOptionVotes(line[1])
 	for i in range(noofques):
-		print(quiz.getQuestion(i))
+		# print(quiz.getQuestion(i))
 		print("Highest number of votes for question :" + str(quiz.getQuestion(i).gettext()) + " : " + str(quiz.getQuestion(i).commonSelectedOption()))
 
 main()
