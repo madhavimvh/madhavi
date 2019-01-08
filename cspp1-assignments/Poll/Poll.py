@@ -8,6 +8,7 @@ class Question:
 			self.optinvotes[opt] = 0
 	def setOptionVotes(self, optin):
 		self.optinvotes[optin] += 1
+		print(optinvotes)
 	def commonSelectedOption(self):
 		n = max(self.optinvotes.values())
 		# print(n)

@@ -4,7 +4,14 @@ Highest number of votes for question : Who should be the next Prime Minister? : 
 
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
-Highest number of votes for question :Who should be the next Prime Minister? : NarendraModi
+Traceback (most recent call last):
+  File "Poll.py", line 61, in <module>
+    main()
+  File "Poll.py", line 56, in main
+    question.setOptionVotes(line[1])
+  File "Poll.py", line 11, in setOptionVotes
+    print(optinvotes)
+NameError: name 'optinvotes' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -17,9 +24,14 @@ Your Output:
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
-Highest number of votes for question :Who should be the next Prime Minister? : NarendraModi
-Highest number of votes for question :Who will be the next cm for Telangana? : NarendraModi
-Highest number of votes for question :Who will be the next cm for AP? : NarendraModi
+Traceback (most recent call last):
+  File "Poll.py", line 61, in <module>
+    main()
+  File "Poll.py", line 56, in main
+    question.setOptionVotes(line[1])
+  File "Poll.py", line 11, in setOptionVotes
+    print(optinvotes)
+NameError: name 'optinvotes' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -32,8 +44,13 @@ Your Output:
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
-Highest number of votes for question :Who should be the next Prime Minister? : CBN
-Highest number of votes for question :Who will be the next cm for Telangana? : CBN
-Highest number of votes for question :Who will be the next cm for AP? : CBN
+Traceback (most recent call last):
+  File "Poll.py", line 61, in <module>
+    main()
+  File "Poll.py", line 56, in main
+    question.setOptionVotes(line[1])
+  File "Poll.py", line 11, in setOptionVotes
+    print(optinvotes)
+NameError: name 'optinvotes' is not defined
 ----------------------------------------
 
