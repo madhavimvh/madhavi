@@ -4,7 +4,6 @@ Highest number of votes for question : Who should be the next Prime Minister? : 
 
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
-RahulGandhi
 Traceback (most recent call last):
   File "Poll.py", line 60, in <module>
     main()
@@ -23,7 +22,6 @@ Your Output:
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
-NarendraModi
 Traceback (most recent call last):
   File "Poll.py", line 60, in <module>
     main()
@@ -42,7 +40,6 @@ Your Output:
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
-NarendraModi
 Traceback (most recent call last):
   File "Poll.py", line 60, in <module>
     main()
