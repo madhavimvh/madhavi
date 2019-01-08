@@ -52,6 +52,7 @@ def main():
 			question = quiz.getQuestion(q - 1)
 			question.setOptionVotes(line[1])
 	for i in range(noofques):
+		print(quiz.getQuestion(i))
 		print("Highest number of votes for question :" + str(quiz.getQuestion(i)) + " : " + str(quiz.getQuestion(i).commonSelectedOption()))
 
 main()

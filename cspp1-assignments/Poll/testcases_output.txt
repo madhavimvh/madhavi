@@ -4,8 +4,9 @@ Highest number of votes for question : Who should be the next Prime Minister? : 
 
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
+<__main__.Question object at 0x000001BA8CC0CDD8>
 2
-Highest number of votes for question :<__main__.Question object at 0x0000028AEA91CDD8> : NarendraModi
+Highest number of votes for question :<__main__.Question object at 0x000001BA8CC0CDD8> : NarendraModi
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -18,12 +19,15 @@ Your Output:
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
+<__main__.Question object at 0x000001F2BA57CDD8>
 2
-Highest number of votes for question :<__main__.Question object at 0x000001E7131FCDD8> : NarendraModi
+Highest number of votes for question :<__main__.Question object at 0x000001F2BA57CDD8> : NarendraModi
+<__main__.Question object at 0x000001F2BA57CEF0>
 2
-Highest number of votes for question :<__main__.Question object at 0x000001E7131FCEF0> : NarendraModi
+Highest number of votes for question :<__main__.Question object at 0x000001F2BA57CEF0> : NarendraModi
+<__main__.Question object at 0x000001F2BA57CFD0>
 2
-Highest number of votes for question :<__main__.Question object at 0x000001E7131FCFD0> : NarendraModi
+Highest number of votes for question :<__main__.Question object at 0x000001F2BA57CFD0> : NarendraModi
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -36,11 +40,14 @@ Your Output:
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 ['KCR', 'KTR', 'PK', 'None']
 ['CBN', 'PK', 'Jagan', 'None']
+<__main__.Question object at 0x0000021EBF52CDD8>
 5
-Highest number of votes for question :<__main__.Question object at 0x000001C29ACFCDD8> : CBN
+Highest number of votes for question :<__main__.Question object at 0x0000021EBF52CDD8> : CBN
+<__main__.Question object at 0x0000021EBF52CEF0>
 5
-Highest number of votes for question :<__main__.Question object at 0x000001C29ACFCEF0> : CBN
+Highest number of votes for question :<__main__.Question object at 0x0000021EBF52CEF0> : CBN
+<__main__.Question object at 0x0000021EBF52CFD0>
 5
-Highest number of votes for question :<__main__.Question object at 0x000001C29ACFCFD0> : CBN
+Highest number of votes for question :<__main__.Question object at 0x0000021EBF52CFD0> : CBN
 ----------------------------------------
 
