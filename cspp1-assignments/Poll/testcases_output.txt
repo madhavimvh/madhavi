@@ -5,10 +5,10 @@ Highest number of votes for question : Who should be the next Prime Minister? : 
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 Traceback (most recent call last):
-  File "Poll.py", line 54, in <module>
+  File "Poll.py", line 55, in <module>
     main()
-  File "Poll.py", line 41, in main
-    quiz.addQuestion(Question(ques, options))
+  File "Poll.py", line 42, in main
+    quiz.addQuestion(ques1)
 TypeError: addQuestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 
@@ -21,10 +21,10 @@ Highest number of votes for question : Who will be the next cm for AP? : CBN
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 Traceback (most recent call last):
-  File "Poll.py", line 54, in <module>
+  File "Poll.py", line 55, in <module>
     main()
-  File "Poll.py", line 41, in main
-    quiz.addQuestion(Question(ques, options))
+  File "Poll.py", line 42, in main
+    quiz.addQuestion(ques1)
 TypeError: addQuestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 
@@ -37,10 +37,10 @@ Highest number of votes for question : Who will be the next cm for AP? : CBN
 Your Output: 
 ['RahulGandhi', 'NarendraModi', 'ManmohanSingh', 'None']
 Traceback (most recent call last):
-  File "Poll.py", line 54, in <module>
+  File "Poll.py", line 55, in <module>
     main()
-  File "Poll.py", line 41, in main
-    quiz.addQuestion(Question(ques, options))
+  File "Poll.py", line 42, in main
+    quiz.addQuestion(ques1)
 TypeError: addQuestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 

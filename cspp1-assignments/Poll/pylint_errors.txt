@@ -30,6 +30,7 @@ Poll.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 Poll.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:41:33: C0303: Trailing whitespace (trailing-whitespace)
 Poll.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -41,8 +42,9 @@ Poll.py:48:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 Poll.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:50:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:51:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Poll.py:52:0: C0301: Line too long (134/100) (line-too-long)
 Poll.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Poll.py:53:0: C0301: Line too long (134/100) (line-too-long)
+Poll.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Poll.py:1:0: C0103: Module name "Poll" doesn't conform to snake_case naming style (invalid-name)
 Poll.py:1:0: C0111: Missing module docstring (missing-docstring)
 Poll.py:1:0: C0111: Missing class docstring (missing-docstring)
@@ -73,15 +75,15 @@ Poll.py:25:0: C0111: Missing class docstring (missing-docstring)
 Poll.py:25:0: R0903: Too few public methods (0/2) (too-few-public-methods)
 Poll.py:33:0: C0111: Missing function docstring (missing-docstring)
 Poll.py:39:2: W0621: Redefining name 'i' from outer scope (line 36) (redefined-outer-name)
-Poll.py:41:2: E1121: Too many positional arguments for method call (too-many-function-args)
-Poll.py:45:2: W0621: Redefining name 'i' from outer scope (line 43) (redefined-outer-name)
-Poll.py:47:3: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
-Poll.py:48:3: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
-Poll.py:49:14: E1121: Too many positional arguments for method call (too-many-function-args)
-Poll.py:52:51: E1121: Too many positional arguments for method call (too-many-function-args)
-Poll.py:52:91: E1121: Too many positional arguments for method call (too-many-function-args)
-Poll.py:48:3: W0612: Unused variable 'p' (unused-variable)
+Poll.py:42:2: E1121: Too many positional arguments for method call (too-many-function-args)
+Poll.py:46:2: W0621: Redefining name 'i' from outer scope (line 44) (redefined-outer-name)
+Poll.py:48:3: C0103: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
+Poll.py:49:3: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+Poll.py:50:14: E1121: Too many positional arguments for method call (too-many-function-args)
+Poll.py:53:51: E1121: Too many positional arguments for method call (too-many-function-args)
+Poll.py:53:91: E1121: Too many positional arguments for method call (too-many-function-args)
+Poll.py:49:3: W0612: Unused variable 'p' (unused-variable)
 
 ----------------------------------------------------------------------
-Your code has been rated at -18.75/10 (previous run: -19.79/10, +1.04)
+Your code has been rated at -18.57/10 (previous run: -18.75/10, +0.18)
 

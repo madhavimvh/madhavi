@@ -38,7 +38,8 @@ def main():
 		options = []
 		for i in range(4):
 			options.append(input())
-		quiz.addQuestion(Question(ques, options))
+		ques1 = Question(ques, options)	
+		quiz.addQuestion(ques1)
 	participants = int(input())
 	for i in range(participants):
 		name = input()
