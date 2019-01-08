@@ -8,8 +8,8 @@ Traceback (most recent call last):
   File "Poll.py", line 56, in <module>
     main()
   File "Poll.py", line 54, in main
-    print("Highest number of votes for question :" + quiz.getQuestion(i).getText() + " : " + quiz.getQuestion(i).commonSelectedOption())
-AttributeError: 'Question' object has no attribute 'getText'
+    print("Highest number of votes for question :" + quiz.getQuestion(i) + " : " + quiz.getQuestion(i).commonSelectedOption())
+TypeError: can only concatenate str (not "Question") to str
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -26,8 +26,8 @@ Traceback (most recent call last):
   File "Poll.py", line 56, in <module>
     main()
   File "Poll.py", line 54, in main
-    print("Highest number of votes for question :" + quiz.getQuestion(i).getText() + " : " + quiz.getQuestion(i).commonSelectedOption())
-AttributeError: 'Question' object has no attribute 'getText'
+    print("Highest number of votes for question :" + quiz.getQuestion(i) + " : " + quiz.getQuestion(i).commonSelectedOption())
+TypeError: can only concatenate str (not "Question") to str
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -44,7 +44,7 @@ Traceback (most recent call last):
   File "Poll.py", line 56, in <module>
     main()
   File "Poll.py", line 54, in main
-    print("Highest number of votes for question :" + quiz.getQuestion(i).getText() + " : " + quiz.getQuestion(i).commonSelectedOption())
-AttributeError: 'Question' object has no attribute 'getText'
+    print("Highest number of votes for question :" + quiz.getQuestion(i) + " : " + quiz.getQuestion(i).commonSelectedOption())
+TypeError: can only concatenate str (not "Question") to str
 ----------------------------------------
 
