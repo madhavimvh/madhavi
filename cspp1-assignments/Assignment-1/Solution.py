@@ -66,6 +66,7 @@ class Quiz:
 
 def main():
 	quiz = Quiz()
+	k = 0
 	try:
 		while True:
 			n = input().split()
@@ -75,6 +76,7 @@ def main():
 				print("| Load Questions |")
 				print("|----------------|")
 				if n[1] == "0":
+					k = int(n[1])
 					raise Exception("Quiz does not have questions")
 				else:
 					print(n[1] + " are added to the quiz")
@@ -87,16 +89,18 @@ def main():
 				print("|------------|")
 				print("| Start Quiz |")
 				print("|------------|")
-				quiz.startquiz()
-				list1 = []
-				for i in range(int(n[1])):
-					list1.append(input())
-				quiz.partoptions(list1)
+				if k != 0:
+					quiz.startquiz()
+					list1 = []
+					for i in range(int(n[1])):
+						list1.append(input())
+					quiz.partoptions(list1)
 			if n[0] == "SCORE_REPORT":
 				print("|--------------|")
 				print("| Score Report |")
 				print("|--------------|")
-				quiz.matchans()
+				if k != 0:
+					quiz.matchans()
 	except EOFError:
 		pass
 main()

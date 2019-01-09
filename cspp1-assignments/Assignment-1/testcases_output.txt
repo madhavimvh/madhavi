@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -40,33 +40,12 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1(1)
-choice 1	choice 2	choice 3	choice 4
-
-question text 2(2)
-choice 1	choice 2	choice 3	choice 4
-
-question text 3(3)
-choice 1	choice 2	choice 3	choice 4
-
-question text 4(4)
-choice 1	choice 2	choice 3	choice 4
-
 |--------------|
 | Score Report |
 |--------------|
-question text 1
- Correct Answer! - Marks Awarded: 1
-question text 2
- Correct Answer! - Marks Awarded: 2
-question text 3
- Correct Answer! - Marks Awarded: 3
-question text 4
- Correct Answer! - Marks Awarded: 4
-Total Score: 10
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -108,33 +87,12 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1(1)
-choice 1	choice 2	choice 3	choice 4
-
-question text 2(2)
-choice 1	choice 2	choice 3	choice 4
-
-question text 3(3)
-choice 1	choice 2	choice 3	choice 4
-
-question text 4(4)
-choice 1	choice 2	choice 3	choice 4
-
 |--------------|
 | Score Report |
 |--------------|
-question text 1
- Wrong Answer! - Penalty: -4
-question text 2
- Wrong Answer! - Penalty: -3
-question text 3
- Wrong Answer! - Penalty: -2
-question text 4
- Wrong Answer! - Penalty: -1
-Total Score: -10
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -176,33 +134,12 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1(1)
-choice 1	choice 2	choice 3	choice 4
-
-question text 2(2)
-choice 1	choice 2	choice 3	choice 4
-
-question text 3(3)
-choice 1	choice 2	choice 3	choice 4
-
-question text 4(4)
-choice 1	choice 2	choice 3	choice 4
-
 |--------------|
 | Score Report |
 |--------------|
-question text 1
- Correct Answer! - Marks Awarded: 1
-question text 2
- Wrong Answer! - Penalty: -3
-question text 3
- Wrong Answer! - Penalty: -2
-question text 4
- Wrong Answer! - Penalty: -1
-Total Score: -5
 ----------------------------------------
 
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -274,63 +211,12 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question a(1)
-choice a	choice b	choice c	choice d
-
-question b(2)
-choice a	choice b	choice c	choice d
-
-question c(3)
-choice a	choice b	choice c	choice d
-
-question d(4)
-choice a	choice b	choice c	choice d
-
-question e(1)
-choice a	choice b	choice c	choice d
-
-question f(2)
-choice a	choice b	choice c	choice d
-
-question g(3)
-choice a	choice b	choice c	choice d
-
-question h(4)
-choice a	choice b	choice c	choice d
-
-question i(1)
-choice a	choice b	choice c	choice d
-
-question j(2)
-choice a	choice b	choice c	choice d
-
 |--------------|
 | Score Report |
 |--------------|
-question a
- Wrong Answer! - Penalty: 0
-question b
- Wrong Answer! - Penalty: 0
-question c
- Correct Answer! - Marks Awarded: 3
-question d
- Wrong Answer! - Penalty: 0
-question e
- Wrong Answer! - Penalty: 0
-question f
- Wrong Answer! - Penalty: 0
-question g
- Wrong Answer! - Penalty: 0
-question h
- Wrong Answer! - Penalty: 0
-question i
- Wrong Answer! - Penalty: 0
-question j
- Wrong Answer! - Penalty: 0
-Total Score: 3
 ----------------------------------------
 
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -357,15 +243,9 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1(1)
-choice 1	choice 2	choice 3	choice 4
-
 |--------------|
 | Score Report |
 |--------------|
-question text 1
- Wrong Answer! - Penalty: -4
-Total Score: -4
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -386,9 +266,9 @@ Your Output:
 | Load Questions |
 |----------------|
 Traceback (most recent call last):
-  File "Solution.py", line 102, in <module>
+  File "Solution.py", line 106, in <module>
     main()
-  File "Solution.py", line 78, in main
+  File "Solution.py", line 80, in main
     raise Exception("Quiz does not have questions")
 Exception: Quiz does not have questions
 ----------------------------------------
@@ -414,22 +294,9 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1(1)
-choice 1	choice 2	choice 3	choice 4
-
 |--------------|
 | Score Report |
 |--------------|
-question text 1
- Wrong Answer! - Penalty: 
-Traceback (most recent call last):
-  File "Solution.py", line 102, in <module>
-    main()
-  File "Solution.py", line 99, in main
-    quiz.matchans()
-  File "Solution.py", line 61, in matchans
-    self.totscore += int(each.getnegmarks())
-ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -453,15 +320,9 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1(1)
-choice 1	choice 2	choice 3	choice 4
-
 |--------------|
 | Score Report |
 |--------------|
-question text 1
- Wrong Answer! - Penalty: -1
-Total Score: -1
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -485,15 +346,9 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-trick question (1)
-choice 4
-
 |--------------|
 | Score Report |
 |--------------|
-trick question 
- Wrong Answer! - Penalty: -1
-Total Score: -1
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -523,15 +378,9 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question about sony(1)
-choice 4	choice 2
-
 |--------------|
 | Score Report |
 |--------------|
-question about sony
- Wrong Answer! - Penalty: -1
-Total Score: -1
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -555,15 +404,9 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question about sony(-1)
-choice 4	choice 2
-
 |--------------|
 | Score Report |
 |--------------|
-question about sony
- Wrong Answer! - Penalty: -1
-Total Score: -1
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -587,15 +430,9 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question about sony(1)
-choice 4	choice 2
-
 |--------------|
 | Score Report |
 |--------------|
-question about sony
- Wrong Answer! - Penalty: 1
-Total Score: 1
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -619,14 +456,8 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-(1)
-choice 1	choice 2	choice 3	choice 4
-
 |--------------|
 | Score Report |
 |--------------|
-
- Wrong Answer! - Penalty: -1
-Total Score: -1
 ----------------------------------------
 
