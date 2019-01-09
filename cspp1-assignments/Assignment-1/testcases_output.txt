@@ -33,11 +33,13 @@ question text 4
 Total Score: 10
 
 Your Output: 
-4
 ['question text 1', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '-4']
-['question text 2', 'choice 1,choice 2,choice 3,choice 4', '1', '2', '-3']
-['question text 3', 'choice 1,choice 2,choice 3,choice 4', '2', '3', '-2']
-['question text 4', 'choice 1,choice 2,choice 3,choice 4', '4', '4', '-1']
+Traceback (most recent call last):
+  File "Solution.py", line 23, in <module>
+    main()
+  File "Solution.py", line 21, in main
+    Ques = Question(string[0], string[1], string[2], string[3], string[4])
+TypeError: __init__() takes 5 positional arguments but 6 were given
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -75,11 +77,13 @@ question text 4
 Total Score: -10
 
 Your Output: 
-4
 ['question text 1', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '-4']
-['question text 2', 'choice 1,choice 2,choice 3,choice 4', '1', '2', '-3']
-['question text 3', 'choice 1,choice 2,choice 3,choice 4', '2', '3', '-2']
-['question text 4', 'choice 1,choice 2,choice 3,choice 4', '4', '4', '-1']
+Traceback (most recent call last):
+  File "Solution.py", line 23, in <module>
+    main()
+  File "Solution.py", line 21, in main
+    Ques = Question(string[0], string[1], string[2], string[3], string[4])
+TypeError: __init__() takes 5 positional arguments but 6 were given
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -117,11 +121,13 @@ question text 4
 Total Score: -5
 
 Your Output: 
-4
 ['question text 1', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '-4']
-['question text 2', 'choice 1,choice 2,choice 3,choice 4', '1', '2', '-3']
-['question text 3', 'choice 1,choice 2,choice 3,choice 4', '2', '3', '-2']
-['question text 4', 'choice 1,choice 2,choice 3,choice 4', '4', '4', '-1']
+Traceback (most recent call last):
+  File "Solution.py", line 23, in <module>
+    main()
+  File "Solution.py", line 21, in main
+    Ques = Question(string[0], string[1], string[2], string[3], string[4])
+TypeError: __init__() takes 5 positional arguments but 6 were given
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -189,17 +195,13 @@ question j
 Total Score: 3
 
 Your Output: 
-10
 ['question a', 'choice a,choice b,choice c,choice d', '1', '1', '0']
-['question b', 'choice a,choice b,choice c,choice d', '3', '2', '0']
-['question c', 'choice a,choice b,choice c,choice d', '2', '3', '0']
-['question d', 'choice a,choice b,choice c,choice d', '1', '4', '0']
-['question e', 'choice a,choice b,choice c,choice d', '4', '1', '0']
-['question f', 'choice a,choice b,choice c,choice d', '3', '2', '0']
-['question g', 'choice a,choice b,choice c,choice d', '1', '3', '0']
-['question h', 'choice a,choice b,choice c,choice d', '1', '4', '0']
-['question i', 'choice a,choice b,choice c,choice d', '4', '1', '0']
-['question j', 'choice a,choice b,choice c,choice d', '2', '2', '0']
+Traceback (most recent call last):
+  File "Solution.py", line 23, in <module>
+    main()
+  File "Solution.py", line 21, in main
+    Ques = Question(string[0], string[1], string[2], string[3], string[4])
+TypeError: __init__() takes 5 positional arguments but 6 were given
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -222,8 +224,13 @@ question text 1
 Total Score: -4
 
 Your Output: 
-1
 ['question text 1', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '-4']
+Traceback (most recent call last):
+  File "Solution.py", line 23, in <module>
+    main()
+  File "Solution.py", line 21, in main
+    Ques = Question(string[0], string[1], string[2], string[3], string[4])
+TypeError: __init__() takes 5 positional arguments but 6 were given
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -240,7 +247,7 @@ Quiz does not have questions
 |--------------|
 
 Your Output: 
-0
+
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -257,8 +264,13 @@ Error! Malformed question
 |--------------|
 
 Your Output: 
-1
 ['question text 1', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '']
+Traceback (most recent call last):
+  File "Solution.py", line 23, in <module>
+    main()
+  File "Solution.py", line 21, in main
+    Ques = Question(string[0], string[1], string[2], string[3], string[4])
+TypeError: __init__() takes 5 positional arguments but 6 were given
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -275,8 +287,13 @@ Error! Correct answer choice number is out of range for question text 1
 |--------------|
 
 Your Output: 
-1
 ['question text 1', 'choice 1,choice 2,choice 3,choice 4', '6', '1', '-1']
+Traceback (most recent call last):
+  File "Solution.py", line 23, in <module>
+    main()
+  File "Solution.py", line 21, in main
+    Ques = Question(string[0], string[1], string[2], string[3], string[4])
+TypeError: __init__() takes 5 positional arguments but 6 were given
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -293,8 +310,13 @@ trick question  does not have enough answer choices
 |--------------|
 
 Your Output: 
-1
 ['trick question ', 'choice 4', '6', '1', '-1']
+Traceback (most recent call last):
+  File "Solution.py", line 23, in <module>
+    main()
+  File "Solution.py", line 21, in main
+    Ques = Question(string[0], string[1], string[2], string[3], string[4])
+TypeError: __init__() takes 5 positional arguments but 6 were given
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -317,8 +339,13 @@ question about sony
 Total Score: 1
 
 Your Output: 
-1
 ['question about sony', 'choice 4,choice 2', '1', '1', '-1']
+Traceback (most recent call last):
+  File "Solution.py", line 23, in <module>
+    main()
+  File "Solution.py", line 21, in main
+    Ques = Question(string[0], string[1], string[2], string[3], string[4])
+TypeError: __init__() takes 5 positional arguments but 6 were given
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -335,8 +362,13 @@ Invalid max marks for question about sony
 |--------------|
 
 Your Output: 
-1
 ['question about sony', 'choice 4,choice 2', '1', '-1', '-1']
+Traceback (most recent call last):
+  File "Solution.py", line 23, in <module>
+    main()
+  File "Solution.py", line 21, in main
+    Ques = Question(string[0], string[1], string[2], string[3], string[4])
+TypeError: __init__() takes 5 positional arguments but 6 were given
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -353,8 +385,13 @@ Invalid penalty for question about sony
 |--------------|
 
 Your Output: 
-1
 ['question about sony', 'choice 4,choice 2', '1', '1', '1']
+Traceback (most recent call last):
+  File "Solution.py", line 23, in <module>
+    main()
+  File "Solution.py", line 21, in main
+    Ques = Question(string[0], string[1], string[2], string[3], string[4])
+TypeError: __init__() takes 5 positional arguments but 6 were given
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -371,7 +408,12 @@ Error! Malformed question
 |--------------|
 
 Your Output: 
-1
 ['', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '-1']
+Traceback (most recent call last):
+  File "Solution.py", line 23, in <module>
+    main()
+  File "Solution.py", line 21, in main
+    Ques = Question(string[0], string[1], string[2], string[3], string[4])
+TypeError: __init__() takes 5 positional arguments but 6 were given
 ----------------------------------------
 

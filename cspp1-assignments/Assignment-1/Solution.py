@@ -1,5 +1,6 @@
 class Question:
 	def __init__(question, options, correctans, maxmarks, negmarks):
+		print(question)
 		self.question = question
 		self.options = options
 		self.correctans = correctans
@@ -9,13 +10,14 @@ class Quiz:
 	allquestions = []
 	def __init__():
 		pass
-	# def addquestion(Question):
+	def addquestion(Question):
+		allquestions.appene(Question)
 
 def main():
 	n = input().split()
-	print(int(n[1]))
 	for i in range(int(n[1])):
 		string = input().split(":")
 		print(string)
-		# quiz.addquestion()
+		Ques = Question(string[0], string[1], string[2], string[3], string[4])
+		quiz.addquestion(Ques)
 main()
