@@ -1,6 +1,5 @@
 ************* Module Solution
 Solution.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -44,5 +43,5 @@ Solution.py:22:2: E0602: Undefined variable 'quiz' (undefined-variable)
 Solution.py:18:5: W0612: Unused variable 'i' (unused-variable)
 
 ----------------------------------------------------------------------
-Your code has been rated at -29.55/10 (previous run: -22.78/10, -6.77)
+Your code has been rated at -30.95/10 (previous run: -29.55/10, -1.41)
 
