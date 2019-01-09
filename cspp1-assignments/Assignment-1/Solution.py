@@ -36,12 +36,12 @@ class Quiz:
 			print(str1 +"\n")
 	def partoptions(self, list1):
 		self.partchoice = list1
-		print(self.partchoice)
+		# print(self.partchoice)
 	def matchans(self):
 		for each in self.allquestions:
 			print(each.getquestext())
 			for part_ch in self.partchoice:
-				if each.getcorrectans == part_ch:
+				if each.getcorrectans() == part_ch:
 					print(" Correct Answer! - Marks Awarded: " + each.getmaxmarks())
 					self.totscore += int(each.getmaxmarks())
 				else:

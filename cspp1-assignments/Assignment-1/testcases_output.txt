@@ -52,7 +52,6 @@ choice 1	choice 2	choice 3	choice 4
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4	
 
-['choice 3', 'choice 1', 'choice 2', 'choice 4']
 |--------------|
 | Score Report |
 |--------------|
@@ -133,7 +132,6 @@ choice 1	choice 2	choice 3	choice 4
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4	
 
-['choice 1', 'choice 2', 'choice 4', 'choice 3']
 |--------------|
 | Score Report |
 |--------------|
@@ -214,7 +212,6 @@ choice 1	choice 2	choice 3	choice 4
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4	
 
-['choice 3', 'choice 3', 'choice 3', 'choice 3']
 |--------------|
 | Score Report |
 |--------------|
@@ -343,7 +340,6 @@ choice a	choice b	choice c	choice d
 question j(2)
 choice a	choice b	choice c	choice d	
 
-['choice c', 'choice a', 'choice b', 'choice d', 'choice c', 'choice a', 'choice b', 'choice d', 'choice c', 'choice a']
 |--------------|
 | Score Report |
 |--------------|
@@ -490,7 +486,6 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4	
 
-['choice 1']
 |--------------|
 | Score Report |
 |--------------|
@@ -520,7 +515,6 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-['choice 1']
 |--------------|
 | Score Report |
 |--------------|
@@ -551,7 +545,6 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4	
 
-['choice 1']
 |--------------|
 | Score Report |
 |--------------|
@@ -591,7 +584,6 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4	
 
-['choice 1']
 |--------------|
 | Score Report |
 |--------------|
@@ -624,7 +616,6 @@ Your Output:
 trick question (1)
 choice 4	
 
-['choice 1']
 |--------------|
 | Score Report |
 |--------------|
@@ -663,7 +654,6 @@ Your Output:
 question about sony(1)
 choice 4	choice 2	
 
-['choice 4']
 |--------------|
 | Score Report |
 |--------------|
@@ -696,7 +686,6 @@ Your Output:
 question about sony(-1)
 choice 4	choice 2	
 
-['choice 4']
 |--------------|
 | Score Report |
 |--------------|
@@ -729,7 +718,6 @@ Your Output:
 question about sony(1)
 choice 4	choice 2	
 
-['choice 4']
 |--------------|
 | Score Report |
 |--------------|
@@ -762,7 +750,6 @@ Your Output:
 (1)
 choice 1	choice 2	choice 3	choice 4	
 
-['choice 1']
 |--------------|
 | Score Report |
 |--------------|
