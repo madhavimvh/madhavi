@@ -37,7 +37,7 @@ class Quiz:
 	def partoptions(self, list1):
 		for each in list1:
 			eachx = each.split()
-			partchoice.append(eachx[1])
+			self.partchoice.append(eachx[1])
 		print(self.partchoice)
 	def matchans(self):
 		for each in self.allquestions:

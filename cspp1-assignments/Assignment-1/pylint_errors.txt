@@ -95,7 +95,6 @@ Solution.py:27:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:27:23: W0621: Redefining name 'Question' from outer scope (line 1) (redefined-outer-name)
 Solution.py:29:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:37:1: C0111: Missing method docstring (missing-docstring)
-Solution.py:40:3: E0602: Undefined variable 'partchoice' (undefined-variable)
 Solution.py:42:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:57:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:61:3: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
@@ -103,5 +102,5 @@ Solution.py:71:5: C0103: Variable name "Ques" doesn't conform to snake_case nami
 Solution.py:68:8: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.00/10 (previous run: -2.47/10, -0.53)
+Your code has been rated at -2.38/10 (previous run: -3.00/10, +0.62)
 

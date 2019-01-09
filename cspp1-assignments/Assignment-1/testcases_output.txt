@@ -52,14 +52,63 @@ choice 1	choice 2	choice 3	choice 4
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4	
 
-Traceback (most recent call last):
-  File "Solution.py", line 89, in <module>
-    main()
-  File "Solution.py", line 81, in main
-    quiz.partoptions(list1)
-  File "Solution.py", line 40, in partoptions
-    partchoice.append(eachx[1])
-NameError: name 'partchoice' is not defined
+['3', '1', '2', '4']
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+3
+3
+ Correct Answer! - Marks Awarded: 1
+3
+1
+Wrong Answer! - Penalty: -4
+3
+2
+Wrong Answer! - Penalty: -4
+3
+4
+Wrong Answer! - Penalty: -4
+question text 2
+1
+3
+Wrong Answer! - Penalty: -3
+1
+1
+ Correct Answer! - Marks Awarded: 2
+1
+2
+Wrong Answer! - Penalty: -3
+1
+4
+Wrong Answer! - Penalty: -3
+question text 3
+2
+3
+Wrong Answer! - Penalty: -2
+2
+1
+Wrong Answer! - Penalty: -2
+2
+2
+ Correct Answer! - Marks Awarded: 3
+2
+4
+Wrong Answer! - Penalty: -2
+question text 4
+4
+3
+Wrong Answer! - Penalty: -1
+4
+1
+Wrong Answer! - Penalty: -1
+4
+2
+Wrong Answer! - Penalty: -1
+4
+4
+ Correct Answer! - Marks Awarded: 4
+Total Score: 40
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -116,14 +165,63 @@ choice 1	choice 2	choice 3	choice 4
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4	
 
-Traceback (most recent call last):
-  File "Solution.py", line 89, in <module>
-    main()
-  File "Solution.py", line 81, in main
-    quiz.partoptions(list1)
-  File "Solution.py", line 40, in partoptions
-    partchoice.append(eachx[1])
-NameError: name 'partchoice' is not defined
+['1', '2', '4', '3']
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+3
+1
+Wrong Answer! - Penalty: -4
+3
+2
+Wrong Answer! - Penalty: -4
+3
+4
+Wrong Answer! - Penalty: -4
+3
+3
+ Correct Answer! - Marks Awarded: 1
+question text 2
+1
+1
+ Correct Answer! - Marks Awarded: 2
+1
+2
+Wrong Answer! - Penalty: -3
+1
+4
+Wrong Answer! - Penalty: -3
+1
+3
+Wrong Answer! - Penalty: -3
+question text 3
+2
+1
+Wrong Answer! - Penalty: -2
+2
+2
+ Correct Answer! - Marks Awarded: 3
+2
+4
+Wrong Answer! - Penalty: -2
+2
+3
+Wrong Answer! - Penalty: -2
+question text 4
+4
+1
+Wrong Answer! - Penalty: -1
+4
+2
+Wrong Answer! - Penalty: -1
+4
+4
+ Correct Answer! - Marks Awarded: 4
+4
+3
+Wrong Answer! - Penalty: -1
+Total Score: 40
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -180,14 +278,63 @@ choice 1	choice 2	choice 3	choice 4
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4	
 
-Traceback (most recent call last):
-  File "Solution.py", line 89, in <module>
-    main()
-  File "Solution.py", line 81, in main
-    quiz.partoptions(list1)
-  File "Solution.py", line 40, in partoptions
-    partchoice.append(eachx[1])
-NameError: name 'partchoice' is not defined
+['3', '3', '3', '3']
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+3
+3
+ Correct Answer! - Marks Awarded: 1
+3
+3
+ Correct Answer! - Marks Awarded: 1
+3
+3
+ Correct Answer! - Marks Awarded: 1
+3
+3
+ Correct Answer! - Marks Awarded: 1
+question text 2
+1
+3
+Wrong Answer! - Penalty: -3
+1
+3
+Wrong Answer! - Penalty: -3
+1
+3
+Wrong Answer! - Penalty: -3
+1
+3
+Wrong Answer! - Penalty: -3
+question text 3
+2
+3
+Wrong Answer! - Penalty: -2
+2
+3
+Wrong Answer! - Penalty: -2
+2
+3
+Wrong Answer! - Penalty: -2
+2
+3
+Wrong Answer! - Penalty: -2
+question text 4
+4
+3
+Wrong Answer! - Penalty: -1
+4
+3
+Wrong Answer! - Penalty: -1
+4
+3
+Wrong Answer! - Penalty: -1
+4
+3
+Wrong Answer! - Penalty: -1
+Total Score: 28
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -292,14 +439,321 @@ choice a	choice b	choice c	choice d
 question j(2)
 choice a	choice b	choice c	choice d	
 
-Traceback (most recent call last):
-  File "Solution.py", line 89, in <module>
-    main()
-  File "Solution.py", line 81, in main
-    quiz.partoptions(list1)
-  File "Solution.py", line 40, in partoptions
-    partchoice.append(eachx[1])
-NameError: name 'partchoice' is not defined
+['c', 'a', 'b', 'd', 'c', 'a', 'b', 'd', 'c', 'a']
+|--------------|
+| Score Report |
+|--------------|
+question a
+1
+c
+Wrong Answer! - Penalty: 0
+1
+a
+Wrong Answer! - Penalty: 0
+1
+b
+Wrong Answer! - Penalty: 0
+1
+d
+Wrong Answer! - Penalty: 0
+1
+c
+Wrong Answer! - Penalty: 0
+1
+a
+Wrong Answer! - Penalty: 0
+1
+b
+Wrong Answer! - Penalty: 0
+1
+d
+Wrong Answer! - Penalty: 0
+1
+c
+Wrong Answer! - Penalty: 0
+1
+a
+Wrong Answer! - Penalty: 0
+question b
+3
+c
+Wrong Answer! - Penalty: 0
+3
+a
+Wrong Answer! - Penalty: 0
+3
+b
+Wrong Answer! - Penalty: 0
+3
+d
+Wrong Answer! - Penalty: 0
+3
+c
+Wrong Answer! - Penalty: 0
+3
+a
+Wrong Answer! - Penalty: 0
+3
+b
+Wrong Answer! - Penalty: 0
+3
+d
+Wrong Answer! - Penalty: 0
+3
+c
+Wrong Answer! - Penalty: 0
+3
+a
+Wrong Answer! - Penalty: 0
+question c
+2
+c
+Wrong Answer! - Penalty: 0
+2
+a
+Wrong Answer! - Penalty: 0
+2
+b
+Wrong Answer! - Penalty: 0
+2
+d
+Wrong Answer! - Penalty: 0
+2
+c
+Wrong Answer! - Penalty: 0
+2
+a
+Wrong Answer! - Penalty: 0
+2
+b
+Wrong Answer! - Penalty: 0
+2
+d
+Wrong Answer! - Penalty: 0
+2
+c
+Wrong Answer! - Penalty: 0
+2
+a
+Wrong Answer! - Penalty: 0
+question d
+1
+c
+Wrong Answer! - Penalty: 0
+1
+a
+Wrong Answer! - Penalty: 0
+1
+b
+Wrong Answer! - Penalty: 0
+1
+d
+Wrong Answer! - Penalty: 0
+1
+c
+Wrong Answer! - Penalty: 0
+1
+a
+Wrong Answer! - Penalty: 0
+1
+b
+Wrong Answer! - Penalty: 0
+1
+d
+Wrong Answer! - Penalty: 0
+1
+c
+Wrong Answer! - Penalty: 0
+1
+a
+Wrong Answer! - Penalty: 0
+question e
+4
+c
+Wrong Answer! - Penalty: 0
+4
+a
+Wrong Answer! - Penalty: 0
+4
+b
+Wrong Answer! - Penalty: 0
+4
+d
+Wrong Answer! - Penalty: 0
+4
+c
+Wrong Answer! - Penalty: 0
+4
+a
+Wrong Answer! - Penalty: 0
+4
+b
+Wrong Answer! - Penalty: 0
+4
+d
+Wrong Answer! - Penalty: 0
+4
+c
+Wrong Answer! - Penalty: 0
+4
+a
+Wrong Answer! - Penalty: 0
+question f
+3
+c
+Wrong Answer! - Penalty: 0
+3
+a
+Wrong Answer! - Penalty: 0
+3
+b
+Wrong Answer! - Penalty: 0
+3
+d
+Wrong Answer! - Penalty: 0
+3
+c
+Wrong Answer! - Penalty: 0
+3
+a
+Wrong Answer! - Penalty: 0
+3
+b
+Wrong Answer! - Penalty: 0
+3
+d
+Wrong Answer! - Penalty: 0
+3
+c
+Wrong Answer! - Penalty: 0
+3
+a
+Wrong Answer! - Penalty: 0
+question g
+1
+c
+Wrong Answer! - Penalty: 0
+1
+a
+Wrong Answer! - Penalty: 0
+1
+b
+Wrong Answer! - Penalty: 0
+1
+d
+Wrong Answer! - Penalty: 0
+1
+c
+Wrong Answer! - Penalty: 0
+1
+a
+Wrong Answer! - Penalty: 0
+1
+b
+Wrong Answer! - Penalty: 0
+1
+d
+Wrong Answer! - Penalty: 0
+1
+c
+Wrong Answer! - Penalty: 0
+1
+a
+Wrong Answer! - Penalty: 0
+question h
+1
+c
+Wrong Answer! - Penalty: 0
+1
+a
+Wrong Answer! - Penalty: 0
+1
+b
+Wrong Answer! - Penalty: 0
+1
+d
+Wrong Answer! - Penalty: 0
+1
+c
+Wrong Answer! - Penalty: 0
+1
+a
+Wrong Answer! - Penalty: 0
+1
+b
+Wrong Answer! - Penalty: 0
+1
+d
+Wrong Answer! - Penalty: 0
+1
+c
+Wrong Answer! - Penalty: 0
+1
+a
+Wrong Answer! - Penalty: 0
+question i
+4
+c
+Wrong Answer! - Penalty: 0
+4
+a
+Wrong Answer! - Penalty: 0
+4
+b
+Wrong Answer! - Penalty: 0
+4
+d
+Wrong Answer! - Penalty: 0
+4
+c
+Wrong Answer! - Penalty: 0
+4
+a
+Wrong Answer! - Penalty: 0
+4
+b
+Wrong Answer! - Penalty: 0
+4
+d
+Wrong Answer! - Penalty: 0
+4
+c
+Wrong Answer! - Penalty: 0
+4
+a
+Wrong Answer! - Penalty: 0
+question j
+2
+c
+Wrong Answer! - Penalty: 0
+2
+a
+Wrong Answer! - Penalty: 0
+2
+b
+Wrong Answer! - Penalty: 0
+2
+d
+Wrong Answer! - Penalty: 0
+2
+c
+Wrong Answer! - Penalty: 0
+2
+a
+Wrong Answer! - Penalty: 0
+2
+b
+Wrong Answer! - Penalty: 0
+2
+d
+Wrong Answer! - Penalty: 0
+2
+c
+Wrong Answer! - Penalty: 0
+2
+a
+Wrong Answer! - Penalty: 0
+Total Score: 0
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -332,14 +786,15 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4	
 
-Traceback (most recent call last):
-  File "Solution.py", line 89, in <module>
-    main()
-  File "Solution.py", line 81, in main
-    quiz.partoptions(list1)
-  File "Solution.py", line 40, in partoptions
-    partchoice.append(eachx[1])
-NameError: name 'partchoice' is not defined
+['1']
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+3
+1
+Wrong Answer! - Penalty: -4
+Total Score: 4
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -363,14 +818,11 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-Traceback (most recent call last):
-  File "Solution.py", line 89, in <module>
-    main()
-  File "Solution.py", line 81, in main
-    quiz.partoptions(list1)
-  File "Solution.py", line 40, in partoptions
-    partchoice.append(eachx[1])
-NameError: name 'partchoice' is not defined
+['1']
+|--------------|
+| Score Report |
+|--------------|
+Total Score: 0
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -397,14 +849,22 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4	
 
+['1']
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+3
+1
+Wrong Answer! - Penalty: 
 Traceback (most recent call last):
   File "Solution.py", line 89, in <module>
     main()
-  File "Solution.py", line 81, in main
-    quiz.partoptions(list1)
-  File "Solution.py", line 40, in partoptions
-    partchoice.append(eachx[1])
-NameError: name 'partchoice' is not defined
+  File "Solution.py", line 86, in main
+    quiz.matchans()
+  File "Solution.py", line 53, in matchans
+    self.totscore -= int(each.getnegmarks())
+ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -431,14 +891,15 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4	
 
-Traceback (most recent call last):
-  File "Solution.py", line 89, in <module>
-    main()
-  File "Solution.py", line 81, in main
-    quiz.partoptions(list1)
-  File "Solution.py", line 40, in partoptions
-    partchoice.append(eachx[1])
-NameError: name 'partchoice' is not defined
+['1']
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+6
+1
+Wrong Answer! - Penalty: -1
+Total Score: 1
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -465,14 +926,15 @@ Your Output:
 trick question (1)
 choice 4	
 
-Traceback (most recent call last):
-  File "Solution.py", line 89, in <module>
-    main()
-  File "Solution.py", line 81, in main
-    quiz.partoptions(list1)
-  File "Solution.py", line 40, in partoptions
-    partchoice.append(eachx[1])
-NameError: name 'partchoice' is not defined
+['1']
+|--------------|
+| Score Report |
+|--------------|
+trick question 
+6
+1
+Wrong Answer! - Penalty: -1
+Total Score: 1
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -505,14 +967,15 @@ Your Output:
 question about sony(1)
 choice 4	choice 2	
 
-Traceback (most recent call last):
-  File "Solution.py", line 89, in <module>
-    main()
-  File "Solution.py", line 81, in main
-    quiz.partoptions(list1)
-  File "Solution.py", line 40, in partoptions
-    partchoice.append(eachx[1])
-NameError: name 'partchoice' is not defined
+['4']
+|--------------|
+| Score Report |
+|--------------|
+question about sony
+1
+4
+Wrong Answer! - Penalty: -1
+Total Score: 1
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -539,14 +1002,15 @@ Your Output:
 question about sony(-1)
 choice 4	choice 2	
 
-Traceback (most recent call last):
-  File "Solution.py", line 89, in <module>
-    main()
-  File "Solution.py", line 81, in main
-    quiz.partoptions(list1)
-  File "Solution.py", line 40, in partoptions
-    partchoice.append(eachx[1])
-NameError: name 'partchoice' is not defined
+['4']
+|--------------|
+| Score Report |
+|--------------|
+question about sony
+1
+4
+Wrong Answer! - Penalty: -1
+Total Score: 1
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -573,14 +1037,15 @@ Your Output:
 question about sony(1)
 choice 4	choice 2	
 
-Traceback (most recent call last):
-  File "Solution.py", line 89, in <module>
-    main()
-  File "Solution.py", line 81, in main
-    quiz.partoptions(list1)
-  File "Solution.py", line 40, in partoptions
-    partchoice.append(eachx[1])
-NameError: name 'partchoice' is not defined
+['4']
+|--------------|
+| Score Report |
+|--------------|
+question about sony
+1
+4
+Wrong Answer! - Penalty: 1
+Total Score: -1
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -607,13 +1072,14 @@ Your Output:
 (1)
 choice 1	choice 2	choice 3	choice 4	
 
-Traceback (most recent call last):
-  File "Solution.py", line 89, in <module>
-    main()
-  File "Solution.py", line 81, in main
-    quiz.partoptions(list1)
-  File "Solution.py", line 40, in partoptions
-    partchoice.append(eachx[1])
-NameError: name 'partchoice' is not defined
+['1']
+|--------------|
+| Score Report |
+|--------------|
+
+3
+1
+Wrong Answer! - Penalty: -1
+Total Score: 1
 ----------------------------------------
 
