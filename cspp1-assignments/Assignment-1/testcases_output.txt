@@ -56,15 +56,20 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
+3
 4
  Wrong Answer! - Penalty: -4
 question text 2
+1
 2
  Wrong Answer! - Penalty: -3
 question text 3
+2
 3
  Wrong Answer! - Penalty: -2
 question text 4
+4
+None
  Wrong Answer! - Penalty: -1
 Total Score: -10
 ----------------------------------------
@@ -127,15 +132,20 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
+1
 4
  Wrong Answer! - Penalty: -4
 question text 2
 2
+2
  Correct Answer! - Marks Awarded: 2
 question text 3
+4
 3
  Wrong Answer! - Penalty: -2
 question text 4
+3
+None
  Wrong Answer! - Penalty: -1
 Total Score: -5
 ----------------------------------------
@@ -198,15 +208,20 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
+3
 4
  Wrong Answer! - Penalty: -4
 question text 2
+3
 2
  Wrong Answer! - Penalty: -3
 question text 3
 3
+3
  Correct Answer! - Marks Awarded: 3
 question text 4
+3
+None
  Wrong Answer! - Penalty: -1
 Total Score: -5
 ----------------------------------------
@@ -317,31 +332,43 @@ choice a	choice b	choice c	choice d
 | Score Report |
 |--------------|
 question a
+3
 b
  Wrong Answer! - Penalty: 0
 question b
+1
 d
  Wrong Answer! - Penalty: 0
 question c
+2
 c
  Wrong Answer! - Penalty: 0
 question d
+4
 b
  Wrong Answer! - Penalty: 0
 question e
+3
+None
  Wrong Answer! - Penalty: 0
 question f
+1
 d
  Wrong Answer! - Penalty: 0
 question g
+2
 b
  Wrong Answer! - Penalty: 0
 question h
+4
 b
  Wrong Answer! - Penalty: 0
 question i
+3
+None
  Wrong Answer! - Penalty: 0
 question j
+1
 c
  Wrong Answer! - Penalty: 0
 Total Score: 0
@@ -381,6 +408,7 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
+1
 4
  Wrong Answer! - Penalty: -4
 Total Score: -4
@@ -524,6 +552,7 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
+4
 2
  Wrong Answer! - Penalty: -1
 Total Score: -1
@@ -557,6 +586,7 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
+4
 2
  Wrong Answer! - Penalty: -1
 Total Score: -1
@@ -590,6 +620,7 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
+4
 2
  Wrong Answer! - Penalty: 1
 Total Score: 1
