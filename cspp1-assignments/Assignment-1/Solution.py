@@ -32,6 +32,7 @@ class Quiz:
 				# print(each.getoptions().split(","))
 				str1 += eachopt + "\t"
 			print(str1)
+			print("\n")
 	# def partoptions():
 
 
