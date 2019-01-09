@@ -76,16 +76,19 @@ def main():
 				print("|----------------|")
 				print("| Load Questions |")
 				print("|----------------|")
-				if n[1] == "0":
-					k = n[1]
-					print("Quiz does not have questions")
-				else:
-					print(n[1] + " are added to the quiz")
-					for i in range(int(n[1])):
-						string = input().split(":")
-						# print(string)
-						Ques = Question(string[0], string[1], string[2], string[3], string[4])
-						quiz.addquestion(Ques)
+				try:
+					if n[1] == "0":
+						k = n[1]
+						raise Exception("Quiz does not have questions")
+					else:
+						print(n[1] + " are added to the quiz")
+						for i in range(int(n[1])):
+							string = input().split(":")
+							# print(string)
+							Ques = Question(string[0], string[1], string[2], string[3], string[4])
+							quiz.addquestion(Ques)
+				except Exception as e:
+					print(e)
 			if n[0] == "START_QUIZ":
 				print("|------------|")
 				print("| Start Quiz |")
@@ -104,6 +107,4 @@ def main():
 					quiz.matchans()
 	except EOFError:
 		pass
-	except Exception as e:
-		print(e)
 main()

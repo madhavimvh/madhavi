@@ -423,7 +423,14 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 question text 1
  Wrong Answer! - Penalty: 
-invalid literal for int() with base 10: ''
+Traceback (most recent call last):
+  File "Solution.py", line 110, in <module>
+    main()
+  File "Solution.py", line 107, in main
+    quiz.matchans()
+  File "Solution.py", line 61, in matchans
+    self.totscore += int(each.getnegmarks())
+ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########

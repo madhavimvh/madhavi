@@ -71,7 +71,7 @@ Solution.py:82:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:83:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:84:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:85:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:87:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:86:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:88:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:89:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:90:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -93,7 +93,8 @@ Solution.py:105:0: W0312: Found indentation with tabs instead of spaces (mixed-i
 Solution.py:106:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:107:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:108:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:109:0: C0304: Final newline missing (missing-final-newline)
+Solution.py:109:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:110:0: C0304: Final newline missing (missing-final-newline)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0103: Constant name "adict" doesn't conform to UPPER_CASE naming style (invalid-name)
@@ -112,12 +113,13 @@ Solution.py:30:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:39:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:47:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:67:0: C0111: Missing function docstring (missing-docstring)
-Solution.py:107:8: W0703: Catching too general exception Exception (broad-except)
 Solution.py:73:3: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:87:6: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:107:1: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:84:9: W0612: Unused variable 'i' (unused-variable)
+Solution.py:90:11: W0703: Catching too general exception Exception (broad-except)
+Solution.py:88:7: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:90:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:70:1: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+Solution.py:85:10: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.47/10 (previous run: -2.47/10, +0.00)
+Your code has been rated at -2.55/10 (previous run: -2.47/10, -0.08)
 
