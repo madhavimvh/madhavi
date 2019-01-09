@@ -1,0 +1,36 @@
+************* Module Solution
+Solution.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:20:0: C0304: Final newline missing (missing-final-newline)
+Solution.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
+Solution.py:1:0: C0111: Missing class docstring (missing-docstring)
+Solution.py:2:1: E0213: Method should have "self" as first argument (no-self-argument)
+Solution.py:3:2: E0602: Undefined variable 'self' (undefined-variable)
+Solution.py:4:2: E0602: Undefined variable 'self' (undefined-variable)
+Solution.py:5:2: E0602: Undefined variable 'self' (undefined-variable)
+Solution.py:6:2: E0602: Undefined variable 'self' (undefined-variable)
+Solution.py:7:2: E0602: Undefined variable 'self' (undefined-variable)
+Solution.py:1:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Solution.py:8:0: C0111: Missing class docstring (missing-docstring)
+Solution.py:10:1: E0211: Method has no argument (no-method-argument)
+Solution.py:8:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Solution.py:14:0: C0111: Missing function docstring (missing-docstring)
+Solution.py:15:1: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:16:5: W0612: Unused variable 'i' (unused-variable)
+
+-------------------------------------
+Your code has been rated at -24.71/10
+
