@@ -18,7 +18,7 @@ class Question:
 		for i in range(len(listch)):
 			if i == int(self.correctans):
 				each = listch[i].split()
-				# print(each[1])
+				print(each[1])
 				return each[1]
 	def getmaxmarks(self):
 		return self.maxmarks
@@ -64,8 +64,8 @@ class Quiz:
 			print(each.getquestext())
 			for part_ch in self.partchoice:
 				# print(self.partchoice)
-				print(part_ch)
-				print(each.getcorrectans())
+				# print(part_ch)
+				# print(each.getcorrectans())
 				if each.getcorrectans() == part_ch:
 					print(" Correct Answer! - Marks Awarded: " + each.getmaxmarks())
 					self.totscore += int(each.getmaxmarks())
