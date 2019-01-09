@@ -2,7 +2,7 @@ adict = {'a': '1', 'b': '2', 'c': '3', 'd': '4'}
 class Question:
 	def __init__(self,question, options, correctans, maxmarks, negmarks):
 		# print(correctch(correctans))
-		print(options)
+		# print(options)
 		self.question = question
 		self.options = options
 		self.correctans = correctans
@@ -18,7 +18,7 @@ class Question:
 		for i in range(len(listch)):
 			if i == int(self.correctans):
 				each = listch[i].split()
-				print(each[1])
+				# print(each[1])
 				return each[1]
 	def getmaxmarks(self):
 		return self.maxmarks
@@ -63,9 +63,9 @@ class Quiz:
 		for each in self.allquestions:
 			print(each.getquestext())
 			for part_ch in self.partchoice:
-				print(self.partchoice)
-				print(part_ch)
-				print(each.getcorrectans())
+				# print(self.partchoice)
+				# print(part_ch)
+				# print(each.getcorrectans())
 				if each.getcorrectans() == part_ch:
 					print(" Correct Answer! - Marks Awarded: " + each.getmaxmarks())
 					self.totscore += int(each.getmaxmarks())
