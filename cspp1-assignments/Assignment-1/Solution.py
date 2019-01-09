@@ -29,8 +29,8 @@ class Quiz:
 		for each in self.allquestions:
 			print(each.getquestext() + "(" + each.getmaxmarks() + ")")
 			for eachopt in each.getoptions():
+				print(each.getoptions())
 				str1 = eachopt + "\t"
-			print(str1)
 	# def partoptions():
 
 
@@ -39,7 +39,7 @@ def main():
 		while True:
 			quiz = Quiz()
 			n = input().split()
-			print(n)
+			# print(n)
 			if n[0] == "LOAD_QUESTIONS":
 				print("|----------------|")
 				print("| Load Questions |")

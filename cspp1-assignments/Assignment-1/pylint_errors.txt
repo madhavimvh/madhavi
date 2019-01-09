@@ -34,7 +34,6 @@ Solution.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:45:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -73,11 +72,12 @@ Solution.py:25:1: C0103: Argument name "Question" doesn't conform to snake_case 
 Solution.py:25:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:25:23: W0621: Redefining name 'Question' from outer scope (line 1) (redefined-outer-name)
 Solution.py:27:1: C0111: Missing method docstring (missing-docstring)
+Solution.py:28:2: W0612: Unused variable 'str1' (unused-variable)
 Solution.py:37:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:41:3: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:51:5: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:48:8: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.67/10 (previous run: -2.83/10, +0.17)
+Your code has been rated at -2.88/10 (previous run: -2.67/10, -0.21)
 
