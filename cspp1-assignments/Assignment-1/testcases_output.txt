@@ -125,17 +125,17 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 question text 1
 Wrong Answer! - Penalty: -4
-4
+-4
 question text 2
 Wrong Answer! - Penalty: -3
-7
+-7
 question text 3
 Wrong Answer! - Penalty: -2
-9
+-9
 question text 4
 Wrong Answer! - Penalty: -1
-10
-Total Score: 10
+-10
+Total Score: -10
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -199,14 +199,14 @@ question text 1
  Correct Answer! - Marks Awarded: 1
 question text 2
 Wrong Answer! - Penalty: -3
-4
+-2
 question text 3
 Wrong Answer! - Penalty: -2
-6
+-4
 question text 4
 Wrong Answer! - Penalty: -1
-7
-Total Score: 7
+-5
+Total Score: -5
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -381,8 +381,8 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 question text 1
 Wrong Answer! - Penalty: -4
-4
-Total Score: 4
+-4
+Total Score: -4
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -447,7 +447,7 @@ Traceback (most recent call last):
   File "Solution.py", line 96, in main
     quiz.matchans()
   File "Solution.py", line 60, in matchans
-    self.totscore -= int(each.getnegmarks())
+    self.totscore += int(each.getnegmarks())
 ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
 
@@ -480,8 +480,8 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 question text 1
 Wrong Answer! - Penalty: -1
-1
-Total Score: 1
+-1
+Total Score: -1
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -513,8 +513,8 @@ choice 4
 |--------------|
 trick question 
 Wrong Answer! - Penalty: -1
-1
-Total Score: 1
+-1
+Total Score: -1
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -552,8 +552,8 @@ choice 4	choice 2
 |--------------|
 question about sony
 Wrong Answer! - Penalty: -1
-1
-Total Score: 1
+-1
+Total Score: -1
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -585,8 +585,8 @@ choice 4	choice 2
 |--------------|
 question about sony
 Wrong Answer! - Penalty: -1
-1
-Total Score: 1
+-1
+Total Score: -1
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -618,8 +618,8 @@ choice 4	choice 2
 |--------------|
 question about sony
 Wrong Answer! - Penalty: 1
--1
-Total Score: -1
+1
+Total Score: 1
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -651,7 +651,7 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 
 Wrong Answer! - Penalty: -1
-1
-Total Score: 1
+-1
+Total Score: -1
 ----------------------------------------
 

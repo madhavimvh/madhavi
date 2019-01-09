@@ -57,7 +57,7 @@ class Quiz:
 					break
 				else:
 					print("Wrong Answer! - Penalty: " + each.getnegmarks())
-					self.totscore -= int(each.getnegmarks())
+					self.totscore += int(each.getnegmarks())
 					print(self.totscore)
 					del self.partchoice[self.partchoice.index(part_ch)]
 					break
