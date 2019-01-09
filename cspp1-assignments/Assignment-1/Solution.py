@@ -18,7 +18,7 @@ class Question:
 		return self.maxmarks
 	def getnegmarks(self):
 		return self.negmarks
-	def correctch(self, correctans):
+	def correctch(correctans):
 		listch = options.split(",")
 		for i in range(len(listch)):
 			if i == int(correctans):
