@@ -17,9 +17,10 @@ class Question:
 		print(self.correctans)
 		print(self.options)
 		listch = self.options.split(",")
-		for i in range(1, len(listch)):
-			if i == int(self.correctans):
+		for i in range(len(listch)):
+			if i == int(self.correctans) - 1:
 				each = listch[i].split()
+				print(each[1])
 				return each[1]
 	def getmaxmarks(self):
 		return self.maxmarks
