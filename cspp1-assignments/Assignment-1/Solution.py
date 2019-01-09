@@ -12,7 +12,7 @@ class Quiz:
 	# def addquestion(Question):
 
 def main():
-	n = input().split()
+	n = input().split(":")
 	for i in range(int(n[1])):
 		string = input().split()
 		print(string)

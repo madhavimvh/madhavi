@@ -31,5 +31,5 @@ Solution.py:15:1: C0103: Variable name "n" doesn't conform to snake_case naming 
 Solution.py:16:5: W0612: Unused variable 'i' (unused-variable)
 
 ----------------------------------------------------------------------
-Your code has been rated at -24.12/10 (previous run: -24.71/10, +0.59)
+Your code has been rated at -24.12/10 (previous run: -24.12/10, +0.00)
 
