@@ -78,7 +78,7 @@ def main():
 				print("|----------------|")
 				if n[1] == "0":
 					k = n[1]
-					raise Exception("Quiz does not have questions")
+					print("Quiz does not have questions")
 				else:
 					print(n[1] + " are added to the quiz")
 					for i in range(int(n[1])):

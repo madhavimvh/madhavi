@@ -119,5 +119,5 @@ Solution.py:107:1: C0103: Variable name "e" doesn't conform to snake_case naming
 Solution.py:84:9: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.47/10 (previous run: -2.31/10, -0.17)
+Your code has been rated at -2.47/10 (previous run: -2.47/10, +0.00)
 

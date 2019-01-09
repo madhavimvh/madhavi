@@ -368,7 +368,7 @@ question text 1
 Total Score: -4
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -386,6 +386,12 @@ Your Output:
 | Load Questions |
 |----------------|
 Quiz does not have questions
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
