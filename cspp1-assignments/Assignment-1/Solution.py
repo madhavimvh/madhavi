@@ -32,7 +32,8 @@ class Quiz:
 				# print(each.getoptions().split(","))
 				str1 += eachopt + "\t"
 			print(str1 +"\n")
-	# def partoptions():
+	def partoptions(list1):
+		print(list1)
 
 
 def main():
@@ -59,6 +60,7 @@ def main():
 				list1 = []
 				for i in range(int(n[1])):
 					list1.append(input())
+				partoptions(list1)
 			if n[0] == "SCORE_REPORT":
 				print("|--------------|")
 				print("| Score Report |")
