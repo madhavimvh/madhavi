@@ -38,7 +38,7 @@ class Quiz:
 		for each in list1:
 			eachx = each.split()
 			self.partchoice.append(eachx[1])
-		print(self.partchoice)
+		# print(self.partchoice)
 	def matchans(self):
 		for each in self.allquestions:
 			print(each.getquestext())
@@ -46,9 +46,11 @@ class Quiz:
 				if each.getcorrectans() == part_ch:
 					print(" Correct Answer! - Marks Awarded: " + each.getmaxmarks())
 					self.totscore += int(each.getmaxmarks())
+					break
 				else:
 					print("Wrong Answer! - Penalty: " + each.getnegmarks())
 					self.totscore -= int(each.getnegmarks())
+					break
 		print("Total Score: " + str(self.totscore))
 
 
