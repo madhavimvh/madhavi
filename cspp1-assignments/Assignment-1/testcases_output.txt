@@ -46,10 +46,10 @@ question text 4
 |------------|
 | Start Quiz |
 |------------|
-['choice', '3']
-['choice', '1']
-['choice', '2']
-['choice', '4']
+choice 3
+choice 1
+choice 2
+choice 4
 ['SCORE_REPORT']
 |--------------|
 | Score Report |
@@ -104,10 +104,10 @@ question text 4
 |------------|
 | Start Quiz |
 |------------|
-['choice', '1']
-['choice', '2']
-['choice', '4']
-['choice', '3']
+choice 1
+choice 2
+choice 4
+choice 3
 ['SCORE_REPORT']
 |--------------|
 | Score Report |
@@ -162,10 +162,10 @@ question text 4
 |------------|
 | Start Quiz |
 |------------|
-['choice', '3']
-['choice', '3']
-['choice', '3']
-['choice', '3']
+choice 3
+choice 3
+choice 3
+choice 3
 ['SCORE_REPORT']
 |--------------|
 | Score Report |
@@ -256,16 +256,16 @@ question j
 |------------|
 | Start Quiz |
 |------------|
-['choice', 'c']
-['choice', 'a']
-['choice', 'b']
-['choice', 'd']
-['choice', 'c']
-['choice', 'a']
-['choice', 'b']
-['choice', 'd']
-['choice', 'c']
-['choice', 'a']
+choice c
+choice a
+choice b
+choice d
+choice c
+choice a
+choice b
+choice d
+choice c
+choice a
 ['SCORE_REPORT']
 |--------------|
 | Score Report |
@@ -302,7 +302,7 @@ question text 1
 |------------|
 | Start Quiz |
 |------------|
-['choice', '1']
+choice 1
 ['SCORE_REPORT']
 |--------------|
 | Score Report |
@@ -332,7 +332,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-['choice', '1']
+choice 1
 ['SCORE_REPORT']
 |--------------|
 | Score Report |
@@ -363,7 +363,7 @@ question text 1
 |------------|
 | Start Quiz |
 |------------|
-['choice', '1']
+choice 1
 ['SCORE_REPORT']
 |--------------|
 | Score Report |
@@ -394,7 +394,7 @@ question text 1
 |------------|
 | Start Quiz |
 |------------|
-['choice', '1']
+choice 1
 ['SCORE_REPORT']
 |--------------|
 | Score Report |
@@ -425,7 +425,7 @@ trick question
 |------------|
 | Start Quiz |
 |------------|
-['choice', '1']
+choice 1
 ['SCORE_REPORT']
 |--------------|
 | Score Report |
@@ -462,7 +462,7 @@ question about sony
 |------------|
 | Start Quiz |
 |------------|
-['choice', '4']
+choice 4
 ['SCORE_REPORT']
 |--------------|
 | Score Report |
@@ -493,7 +493,7 @@ question about sony
 |------------|
 | Start Quiz |
 |------------|
-['choice', '4']
+choice 4
 ['SCORE_REPORT']
 |--------------|
 | Score Report |
@@ -524,7 +524,7 @@ question about sony
 |------------|
 | Start Quiz |
 |------------|
-['choice', '4']
+choice 4
 ['SCORE_REPORT']
 |--------------|
 | Score Report |
@@ -555,7 +555,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-['choice', '1']
+choice 1
 ['SCORE_REPORT']
 |--------------|
 | Score Report |

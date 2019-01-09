@@ -33,6 +33,8 @@ def main():
 				print("|------------|")
 				print("| Start Quiz |")
 				print("|------------|")
+				for i in range(int(n[1])):
+					print(input())
 			if n[0] == "SCORE_REPORT":
 				print("|--------------|")
 				print("| Score Report |")
