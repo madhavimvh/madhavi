@@ -69,6 +69,7 @@ def main():
 	k = ""
 	try:
 		while True:
+
 			n = input().split()
 			# print(n)
 			if n[0] == "LOAD_QUESTIONS":
@@ -103,4 +104,6 @@ def main():
 					quiz.matchans()
 	except EOFError:
 		pass
+	except Exception as e:
+		print(e)
 main()
