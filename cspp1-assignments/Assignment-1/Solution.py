@@ -1,5 +1,5 @@
 class Question:
-	def __init__(question, options, correctans, maxmarks, negmarks):
+	def __init__(self,question, options, correctans, maxmarks, negmarks):
 		# print(question)
 		self.question = question
 		self.options = options

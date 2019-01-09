@@ -1,5 +1,8 @@
 ************* Module Solution
 Solution.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:2:18: C0326: Exactly one space required after comma
+	def __init__(self,question, options, correctans, maxmarks, negmarks):
+                  ^ (bad-whitespace)
 Solution.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -20,12 +23,7 @@ Solution.py:23:0: C0304: Final newline missing (missing-final-newline)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0111: Missing class docstring (missing-docstring)
-Solution.py:2:1: E0213: Method should have "self" as first argument (no-self-argument)
-Solution.py:4:2: E0602: Undefined variable 'self' (undefined-variable)
-Solution.py:5:2: E0602: Undefined variable 'self' (undefined-variable)
-Solution.py:6:2: E0602: Undefined variable 'self' (undefined-variable)
-Solution.py:7:2: E0602: Undefined variable 'self' (undefined-variable)
-Solution.py:8:2: E0602: Undefined variable 'self' (undefined-variable)
+Solution.py:2:1: R0913: Too many arguments (6/5) (too-many-arguments)
 Solution.py:1:0: R0903: Too few public methods (0/2) (too-few-public-methods)
 Solution.py:9:0: C0111: Missing class docstring (missing-docstring)
 Solution.py:11:1: E0211: Method has no argument (no-method-argument)
@@ -38,10 +36,9 @@ Solution.py:9:0: R0903: Too few public methods (1/2) (too-few-public-methods)
 Solution.py:16:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:17:1: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:21:2: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:21:9: E1121: Too many positional arguments for constructor call (too-many-function-args)
 Solution.py:22:2: E0602: Undefined variable 'quiz' (undefined-variable)
 Solution.py:18:5: W0612: Unused variable 'i' (unused-variable)
 
-----------------------------------------------------------------------
-Your code has been rated at -30.95/10 (previous run: -30.95/10, +0.00)
+-----------------------------------------------------------------------
+Your code has been rated at -15.24/10 (previous run: -30.95/10, +15.71)
 

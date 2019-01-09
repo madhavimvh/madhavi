@@ -37,9 +37,9 @@ Your Output:
 Traceback (most recent call last):
   File "Solution.py", line 23, in <module>
     main()
-  File "Solution.py", line 21, in main
-    Ques = Question(string[0], string[1], string[2], string[3], string[4])
-TypeError: __init__() takes 5 positional arguments but 6 were given
+  File "Solution.py", line 22, in main
+    quiz.addquestion(Ques)
+NameError: name 'quiz' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -81,9 +81,9 @@ Your Output:
 Traceback (most recent call last):
   File "Solution.py", line 23, in <module>
     main()
-  File "Solution.py", line 21, in main
-    Ques = Question(string[0], string[1], string[2], string[3], string[4])
-TypeError: __init__() takes 5 positional arguments but 6 were given
+  File "Solution.py", line 22, in main
+    quiz.addquestion(Ques)
+NameError: name 'quiz' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -125,9 +125,9 @@ Your Output:
 Traceback (most recent call last):
   File "Solution.py", line 23, in <module>
     main()
-  File "Solution.py", line 21, in main
-    Ques = Question(string[0], string[1], string[2], string[3], string[4])
-TypeError: __init__() takes 5 positional arguments but 6 were given
+  File "Solution.py", line 22, in main
+    quiz.addquestion(Ques)
+NameError: name 'quiz' is not defined
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -199,9 +199,9 @@ Your Output:
 Traceback (most recent call last):
   File "Solution.py", line 23, in <module>
     main()
-  File "Solution.py", line 21, in main
-    Ques = Question(string[0], string[1], string[2], string[3], string[4])
-TypeError: __init__() takes 5 positional arguments but 6 were given
+  File "Solution.py", line 22, in main
+    quiz.addquestion(Ques)
+NameError: name 'quiz' is not defined
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -228,9 +228,9 @@ Your Output:
 Traceback (most recent call last):
   File "Solution.py", line 23, in <module>
     main()
-  File "Solution.py", line 21, in main
-    Ques = Question(string[0], string[1], string[2], string[3], string[4])
-TypeError: __init__() takes 5 positional arguments but 6 were given
+  File "Solution.py", line 22, in main
+    quiz.addquestion(Ques)
+NameError: name 'quiz' is not defined
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -268,9 +268,9 @@ Your Output:
 Traceback (most recent call last):
   File "Solution.py", line 23, in <module>
     main()
-  File "Solution.py", line 21, in main
-    Ques = Question(string[0], string[1], string[2], string[3], string[4])
-TypeError: __init__() takes 5 positional arguments but 6 were given
+  File "Solution.py", line 22, in main
+    quiz.addquestion(Ques)
+NameError: name 'quiz' is not defined
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -291,9 +291,9 @@ Your Output:
 Traceback (most recent call last):
   File "Solution.py", line 23, in <module>
     main()
-  File "Solution.py", line 21, in main
-    Ques = Question(string[0], string[1], string[2], string[3], string[4])
-TypeError: __init__() takes 5 positional arguments but 6 were given
+  File "Solution.py", line 22, in main
+    quiz.addquestion(Ques)
+NameError: name 'quiz' is not defined
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -314,9 +314,9 @@ Your Output:
 Traceback (most recent call last):
   File "Solution.py", line 23, in <module>
     main()
-  File "Solution.py", line 21, in main
-    Ques = Question(string[0], string[1], string[2], string[3], string[4])
-TypeError: __init__() takes 5 positional arguments but 6 were given
+  File "Solution.py", line 22, in main
+    quiz.addquestion(Ques)
+NameError: name 'quiz' is not defined
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -343,9 +343,9 @@ Your Output:
 Traceback (most recent call last):
   File "Solution.py", line 23, in <module>
     main()
-  File "Solution.py", line 21, in main
-    Ques = Question(string[0], string[1], string[2], string[3], string[4])
-TypeError: __init__() takes 5 positional arguments but 6 were given
+  File "Solution.py", line 22, in main
+    quiz.addquestion(Ques)
+NameError: name 'quiz' is not defined
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -366,9 +366,9 @@ Your Output:
 Traceback (most recent call last):
   File "Solution.py", line 23, in <module>
     main()
-  File "Solution.py", line 21, in main
-    Ques = Question(string[0], string[1], string[2], string[3], string[4])
-TypeError: __init__() takes 5 positional arguments but 6 were given
+  File "Solution.py", line 22, in main
+    quiz.addquestion(Ques)
+NameError: name 'quiz' is not defined
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -389,9 +389,9 @@ Your Output:
 Traceback (most recent call last):
   File "Solution.py", line 23, in <module>
     main()
-  File "Solution.py", line 21, in main
-    Ques = Question(string[0], string[1], string[2], string[3], string[4])
-TypeError: __init__() takes 5 positional arguments but 6 were given
+  File "Solution.py", line 22, in main
+    quiz.addquestion(Ques)
+NameError: name 'quiz' is not defined
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -412,8 +412,8 @@ Your Output:
 Traceback (most recent call last):
   File "Solution.py", line 23, in <module>
     main()
-  File "Solution.py", line 21, in main
-    Ques = Question(string[0], string[1], string[2], string[3], string[4])
-TypeError: __init__() takes 5 positional arguments but 6 were given
+  File "Solution.py", line 22, in main
+    quiz.addquestion(Ques)
+NameError: name 'quiz' is not defined
 ----------------------------------------
 
