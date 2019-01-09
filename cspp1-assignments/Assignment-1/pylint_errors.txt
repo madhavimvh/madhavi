@@ -50,8 +50,6 @@ Solution.py:63:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:64:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:65:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:66:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:68:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:69:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:70:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:71:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:72:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -142,5 +140,5 @@ Solution.py:99:10: W0612: Unused variable 'i' (unused-variable)
 Solution.py:83:0: R0912: Too many branches (16/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.52/10 (previous run: -2.55/10, +0.02)
+Your code has been rated at -2.57/10 (previous run: -2.52/10, -0.05)
 

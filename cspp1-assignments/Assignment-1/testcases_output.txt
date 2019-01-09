@@ -57,33 +57,17 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 question text 1
 3
-3
-choice 1,choice 2,choice 3,choice 4
-4
-3
 choice 1,choice 2,choice 3,choice 4
  Wrong Answer! - Penalty: -4
 question text 2
-1
-1
-choice 1,choice 2,choice 3,choice 4
-2
 1
 choice 1,choice 2,choice 3,choice 4
  Wrong Answer! - Penalty: -3
 question text 3
 2
-2
-choice 1,choice 2,choice 3,choice 4
-3
-2
 choice 1,choice 2,choice 3,choice 4
  Wrong Answer! - Penalty: -2
 question text 4
-4
-4
-choice 1,choice 2,choice 3,choice 4
-None
 4
 choice 1,choice 2,choice 3,choice 4
  Wrong Answer! - Penalty: -1
@@ -148,34 +132,18 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-1
-3
-choice 1,choice 2,choice 3,choice 4
-4
 3
 choice 1,choice 2,choice 3,choice 4
  Wrong Answer! - Penalty: -4
 question text 2
-2
-1
-choice 1,choice 2,choice 3,choice 4
-2
 1
 choice 1,choice 2,choice 3,choice 4
  Correct Answer! - Marks Awarded: 2
 question text 3
-4
-2
-choice 1,choice 2,choice 3,choice 4
-3
 2
 choice 1,choice 2,choice 3,choice 4
  Wrong Answer! - Penalty: -2
 question text 4
-3
-4
-choice 1,choice 2,choice 3,choice 4
-None
 4
 choice 1,choice 2,choice 3,choice 4
  Wrong Answer! - Penalty: -1
@@ -241,33 +209,17 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 question text 1
 3
-3
-choice 1,choice 2,choice 3,choice 4
-4
-3
 choice 1,choice 2,choice 3,choice 4
  Wrong Answer! - Penalty: -4
 question text 2
-3
-1
-choice 1,choice 2,choice 3,choice 4
-2
 1
 choice 1,choice 2,choice 3,choice 4
  Wrong Answer! - Penalty: -3
 question text 3
-3
-2
-choice 1,choice 2,choice 3,choice 4
-3
 2
 choice 1,choice 2,choice 3,choice 4
  Correct Answer! - Marks Awarded: 3
 question text 4
-3
-4
-choice 1,choice 2,choice 3,choice 4
-None
 4
 choice 1,choice 2,choice 3,choice 4
  Wrong Answer! - Penalty: -1
@@ -380,82 +332,42 @@ choice a	choice b	choice c	choice d
 | Score Report |
 |--------------|
 question a
-3
-1
-choice a,choice b,choice c,choice d
-b
 1
 choice a,choice b,choice c,choice d
  Wrong Answer! - Penalty: 0
 question b
-1
-3
-choice a,choice b,choice c,choice d
-d
 3
 choice a,choice b,choice c,choice d
  Wrong Answer! - Penalty: 0
 question c
 2
-2
-choice a,choice b,choice c,choice d
-c
-2
 choice a,choice b,choice c,choice d
  Wrong Answer! - Penalty: 0
 question d
-4
-1
-choice a,choice b,choice c,choice d
-b
 1
 choice a,choice b,choice c,choice d
  Wrong Answer! - Penalty: 0
 question e
-3
-4
-choice a,choice b,choice c,choice d
-None
 4
 choice a,choice b,choice c,choice d
  Wrong Answer! - Penalty: 0
 question f
-1
-3
-choice a,choice b,choice c,choice d
-d
 3
 choice a,choice b,choice c,choice d
  Wrong Answer! - Penalty: 0
 question g
-2
-1
-choice a,choice b,choice c,choice d
-b
 1
 choice a,choice b,choice c,choice d
  Wrong Answer! - Penalty: 0
 question h
-4
-1
-choice a,choice b,choice c,choice d
-b
 1
 choice a,choice b,choice c,choice d
  Wrong Answer! - Penalty: 0
 question i
-3
-4
-choice a,choice b,choice c,choice d
-None
 4
 choice a,choice b,choice c,choice d
  Wrong Answer! - Penalty: 0
 question j
-1
-2
-choice a,choice b,choice c,choice d
-c
 2
 choice a,choice b,choice c,choice d
  Wrong Answer! - Penalty: 0
@@ -496,10 +408,6 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-1
-3
-choice 1,choice 2,choice 3,choice 4
-4
 3
 choice 1,choice 2,choice 3,choice 4
  Wrong Answer! - Penalty: -4
@@ -644,10 +552,6 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
-4
-1
-choice 4,choice 2
-2
 1
 choice 4,choice 2
  Wrong Answer! - Penalty: -1
@@ -682,10 +586,6 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
-4
-1
-choice 4,choice 2
-2
 1
 choice 4,choice 2
  Wrong Answer! - Penalty: -1
@@ -720,10 +620,6 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
-4
-1
-choice 4,choice 2
-2
 1
 choice 4,choice 2
  Wrong Answer! - Penalty: 1
