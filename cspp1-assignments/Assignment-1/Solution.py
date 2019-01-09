@@ -1,7 +1,7 @@
 adict = {'a': '1', 'b': '2', 'c': '3', 'd': '4'}
 class Question:
 	def __init__(self,question, options, correctans, maxmarks, negmarks):
-		print(correctch(self.correctans))
+		# print(correctch(correctans))
 		print(options)
 		self.question = question
 		self.options = options
@@ -23,6 +23,7 @@ class Question:
 		for i in range(len(listch)):
 			if i == int(correctans):
 				each = listch[i].split()
+				print(each[1])
 				return each[1]
 
 

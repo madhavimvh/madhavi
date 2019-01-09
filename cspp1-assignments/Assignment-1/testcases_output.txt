@@ -36,14 +36,42 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-name 'correctch' is not defined
+choice 1,choice 2,choice 3,choice 4
+choice 1,choice 2,choice 3,choice 4
+choice 1,choice 2,choice 3,choice 4
+choice 1,choice 2,choice 3,choice 4
+4 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
+question text 1(1)
+choice 1	choice 2	choice 3	choice 4
+
+question text 2(2)
+choice 1	choice 2	choice 3	choice 4
+
+question text 3(3)
+choice 1	choice 2	choice 3	choice 4
+
+question text 4(4)
+choice 1	choice 2	choice 3	choice 4
+
 |--------------|
 | Score Report |
 |--------------|
-Total Score: 0
+question text 1
+['3', '1', '2', '4']
+3
+Traceback (most recent call last):
+  File "Solution.py", line 132, in <module>
+    main()
+  File "Solution.py", line 129, in main
+    quiz.matchans()
+  File "Solution.py", line 61, in matchans
+    print(each.getcorrectans())
+  File "Solution.py", line 16, in getcorrectans
+    return correctch(self.correctans)
+NameError: name 'correctch' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -84,14 +112,42 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-name 'correctch' is not defined
+choice 1,choice 2,choice 3,choice 4
+choice 1,choice 2,choice 3,choice 4
+choice 1,choice 2,choice 3,choice 4
+choice 1,choice 2,choice 3,choice 4
+4 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
+question text 1(1)
+choice 1	choice 2	choice 3	choice 4
+
+question text 2(2)
+choice 1	choice 2	choice 3	choice 4
+
+question text 3(3)
+choice 1	choice 2	choice 3	choice 4
+
+question text 4(4)
+choice 1	choice 2	choice 3	choice 4
+
 |--------------|
 | Score Report |
 |--------------|
-Total Score: 0
+question text 1
+['1', '2', '4', '3']
+1
+Traceback (most recent call last):
+  File "Solution.py", line 132, in <module>
+    main()
+  File "Solution.py", line 129, in main
+    quiz.matchans()
+  File "Solution.py", line 61, in matchans
+    print(each.getcorrectans())
+  File "Solution.py", line 16, in getcorrectans
+    return correctch(self.correctans)
+NameError: name 'correctch' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -132,14 +188,42 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-name 'correctch' is not defined
+choice 1,choice 2,choice 3,choice 4
+choice 1,choice 2,choice 3,choice 4
+choice 1,choice 2,choice 3,choice 4
+choice 1,choice 2,choice 3,choice 4
+4 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
+question text 1(1)
+choice 1	choice 2	choice 3	choice 4
+
+question text 2(2)
+choice 1	choice 2	choice 3	choice 4
+
+question text 3(3)
+choice 1	choice 2	choice 3	choice 4
+
+question text 4(4)
+choice 1	choice 2	choice 3	choice 4
+
 |--------------|
 | Score Report |
 |--------------|
-Total Score: 0
+question text 1
+['3', '3', '3', '3']
+3
+Traceback (most recent call last):
+  File "Solution.py", line 132, in <module>
+    main()
+  File "Solution.py", line 129, in main
+    quiz.matchans()
+  File "Solution.py", line 61, in matchans
+    print(each.getcorrectans())
+  File "Solution.py", line 16, in getcorrectans
+    return correctch(self.correctans)
+NameError: name 'correctch' is not defined
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -210,14 +294,66 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-name 'correctch' is not defined
+choice a,choice b,choice c,choice d
+choice a,choice b,choice c,choice d
+choice a,choice b,choice c,choice d
+choice a,choice b,choice c,choice d
+choice a,choice b,choice c,choice d
+choice a,choice b,choice c,choice d
+choice a,choice b,choice c,choice d
+choice a,choice b,choice c,choice d
+choice a,choice b,choice c,choice d
+choice a,choice b,choice c,choice d
+10 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
+question a(1)
+choice a	choice b	choice c	choice d
+
+question b(2)
+choice a	choice b	choice c	choice d
+
+question c(3)
+choice a	choice b	choice c	choice d
+
+question d(4)
+choice a	choice b	choice c	choice d
+
+question e(1)
+choice a	choice b	choice c	choice d
+
+question f(2)
+choice a	choice b	choice c	choice d
+
+question g(3)
+choice a	choice b	choice c	choice d
+
+question h(4)
+choice a	choice b	choice c	choice d
+
+question i(1)
+choice a	choice b	choice c	choice d
+
+question j(2)
+choice a	choice b	choice c	choice d
+
 |--------------|
 | Score Report |
 |--------------|
-Total Score: 0
+question a
+['3', '1', '2', '4', '3', '1', '2', '4', '3', '1']
+3
+Traceback (most recent call last):
+  File "Solution.py", line 132, in <module>
+    main()
+  File "Solution.py", line 129, in main
+    quiz.matchans()
+  File "Solution.py", line 61, in matchans
+    print(each.getcorrectans())
+  File "Solution.py", line 16, in getcorrectans
+    return correctch(self.correctans)
+NameError: name 'correctch' is not defined
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -243,14 +379,30 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-name 'correctch' is not defined
+choice 1,choice 2,choice 3,choice 4
+1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
+question text 1(1)
+choice 1	choice 2	choice 3	choice 4
+
 |--------------|
 | Score Report |
 |--------------|
-Total Score: 0
+question text 1
+['1']
+1
+Traceback (most recent call last):
+  File "Solution.py", line 132, in <module>
+    main()
+  File "Solution.py", line 129, in main
+    quiz.matchans()
+  File "Solution.py", line 61, in matchans
+    print(each.getcorrectans())
+  File "Solution.py", line 16, in getcorrectans
+    return correctch(self.correctans)
+NameError: name 'correctch' is not defined
 ----------------------------------------
 
 ########## Testcase 5: Passed ##########
@@ -380,14 +532,30 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-name 'correctch' is not defined
+choice 4,choice 2
+1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
+question about sony(1)
+choice 4	choice 2
+
 |--------------|
 | Score Report |
 |--------------|
-Total Score: 0
+question about sony
+['4']
+4
+Traceback (most recent call last):
+  File "Solution.py", line 132, in <module>
+    main()
+  File "Solution.py", line 129, in main
+    quiz.matchans()
+  File "Solution.py", line 61, in matchans
+    print(each.getcorrectans())
+  File "Solution.py", line 16, in getcorrectans
+    return correctch(self.correctans)
+NameError: name 'correctch' is not defined
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -407,14 +575,30 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-name 'correctch' is not defined
+choice 4,choice 2
+1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
+question about sony(-1)
+choice 4	choice 2
+
 |--------------|
 | Score Report |
 |--------------|
-Total Score: 0
+question about sony
+['4']
+4
+Traceback (most recent call last):
+  File "Solution.py", line 132, in <module>
+    main()
+  File "Solution.py", line 129, in main
+    quiz.matchans()
+  File "Solution.py", line 61, in matchans
+    print(each.getcorrectans())
+  File "Solution.py", line 16, in getcorrectans
+    return correctch(self.correctans)
+NameError: name 'correctch' is not defined
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -434,14 +618,30 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-name 'correctch' is not defined
+choice 4,choice 2
+1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
+question about sony(1)
+choice 4	choice 2
+
 |--------------|
 | Score Report |
 |--------------|
-Total Score: 0
+question about sony
+['4']
+4
+Traceback (most recent call last):
+  File "Solution.py", line 132, in <module>
+    main()
+  File "Solution.py", line 129, in main
+    quiz.matchans()
+  File "Solution.py", line 61, in matchans
+    print(each.getcorrectans())
+  File "Solution.py", line 16, in getcorrectans
+    return correctch(self.correctans)
+NameError: name 'correctch' is not defined
 ----------------------------------------
 
 ########## Testcase 12: Passed ##########
