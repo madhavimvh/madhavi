@@ -60,14 +60,20 @@ question text 1
  Correct Answer! - Marks Awarded: 1
 question text 2
 3
-Wrong Answer! - Penalty: -3
+1
+ Correct Answer! - Marks Awarded: 2
 question text 3
 3
-Wrong Answer! - Penalty: -2
+1
+2
+ Correct Answer! - Marks Awarded: 3
 question text 4
 3
-Wrong Answer! - Penalty: -1
-Total Score: 7
+1
+2
+4
+ Correct Answer! - Marks Awarded: 4
+Total Score: 10
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -129,17 +135,23 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 question text 1
 1
-Wrong Answer! - Penalty: -4
+2
+4
+3
+ Correct Answer! - Marks Awarded: 1
 question text 2
 1
  Correct Answer! - Marks Awarded: 2
 question text 3
 1
-Wrong Answer! - Penalty: -2
+2
+ Correct Answer! - Marks Awarded: 3
 question text 4
 1
-Wrong Answer! - Penalty: -1
-Total Score: 9
+2
+4
+ Correct Answer! - Marks Awarded: 4
+Total Score: 10
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -204,14 +216,11 @@ question text 1
  Correct Answer! - Marks Awarded: 1
 question text 2
 3
+3
+3
+3
 Wrong Answer! - Penalty: -3
-question text 3
-3
-Wrong Answer! - Penalty: -2
-question text 4
-3
-Wrong Answer! - Penalty: -1
-Total Score: 7
+Total Score: 4
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -321,33 +330,15 @@ choice a	choice b	choice c	choice d
 |--------------|
 question a
 c
-Wrong Answer! - Penalty: 0
-question b
+a
+b
+d
 c
-Wrong Answer! - Penalty: 0
-question c
+a
+b
+d
 c
-Wrong Answer! - Penalty: 0
-question d
-c
-Wrong Answer! - Penalty: 0
-question e
-c
-Wrong Answer! - Penalty: 0
-question f
-c
-Wrong Answer! - Penalty: 0
-question g
-c
-Wrong Answer! - Penalty: 0
-question h
-c
-Wrong Answer! - Penalty: 0
-question i
-c
-Wrong Answer! - Penalty: 0
-question j
-c
+a
 Wrong Answer! - Penalty: 0
 Total Score: 0
 ----------------------------------------

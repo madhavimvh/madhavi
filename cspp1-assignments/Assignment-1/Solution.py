@@ -48,7 +48,7 @@ class Quiz:
 					print(" Correct Answer! - Marks Awarded: " + each.getmaxmarks())
 					self.totscore += int(each.getmaxmarks())
 					break
-				# else:
+			else:
 				print("Wrong Answer! - Penalty: " + each.getnegmarks())
 				self.totscore -= int(each.getnegmarks())
 				break
