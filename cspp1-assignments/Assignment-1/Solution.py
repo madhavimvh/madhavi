@@ -69,7 +69,6 @@ def main():
 	k = ""
 	try:
 		while True:
-
 			n = input().split()
 			# print(n)
 			if n[0] == "LOAD_QUESTIONS":
@@ -85,8 +84,14 @@ def main():
 						for i in range(int(n[1])):
 							string = input().split(":")
 							# print(string)
-							Ques = Question(string[0], string[1], string[2], string[3], string[4])
-							quiz.addquestion(Ques)
+							try:
+								# if string[0] == "" or string[1] == "" or string[2] == "" or string[3] == "" or string[4] == "":
+								# raise Exception("Error! Malformed question") 
+								Ques = Question(string[0], string[1], string[2], string[3], string[4])
+								quiz.addquestion(Ques)
+							except Exception:
+								print("Error! Malformed question")
+
 				except Exception as e:
 					print(e)
 			if n[0] == "START_QUIZ":

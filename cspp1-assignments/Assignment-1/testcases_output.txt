@@ -424,9 +424,9 @@ choice 1	choice 2	choice 3	choice 4
 question text 1
  Wrong Answer! - Penalty: 
 Traceback (most recent call last):
-  File "Solution.py", line 110, in <module>
+  File "Solution.py", line 115, in <module>
     main()
-  File "Solution.py", line 107, in main
+  File "Solution.py", line 112, in main
     quiz.matchans()
   File "Solution.py", line 61, in matchans
     self.totscore += int(each.getnegmarks())
