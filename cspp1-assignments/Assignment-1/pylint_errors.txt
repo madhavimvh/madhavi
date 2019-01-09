@@ -43,5 +43,5 @@ Solution.py:22:2: E0602: Undefined variable 'quiz' (undefined-variable)
 Solution.py:18:5: W0612: Unused variable 'i' (unused-variable)
 
 ----------------------------------------------------------------------
-Your code has been rated at -30.95/10 (previous run: -29.55/10, -1.41)
+Your code has been rated at -30.95/10 (previous run: -30.95/10, +0.00)
 

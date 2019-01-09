@@ -11,7 +11,7 @@ class Quiz:
 	def __init__():
 		pass
 	def addquestion(Question):
-		allquestions.appene(Question)
+		allquestions.append(Question)
 
 def main():
 	n = input().split()
