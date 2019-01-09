@@ -10,8 +10,8 @@ class Quiz:
 	allquestions = []
 	def __init__(self):
 		pass
-	def addquestion(Question):
-		allquestions.append(Question)
+	def addquestion(self, Question):
+		self.allquestions.append(Question)
 
 def main():
 	quiz = Quiz()
