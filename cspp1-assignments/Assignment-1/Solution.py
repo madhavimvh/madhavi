@@ -13,19 +13,25 @@ class Question:
 	def getoptions(self):
 		return self.options
 	def getcorrectans(self):
-		return correctch()
-	def getmaxmarks(self):
-		return self.maxmarks
-	def getnegmarks(self):
-		return self.negmarks
-	def correctch(self):
-		print("-----")
+		# return correctch()
 		listch = self.options.split(",")
 		for i in range(len(listch)):
 			if i == int(self.correctans):
 				each = listch[i].split()
 				print(each[1])
 				return each[1]
+	def getmaxmarks(self):
+		return self.maxmarks
+	def getnegmarks(self):
+		return self.negmarks
+	# def correctch(self):
+	# 	print("-----")
+	# 	listch = self.options.split(",")
+	# 	for i in range(len(listch)):
+	# 		if i == int(self.correctans):
+	# 			each = listch[i].split()
+	# 			print(each[1])
+	# 			return each[1]
 
 
 class Quiz:
