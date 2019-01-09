@@ -108,5 +108,5 @@ Solution.py:81:5: C0103: Variable name "Ques" doesn't conform to snake_case nami
 Solution.py:78:8: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.35/10 (previous run: -2.38/10, +0.03)
+Your code has been rated at -2.35/10 (previous run: -2.35/10, +0.00)
 

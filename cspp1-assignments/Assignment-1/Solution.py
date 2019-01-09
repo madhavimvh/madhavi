@@ -35,7 +35,7 @@ class Quiz:
 				# print(each.getoptions().split(","))
 				str1 += eachopt + "\t"
 			str1 += "\n"
-			print(str1)
+			print(str1[:-1])
 	def partoptions(self, list1):
 		for each in list1:
 			eachx = each.split()
