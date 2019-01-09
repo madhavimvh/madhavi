@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -36,10 +36,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-choice 1,choice 2,choice 3,choice 4
-choice 1,choice 2,choice 3,choice 4
-choice 1,choice 2,choice 3,choice 4
-choice 1,choice 2,choice 3,choice 4
 4 are added to the quiz
 |------------|
 | Start Quiz |
@@ -70,7 +66,7 @@ question text 4
 Total Score: 10
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -108,10 +104,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-choice 1,choice 2,choice 3,choice 4
-choice 1,choice 2,choice 3,choice 4
-choice 1,choice 2,choice 3,choice 4
-choice 1,choice 2,choice 3,choice 4
 4 are added to the quiz
 |------------|
 | Start Quiz |
@@ -142,7 +134,7 @@ question text 4
 Total Score: -10
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -180,10 +172,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-choice 1,choice 2,choice 3,choice 4
-choice 1,choice 2,choice 3,choice 4
-choice 1,choice 2,choice 3,choice 4
-choice 1,choice 2,choice 3,choice 4
 4 are added to the quiz
 |------------|
 | Start Quiz |
@@ -214,7 +202,7 @@ question text 4
 Total Score: -5
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -282,16 +270,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-choice a,choice b,choice c,choice d
-choice a,choice b,choice c,choice d
-choice a,choice b,choice c,choice d
-choice a,choice b,choice c,choice d
-choice a,choice b,choice c,choice d
-choice a,choice b,choice c,choice d
-choice a,choice b,choice c,choice d
-choice a,choice b,choice c,choice d
-choice a,choice b,choice c,choice d
-choice a,choice b,choice c,choice d
 10 are added to the quiz
 |------------|
 | Start Quiz |
@@ -352,7 +330,7 @@ question j
 Total Score: 3
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -375,7 +353,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-choice 1,choice 2,choice 3,choice 4
 1 are added to the quiz
 |------------|
 | Start Quiz |
@@ -417,7 +394,7 @@ Quiz does not have questions
 |--------------|
 ----------------------------------------
 
-########## Testcase 6: Failed ##########
+########## Testcase 6: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -434,7 +411,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-choice 1,choice 2,choice 3,choice 4
 Error! Malformed question
 |------------|
 | Start Quiz |
@@ -444,7 +420,7 @@ Error! Malformed question
 |--------------|
 ----------------------------------------
 
-########## Testcase 7: Failed ##########
+########## Testcase 7: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -461,7 +437,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-choice 1,choice 2,choice 3,choice 4
 Error! Correct answer choice number is out of range for question text 1
 |------------|
 | Start Quiz |
@@ -471,7 +446,7 @@ Error! Correct answer choice number is out of range for question text 1
 |--------------|
 ----------------------------------------
 
-########## Testcase 8: Failed ##########
+########## Testcase 8: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -488,8 +463,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-choice 4
-Error! Correct answer choice number is out of range for trick question 
+trick question  does not have enough answer choices
 |------------|
 | Start Quiz |
 |------------|
@@ -521,7 +495,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-choice 4,choice 2
 1 are added to the quiz
 |------------|
 | Start Quiz |
@@ -554,7 +527,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-choice 4,choice 2
 1 are added to the quiz
 |------------|
 | Start Quiz |
@@ -587,7 +559,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-choice 4,choice 2
 1 are added to the quiz
 |------------|
 | Start Quiz |
@@ -603,7 +574,7 @@ question about sony
 Total Score: 1
 ----------------------------------------
 
-########## Testcase 12: Failed ##########
+########## Testcase 12: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -620,7 +591,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-choice 1,choice 2,choice 3,choice 4
 Error! Malformed question
 |------------|
 | Start Quiz |
