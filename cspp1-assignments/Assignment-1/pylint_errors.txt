@@ -3,6 +3,7 @@ Solution.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-ind
 Solution.py:2:18: C0326: Exactly one space required after comma
 	def __init__(self,question, options, correctans, maxmarks, negmarks):
                   ^ (bad-whitespace)
+Solution.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -17,7 +18,6 @@ Solution.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:24:0: C0304: Final newline missing (missing-final-newline)
@@ -36,6 +36,6 @@ Solution.py:18:1: C0103: Variable name "n" doesn't conform to snake_case naming 
 Solution.py:22:2: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:19:5: W0612: Unused variable 'i' (unused-variable)
 
----------------------------------------------------------------------
-Your code has been rated at -5.45/10 (previous run: -12.27/10, +6.82)
+--------------------------------------------------------------------
+Your code has been rated at -5.45/10 (previous run: -5.45/10, +0.00)
 
