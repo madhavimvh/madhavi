@@ -34,10 +34,10 @@ Total Score: 10
 
 Your Output: 
 Traceback (most recent call last):
-  File "Solution.py", line 20, in <module>
+  File "Solution.py", line 21, in <module>
     main()
   File "Solution.py", line 16, in main
-    for i in range(int(n[1])):
+    print(int(n[1]))
 IndexError: list index out of range
 ----------------------------------------
 
@@ -77,10 +77,10 @@ Total Score: -10
 
 Your Output: 
 Traceback (most recent call last):
-  File "Solution.py", line 20, in <module>
+  File "Solution.py", line 21, in <module>
     main()
   File "Solution.py", line 16, in main
-    for i in range(int(n[1])):
+    print(int(n[1]))
 IndexError: list index out of range
 ----------------------------------------
 
@@ -120,10 +120,10 @@ Total Score: -5
 
 Your Output: 
 Traceback (most recent call last):
-  File "Solution.py", line 20, in <module>
+  File "Solution.py", line 21, in <module>
     main()
   File "Solution.py", line 16, in main
-    for i in range(int(n[1])):
+    print(int(n[1]))
 IndexError: list index out of range
 ----------------------------------------
 
@@ -193,10 +193,10 @@ Total Score: 3
 
 Your Output: 
 Traceback (most recent call last):
-  File "Solution.py", line 20, in <module>
+  File "Solution.py", line 21, in <module>
     main()
   File "Solution.py", line 16, in main
-    for i in range(int(n[1])):
+    print(int(n[1]))
 IndexError: list index out of range
 ----------------------------------------
 
@@ -221,10 +221,10 @@ Total Score: -4
 
 Your Output: 
 Traceback (most recent call last):
-  File "Solution.py", line 20, in <module>
+  File "Solution.py", line 21, in <module>
     main()
   File "Solution.py", line 16, in main
-    for i in range(int(n[1])):
+    print(int(n[1]))
 IndexError: list index out of range
 ----------------------------------------
 
@@ -243,10 +243,10 @@ Quiz does not have questions
 
 Your Output: 
 Traceback (most recent call last):
-  File "Solution.py", line 20, in <module>
+  File "Solution.py", line 21, in <module>
     main()
   File "Solution.py", line 16, in main
-    for i in range(int(n[1])):
+    print(int(n[1]))
 IndexError: list index out of range
 ----------------------------------------
 
@@ -265,10 +265,10 @@ Error! Malformed question
 
 Your Output: 
 Traceback (most recent call last):
-  File "Solution.py", line 20, in <module>
+  File "Solution.py", line 21, in <module>
     main()
   File "Solution.py", line 16, in main
-    for i in range(int(n[1])):
+    print(int(n[1]))
 IndexError: list index out of range
 ----------------------------------------
 
@@ -287,10 +287,10 @@ Error! Correct answer choice number is out of range for question text 1
 
 Your Output: 
 Traceback (most recent call last):
-  File "Solution.py", line 20, in <module>
+  File "Solution.py", line 21, in <module>
     main()
   File "Solution.py", line 16, in main
-    for i in range(int(n[1])):
+    print(int(n[1]))
 IndexError: list index out of range
 ----------------------------------------
 
@@ -309,10 +309,10 @@ trick question  does not have enough answer choices
 
 Your Output: 
 Traceback (most recent call last):
-  File "Solution.py", line 20, in <module>
+  File "Solution.py", line 21, in <module>
     main()
   File "Solution.py", line 16, in main
-    for i in range(int(n[1])):
+    print(int(n[1]))
 IndexError: list index out of range
 ----------------------------------------
 
@@ -337,10 +337,10 @@ Total Score: 1
 
 Your Output: 
 Traceback (most recent call last):
-  File "Solution.py", line 20, in <module>
+  File "Solution.py", line 21, in <module>
     main()
   File "Solution.py", line 16, in main
-    for i in range(int(n[1])):
+    print(int(n[1]))
 IndexError: list index out of range
 ----------------------------------------
 
@@ -359,10 +359,10 @@ Invalid max marks for question about sony
 
 Your Output: 
 Traceback (most recent call last):
-  File "Solution.py", line 20, in <module>
+  File "Solution.py", line 21, in <module>
     main()
   File "Solution.py", line 16, in main
-    for i in range(int(n[1])):
+    print(int(n[1]))
 IndexError: list index out of range
 ----------------------------------------
 
@@ -381,10 +381,10 @@ Invalid penalty for question about sony
 
 Your Output: 
 Traceback (most recent call last):
-  File "Solution.py", line 20, in <module>
+  File "Solution.py", line 21, in <module>
     main()
   File "Solution.py", line 16, in main
-    for i in range(int(n[1])):
+    print(int(n[1]))
 IndexError: list index out of range
 ----------------------------------------
 
@@ -403,10 +403,10 @@ Error! Malformed question
 
 Your Output: 
 Traceback (most recent call last):
-  File "Solution.py", line 20, in <module>
+  File "Solution.py", line 21, in <module>
     main()
   File "Solution.py", line 16, in main
-    for i in range(int(n[1])):
+    print(int(n[1]))
 IndexError: list index out of range
 ----------------------------------------
 

@@ -13,6 +13,7 @@ class Quiz:
 
 def main():
 	n = input().split(":")
+	print(int(n[1]))
 	for i in range(int(n[1])):
 		string = input().split()
 		print(string)
