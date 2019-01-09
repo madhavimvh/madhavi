@@ -45,7 +45,6 @@ Solution.py:47:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:48:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:50:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:51:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:54:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -102,5 +101,5 @@ Solution.py:72:5: C0103: Variable name "Ques" doesn't conform to snake_case nami
 Solution.py:69:8: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.38/10 (previous run: -2.41/10, +0.03)
+Your code has been rated at -2.25/10 (previous run: -2.38/10, +0.12)
 
