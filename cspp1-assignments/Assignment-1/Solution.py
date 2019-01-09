@@ -47,7 +47,7 @@ class Quiz:
 				if each.getcorrectans() == part_ch:
 					print(" Correct Answer! - Marks Awarded: " + each.getmaxmarks())
 					self.totscore += int(each.getmaxmarks())
-					del self.partchoice[partchoice.index(part_ch)]
+					del self.partchoice[self.partchoice.index(part_ch)]
 					print(self.partchoice)
 					break
 				else:

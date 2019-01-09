@@ -57,14 +57,17 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 question text 1
  Correct Answer! - Marks Awarded: 1
-Traceback (most recent call last):
-  File "Solution.py", line 92, in <module>
-    main()
-  File "Solution.py", line 89, in main
-    quiz.matchans()
-  File "Solution.py", line 50, in matchans
-    del self.partchoice[partchoice.index(part_ch)]
-NameError: name 'partchoice' is not defined
+['1', '2', '4']
+question text 2
+ Correct Answer! - Marks Awarded: 2
+['2', '4']
+question text 3
+ Correct Answer! - Marks Awarded: 3
+['4']
+question text 4
+ Correct Answer! - Marks Awarded: 4
+[]
+Total Score: 10
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -128,14 +131,14 @@ question text 1
 Wrong Answer! - Penalty: -4
 question text 2
  Correct Answer! - Marks Awarded: 2
-Traceback (most recent call last):
-  File "Solution.py", line 92, in <module>
-    main()
-  File "Solution.py", line 89, in main
-    quiz.matchans()
-  File "Solution.py", line 50, in matchans
-    del self.partchoice[partchoice.index(part_ch)]
-NameError: name 'partchoice' is not defined
+['2', '4', '3']
+question text 3
+ Correct Answer! - Marks Awarded: 3
+['4', '3']
+question text 4
+ Correct Answer! - Marks Awarded: 4
+['3']
+Total Score: 13
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -197,14 +200,14 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 question text 1
  Correct Answer! - Marks Awarded: 1
-Traceback (most recent call last):
-  File "Solution.py", line 92, in <module>
-    main()
-  File "Solution.py", line 89, in main
-    quiz.matchans()
-  File "Solution.py", line 50, in matchans
-    del self.partchoice[partchoice.index(part_ch)]
-NameError: name 'partchoice' is not defined
+['3', '3', '3']
+question text 2
+Wrong Answer! - Penalty: -3
+question text 3
+Wrong Answer! - Penalty: -2
+question text 4
+Wrong Answer! - Penalty: -1
+Total Score: 7
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
