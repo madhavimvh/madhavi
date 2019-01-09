@@ -56,15 +56,19 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
+3
  Correct Answer! - Marks Awarded: 1
 ['1', '2', '4']
 question text 2
+1
  Correct Answer! - Marks Awarded: 2
 ['2', '4']
 question text 3
+2
  Correct Answer! - Marks Awarded: 3
 ['4']
 question text 4
+4
  Correct Answer! - Marks Awarded: 4
 []
 Total Score: 10
@@ -128,14 +132,18 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
+1
 Wrong Answer! - Penalty: -4
 question text 2
+1
  Correct Answer! - Marks Awarded: 2
 ['2', '4', '3']
 question text 3
+2
  Correct Answer! - Marks Awarded: 3
 ['4', '3']
 question text 4
+4
  Correct Answer! - Marks Awarded: 4
 ['3']
 Total Score: 13
@@ -199,13 +207,17 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
+3
  Correct Answer! - Marks Awarded: 1
 ['3', '3', '3']
 question text 2
+3
 Wrong Answer! - Penalty: -3
 question text 3
+3
 Wrong Answer! - Penalty: -2
 question text 4
+3
 Wrong Answer! - Penalty: -1
 Total Score: 7
 ----------------------------------------
@@ -316,24 +328,34 @@ choice a	choice b	choice c	choice d
 | Score Report |
 |--------------|
 question a
+c
 Wrong Answer! - Penalty: 0
 question b
+c
 Wrong Answer! - Penalty: 0
 question c
+c
 Wrong Answer! - Penalty: 0
 question d
+c
 Wrong Answer! - Penalty: 0
 question e
+c
 Wrong Answer! - Penalty: 0
 question f
+c
 Wrong Answer! - Penalty: 0
 question g
+c
 Wrong Answer! - Penalty: 0
 question h
+c
 Wrong Answer! - Penalty: 0
 question i
+c
 Wrong Answer! - Penalty: 0
 question j
+c
 Wrong Answer! - Penalty: 0
 Total Score: 0
 ----------------------------------------
@@ -372,6 +394,7 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
+1
 Wrong Answer! - Penalty: -4
 Total Score: 4
 ----------------------------------------
@@ -431,6 +454,7 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
+1
 Wrong Answer! - Penalty: 
 Traceback (most recent call last):
   File "Solution.py", line 92, in <module>
