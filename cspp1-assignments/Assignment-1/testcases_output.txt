@@ -37,9 +37,13 @@ Your Output:
 | Load Questions |
 |----------------|
 3
+choice 1,choice 2,choice 3,choice 4
 1
+choice 1,choice 2,choice 3,choice 4
 2
+choice 1,choice 2,choice 3,choice 4
 4
+choice 1,choice 2,choice 3,choice 4
 4 are added to the quiz
 |------------|
 | Start Quiz |
@@ -121,9 +125,13 @@ Your Output:
 | Load Questions |
 |----------------|
 3
+choice 1,choice 2,choice 3,choice 4
 1
+choice 1,choice 2,choice 3,choice 4
 2
+choice 1,choice 2,choice 3,choice 4
 4
+choice 1,choice 2,choice 3,choice 4
 4 are added to the quiz
 |------------|
 | Start Quiz |
@@ -205,9 +213,13 @@ Your Output:
 | Load Questions |
 |----------------|
 3
+choice 1,choice 2,choice 3,choice 4
 1
+choice 1,choice 2,choice 3,choice 4
 2
+choice 1,choice 2,choice 3,choice 4
 4
+choice 1,choice 2,choice 3,choice 4
 4 are added to the quiz
 |------------|
 | Start Quiz |
@@ -319,15 +331,25 @@ Your Output:
 | Load Questions |
 |----------------|
 1
+choice a,choice b,choice c,choice d
 3
+choice a,choice b,choice c,choice d
 2
+choice a,choice b,choice c,choice d
 1
+choice a,choice b,choice c,choice d
 4
+choice a,choice b,choice c,choice d
 3
+choice a,choice b,choice c,choice d
 1
+choice a,choice b,choice c,choice d
 1
+choice a,choice b,choice c,choice d
 4
+choice a,choice b,choice c,choice d
 2
+choice a,choice b,choice c,choice d
 10 are added to the quiz
 |------------|
 | Start Quiz |
@@ -442,6 +464,7 @@ Your Output:
 | Load Questions |
 |----------------|
 3
+choice 1,choice 2,choice 3,choice 4
 1 are added to the quiz
 |------------|
 | Start Quiz |
@@ -588,6 +611,7 @@ Your Output:
 | Load Questions |
 |----------------|
 1
+choice 4,choice 2
 1 are added to the quiz
 |------------|
 | Start Quiz |
@@ -624,6 +648,7 @@ Your Output:
 | Load Questions |
 |----------------|
 1
+choice 4,choice 2
 1 are added to the quiz
 |------------|
 | Start Quiz |
@@ -660,6 +685,7 @@ Your Output:
 | Load Questions |
 |----------------|
 1
+choice 4,choice 2
 1 are added to the quiz
 |------------|
 | Start Quiz |
