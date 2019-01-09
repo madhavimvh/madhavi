@@ -36,7 +36,9 @@ Solution.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:40:0: C0304: Final newline missing (missing-final-newline)
+Solution.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:42:0: C0304: Final newline missing (missing-final-newline)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0111: Missing class docstring (missing-docstring)
@@ -48,10 +50,10 @@ Solution.py:13:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:13:23: W0621: Redefining name 'Question' from outer scope (line 1) (redefined-outer-name)
 Solution.py:9:0: R0903: Too few public methods (1/2) (too-few-public-methods)
 Solution.py:16:0: C0111: Missing function docstring (missing-docstring)
-Solution.py:20:1: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:30:3: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:27:6: W0612: Unused variable 'i' (unused-variable)
+Solution.py:20:3: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:30:5: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:27:8: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.16/10 (previous run: -3.33/10, +0.18)
+Your code has been rated at -3.00/10 (previous run: -3.16/10, +0.16)
 
