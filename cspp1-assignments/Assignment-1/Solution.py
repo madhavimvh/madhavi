@@ -42,7 +42,7 @@ class Quiz:
 				self.partchoice.append(adict[eachx[1]])
 			else:
 				self.partchoice.append(eachx[1])
-		print(self.partchoice)
+		# print(self.partchoice)
 	def matchans(self):
 		for each in self.allquestions:
 			print(each.getquestext())
@@ -89,11 +89,11 @@ def main():
 				for i in range(int(n[1])):
 					list1.append(input())
 				quiz.partoptions(list1)
-			# if n[0] == "SCORE_REPORT":
-				# print("|--------------|")
-				# print("| Score Report |")
-				# print("|--------------|")
-				# quiz.matchans()
+			if n[0] == "SCORE_REPORT":
+				print("|--------------|")
+				print("| Score Report |")
+				print("|--------------|")
+				quiz.matchans()
 	except EOFError:
 		pass
 main()

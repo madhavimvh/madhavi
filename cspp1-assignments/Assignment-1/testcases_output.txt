@@ -52,7 +52,26 @@ choice 1	choice 2	choice 3	choice 4
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4	
 
-['3', '1', '2', '4']
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+3
+3
+ Correct Answer! - Marks Awarded: 1
+question text 2
+1
+1
+ Correct Answer! - Marks Awarded: 2
+question text 3
+2
+2
+ Correct Answer! - Marks Awarded: 3
+question text 4
+4
+4
+ Correct Answer! - Marks Awarded: 4
+Total Score: 10
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -109,7 +128,30 @@ choice 1	choice 2	choice 3	choice 4
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4	
 
-['1', '2', '4', '3']
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+1
+3
+Wrong Answer! - Penalty: -4
+4
+question text 2
+2
+1
+Wrong Answer! - Penalty: -3
+7
+question text 3
+4
+2
+Wrong Answer! - Penalty: -2
+9
+question text 4
+3
+4
+Wrong Answer! - Penalty: -1
+10
+Total Score: 10
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -166,7 +208,29 @@ choice 1	choice 2	choice 3	choice 4
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4	
 
-['3', '3', '3', '3']
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+3
+3
+ Correct Answer! - Marks Awarded: 1
+question text 2
+3
+1
+Wrong Answer! - Penalty: -3
+4
+question text 3
+3
+2
+Wrong Answer! - Penalty: -2
+6
+question text 4
+3
+4
+Wrong Answer! - Penalty: -1
+7
+Total Score: 7
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -271,7 +335,59 @@ choice a	choice b	choice c	choice d
 question j(2)
 choice a	choice b	choice c	choice d	
 
-['3', '1', '2', '4', '3', '1', '2', '4', '3', '1']
+|--------------|
+| Score Report |
+|--------------|
+question a
+3
+1
+Wrong Answer! - Penalty: 0
+0
+question b
+1
+3
+Wrong Answer! - Penalty: 0
+0
+question c
+2
+2
+ Correct Answer! - Marks Awarded: 3
+question d
+4
+1
+Wrong Answer! - Penalty: 0
+3
+question e
+3
+4
+Wrong Answer! - Penalty: 0
+3
+question f
+1
+3
+Wrong Answer! - Penalty: 0
+3
+question g
+2
+1
+Wrong Answer! - Penalty: 0
+3
+question h
+4
+1
+Wrong Answer! - Penalty: 0
+3
+question i
+3
+4
+Wrong Answer! - Penalty: 0
+3
+question j
+1
+2
+Wrong Answer! - Penalty: 0
+3
+Total Score: 3
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -304,7 +420,15 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4	
 
-['1']
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+1
+3
+Wrong Answer! - Penalty: -4
+4
+Total Score: 4
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -328,7 +452,10 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-['1']
+|--------------|
+| Score Report |
+|--------------|
+Total Score: 0
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -355,7 +482,21 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4	
 
-['1']
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+1
+3
+Wrong Answer! - Penalty: 
+Traceback (most recent call last):
+  File "Solution.py", line 99, in <module>
+    main()
+  File "Solution.py", line 96, in main
+    quiz.matchans()
+  File "Solution.py", line 60, in matchans
+    self.totscore -= int(each.getnegmarks())
+ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -382,7 +523,15 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4	
 
-['1']
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+1
+6
+Wrong Answer! - Penalty: -1
+1
+Total Score: 1
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -409,7 +558,15 @@ Your Output:
 trick question (1)
 choice 4	
 
-['1']
+|--------------|
+| Score Report |
+|--------------|
+trick question 
+1
+6
+Wrong Answer! - Penalty: -1
+1
+Total Score: 1
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -442,7 +599,15 @@ Your Output:
 question about sony(1)
 choice 4	choice 2	
 
-['4']
+|--------------|
+| Score Report |
+|--------------|
+question about sony
+4
+1
+Wrong Answer! - Penalty: -1
+1
+Total Score: 1
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -469,7 +634,15 @@ Your Output:
 question about sony(-1)
 choice 4	choice 2	
 
-['4']
+|--------------|
+| Score Report |
+|--------------|
+question about sony
+4
+1
+Wrong Answer! - Penalty: -1
+1
+Total Score: 1
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -496,7 +669,15 @@ Your Output:
 question about sony(1)
 choice 4	choice 2	
 
-['4']
+|--------------|
+| Score Report |
+|--------------|
+question about sony
+4
+1
+Wrong Answer! - Penalty: 1
+-1
+Total Score: -1
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -523,6 +704,14 @@ Your Output:
 (1)
 choice 1	choice 2	choice 3	choice 4	
 
-['1']
+|--------------|
+| Score Report |
+|--------------|
+
+1
+3
+Wrong Answer! - Penalty: -1
+1
+Total Score: 1
 ----------------------------------------
 

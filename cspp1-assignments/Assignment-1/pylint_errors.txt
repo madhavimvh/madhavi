@@ -39,7 +39,6 @@ Solution.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:45:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:46:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:47:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:48:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -80,6 +79,11 @@ Solution.py:88:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:89:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:90:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:91:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:92:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:93:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:94:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:95:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:96:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:97:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:98:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:99:0: C0304: Final newline missing (missing-final-newline)
@@ -106,5 +110,5 @@ Solution.py:81:5: C0103: Variable name "Ques" doesn't conform to snake_case nami
 Solution.py:78:8: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.41/10 (previous run: -2.26/10, -0.15)
+Your code has been rated at -2.30/10 (previous run: -2.41/10, +0.11)
 
