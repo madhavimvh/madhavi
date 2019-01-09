@@ -411,7 +411,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
 Error! Malformed question
 |------------|
 | Start Quiz |
@@ -605,7 +604,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
 Error! Malformed question
 |------------|
 | Start Quiz |

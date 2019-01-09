@@ -80,7 +80,6 @@ def main():
 						k = n[1]
 						raise Exception("Quiz does not have questions")
 					else:
-						print(n[1] + " are added to the quiz")
 						for i in range(int(n[1])):
 							string = input().split(":")
 							# print(string)
@@ -90,6 +89,7 @@ def main():
 							else:
 								Ques = Question(string[0], string[1], string[2], string[3], string[4])
 								quiz.addquestion(Ques)
+						print(n[1] + " are added to the quiz")
 							# except Exception as e:
 								# print(e)
 
