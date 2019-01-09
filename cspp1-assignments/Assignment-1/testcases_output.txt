@@ -386,6 +386,13 @@ Your Output:
 | Load Questions |
 |----------------|
 Quiz does not have questions
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+Total Score: 0
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########

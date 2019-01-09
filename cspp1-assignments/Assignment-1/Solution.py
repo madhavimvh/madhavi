@@ -76,13 +76,13 @@ def main():
 				print("|----------------|")
 				if n[1] == "0":
 					print("Quiz does not have questions")
-					return
-				print(n[1] + " are added to the quiz")
-				for i in range(int(n[1])):
-					string = input().split(":")
-					# print(string)
-					Ques = Question(string[0], string[1], string[2], string[3], string[4])
-					quiz.addquestion(Ques)
+				else:
+					print(n[1] + " are added to the quiz")
+					for i in range(int(n[1])):
+						string = input().split(":")
+						# print(string)
+						Ques = Question(string[0], string[1], string[2], string[3], string[4])
+						quiz.addquestion(Ques)
 			if n[0] == "START_QUIZ":
 				print("|------------|")
 				print("| Start Quiz |")

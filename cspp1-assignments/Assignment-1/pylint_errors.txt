@@ -107,9 +107,9 @@ Solution.py:39:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:47:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:67:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:71:3: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:84:5: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:81:8: W0612: Unused variable 'i' (unused-variable)
+Solution.py:84:6: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:81:9: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.27/10 (previous run: -2.35/10, +0.08)
+Your code has been rated at -2.41/10 (previous run: -2.27/10, -0.14)
 
