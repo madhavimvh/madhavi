@@ -73,12 +73,11 @@ Solution.py:25:1: C0103: Argument name "Question" doesn't conform to snake_case 
 Solution.py:25:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:25:23: W0621: Redefining name 'Question' from outer scope (line 1) (redefined-outer-name)
 Solution.py:27:1: C0111: Missing method docstring (missing-docstring)
-Solution.py:31:7: W0612: Unused variable 'eachopt' (unused-variable)
 Solution.py:37:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:41:3: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:51:5: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:48:8: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.83/10 (previous run: -5.33/10, +2.50)
+Your code has been rated at -2.67/10 (previous run: -2.83/10, +0.17)
 

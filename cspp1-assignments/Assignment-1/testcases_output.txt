@@ -43,14 +43,17 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-Traceback (most recent call last):
-  File "Solution.py", line 67, in <module>
-    main()
-  File "Solution.py", line 57, in main
-    quiz.startquiz()
-  File "Solution.py", line 32, in startquiz
-    str1 = each + "\t"
-TypeError: unsupported operand type(s) for +: 'Question' and 'str'
+4	
+question text 2(2)
+4	
+question text 3(3)
+4	
+question text 4(4)
+4	
+['SCORE_REPORT']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -98,14 +101,17 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-Traceback (most recent call last):
-  File "Solution.py", line 67, in <module>
-    main()
-  File "Solution.py", line 57, in main
-    quiz.startquiz()
-  File "Solution.py", line 32, in startquiz
-    str1 = each + "\t"
-TypeError: unsupported operand type(s) for +: 'Question' and 'str'
+4	
+question text 2(2)
+4	
+question text 3(3)
+4	
+question text 4(4)
+4	
+['SCORE_REPORT']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -153,14 +159,17 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-Traceback (most recent call last):
-  File "Solution.py", line 67, in <module>
-    main()
-  File "Solution.py", line 57, in main
-    quiz.startquiz()
-  File "Solution.py", line 32, in startquiz
-    str1 = each + "\t"
-TypeError: unsupported operand type(s) for +: 'Question' and 'str'
+4	
+question text 2(2)
+4	
+question text 3(3)
+4	
+question text 4(4)
+4	
+['SCORE_REPORT']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -238,14 +247,29 @@ Your Output:
 | Start Quiz |
 |------------|
 question a(1)
-Traceback (most recent call last):
-  File "Solution.py", line 67, in <module>
-    main()
-  File "Solution.py", line 57, in main
-    quiz.startquiz()
-  File "Solution.py", line 32, in startquiz
-    str1 = each + "\t"
-TypeError: unsupported operand type(s) for +: 'Question' and 'str'
+d	
+question b(2)
+d	
+question c(3)
+d	
+question d(4)
+d	
+question e(1)
+d	
+question f(2)
+d	
+question g(3)
+d	
+question h(4)
+d	
+question i(1)
+d	
+question j(2)
+d	
+['SCORE_REPORT']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -278,14 +302,11 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-Traceback (most recent call last):
-  File "Solution.py", line 67, in <module>
-    main()
-  File "Solution.py", line 57, in main
-    quiz.startquiz()
-  File "Solution.py", line 32, in startquiz
-    str1 = each + "\t"
-TypeError: unsupported operand type(s) for +: 'Question' and 'str'
+4	
+['SCORE_REPORT']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -341,14 +362,11 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-Traceback (most recent call last):
-  File "Solution.py", line 67, in <module>
-    main()
-  File "Solution.py", line 57, in main
-    quiz.startquiz()
-  File "Solution.py", line 32, in startquiz
-    str1 = each + "\t"
-TypeError: unsupported operand type(s) for +: 'Question' and 'str'
+4	
+['SCORE_REPORT']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -375,14 +393,11 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-Traceback (most recent call last):
-  File "Solution.py", line 67, in <module>
-    main()
-  File "Solution.py", line 57, in main
-    quiz.startquiz()
-  File "Solution.py", line 32, in startquiz
-    str1 = each + "\t"
-TypeError: unsupported operand type(s) for +: 'Question' and 'str'
+4	
+['SCORE_REPORT']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -409,14 +424,11 @@ Your Output:
 | Start Quiz |
 |------------|
 trick question (1)
-Traceback (most recent call last):
-  File "Solution.py", line 67, in <module>
-    main()
-  File "Solution.py", line 57, in main
-    quiz.startquiz()
-  File "Solution.py", line 32, in startquiz
-    str1 = each + "\t"
-TypeError: unsupported operand type(s) for +: 'Question' and 'str'
+4	
+['SCORE_REPORT']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -449,14 +461,11 @@ Your Output:
 | Start Quiz |
 |------------|
 question about sony(1)
-Traceback (most recent call last):
-  File "Solution.py", line 67, in <module>
-    main()
-  File "Solution.py", line 57, in main
-    quiz.startquiz()
-  File "Solution.py", line 32, in startquiz
-    str1 = each + "\t"
-TypeError: unsupported operand type(s) for +: 'Question' and 'str'
+2	
+['SCORE_REPORT']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -483,14 +492,11 @@ Your Output:
 | Start Quiz |
 |------------|
 question about sony(-1)
-Traceback (most recent call last):
-  File "Solution.py", line 67, in <module>
-    main()
-  File "Solution.py", line 57, in main
-    quiz.startquiz()
-  File "Solution.py", line 32, in startquiz
-    str1 = each + "\t"
-TypeError: unsupported operand type(s) for +: 'Question' and 'str'
+2	
+['SCORE_REPORT']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -517,14 +523,11 @@ Your Output:
 | Start Quiz |
 |------------|
 question about sony(1)
-Traceback (most recent call last):
-  File "Solution.py", line 67, in <module>
-    main()
-  File "Solution.py", line 57, in main
-    quiz.startquiz()
-  File "Solution.py", line 32, in startquiz
-    str1 = each + "\t"
-TypeError: unsupported operand type(s) for +: 'Question' and 'str'
+2	
+['SCORE_REPORT']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -551,13 +554,10 @@ Your Output:
 | Start Quiz |
 |------------|
 (1)
-Traceback (most recent call last):
-  File "Solution.py", line 67, in <module>
-    main()
-  File "Solution.py", line 57, in main
-    quiz.startquiz()
-  File "Solution.py", line 32, in startquiz
-    str1 = each + "\t"
-TypeError: unsupported operand type(s) for +: 'Question' and 'str'
+4	
+['SCORE_REPORT']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 

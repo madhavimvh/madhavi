@@ -29,7 +29,7 @@ class Quiz:
 		for each in self.allquestions:
 			print(each.getquestext() + "(" + each.getmaxmarks() + ")")
 			for eachopt in each.getoptions():
-				str1 = each + "\t"
+				str1 = eachopt + "\t"
 			print(str1)
 	# def partoptions():
 
