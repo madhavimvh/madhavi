@@ -24,9 +24,9 @@ class Quiz:
 		pass
 	def addquestion(self, Question):
 		self.allquestions.append(Question)
-	def startquiz():
+	def startquiz(self):
 		str1 = ""
-		for each in allquestions:
+		for each in self.allquestions:
 			print(each.getquestext() + "(" + each.getmaxmarks() + ")")
 			for eachopt in each.getoptions():
 				str1 = each + "\t"

@@ -42,12 +42,15 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question text 1(1)
 Traceback (most recent call last):
   File "Solution.py", line 67, in <module>
     main()
   File "Solution.py", line 57, in main
     quiz.startquiz()
-TypeError: startquiz() takes 0 positional arguments but 1 was given
+  File "Solution.py", line 32, in startquiz
+    str1 = each + "\t"
+TypeError: unsupported operand type(s) for +: 'Question' and 'str'
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -94,12 +97,15 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question text 1(1)
 Traceback (most recent call last):
   File "Solution.py", line 67, in <module>
     main()
   File "Solution.py", line 57, in main
     quiz.startquiz()
-TypeError: startquiz() takes 0 positional arguments but 1 was given
+  File "Solution.py", line 32, in startquiz
+    str1 = each + "\t"
+TypeError: unsupported operand type(s) for +: 'Question' and 'str'
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -146,12 +152,15 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question text 1(1)
 Traceback (most recent call last):
   File "Solution.py", line 67, in <module>
     main()
   File "Solution.py", line 57, in main
     quiz.startquiz()
-TypeError: startquiz() takes 0 positional arguments but 1 was given
+  File "Solution.py", line 32, in startquiz
+    str1 = each + "\t"
+TypeError: unsupported operand type(s) for +: 'Question' and 'str'
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -228,12 +237,15 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question a(1)
 Traceback (most recent call last):
   File "Solution.py", line 67, in <module>
     main()
   File "Solution.py", line 57, in main
     quiz.startquiz()
-TypeError: startquiz() takes 0 positional arguments but 1 was given
+  File "Solution.py", line 32, in startquiz
+    str1 = each + "\t"
+TypeError: unsupported operand type(s) for +: 'Question' and 'str'
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -265,12 +277,15 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question text 1(1)
 Traceback (most recent call last):
   File "Solution.py", line 67, in <module>
     main()
   File "Solution.py", line 57, in main
     quiz.startquiz()
-TypeError: startquiz() takes 0 positional arguments but 1 was given
+  File "Solution.py", line 32, in startquiz
+    str1 = each + "\t"
+TypeError: unsupported operand type(s) for +: 'Question' and 'str'
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -296,12 +311,10 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-Traceback (most recent call last):
-  File "Solution.py", line 67, in <module>
-    main()
-  File "Solution.py", line 57, in main
-    quiz.startquiz()
-TypeError: startquiz() takes 0 positional arguments but 1 was given
+['SCORE_REPORT']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -327,12 +340,15 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question text 1(1)
 Traceback (most recent call last):
   File "Solution.py", line 67, in <module>
     main()
   File "Solution.py", line 57, in main
     quiz.startquiz()
-TypeError: startquiz() takes 0 positional arguments but 1 was given
+  File "Solution.py", line 32, in startquiz
+    str1 = each + "\t"
+TypeError: unsupported operand type(s) for +: 'Question' and 'str'
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -358,12 +374,15 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question text 1(1)
 Traceback (most recent call last):
   File "Solution.py", line 67, in <module>
     main()
   File "Solution.py", line 57, in main
     quiz.startquiz()
-TypeError: startquiz() takes 0 positional arguments but 1 was given
+  File "Solution.py", line 32, in startquiz
+    str1 = each + "\t"
+TypeError: unsupported operand type(s) for +: 'Question' and 'str'
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -389,12 +408,15 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+trick question (1)
 Traceback (most recent call last):
   File "Solution.py", line 67, in <module>
     main()
   File "Solution.py", line 57, in main
     quiz.startquiz()
-TypeError: startquiz() takes 0 positional arguments but 1 was given
+  File "Solution.py", line 32, in startquiz
+    str1 = each + "\t"
+TypeError: unsupported operand type(s) for +: 'Question' and 'str'
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -426,12 +448,15 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question about sony(1)
 Traceback (most recent call last):
   File "Solution.py", line 67, in <module>
     main()
   File "Solution.py", line 57, in main
     quiz.startquiz()
-TypeError: startquiz() takes 0 positional arguments but 1 was given
+  File "Solution.py", line 32, in startquiz
+    str1 = each + "\t"
+TypeError: unsupported operand type(s) for +: 'Question' and 'str'
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -457,12 +482,15 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question about sony(-1)
 Traceback (most recent call last):
   File "Solution.py", line 67, in <module>
     main()
   File "Solution.py", line 57, in main
     quiz.startquiz()
-TypeError: startquiz() takes 0 positional arguments but 1 was given
+  File "Solution.py", line 32, in startquiz
+    str1 = each + "\t"
+TypeError: unsupported operand type(s) for +: 'Question' and 'str'
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -488,12 +516,15 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question about sony(1)
 Traceback (most recent call last):
   File "Solution.py", line 67, in <module>
     main()
   File "Solution.py", line 57, in main
     quiz.startquiz()
-TypeError: startquiz() takes 0 positional arguments but 1 was given
+  File "Solution.py", line 32, in startquiz
+    str1 = each + "\t"
+TypeError: unsupported operand type(s) for +: 'Question' and 'str'
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -519,11 +550,14 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+(1)
 Traceback (most recent call last):
   File "Solution.py", line 67, in <module>
     main()
   File "Solution.py", line 57, in main
     quiz.startquiz()
-TypeError: startquiz() takes 0 positional arguments but 1 was given
+  File "Solution.py", line 32, in startquiz
+    str1 = each + "\t"
+TypeError: unsupported operand type(s) for +: 'Question' and 'str'
 ----------------------------------------
 
