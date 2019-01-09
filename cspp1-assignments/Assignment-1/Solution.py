@@ -80,7 +80,6 @@ def main():
 						k = n[1]
 						raise Exception("Quiz does not have questions")
 					else:
-						print(n[1] + " are added to the quiz")
 						for i in range(int(n[1])):
 							string = input().split(":")
 							# print(string)
@@ -88,6 +87,7 @@ def main():
 							if string[0] == "" or string[1] == "" or string[2] == "" or string[3] == "" or string[4] == "":
 								raise Exception("Error! Malformed question")
 							else:
+								print(n[1] + " are added to the quiz")
 								Ques = Question(string[0], string[1], string[2], string[3], string[4])
 								quiz.addquestion(Ques)
 							# except Exception as e:

@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -37,6 +37,9 @@ Your Output:
 | Load Questions |
 |----------------|
 4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -66,7 +69,7 @@ question text 4
 Total Score: 10
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -105,6 +108,9 @@ Your Output:
 | Load Questions |
 |----------------|
 4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -134,7 +140,7 @@ question text 4
 Total Score: -10
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -173,6 +179,9 @@ Your Output:
 | Load Questions |
 |----------------|
 4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
+4 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
@@ -202,7 +211,7 @@ question text 4
 Total Score: -5
 ----------------------------------------
 
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -270,6 +279,15 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
+10 are added to the quiz
 10 are added to the quiz
 |------------|
 | Start Quiz |
@@ -411,7 +429,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
 Error! Malformed question
 |------------|
 | Start Quiz |
@@ -605,7 +622,6 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
 Error! Malformed question
 |------------|
 | Start Quiz |
