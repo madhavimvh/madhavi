@@ -13,7 +13,6 @@ Solution.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:20:0: C0304: Final newline missing (missing-final-newline)
-Solution.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0111: Missing class docstring (missing-docstring)
@@ -31,6 +30,6 @@ Solution.py:14:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:15:1: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:16:5: W0612: Unused variable 'i' (unused-variable)
 
--------------------------------------
-Your code has been rated at -24.71/10
+----------------------------------------------------------------------
+Your code has been rated at -24.12/10 (previous run: -24.71/10, +0.59)
 

@@ -17,4 +17,4 @@ def main():
 		string = input().split()
 		print(string)
 		# quiz.addquestion()
-	main()
+main()
