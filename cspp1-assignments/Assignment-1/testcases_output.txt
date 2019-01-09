@@ -385,14 +385,12 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Quiz does not have questions
-|------------|
-| Start Quiz |
-|------------|
-|--------------|
-| Score Report |
-|--------------|
-Total Score: 0
+Traceback (most recent call last):
+  File "Solution.py", line 102, in <module>
+    main()
+  File "Solution.py", line 78, in main
+    raise Exception("Quiz does not have questions")
+Exception: Quiz does not have questions
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
