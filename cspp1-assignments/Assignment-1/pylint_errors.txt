@@ -119,7 +119,6 @@ Solution.py:3:1: R0913: Too many arguments (6/5) (too-many-arguments)
 Solution.py:11:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:13:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:15:1: C0111: Missing method docstring (missing-docstring)
-Solution.py:18:2: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 Solution.py:15:1: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
 Solution.py:23:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:25:1: C0111: Missing method docstring (missing-docstring)
@@ -140,5 +139,5 @@ Solution.py:98:10: W0612: Unused variable 'i' (unused-variable)
 Solution.py:82:0: R0912: Too many branches (16/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.69/10 (previous run: -2.66/10, -0.02)
+Your code has been rated at -2.59/10 (previous run: -2.69/10, +0.09)
 

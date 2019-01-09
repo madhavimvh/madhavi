@@ -15,7 +15,7 @@ class Question:
 	def getcorrectans(self):
 		# return correctch()
 		listch = self.options.split(",")
-		for i in range(len(listch)):
+		for i in range(1, len(listch)):
 			if i == int(self.correctans):
 				each = listch[i].split()
 				print(each[1])
