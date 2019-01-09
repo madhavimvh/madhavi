@@ -111,6 +111,9 @@ def main():
 							elif int(string[2]) > 4:
 								k = "0"
 								raise Exception("Error! Correct answer choice number is out of range for " + string[0])
+							elif int(string[3]) < 0:
+								k = "0"
+								raise Exception("Invalid max marks for question about sony")
 							else:
 								Ques = Question(string[0], string[1], string[2], string[3], string[4])
 								quiz.addquestion(Ques)

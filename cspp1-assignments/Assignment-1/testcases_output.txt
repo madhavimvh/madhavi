@@ -510,7 +510,7 @@ question about sony
 Total Score: 1
 ----------------------------------------
 
-########## Testcase 10: Failed ##########
+########## Testcase 10: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -527,19 +527,13 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Invalid max marks for question about sony
 |------------|
 | Start Quiz |
 |------------|
-question about sony(-1)
-choice 4	choice 2
-
 |--------------|
 | Score Report |
 |--------------|
-question about sony
- Correct Answer! - Marks Awarded: -1
-Total Score: -1
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
