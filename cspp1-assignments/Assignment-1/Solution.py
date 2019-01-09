@@ -12,10 +12,10 @@ class Quiz:
 	# def addquestion(Question):
 
 def main():
-	n = input().split(":")
+	n = input().split()
 	print(int(n[1]))
 	for i in range(int(n[1])):
-		string = input().split()
+		string = input().split(":")
 		print(string)
 		# quiz.addquestion()
 main()
