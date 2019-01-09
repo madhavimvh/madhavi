@@ -37,9 +37,9 @@ class Quiz:
 
 
 def main():
+	quiz = Quiz()
 	try:
 		while True:
-			quiz = Quiz()
 			n = input().split()
 			# print(n)
 			if n[0] == "LOAD_QUESTIONS":
@@ -60,7 +60,7 @@ def main():
 				list1 = []
 				for i in range(int(n[1])):
 					list1.append(input())
-				partoptions(list1)
+				quiz.partoptions(list1)
 			if n[0] == "SCORE_REPORT":
 				print("|--------------|")
 				print("| Score Report |")

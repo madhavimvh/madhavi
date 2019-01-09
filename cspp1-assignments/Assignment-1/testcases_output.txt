@@ -52,12 +52,10 @@ choice 1	choice 2	choice 3	choice 4
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4	
 
-Traceback (most recent call last):
-  File "Solution.py", line 70, in <module>
-    main()
-  File "Solution.py", line 63, in main
-    partoptions(list1)
-NameError: name 'partoptions' is not defined
+['choice 3', 'choice 1', 'choice 2', 'choice 4']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -114,12 +112,10 @@ choice 1	choice 2	choice 3	choice 4
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4	
 
-Traceback (most recent call last):
-  File "Solution.py", line 70, in <module>
-    main()
-  File "Solution.py", line 63, in main
-    partoptions(list1)
-NameError: name 'partoptions' is not defined
+['choice 1', 'choice 2', 'choice 4', 'choice 3']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -176,12 +172,10 @@ choice 1	choice 2	choice 3	choice 4
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4	
 
-Traceback (most recent call last):
-  File "Solution.py", line 70, in <module>
-    main()
-  File "Solution.py", line 63, in main
-    partoptions(list1)
-NameError: name 'partoptions' is not defined
+['choice 3', 'choice 3', 'choice 3', 'choice 3']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -286,12 +280,10 @@ choice a	choice b	choice c	choice d
 question j(2)
 choice a	choice b	choice c	choice d	
 
-Traceback (most recent call last):
-  File "Solution.py", line 70, in <module>
-    main()
-  File "Solution.py", line 63, in main
-    partoptions(list1)
-NameError: name 'partoptions' is not defined
+['choice c', 'choice a', 'choice b', 'choice d', 'choice c', 'choice a', 'choice b', 'choice d', 'choice c', 'choice a']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -324,12 +316,10 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4	
 
-Traceback (most recent call last):
-  File "Solution.py", line 70, in <module>
-    main()
-  File "Solution.py", line 63, in main
-    partoptions(list1)
-NameError: name 'partoptions' is not defined
+['choice 1']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -353,12 +343,10 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-Traceback (most recent call last):
-  File "Solution.py", line 70, in <module>
-    main()
-  File "Solution.py", line 63, in main
-    partoptions(list1)
-NameError: name 'partoptions' is not defined
+['choice 1']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -385,12 +373,10 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4	
 
-Traceback (most recent call last):
-  File "Solution.py", line 70, in <module>
-    main()
-  File "Solution.py", line 63, in main
-    partoptions(list1)
-NameError: name 'partoptions' is not defined
+['choice 1']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -417,12 +403,10 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4	
 
-Traceback (most recent call last):
-  File "Solution.py", line 70, in <module>
-    main()
-  File "Solution.py", line 63, in main
-    partoptions(list1)
-NameError: name 'partoptions' is not defined
+['choice 1']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -449,12 +433,10 @@ Your Output:
 trick question (1)
 choice 4	
 
-Traceback (most recent call last):
-  File "Solution.py", line 70, in <module>
-    main()
-  File "Solution.py", line 63, in main
-    partoptions(list1)
-NameError: name 'partoptions' is not defined
+['choice 1']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -487,12 +469,10 @@ Your Output:
 question about sony(1)
 choice 4	choice 2	
 
-Traceback (most recent call last):
-  File "Solution.py", line 70, in <module>
-    main()
-  File "Solution.py", line 63, in main
-    partoptions(list1)
-NameError: name 'partoptions' is not defined
+['choice 4']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -519,12 +499,10 @@ Your Output:
 question about sony(-1)
 choice 4	choice 2	
 
-Traceback (most recent call last):
-  File "Solution.py", line 70, in <module>
-    main()
-  File "Solution.py", line 63, in main
-    partoptions(list1)
-NameError: name 'partoptions' is not defined
+['choice 4']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -551,12 +529,10 @@ Your Output:
 question about sony(1)
 choice 4	choice 2	
 
-Traceback (most recent call last):
-  File "Solution.py", line 70, in <module>
-    main()
-  File "Solution.py", line 63, in main
-    partoptions(list1)
-NameError: name 'partoptions' is not defined
+['choice 4']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -583,11 +559,9 @@ Your Output:
 (1)
 choice 1	choice 2	choice 3	choice 4	
 
-Traceback (most recent call last):
-  File "Solution.py", line 70, in <module>
-    main()
-  File "Solution.py", line 63, in main
-    partoptions(list1)
-NameError: name 'partoptions' is not defined
+['choice 1']
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 

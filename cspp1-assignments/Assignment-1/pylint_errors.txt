@@ -80,9 +80,8 @@ Solution.py:35:1: R0201: Method could be a function (no-self-use)
 Solution.py:39:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:43:3: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:53:5: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:63:4: E0602: Undefined variable 'partoptions' (undefined-variable)
 Solution.py:50:8: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.71/10 (previous run: -4.35/10, +0.65)
+Your code has been rated at -2.90/10 (previous run: -3.71/10, +0.81)
 
