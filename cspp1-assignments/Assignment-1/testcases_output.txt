@@ -33,15 +33,12 @@ question text 4
 Total Score: 10
 
 Your Output: 
-['LOAD_QUESTIONS', '4']
-|----------------|
-| Load Questions |
-|----------------|
-4 are added to the quiz
-question text 1
-question text 2
-question text 3
-question text 4
+Traceback (most recent call last):
+  File "Solution.py", line 40, in <module>
+    main()
+  File "Solution.py", line 17, in main
+    while input().has_next():
+AttributeError: 'str' object has no attribute 'has_next'
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -79,15 +76,12 @@ question text 4
 Total Score: -10
 
 Your Output: 
-['LOAD_QUESTIONS', '4']
-|----------------|
-| Load Questions |
-|----------------|
-4 are added to the quiz
-question text 1
-question text 2
-question text 3
-question text 4
+Traceback (most recent call last):
+  File "Solution.py", line 40, in <module>
+    main()
+  File "Solution.py", line 17, in main
+    while input().has_next():
+AttributeError: 'str' object has no attribute 'has_next'
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -125,15 +119,12 @@ question text 4
 Total Score: -5
 
 Your Output: 
-['LOAD_QUESTIONS', '4']
-|----------------|
-| Load Questions |
-|----------------|
-4 are added to the quiz
-question text 1
-question text 2
-question text 3
-question text 4
+Traceback (most recent call last):
+  File "Solution.py", line 40, in <module>
+    main()
+  File "Solution.py", line 17, in main
+    while input().has_next():
+AttributeError: 'str' object has no attribute 'has_next'
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -201,21 +192,12 @@ question j
 Total Score: 3
 
 Your Output: 
-['LOAD_QUESTIONS', '10']
-|----------------|
-| Load Questions |
-|----------------|
-10 are added to the quiz
-question a
-question b
-question c
-question d
-question e
-question f
-question g
-question h
-question i
-question j
+Traceback (most recent call last):
+  File "Solution.py", line 40, in <module>
+    main()
+  File "Solution.py", line 17, in main
+    while input().has_next():
+AttributeError: 'str' object has no attribute 'has_next'
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -238,12 +220,12 @@ question text 1
 Total Score: -4
 
 Your Output: 
-['LOAD_QUESTIONS', '1']
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-question text 1
+Traceback (most recent call last):
+  File "Solution.py", line 40, in <module>
+    main()
+  File "Solution.py", line 17, in main
+    while input().has_next():
+AttributeError: 'str' object has no attribute 'has_next'
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -260,11 +242,12 @@ Quiz does not have questions
 |--------------|
 
 Your Output: 
-['LOAD_QUESTIONS', '0']
-|----------------|
-| Load Questions |
-|----------------|
-0 are added to the quiz
+Traceback (most recent call last):
+  File "Solution.py", line 40, in <module>
+    main()
+  File "Solution.py", line 17, in main
+    while input().has_next():
+AttributeError: 'str' object has no attribute 'has_next'
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -281,12 +264,12 @@ Error! Malformed question
 |--------------|
 
 Your Output: 
-['LOAD_QUESTIONS', '1']
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-question text 1
+Traceback (most recent call last):
+  File "Solution.py", line 40, in <module>
+    main()
+  File "Solution.py", line 17, in main
+    while input().has_next():
+AttributeError: 'str' object has no attribute 'has_next'
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -303,12 +286,12 @@ Error! Correct answer choice number is out of range for question text 1
 |--------------|
 
 Your Output: 
-['LOAD_QUESTIONS', '1']
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-question text 1
+Traceback (most recent call last):
+  File "Solution.py", line 40, in <module>
+    main()
+  File "Solution.py", line 17, in main
+    while input().has_next():
+AttributeError: 'str' object has no attribute 'has_next'
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -325,12 +308,12 @@ trick question  does not have enough answer choices
 |--------------|
 
 Your Output: 
-['LOAD_QUESTIONS', '1']
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-trick question
+Traceback (most recent call last):
+  File "Solution.py", line 40, in <module>
+    main()
+  File "Solution.py", line 17, in main
+    while input().has_next():
+AttributeError: 'str' object has no attribute 'has_next'
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -353,12 +336,12 @@ question about sony
 Total Score: 1
 
 Your Output: 
-['LOAD_QUESTIONS', '1']
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-question about sony
+Traceback (most recent call last):
+  File "Solution.py", line 40, in <module>
+    main()
+  File "Solution.py", line 17, in main
+    while input().has_next():
+AttributeError: 'str' object has no attribute 'has_next'
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -375,12 +358,12 @@ Invalid max marks for question about sony
 |--------------|
 
 Your Output: 
-['LOAD_QUESTIONS', '1']
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-question about sony
+Traceback (most recent call last):
+  File "Solution.py", line 40, in <module>
+    main()
+  File "Solution.py", line 17, in main
+    while input().has_next():
+AttributeError: 'str' object has no attribute 'has_next'
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -397,12 +380,12 @@ Invalid penalty for question about sony
 |--------------|
 
 Your Output: 
-['LOAD_QUESTIONS', '1']
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-question about sony
+Traceback (most recent call last):
+  File "Solution.py", line 40, in <module>
+    main()
+  File "Solution.py", line 17, in main
+    while input().has_next():
+AttributeError: 'str' object has no attribute 'has_next'
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -419,10 +402,11 @@ Error! Malformed question
 |--------------|
 
 Your Output: 
-['LOAD_QUESTIONS', '1']
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
+Traceback (most recent call last):
+  File "Solution.py", line 40, in <module>
+    main()
+  File "Solution.py", line 17, in main
+    while input().has_next():
+AttributeError: 'str' object has no attribute 'has_next'
 ----------------------------------------
 

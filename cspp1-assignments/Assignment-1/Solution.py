@@ -14,6 +14,8 @@ class Quiz:
 		self.allquestions.append(Question)
 
 def main():
+	while input().has_next():
+		print(input())
 	quiz = Quiz()
 	n = input().split()
 	print(n)
