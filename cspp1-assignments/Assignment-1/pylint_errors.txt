@@ -74,7 +74,8 @@ Solution.py:80:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:81:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:82:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:83:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:84:0: C0304: Final newline missing (missing-final-newline)
+Solution.py:84:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:85:0: C0304: Final newline missing (missing-final-newline)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0111: Missing class docstring (missing-docstring)
@@ -97,8 +98,9 @@ Solution.py:43:18: E0602: Undefined variable 'self' (undefined-variable)
 Solution.py:53:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:57:3: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:67:5: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:82:4: E1121: Too many positional arguments for method call (too-many-function-args)
 Solution.py:64:8: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.53/10 (previous run: -2.66/10, -1.88)
+Your code has been rated at -5.13/10 (previous run: -4.53/10, -0.60)
 

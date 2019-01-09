@@ -56,6 +56,12 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 85, in <module>
+    main()
+  File "Solution.py", line 82, in main
+    quiz.matchans()
+TypeError: matchans() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -116,6 +122,12 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 85, in <module>
+    main()
+  File "Solution.py", line 82, in main
+    quiz.matchans()
+TypeError: matchans() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -176,6 +188,12 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 85, in <module>
+    main()
+  File "Solution.py", line 82, in main
+    quiz.matchans()
+TypeError: matchans() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -284,6 +302,12 @@ choice a	choice b	choice c	choice d
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 85, in <module>
+    main()
+  File "Solution.py", line 82, in main
+    quiz.matchans()
+TypeError: matchans() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -320,6 +344,12 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 85, in <module>
+    main()
+  File "Solution.py", line 82, in main
+    quiz.matchans()
+TypeError: matchans() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -347,6 +377,12 @@ Your Output:
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 85, in <module>
+    main()
+  File "Solution.py", line 82, in main
+    quiz.matchans()
+TypeError: matchans() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -377,6 +413,12 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 85, in <module>
+    main()
+  File "Solution.py", line 82, in main
+    quiz.matchans()
+TypeError: matchans() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -407,6 +449,12 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 85, in <module>
+    main()
+  File "Solution.py", line 82, in main
+    quiz.matchans()
+TypeError: matchans() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -437,6 +485,12 @@ choice 4
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 85, in <module>
+    main()
+  File "Solution.py", line 82, in main
+    quiz.matchans()
+TypeError: matchans() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -473,6 +527,12 @@ choice 4	choice 2
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 85, in <module>
+    main()
+  File "Solution.py", line 82, in main
+    quiz.matchans()
+TypeError: matchans() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -503,6 +563,12 @@ choice 4	choice 2
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 85, in <module>
+    main()
+  File "Solution.py", line 82, in main
+    quiz.matchans()
+TypeError: matchans() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -533,6 +599,12 @@ choice 4	choice 2
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 85, in <module>
+    main()
+  File "Solution.py", line 82, in main
+    quiz.matchans()
+TypeError: matchans() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -563,5 +635,11 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 85, in <module>
+    main()
+  File "Solution.py", line 82, in main
+    quiz.matchans()
+TypeError: matchans() takes 0 positional arguments but 1 was given
 ----------------------------------------
 

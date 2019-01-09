@@ -79,6 +79,7 @@ def main():
 				print("|--------------|")
 				print("| Score Report |")
 				print("|--------------|")
+				quiz.matchans()
 	except EOFError:
 		pass
 main()
