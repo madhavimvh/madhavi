@@ -386,11 +386,18 @@ Your Output:
 | Load Questions |
 |----------------|
 Traceback (most recent call last):
-  File "Solution.py", line 106, in <module>
+  File "Solution.py", line 81, in main
+    raise myexception
+NameError: name 'myexception' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Solution.py", line 110, in <module>
     main()
-  File "Solution.py", line 80, in main
-    raise Exception("Quiz does not have questions")
-Exception: Quiz does not have questions
+  File "Solution.py", line 89, in main
+    except myexception:
+NameError: name 'myexception' is not defined
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -423,9 +430,9 @@ choice 1	choice 2	choice 3	choice 4
 question text 1
  Wrong Answer! - Penalty: 
 Traceback (most recent call last):
-  File "Solution.py", line 106, in <module>
+  File "Solution.py", line 110, in <module>
     main()
-  File "Solution.py", line 103, in main
+  File "Solution.py", line 106, in main
     quiz.matchans()
   File "Solution.py", line 61, in matchans
     self.totscore += int(each.getnegmarks())
