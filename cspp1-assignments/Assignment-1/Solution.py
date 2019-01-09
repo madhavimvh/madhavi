@@ -35,8 +35,10 @@ class Quiz:
 				str1 += eachopt + "\t"
 			print(str1 +"\n")
 	def partoptions(self, list1):
-		self.partchoice = list1
-		# print(self.partchoice)
+		for each in list1:
+			eachx = each.split()
+			partchoice.append(eachx[1])
+		print(self.partchoice)
 	def matchans(self):
 		for each in self.allquestions:
 			print(each.getquestext())
