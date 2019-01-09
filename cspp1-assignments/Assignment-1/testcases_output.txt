@@ -412,25 +412,14 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
-question text 1(1)
-choice 1	choice 2	choice 3	choice 4
-
 |--------------|
 | Score Report |
 |--------------|
-question text 1
- Wrong Answer! - Penalty: 
-Traceback (most recent call last):
-  File "Solution.py", line 115, in <module>
-    main()
-  File "Solution.py", line 112, in main
-    quiz.matchans()
-  File "Solution.py", line 61, in matchans
-    self.totscore += int(each.getnegmarks())
-ValueError: invalid literal for int() with base 10: ''
+Total Score: 0
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -617,17 +606,13 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
+Error! Malformed question
 |------------|
 | Start Quiz |
 |------------|
-(1)
-choice 1	choice 2	choice 3	choice 4
-
 |--------------|
 | Score Report |
 |--------------|
-
- Wrong Answer! - Penalty: -1
-Total Score: -1
+Total Score: 0
 ----------------------------------------
 

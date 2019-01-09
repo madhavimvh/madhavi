@@ -85,12 +85,13 @@ def main():
 							string = input().split(":")
 							# print(string)
 							try:
-								# if string[0] == "" or string[1] == "" or string[2] == "" or string[3] == "" or string[4] == "":
-								# raise Exception("Error! Malformed question") 
-								Ques = Question(string[0], string[1], string[2], string[3], string[4])
-								quiz.addquestion(Ques)
-							except Exception:
-								print("Error! Malformed question")
+								if string[0] == "" or string[1] == "" or string[2] == "" or string[3] == "" or string[4] == "":
+									raise Exception("Error! Malformed question")
+								else:
+									Ques = Question(string[0], string[1], string[2], string[3], string[4])
+									quiz.addquestion(Ques)
+							except Exception as e:
+								print(e)
 
 				except Exception as e:
 					print(e)
