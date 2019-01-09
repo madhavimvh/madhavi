@@ -56,14 +56,58 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-Traceback (most recent call last):
-  File "Solution.py", line 85, in <module>
-    main()
-  File "Solution.py", line 82, in main
-    quiz.matchans()
-  File "Solution.py", line 44, in matchans
-    if int(each.getcorrectans()) == int(part_ch):
-ValueError: invalid literal for int() with base 10: 'choice 3'
+3
+choice 3
+Wrong Answer! - Penalty: -4
+3
+choice 1
+Wrong Answer! - Penalty: -4
+3
+choice 2
+Wrong Answer! - Penalty: -4
+3
+choice 4
+Wrong Answer! - Penalty: -4
+question text 2
+1
+choice 3
+Wrong Answer! - Penalty: -3
+1
+choice 1
+Wrong Answer! - Penalty: -3
+1
+choice 2
+Wrong Answer! - Penalty: -3
+1
+choice 4
+Wrong Answer! - Penalty: -3
+question text 3
+2
+choice 3
+Wrong Answer! - Penalty: -2
+2
+choice 1
+Wrong Answer! - Penalty: -2
+2
+choice 2
+Wrong Answer! - Penalty: -2
+2
+choice 4
+Wrong Answer! - Penalty: -2
+question text 4
+4
+choice 3
+Wrong Answer! - Penalty: -1
+4
+choice 1
+Wrong Answer! - Penalty: -1
+4
+choice 2
+Wrong Answer! - Penalty: -1
+4
+choice 4
+Wrong Answer! - Penalty: -1
+Total Score: 40
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -124,14 +168,58 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-Traceback (most recent call last):
-  File "Solution.py", line 85, in <module>
-    main()
-  File "Solution.py", line 82, in main
-    quiz.matchans()
-  File "Solution.py", line 44, in matchans
-    if int(each.getcorrectans()) == int(part_ch):
-ValueError: invalid literal for int() with base 10: 'choice 1'
+3
+choice 1
+Wrong Answer! - Penalty: -4
+3
+choice 2
+Wrong Answer! - Penalty: -4
+3
+choice 4
+Wrong Answer! - Penalty: -4
+3
+choice 3
+Wrong Answer! - Penalty: -4
+question text 2
+1
+choice 1
+Wrong Answer! - Penalty: -3
+1
+choice 2
+Wrong Answer! - Penalty: -3
+1
+choice 4
+Wrong Answer! - Penalty: -3
+1
+choice 3
+Wrong Answer! - Penalty: -3
+question text 3
+2
+choice 1
+Wrong Answer! - Penalty: -2
+2
+choice 2
+Wrong Answer! - Penalty: -2
+2
+choice 4
+Wrong Answer! - Penalty: -2
+2
+choice 3
+Wrong Answer! - Penalty: -2
+question text 4
+4
+choice 1
+Wrong Answer! - Penalty: -1
+4
+choice 2
+Wrong Answer! - Penalty: -1
+4
+choice 4
+Wrong Answer! - Penalty: -1
+4
+choice 3
+Wrong Answer! - Penalty: -1
+Total Score: 40
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -192,14 +280,58 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-Traceback (most recent call last):
-  File "Solution.py", line 85, in <module>
-    main()
-  File "Solution.py", line 82, in main
-    quiz.matchans()
-  File "Solution.py", line 44, in matchans
-    if int(each.getcorrectans()) == int(part_ch):
-ValueError: invalid literal for int() with base 10: 'choice 3'
+3
+choice 3
+Wrong Answer! - Penalty: -4
+3
+choice 3
+Wrong Answer! - Penalty: -4
+3
+choice 3
+Wrong Answer! - Penalty: -4
+3
+choice 3
+Wrong Answer! - Penalty: -4
+question text 2
+1
+choice 3
+Wrong Answer! - Penalty: -3
+1
+choice 3
+Wrong Answer! - Penalty: -3
+1
+choice 3
+Wrong Answer! - Penalty: -3
+1
+choice 3
+Wrong Answer! - Penalty: -3
+question text 3
+2
+choice 3
+Wrong Answer! - Penalty: -2
+2
+choice 3
+Wrong Answer! - Penalty: -2
+2
+choice 3
+Wrong Answer! - Penalty: -2
+2
+choice 3
+Wrong Answer! - Penalty: -2
+question text 4
+4
+choice 3
+Wrong Answer! - Penalty: -1
+4
+choice 3
+Wrong Answer! - Penalty: -1
+4
+choice 3
+Wrong Answer! - Penalty: -1
+4
+choice 3
+Wrong Answer! - Penalty: -1
+Total Score: 40
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -308,14 +440,316 @@ choice a	choice b	choice c	choice d
 | Score Report |
 |--------------|
 question a
-Traceback (most recent call last):
-  File "Solution.py", line 85, in <module>
-    main()
-  File "Solution.py", line 82, in main
-    quiz.matchans()
-  File "Solution.py", line 44, in matchans
-    if int(each.getcorrectans()) == int(part_ch):
-ValueError: invalid literal for int() with base 10: 'choice c'
+1
+choice c
+Wrong Answer! - Penalty: 0
+1
+choice a
+Wrong Answer! - Penalty: 0
+1
+choice b
+Wrong Answer! - Penalty: 0
+1
+choice d
+Wrong Answer! - Penalty: 0
+1
+choice c
+Wrong Answer! - Penalty: 0
+1
+choice a
+Wrong Answer! - Penalty: 0
+1
+choice b
+Wrong Answer! - Penalty: 0
+1
+choice d
+Wrong Answer! - Penalty: 0
+1
+choice c
+Wrong Answer! - Penalty: 0
+1
+choice a
+Wrong Answer! - Penalty: 0
+question b
+3
+choice c
+Wrong Answer! - Penalty: 0
+3
+choice a
+Wrong Answer! - Penalty: 0
+3
+choice b
+Wrong Answer! - Penalty: 0
+3
+choice d
+Wrong Answer! - Penalty: 0
+3
+choice c
+Wrong Answer! - Penalty: 0
+3
+choice a
+Wrong Answer! - Penalty: 0
+3
+choice b
+Wrong Answer! - Penalty: 0
+3
+choice d
+Wrong Answer! - Penalty: 0
+3
+choice c
+Wrong Answer! - Penalty: 0
+3
+choice a
+Wrong Answer! - Penalty: 0
+question c
+2
+choice c
+Wrong Answer! - Penalty: 0
+2
+choice a
+Wrong Answer! - Penalty: 0
+2
+choice b
+Wrong Answer! - Penalty: 0
+2
+choice d
+Wrong Answer! - Penalty: 0
+2
+choice c
+Wrong Answer! - Penalty: 0
+2
+choice a
+Wrong Answer! - Penalty: 0
+2
+choice b
+Wrong Answer! - Penalty: 0
+2
+choice d
+Wrong Answer! - Penalty: 0
+2
+choice c
+Wrong Answer! - Penalty: 0
+2
+choice a
+Wrong Answer! - Penalty: 0
+question d
+1
+choice c
+Wrong Answer! - Penalty: 0
+1
+choice a
+Wrong Answer! - Penalty: 0
+1
+choice b
+Wrong Answer! - Penalty: 0
+1
+choice d
+Wrong Answer! - Penalty: 0
+1
+choice c
+Wrong Answer! - Penalty: 0
+1
+choice a
+Wrong Answer! - Penalty: 0
+1
+choice b
+Wrong Answer! - Penalty: 0
+1
+choice d
+Wrong Answer! - Penalty: 0
+1
+choice c
+Wrong Answer! - Penalty: 0
+1
+choice a
+Wrong Answer! - Penalty: 0
+question e
+4
+choice c
+Wrong Answer! - Penalty: 0
+4
+choice a
+Wrong Answer! - Penalty: 0
+4
+choice b
+Wrong Answer! - Penalty: 0
+4
+choice d
+Wrong Answer! - Penalty: 0
+4
+choice c
+Wrong Answer! - Penalty: 0
+4
+choice a
+Wrong Answer! - Penalty: 0
+4
+choice b
+Wrong Answer! - Penalty: 0
+4
+choice d
+Wrong Answer! - Penalty: 0
+4
+choice c
+Wrong Answer! - Penalty: 0
+4
+choice a
+Wrong Answer! - Penalty: 0
+question f
+3
+choice c
+Wrong Answer! - Penalty: 0
+3
+choice a
+Wrong Answer! - Penalty: 0
+3
+choice b
+Wrong Answer! - Penalty: 0
+3
+choice d
+Wrong Answer! - Penalty: 0
+3
+choice c
+Wrong Answer! - Penalty: 0
+3
+choice a
+Wrong Answer! - Penalty: 0
+3
+choice b
+Wrong Answer! - Penalty: 0
+3
+choice d
+Wrong Answer! - Penalty: 0
+3
+choice c
+Wrong Answer! - Penalty: 0
+3
+choice a
+Wrong Answer! - Penalty: 0
+question g
+1
+choice c
+Wrong Answer! - Penalty: 0
+1
+choice a
+Wrong Answer! - Penalty: 0
+1
+choice b
+Wrong Answer! - Penalty: 0
+1
+choice d
+Wrong Answer! - Penalty: 0
+1
+choice c
+Wrong Answer! - Penalty: 0
+1
+choice a
+Wrong Answer! - Penalty: 0
+1
+choice b
+Wrong Answer! - Penalty: 0
+1
+choice d
+Wrong Answer! - Penalty: 0
+1
+choice c
+Wrong Answer! - Penalty: 0
+1
+choice a
+Wrong Answer! - Penalty: 0
+question h
+1
+choice c
+Wrong Answer! - Penalty: 0
+1
+choice a
+Wrong Answer! - Penalty: 0
+1
+choice b
+Wrong Answer! - Penalty: 0
+1
+choice d
+Wrong Answer! - Penalty: 0
+1
+choice c
+Wrong Answer! - Penalty: 0
+1
+choice a
+Wrong Answer! - Penalty: 0
+1
+choice b
+Wrong Answer! - Penalty: 0
+1
+choice d
+Wrong Answer! - Penalty: 0
+1
+choice c
+Wrong Answer! - Penalty: 0
+1
+choice a
+Wrong Answer! - Penalty: 0
+question i
+4
+choice c
+Wrong Answer! - Penalty: 0
+4
+choice a
+Wrong Answer! - Penalty: 0
+4
+choice b
+Wrong Answer! - Penalty: 0
+4
+choice d
+Wrong Answer! - Penalty: 0
+4
+choice c
+Wrong Answer! - Penalty: 0
+4
+choice a
+Wrong Answer! - Penalty: 0
+4
+choice b
+Wrong Answer! - Penalty: 0
+4
+choice d
+Wrong Answer! - Penalty: 0
+4
+choice c
+Wrong Answer! - Penalty: 0
+4
+choice a
+Wrong Answer! - Penalty: 0
+question j
+2
+choice c
+Wrong Answer! - Penalty: 0
+2
+choice a
+Wrong Answer! - Penalty: 0
+2
+choice b
+Wrong Answer! - Penalty: 0
+2
+choice d
+Wrong Answer! - Penalty: 0
+2
+choice c
+Wrong Answer! - Penalty: 0
+2
+choice a
+Wrong Answer! - Penalty: 0
+2
+choice b
+Wrong Answer! - Penalty: 0
+2
+choice d
+Wrong Answer! - Penalty: 0
+2
+choice c
+Wrong Answer! - Penalty: 0
+2
+choice a
+Wrong Answer! - Penalty: 0
+Total Score: 0
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -352,14 +786,10 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-Traceback (most recent call last):
-  File "Solution.py", line 85, in <module>
-    main()
-  File "Solution.py", line 82, in main
-    quiz.matchans()
-  File "Solution.py", line 44, in matchans
-    if int(each.getcorrectans()) == int(part_ch):
-ValueError: invalid literal for int() with base 10: 'choice 1'
+3
+choice 1
+Wrong Answer! - Penalty: -4
+Total Score: 4
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -417,14 +847,17 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
+3
+choice 1
+Wrong Answer! - Penalty: 
 Traceback (most recent call last):
-  File "Solution.py", line 85, in <module>
+  File "Solution.py", line 87, in <module>
     main()
-  File "Solution.py", line 82, in main
+  File "Solution.py", line 84, in main
     quiz.matchans()
-  File "Solution.py", line 44, in matchans
-    if int(each.getcorrectans()) == int(part_ch):
-ValueError: invalid literal for int() with base 10: 'choice 1'
+  File "Solution.py", line 51, in matchans
+    self.totscore -= int(each.getnegmarks())
+ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -455,14 +888,10 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-Traceback (most recent call last):
-  File "Solution.py", line 85, in <module>
-    main()
-  File "Solution.py", line 82, in main
-    quiz.matchans()
-  File "Solution.py", line 44, in matchans
-    if int(each.getcorrectans()) == int(part_ch):
-ValueError: invalid literal for int() with base 10: 'choice 1'
+6
+choice 1
+Wrong Answer! - Penalty: -1
+Total Score: 1
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -493,14 +922,10 @@ choice 4
 | Score Report |
 |--------------|
 trick question 
-Traceback (most recent call last):
-  File "Solution.py", line 85, in <module>
-    main()
-  File "Solution.py", line 82, in main
-    quiz.matchans()
-  File "Solution.py", line 44, in matchans
-    if int(each.getcorrectans()) == int(part_ch):
-ValueError: invalid literal for int() with base 10: 'choice 1'
+6
+choice 1
+Wrong Answer! - Penalty: -1
+Total Score: 1
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -537,14 +962,10 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
-Traceback (most recent call last):
-  File "Solution.py", line 85, in <module>
-    main()
-  File "Solution.py", line 82, in main
-    quiz.matchans()
-  File "Solution.py", line 44, in matchans
-    if int(each.getcorrectans()) == int(part_ch):
-ValueError: invalid literal for int() with base 10: 'choice 4'
+1
+choice 4
+Wrong Answer! - Penalty: -1
+Total Score: 1
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -575,14 +996,10 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
-Traceback (most recent call last):
-  File "Solution.py", line 85, in <module>
-    main()
-  File "Solution.py", line 82, in main
-    quiz.matchans()
-  File "Solution.py", line 44, in matchans
-    if int(each.getcorrectans()) == int(part_ch):
-ValueError: invalid literal for int() with base 10: 'choice 4'
+1
+choice 4
+Wrong Answer! - Penalty: -1
+Total Score: 1
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -613,14 +1030,10 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
-Traceback (most recent call last):
-  File "Solution.py", line 85, in <module>
-    main()
-  File "Solution.py", line 82, in main
-    quiz.matchans()
-  File "Solution.py", line 44, in matchans
-    if int(each.getcorrectans()) == int(part_ch):
-ValueError: invalid literal for int() with base 10: 'choice 4'
+1
+choice 4
+Wrong Answer! - Penalty: 1
+Total Score: -1
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -651,13 +1064,9 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 
-Traceback (most recent call last):
-  File "Solution.py", line 85, in <module>
-    main()
-  File "Solution.py", line 82, in main
-    quiz.matchans()
-  File "Solution.py", line 44, in matchans
-    if int(each.getcorrectans()) == int(part_ch):
-ValueError: invalid literal for int() with base 10: 'choice 1'
+3
+choice 1
+Wrong Answer! - Penalty: -1
+Total Score: 1
 ----------------------------------------
 
