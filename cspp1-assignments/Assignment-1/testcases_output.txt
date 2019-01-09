@@ -446,7 +446,7 @@ Error! Correct answer choice number is out of range for question text 1
 |--------------|
 ----------------------------------------
 
-########## Testcase 8: Passed ##########
+########## Testcase 8: Failed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -463,7 +463,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-trick question  does not have enough answer choices
+Error! Correct answer choice number is out of range for trick question 
 |------------|
 | Start Quiz |
 |------------|
@@ -495,13 +495,19 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-question about sony does not have enough answer choices
+1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
+question about sony(1)
+choice 4	choice 2
+
 |--------------|
 | Score Report |
 |--------------|
+question about sony
+ Wrong Answer! - Penalty: -1
+Total Score: -1
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -521,13 +527,19 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-question about sony does not have enough answer choices
+1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
+question about sony(-1)
+choice 4	choice 2
+
 |--------------|
 | Score Report |
 |--------------|
+question about sony
+ Wrong Answer! - Penalty: -1
+Total Score: -1
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -547,13 +559,19 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-question about sony does not have enough answer choices
+1 are added to the quiz
 |------------|
 | Start Quiz |
 |------------|
+question about sony(1)
+choice 4	choice 2
+
 |--------------|
 | Score Report |
 |--------------|
+question about sony
+ Wrong Answer! - Penalty: 1
+Total Score: 1
 ----------------------------------------
 
 ########## Testcase 12: Passed ##########

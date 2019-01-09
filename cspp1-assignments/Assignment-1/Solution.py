@@ -87,7 +87,7 @@ def main():
 							if string[0] == "" or string[1] == "" or string[2] == "" or string[3] == "" or string[4] == "":
 								k = "0"
 								raise Exception("Error! Malformed question")
-							elif len(string[1].split()) < 4:
+							elif len(string[1].split()) < 2:
 								k = "0"
 								raise Exception(string[0] + " does not have enough answer choices")
 							elif int(string[2]) > 4:
