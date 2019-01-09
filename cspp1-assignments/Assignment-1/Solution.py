@@ -43,8 +43,6 @@ class Quiz:
 		for each in self.allquestions:
 			print(each.getquestext())
 			for part_ch in self.partchoice:
-				print(each.getcorrectans())
-				print(part_ch)
 				if each.getcorrectans() == part_ch:
 					print(" Correct Answer! - Marks Awarded: " + each.getmaxmarks())
 					self.totscore += int(each.getmaxmarks())
