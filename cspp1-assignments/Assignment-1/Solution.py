@@ -29,8 +29,9 @@ class Quiz:
 		for each in self.allquestions:
 			print(each.getquestext() + "(" + each.getmaxmarks() + ")")
 			for eachopt in each.getoptions().split(","):
-				print(each.getoptions().split(","))
+				# print(each.getoptions().split(","))
 				str1 = eachopt + "\t"
+			print(str1)
 	# def partoptions():
 
 
