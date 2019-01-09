@@ -126,15 +126,13 @@ Solution.py:11:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:13:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:15:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:16:9: E0602: Undefined variable 'correctch' (undefined-variable)
-Solution.py:16:19: E0602: Undefined variable 'correctans' (undefined-variable)
 Solution.py:15:1: R0201: Method could be a function (no-self-use)
 Solution.py:17:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:19:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:21:1: C0111: Missing method docstring (missing-docstring)
-Solution.py:21:1: E0213: Method should have "self" as first argument (no-self-argument)
-Solution.py:22:11: E0602: Undefined variable 'options' (undefined-variable)
 Solution.py:23:2: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 Solution.py:21:1: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+Solution.py:21:21: W0613: Unused argument 'correctans' (unused-argument)
 Solution.py:30:0: C0111: Missing class docstring (missing-docstring)
 Solution.py:36:1: C0103: Argument name "Question" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:36:1: C0111: Missing method docstring (missing-docstring)
@@ -152,5 +150,5 @@ Solution.py:91:10: W0612: Unused variable 'i' (unused-variable)
 Solution.py:75:0: R0912: Too many branches (16/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.47/10 (previous run: -3.95/10, -0.53)
+Your code has been rated at -3.25/10 (previous run: -4.47/10, +1.23)
 
