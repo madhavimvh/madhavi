@@ -126,6 +126,8 @@ Solution.py:11:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:13:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:15:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:16:9: E0602: Undefined variable 'correctch' (undefined-variable)
+Solution.py:16:19: E0602: Undefined variable 'correctans' (undefined-variable)
+Solution.py:15:1: R0201: Method could be a function (no-self-use)
 Solution.py:17:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:19:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:21:1: C0111: Missing method docstring (missing-docstring)
@@ -150,5 +152,5 @@ Solution.py:91:10: W0612: Unused variable 'i' (unused-variable)
 Solution.py:75:0: R0912: Too many branches (16/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.95/10 (previous run: -3.60/10, -0.35)
+Your code has been rated at -4.47/10 (previous run: -3.95/10, -0.53)
 

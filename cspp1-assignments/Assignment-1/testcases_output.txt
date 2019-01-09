@@ -70,7 +70,7 @@ Traceback (most recent call last):
   File "Solution.py", line 61, in matchans
     print(each.getcorrectans())
   File "Solution.py", line 16, in getcorrectans
-    return correctch(self.correctans)
+    return correctch(correctans)
 NameError: name 'correctch' is not defined
 ----------------------------------------
 
@@ -146,7 +146,7 @@ Traceback (most recent call last):
   File "Solution.py", line 61, in matchans
     print(each.getcorrectans())
   File "Solution.py", line 16, in getcorrectans
-    return correctch(self.correctans)
+    return correctch(correctans)
 NameError: name 'correctch' is not defined
 ----------------------------------------
 
@@ -222,7 +222,7 @@ Traceback (most recent call last):
   File "Solution.py", line 61, in matchans
     print(each.getcorrectans())
   File "Solution.py", line 16, in getcorrectans
-    return correctch(self.correctans)
+    return correctch(correctans)
 NameError: name 'correctch' is not defined
 ----------------------------------------
 
@@ -352,7 +352,7 @@ Traceback (most recent call last):
   File "Solution.py", line 61, in matchans
     print(each.getcorrectans())
   File "Solution.py", line 16, in getcorrectans
-    return correctch(self.correctans)
+    return correctch(correctans)
 NameError: name 'correctch' is not defined
 ----------------------------------------
 
@@ -401,7 +401,7 @@ Traceback (most recent call last):
   File "Solution.py", line 61, in matchans
     print(each.getcorrectans())
   File "Solution.py", line 16, in getcorrectans
-    return correctch(self.correctans)
+    return correctch(correctans)
 NameError: name 'correctch' is not defined
 ----------------------------------------
 
@@ -554,7 +554,7 @@ Traceback (most recent call last):
   File "Solution.py", line 61, in matchans
     print(each.getcorrectans())
   File "Solution.py", line 16, in getcorrectans
-    return correctch(self.correctans)
+    return correctch(correctans)
 NameError: name 'correctch' is not defined
 ----------------------------------------
 
@@ -597,7 +597,7 @@ Traceback (most recent call last):
   File "Solution.py", line 61, in matchans
     print(each.getcorrectans())
   File "Solution.py", line 16, in getcorrectans
-    return correctch(self.correctans)
+    return correctch(correctans)
 NameError: name 'correctch' is not defined
 ----------------------------------------
 
@@ -640,7 +640,7 @@ Traceback (most recent call last):
   File "Solution.py", line 61, in matchans
     print(each.getcorrectans())
   File "Solution.py", line 16, in getcorrectans
-    return correctch(self.correctans)
+    return correctch(correctans)
 NameError: name 'correctch' is not defined
 ----------------------------------------
 

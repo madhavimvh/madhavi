@@ -13,7 +13,7 @@ class Question:
 	def getoptions(self):
 		return self.options
 	def getcorrectans(self):
-		return correctch(self.correctans)
+		return correctch(correctans)
 	def getmaxmarks(self):
 		return self.maxmarks
 	def getnegmarks(self):
