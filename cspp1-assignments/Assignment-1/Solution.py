@@ -18,7 +18,7 @@ class Question:
 		for i in range(1, len(listch)):
 			if i == int(self.correctans):
 				each = listch[i].split()
-				# print(each[1])
+				print(each)
 				return each[1]
 	def getmaxmarks(self):
 		return self.maxmarks
