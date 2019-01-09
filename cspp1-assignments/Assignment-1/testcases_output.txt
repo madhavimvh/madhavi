@@ -470,6 +470,7 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
+1
 Wrong Answer! - Penalty: -1
 Total Score: 1
 ----------------------------------------
@@ -502,6 +503,7 @@ choice 4
 | Score Report |
 |--------------|
 trick question 
+1
 Wrong Answer! - Penalty: -1
 Total Score: 1
 ----------------------------------------
@@ -540,6 +542,7 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
+4
 Wrong Answer! - Penalty: -1
 Total Score: 1
 ----------------------------------------
@@ -572,6 +575,7 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
+4
 Wrong Answer! - Penalty: -1
 Total Score: 1
 ----------------------------------------
@@ -604,6 +608,7 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
+4
 Wrong Answer! - Penalty: 1
 Total Score: -1
 ----------------------------------------
@@ -636,6 +641,7 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 
+1
 Wrong Answer! - Penalty: -1
 Total Score: 1
 ----------------------------------------
