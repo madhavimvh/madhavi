@@ -8,12 +8,13 @@ class Question:
 		self.negmarks = negmarks
 class Quiz:
 	allquestions = []
-	def __init__():
+	def __init__(self):
 		pass
 	def addquestion(Question):
 		allquestions.append(Question)
 
 def main():
+	quiz = Quiz()
 	n = input().split()
 	for i in range(int(n[1])):
 		string = input().split(":")

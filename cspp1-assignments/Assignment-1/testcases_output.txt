@@ -35,11 +35,11 @@ Total Score: 10
 Your Output: 
 ['question text 1', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '-4']
 Traceback (most recent call last):
-  File "Solution.py", line 23, in <module>
+  File "Solution.py", line 24, in <module>
     main()
-  File "Solution.py", line 22, in main
+  File "Solution.py", line 23, in main
     quiz.addquestion(Ques)
-NameError: name 'quiz' is not defined
+TypeError: addquestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -79,11 +79,11 @@ Total Score: -10
 Your Output: 
 ['question text 1', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '-4']
 Traceback (most recent call last):
-  File "Solution.py", line 23, in <module>
+  File "Solution.py", line 24, in <module>
     main()
-  File "Solution.py", line 22, in main
+  File "Solution.py", line 23, in main
     quiz.addquestion(Ques)
-NameError: name 'quiz' is not defined
+TypeError: addquestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -123,11 +123,11 @@ Total Score: -5
 Your Output: 
 ['question text 1', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '-4']
 Traceback (most recent call last):
-  File "Solution.py", line 23, in <module>
+  File "Solution.py", line 24, in <module>
     main()
-  File "Solution.py", line 22, in main
+  File "Solution.py", line 23, in main
     quiz.addquestion(Ques)
-NameError: name 'quiz' is not defined
+TypeError: addquestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -197,11 +197,11 @@ Total Score: 3
 Your Output: 
 ['question a', 'choice a,choice b,choice c,choice d', '1', '1', '0']
 Traceback (most recent call last):
-  File "Solution.py", line 23, in <module>
+  File "Solution.py", line 24, in <module>
     main()
-  File "Solution.py", line 22, in main
+  File "Solution.py", line 23, in main
     quiz.addquestion(Ques)
-NameError: name 'quiz' is not defined
+TypeError: addquestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -226,11 +226,11 @@ Total Score: -4
 Your Output: 
 ['question text 1', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '-4']
 Traceback (most recent call last):
-  File "Solution.py", line 23, in <module>
+  File "Solution.py", line 24, in <module>
     main()
-  File "Solution.py", line 22, in main
+  File "Solution.py", line 23, in main
     quiz.addquestion(Ques)
-NameError: name 'quiz' is not defined
+TypeError: addquestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -266,11 +266,11 @@ Error! Malformed question
 Your Output: 
 ['question text 1', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '']
 Traceback (most recent call last):
-  File "Solution.py", line 23, in <module>
+  File "Solution.py", line 24, in <module>
     main()
-  File "Solution.py", line 22, in main
+  File "Solution.py", line 23, in main
     quiz.addquestion(Ques)
-NameError: name 'quiz' is not defined
+TypeError: addquestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -289,11 +289,11 @@ Error! Correct answer choice number is out of range for question text 1
 Your Output: 
 ['question text 1', 'choice 1,choice 2,choice 3,choice 4', '6', '1', '-1']
 Traceback (most recent call last):
-  File "Solution.py", line 23, in <module>
+  File "Solution.py", line 24, in <module>
     main()
-  File "Solution.py", line 22, in main
+  File "Solution.py", line 23, in main
     quiz.addquestion(Ques)
-NameError: name 'quiz' is not defined
+TypeError: addquestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -312,11 +312,11 @@ trick question  does not have enough answer choices
 Your Output: 
 ['trick question ', 'choice 4', '6', '1', '-1']
 Traceback (most recent call last):
-  File "Solution.py", line 23, in <module>
+  File "Solution.py", line 24, in <module>
     main()
-  File "Solution.py", line 22, in main
+  File "Solution.py", line 23, in main
     quiz.addquestion(Ques)
-NameError: name 'quiz' is not defined
+TypeError: addquestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -341,11 +341,11 @@ Total Score: 1
 Your Output: 
 ['question about sony', 'choice 4,choice 2', '1', '1', '-1']
 Traceback (most recent call last):
-  File "Solution.py", line 23, in <module>
+  File "Solution.py", line 24, in <module>
     main()
-  File "Solution.py", line 22, in main
+  File "Solution.py", line 23, in main
     quiz.addquestion(Ques)
-NameError: name 'quiz' is not defined
+TypeError: addquestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -364,11 +364,11 @@ Invalid max marks for question about sony
 Your Output: 
 ['question about sony', 'choice 4,choice 2', '1', '-1', '-1']
 Traceback (most recent call last):
-  File "Solution.py", line 23, in <module>
+  File "Solution.py", line 24, in <module>
     main()
-  File "Solution.py", line 22, in main
+  File "Solution.py", line 23, in main
     quiz.addquestion(Ques)
-NameError: name 'quiz' is not defined
+TypeError: addquestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -387,11 +387,11 @@ Invalid penalty for question about sony
 Your Output: 
 ['question about sony', 'choice 4,choice 2', '1', '1', '1']
 Traceback (most recent call last):
-  File "Solution.py", line 23, in <module>
+  File "Solution.py", line 24, in <module>
     main()
-  File "Solution.py", line 22, in main
+  File "Solution.py", line 23, in main
     quiz.addquestion(Ques)
-NameError: name 'quiz' is not defined
+TypeError: addquestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -410,10 +410,10 @@ Error! Malformed question
 Your Output: 
 ['', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '-1']
 Traceback (most recent call last):
-  File "Solution.py", line 23, in <module>
+  File "Solution.py", line 24, in <module>
     main()
-  File "Solution.py", line 22, in main
+  File "Solution.py", line 23, in main
     quiz.addquestion(Ques)
-NameError: name 'quiz' is not defined
+TypeError: addquestion() takes 1 positional argument but 2 were given
 ----------------------------------------
 
