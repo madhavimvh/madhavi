@@ -52,18 +52,18 @@ Solution.py:54:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:55:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:56:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:57:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:61:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:58:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:62:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:63:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:64:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:66:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:65:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:67:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:68:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:69:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:70:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:71:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:72:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:74:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:73:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:75:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:76:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:77:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -81,7 +81,8 @@ Solution.py:88:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:89:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:90:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:91:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:92:0: C0304: Final newline missing (missing-final-newline)
+Solution.py:92:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:93:0: C0304: Final newline missing (missing-final-newline)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0111: Missing class docstring (missing-docstring)
@@ -98,11 +99,11 @@ Solution.py:27:23: W0621: Redefining name 'Question' from outer scope (line 1) (
 Solution.py:29:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:37:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:42:1: C0111: Missing method docstring (missing-docstring)
-Solution.py:60:0: C0111: Missing function docstring (missing-docstring)
-Solution.py:64:3: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:74:5: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:71:8: W0612: Unused variable 'i' (unused-variable)
+Solution.py:61:0: C0111: Missing function docstring (missing-docstring)
+Solution.py:65:3: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:75:5: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:72:8: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.32/10 (previous run: -2.32/10, +0.00)
+Your code has been rated at -2.29/10 (previous run: -2.32/10, +0.03)
 
