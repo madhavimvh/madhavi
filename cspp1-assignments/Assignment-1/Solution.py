@@ -19,6 +19,7 @@ class Question:
 	def getnegmarks(self):
 		return self.negmarks
 	def correctch(self):
+		print("-----")
 		listch = self.options.split(",")
 		for i in range(len(listch)):
 			if i == int(self.correctans):
