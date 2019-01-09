@@ -30,7 +30,7 @@ class Quiz:
 			print(each.getquestext() + "(" + each.getmaxmarks() + ")")
 			for eachopt in each.getoptions().split(","):
 				# print(each.getoptions().split(","))
-				str1 = eachopt + "\t"
+				str1 += eachopt + "\t"
 			print(str1)
 	# def partoptions():
 

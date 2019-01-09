@@ -41,13 +41,13 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 4	
+choice 1	choice 2	choice 3	choice 4	
 question text 2(2)
-choice 4	
+choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	
 question text 3(3)
-choice 4	
+choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	
 question text 4(4)
-choice 4	
+choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	
 |--------------|
 | Score Report |
 |--------------|
@@ -96,13 +96,13 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 4	
+choice 1	choice 2	choice 3	choice 4	
 question text 2(2)
-choice 4	
+choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	
 question text 3(3)
-choice 4	
+choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	
 question text 4(4)
-choice 4	
+choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	
 |--------------|
 | Score Report |
 |--------------|
@@ -151,13 +151,13 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 4	
+choice 1	choice 2	choice 3	choice 4	
 question text 2(2)
-choice 4	
+choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	
 question text 3(3)
-choice 4	
+choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	
 question text 4(4)
-choice 4	
+choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	choice 1	choice 2	choice 3	choice 4	
 |--------------|
 | Score Report |
 |--------------|
@@ -236,25 +236,25 @@ Your Output:
 | Start Quiz |
 |------------|
 question a(1)
-choice d	
+choice a	choice b	choice c	choice d	
 question b(2)
-choice d	
+choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	
 question c(3)
-choice d	
+choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	
 question d(4)
-choice d	
+choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	
 question e(1)
-choice d	
+choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	
 question f(2)
-choice d	
+choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	
 question g(3)
-choice d	
+choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	
 question h(4)
-choice d	
+choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	
 question i(1)
-choice d	
+choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	
 question j(2)
-choice d	
+choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	choice a	choice b	choice c	choice d	
 |--------------|
 | Score Report |
 |--------------|
@@ -288,7 +288,7 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 4	
+choice 1	choice 2	choice 3	choice 4	
 |--------------|
 | Score Report |
 |--------------|
@@ -342,7 +342,7 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 4	
+choice 1	choice 2	choice 3	choice 4	
 |--------------|
 | Score Report |
 |--------------|
@@ -370,7 +370,7 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 4	
+choice 1	choice 2	choice 3	choice 4	
 |--------------|
 | Score Report |
 |--------------|
@@ -432,7 +432,7 @@ Your Output:
 | Start Quiz |
 |------------|
 question about sony(1)
-choice 2	
+choice 4	choice 2	
 |--------------|
 | Score Report |
 |--------------|
@@ -460,7 +460,7 @@ Your Output:
 | Start Quiz |
 |------------|
 question about sony(-1)
-choice 2	
+choice 4	choice 2	
 |--------------|
 | Score Report |
 |--------------|
@@ -488,7 +488,7 @@ Your Output:
 | Start Quiz |
 |------------|
 question about sony(1)
-choice 2	
+choice 4	choice 2	
 |--------------|
 | Score Report |
 |--------------|
@@ -516,7 +516,7 @@ Your Output:
 | Start Quiz |
 |------------|
 (1)
-choice 4	
+choice 1	choice 2	choice 3	choice 4	
 |--------------|
 | Score Report |
 |--------------|
