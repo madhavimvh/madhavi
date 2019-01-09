@@ -66,9 +66,9 @@ Solution.py:76:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:77:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:78:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:79:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:80:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:81:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:82:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:83:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:84:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:85:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:86:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -84,7 +84,10 @@ Solution.py:95:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:96:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:97:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:98:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:99:0: C0304: Final newline missing (missing-final-newline)
+Solution.py:99:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:100:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:101:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:102:0: C0304: Final newline missing (missing-final-newline)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0103: Constant name "adict" doesn't conform to UPPER_CASE naming style (invalid-name)
@@ -104,9 +107,9 @@ Solution.py:39:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:47:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:67:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:71:3: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:81:5: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:78:8: W0612: Unused variable 'i' (unused-variable)
+Solution.py:84:5: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:81:8: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.35/10 (previous run: -2.35/10, +0.00)
+Your code has been rated at -2.27/10 (previous run: -2.35/10, +0.08)
 
