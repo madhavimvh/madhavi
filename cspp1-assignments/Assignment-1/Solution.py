@@ -1,6 +1,6 @@
 class Question:
 	def __init__(self,question, options, correctans, maxmarks, negmarks):
-		print(question)
+		# print(question)
 		self.question = question
 		self.options = options
 		self.correctans = correctans
@@ -11,11 +11,11 @@ class Question:
 	def getoptions(self):
 		return self.options
 	def getcorrectans(self):
-		return correctans
+		return self.correctans
 	def getmaxmarks(self):
-		return maxmarks
+		return self.maxmarks
 	def getnegmarks(self):
-		return negmarks
+		return self.negmarks
 
 
 class Quiz:
@@ -24,7 +24,15 @@ class Quiz:
 		pass
 	def addquestion(self, Question):
 		self.allquestions.append(Question)
-		print(Question.getquestext())
+	def startquiz():
+		str1 = ""
+		for each in allquestions:
+			print(each.getquestext() + "(" + each.getmaxmarks() + ")")
+			for eachopt in each.getoptions():
+				str1 = each + "\t"
+			print(str1)
+	# def partoptions():
+
 
 def main():
 	try:
@@ -46,8 +54,10 @@ def main():
 				print("|------------|")
 				print("| Start Quiz |")
 				print("|------------|")
+				quiz.startquiz()
+				list1 = []
 				for i in range(int(n[1])):
-					print(input())
+					list1.append(input())
 			if n[0] == "SCORE_REPORT":
 				print("|--------------|")
 				print("| Score Report |")

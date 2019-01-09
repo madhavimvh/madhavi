@@ -38,26 +38,16 @@ Your Output:
 | Load Questions |
 |----------------|
 4 are added to the quiz
-question text 1
-question text 1
-question text 2
-question text 2
-question text 3
-question text 3
-question text 4
-question text 4
 ['START_QUIZ', '4']
 |------------|
 | Start Quiz |
 |------------|
-choice 3
-choice 1
-choice 2
-choice 4
-['SCORE_REPORT']
-|--------------|
-| Score Report |
-|--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 67, in <module>
+    main()
+  File "Solution.py", line 57, in main
+    quiz.startquiz()
+TypeError: startquiz() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -100,26 +90,16 @@ Your Output:
 | Load Questions |
 |----------------|
 4 are added to the quiz
-question text 1
-question text 1
-question text 2
-question text 2
-question text 3
-question text 3
-question text 4
-question text 4
 ['START_QUIZ', '4']
 |------------|
 | Start Quiz |
 |------------|
-choice 1
-choice 2
-choice 4
-choice 3
-['SCORE_REPORT']
-|--------------|
-| Score Report |
-|--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 67, in <module>
+    main()
+  File "Solution.py", line 57, in main
+    quiz.startquiz()
+TypeError: startquiz() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -162,26 +142,16 @@ Your Output:
 | Load Questions |
 |----------------|
 4 are added to the quiz
-question text 1
-question text 1
-question text 2
-question text 2
-question text 3
-question text 3
-question text 4
-question text 4
 ['START_QUIZ', '4']
 |------------|
 | Start Quiz |
 |------------|
-choice 3
-choice 3
-choice 3
-choice 3
-['SCORE_REPORT']
-|--------------|
-| Score Report |
-|--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 67, in <module>
+    main()
+  File "Solution.py", line 57, in main
+    quiz.startquiz()
+TypeError: startquiz() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -254,44 +224,16 @@ Your Output:
 | Load Questions |
 |----------------|
 10 are added to the quiz
-question a
-question a
-question b
-question b
-question c
-question c
-question d
-question d
-question e
-question e
-question f
-question f
-question g
-question g
-question h
-question h
-question i
-question i
-question j
-question j
 ['START_QUIZ', '10']
 |------------|
 | Start Quiz |
 |------------|
-choice c
-choice a
-choice b
-choice d
-choice c
-choice a
-choice b
-choice d
-choice c
-choice a
-['SCORE_REPORT']
-|--------------|
-| Score Report |
-|--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 67, in <module>
+    main()
+  File "Solution.py", line 57, in main
+    quiz.startquiz()
+TypeError: startquiz() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -319,17 +261,16 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
-question text 1
-question text 1
 ['START_QUIZ', '1']
 |------------|
 | Start Quiz |
 |------------|
-choice 1
-['SCORE_REPORT']
-|--------------|
-| Score Report |
-|--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 67, in <module>
+    main()
+  File "Solution.py", line 57, in main
+    quiz.startquiz()
+TypeError: startquiz() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -355,11 +296,12 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-choice 1
-['SCORE_REPORT']
-|--------------|
-| Score Report |
-|--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 67, in <module>
+    main()
+  File "Solution.py", line 57, in main
+    quiz.startquiz()
+TypeError: startquiz() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -381,17 +323,16 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
-question text 1
-question text 1
 ['START_QUIZ', '1']
 |------------|
 | Start Quiz |
 |------------|
-choice 1
-['SCORE_REPORT']
-|--------------|
-| Score Report |
-|--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 67, in <module>
+    main()
+  File "Solution.py", line 57, in main
+    quiz.startquiz()
+TypeError: startquiz() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -413,17 +354,16 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
-question text 1
-question text 1
 ['START_QUIZ', '1']
 |------------|
 | Start Quiz |
 |------------|
-choice 1
-['SCORE_REPORT']
-|--------------|
-| Score Report |
-|--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 67, in <module>
+    main()
+  File "Solution.py", line 57, in main
+    quiz.startquiz()
+TypeError: startquiz() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -445,17 +385,16 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
-trick question 
-trick question 
 ['START_QUIZ', '1']
 |------------|
 | Start Quiz |
 |------------|
-choice 1
-['SCORE_REPORT']
-|--------------|
-| Score Report |
-|--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 67, in <module>
+    main()
+  File "Solution.py", line 57, in main
+    quiz.startquiz()
+TypeError: startquiz() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -483,17 +422,16 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
-question about sony
-question about sony
 ['START_QUIZ', '1']
 |------------|
 | Start Quiz |
 |------------|
-choice 4
-['SCORE_REPORT']
-|--------------|
-| Score Report |
-|--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 67, in <module>
+    main()
+  File "Solution.py", line 57, in main
+    quiz.startquiz()
+TypeError: startquiz() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -515,17 +453,16 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
-question about sony
-question about sony
 ['START_QUIZ', '1']
 |------------|
 | Start Quiz |
 |------------|
-choice 4
-['SCORE_REPORT']
-|--------------|
-| Score Report |
-|--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 67, in <module>
+    main()
+  File "Solution.py", line 57, in main
+    quiz.startquiz()
+TypeError: startquiz() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -547,17 +484,16 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
-question about sony
-question about sony
 ['START_QUIZ', '1']
 |------------|
 | Start Quiz |
 |------------|
-choice 4
-['SCORE_REPORT']
-|--------------|
-| Score Report |
-|--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 67, in <module>
+    main()
+  File "Solution.py", line 57, in main
+    quiz.startquiz()
+TypeError: startquiz() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -579,16 +515,15 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
-
-
 ['START_QUIZ', '1']
 |------------|
 | Start Quiz |
 |------------|
-choice 1
-['SCORE_REPORT']
-|--------------|
-| Score Report |
-|--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 67, in <module>
+    main()
+  File "Solution.py", line 57, in main
+    quiz.startquiz()
+TypeError: startquiz() takes 0 positional arguments but 1 was given
 ----------------------------------------
 
