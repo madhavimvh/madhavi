@@ -202,7 +202,7 @@ question text 4
 Total Score: -5
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -312,7 +312,7 @@ question a
 question b
  Wrong Answer! - Penalty: 0
 question c
- Wrong Answer! - Penalty: 0
+ Correct Answer! - Marks Awarded: 3
 question d
  Wrong Answer! - Penalty: 0
 question e
@@ -327,7 +327,7 @@ question i
  Wrong Answer! - Penalty: 0
 question j
  Wrong Answer! - Penalty: 0
-Total Score: 0
+Total Score: 3
 ----------------------------------------
 
 ########## Testcase 4: Passed ##########

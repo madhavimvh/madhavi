@@ -56,10 +56,10 @@ class Quiz:
 	def partoptions(self, list1):
 		for each in list1:
 			eachx = each.split()
-			if eachx[1] in adict:
-				self.partchoice.append(adict[eachx[1]])
-			else:
-				self.partchoice.append(eachx[1])
+			# if eachx[1] in adict:
+				# self.partchoice.append(adict[eachx[1]])
+			# else:
+			self.partchoice.append(eachx[1])
 		# print(self.partchoice)
 	def matchans(self):
 		for each in self.allquestions:
