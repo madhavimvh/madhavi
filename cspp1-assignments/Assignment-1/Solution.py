@@ -37,17 +37,17 @@ class Quiz:
 	def partoptions(self, list1):
 		self.partchoice = list1
 		print(self.partchoice)
-	def matchans():
+	def matchans(self):
 		for each in self.allquestions:
 			print(each.getquestext())
 			for part_ch in self.partchoice:
 				if each.getcorrectans == part_ch:
 					print(" Correct Answer! - Marks Awarded: " + each.getmaxmarks())
-					totscore += int(each.getmaxmarks())
+					self.totscore += int(each.getmaxmarks())
 				else:
 					print("Wrong Answer! - Penalty: " + each.getnegmarks())
-					totscore -= int(each.getnegmarks())
-		print("Total Score: " + str(totscore))
+					self.totscore -= int(each.getnegmarks())
+		print("Total Score: " + str(self.totscore))
 
 
 def main():
