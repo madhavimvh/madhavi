@@ -87,7 +87,7 @@ def main():
 							if string[0] == "" or string[1] == "" or string[2] == "" or string[3] == "" or string[4] == "":
 								k = "0"
 								raise Exception("Error! Malformed question")
-							elif int(string[2]) >= 4:
+							elif int(string[2]) > 4:
 								k = "0"
 								raise Exception("Error! Correct answer choice number is out of range for " + string[0])
 							else:
