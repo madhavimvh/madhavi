@@ -85,6 +85,7 @@ def main():
 							# print(string)
 							# try:
 							if string[0] == "" or string[1] == "" or string[2] == "" or string[3] == "" or string[4] == "":
+								k = "0"
 								raise Exception("Error! Malformed question")
 							else:
 								Ques = Question(string[0], string[1], string[2], string[3], string[4])

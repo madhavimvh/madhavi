@@ -394,7 +394,7 @@ Quiz does not have questions
 |--------------|
 ----------------------------------------
 
-########## Testcase 6: Failed ##########
+########## Testcase 6: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -418,7 +418,6 @@ Error! Malformed question
 |--------------|
 | Score Report |
 |--------------|
-Total Score: 0
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -587,7 +586,7 @@ question about sony
 Total Score: 1
 ----------------------------------------
 
-########## Testcase 12: Failed ##########
+########## Testcase 12: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -611,6 +610,5 @@ Error! Malformed question
 |--------------|
 | Score Report |
 |--------------|
-Total Score: 0
 ----------------------------------------
 
