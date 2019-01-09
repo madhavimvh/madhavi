@@ -6,12 +6,25 @@ class Question:
 		self.correctans = correctans
 		self.maxmarks = maxmarks
 		self.negmarks = negmarks
+	def getquestext(self):
+		return self.question
+	def getoptions(self):
+		return self.options
+	def getcorrectans(self):
+		return correctans
+	def getmaxmarks(self):
+		return maxmarks
+	def getnegmarks(self):
+		return negmarks
+
+
 class Quiz:
 	allquestions = []
 	def __init__(self):
 		pass
 	def addquestion(self, Question):
 		self.allquestions.append(Question)
+		print(Question.getquestext())
 
 def main():
 	try:

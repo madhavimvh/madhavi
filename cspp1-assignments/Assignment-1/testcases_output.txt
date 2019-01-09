@@ -39,8 +39,12 @@ Your Output:
 |----------------|
 4 are added to the quiz
 question text 1
+question text 1
+question text 2
 question text 2
 question text 3
+question text 3
+question text 4
 question text 4
 ['START_QUIZ', '4']
 |------------|
@@ -97,8 +101,12 @@ Your Output:
 |----------------|
 4 are added to the quiz
 question text 1
+question text 1
+question text 2
 question text 2
 question text 3
+question text 3
+question text 4
 question text 4
 ['START_QUIZ', '4']
 |------------|
@@ -155,8 +163,12 @@ Your Output:
 |----------------|
 4 are added to the quiz
 question text 1
+question text 1
+question text 2
 question text 2
 question text 3
+question text 3
+question text 4
 question text 4
 ['START_QUIZ', '4']
 |------------|
@@ -243,14 +255,24 @@ Your Output:
 |----------------|
 10 are added to the quiz
 question a
+question a
+question b
 question b
 question c
+question c
+question d
 question d
 question e
+question e
+question f
 question f
 question g
+question g
+question h
 question h
 question i
+question i
+question j
 question j
 ['START_QUIZ', '10']
 |------------|
@@ -297,6 +319,7 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
+question text 1
 question text 1
 ['START_QUIZ', '1']
 |------------|
@@ -359,6 +382,7 @@ Your Output:
 |----------------|
 1 are added to the quiz
 question text 1
+question text 1
 ['START_QUIZ', '1']
 |------------|
 | Start Quiz |
@@ -390,6 +414,7 @@ Your Output:
 |----------------|
 1 are added to the quiz
 question text 1
+question text 1
 ['START_QUIZ', '1']
 |------------|
 | Start Quiz |
@@ -420,6 +445,7 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
+trick question 
 trick question 
 ['START_QUIZ', '1']
 |------------|
@@ -458,6 +484,7 @@ Your Output:
 |----------------|
 1 are added to the quiz
 question about sony
+question about sony
 ['START_QUIZ', '1']
 |------------|
 | Start Quiz |
@@ -488,6 +515,7 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
+question about sony
 question about sony
 ['START_QUIZ', '1']
 |------------|
@@ -520,6 +548,7 @@ Your Output:
 |----------------|
 1 are added to the quiz
 question about sony
+question about sony
 ['START_QUIZ', '1']
 |------------|
 | Start Quiz |
@@ -550,6 +579,7 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
+
 
 ['START_QUIZ', '1']
 |------------|
