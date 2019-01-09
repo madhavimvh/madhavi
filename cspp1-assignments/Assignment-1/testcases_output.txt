@@ -56,24 +56,15 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-3
  Correct Answer! - Marks Awarded: 1
-question text 2
-3
-1
- Correct Answer! - Marks Awarded: 2
-question text 3
-3
-1
-2
- Correct Answer! - Marks Awarded: 3
-question text 4
-3
-1
-2
-4
- Correct Answer! - Marks Awarded: 4
-Total Score: 10
+Traceback (most recent call last):
+  File "Solution.py", line 92, in <module>
+    main()
+  File "Solution.py", line 89, in main
+    quiz.matchans()
+  File "Solution.py", line 50, in matchans
+    del self.partchoice[partchoice.index(part_ch)]
+NameError: name 'partchoice' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -134,24 +125,17 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-1
-2
-4
-3
- Correct Answer! - Marks Awarded: 1
+Wrong Answer! - Penalty: -4
 question text 2
-1
  Correct Answer! - Marks Awarded: 2
-question text 3
-1
-2
- Correct Answer! - Marks Awarded: 3
-question text 4
-1
-2
-4
- Correct Answer! - Marks Awarded: 4
-Total Score: 10
+Traceback (most recent call last):
+  File "Solution.py", line 92, in <module>
+    main()
+  File "Solution.py", line 89, in main
+    quiz.matchans()
+  File "Solution.py", line 50, in matchans
+    del self.partchoice[partchoice.index(part_ch)]
+NameError: name 'partchoice' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -212,15 +196,15 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-3
  Correct Answer! - Marks Awarded: 1
-question text 2
-3
-3
-3
-3
-Wrong Answer! - Penalty: -3
-Total Score: 4
+Traceback (most recent call last):
+  File "Solution.py", line 92, in <module>
+    main()
+  File "Solution.py", line 89, in main
+    quiz.matchans()
+  File "Solution.py", line 50, in matchans
+    del self.partchoice[partchoice.index(part_ch)]
+NameError: name 'partchoice' is not defined
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -329,16 +313,24 @@ choice a	choice b	choice c	choice d
 | Score Report |
 |--------------|
 question a
-c
-a
-b
-d
-c
-a
-b
-d
-c
-a
+Wrong Answer! - Penalty: 0
+question b
+Wrong Answer! - Penalty: 0
+question c
+Wrong Answer! - Penalty: 0
+question d
+Wrong Answer! - Penalty: 0
+question e
+Wrong Answer! - Penalty: 0
+question f
+Wrong Answer! - Penalty: 0
+question g
+Wrong Answer! - Penalty: 0
+question h
+Wrong Answer! - Penalty: 0
+question i
+Wrong Answer! - Penalty: 0
+question j
 Wrong Answer! - Penalty: 0
 Total Score: 0
 ----------------------------------------
@@ -377,7 +369,6 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-1
 Wrong Answer! - Penalty: -4
 Total Score: 4
 ----------------------------------------
@@ -437,14 +428,13 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-1
 Wrong Answer! - Penalty: 
 Traceback (most recent call last):
-  File "Solution.py", line 90, in <module>
+  File "Solution.py", line 92, in <module>
     main()
-  File "Solution.py", line 87, in main
+  File "Solution.py", line 89, in main
     quiz.matchans()
-  File "Solution.py", line 53, in matchans
+  File "Solution.py", line 55, in matchans
     self.totscore -= int(each.getnegmarks())
 ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
@@ -477,7 +467,6 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-1
 Wrong Answer! - Penalty: -1
 Total Score: 1
 ----------------------------------------
@@ -510,7 +499,6 @@ choice 4
 | Score Report |
 |--------------|
 trick question 
-1
 Wrong Answer! - Penalty: -1
 Total Score: 1
 ----------------------------------------
@@ -549,7 +537,6 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
-4
 Wrong Answer! - Penalty: -1
 Total Score: 1
 ----------------------------------------
@@ -582,7 +569,6 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
-4
 Wrong Answer! - Penalty: -1
 Total Score: 1
 ----------------------------------------
@@ -615,7 +601,6 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
-4
 Wrong Answer! - Penalty: 1
 Total Score: -1
 ----------------------------------------
@@ -648,7 +633,6 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 
-1
 Wrong Answer! - Penalty: -1
 Total Score: 1
 ----------------------------------------
