@@ -20,6 +20,7 @@ class Question:
 
 class Quiz:
 	allquestions = []
+	partchoice = []
 	def __init__(self):
 		pass
 	def addquestion(self, Question):
@@ -33,7 +34,8 @@ class Quiz:
 				str1 += eachopt + "\t"
 			print(str1 +"\n")
 	def partoptions(self, list1):
-		print(list1)
+		self.partchoice = list1
+		print(self.partchoice)
 
 
 def main():
