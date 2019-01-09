@@ -18,9 +18,23 @@ Solution.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:24:0: C0304: Final newline missing (missing-final-newline)
+Solution.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:38:0: C0304: Final newline missing (missing-final-newline)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0111: Missing class docstring (missing-docstring)
@@ -33,9 +47,9 @@ Solution.py:13:23: W0621: Redefining name 'Question' from outer scope (line 1) (
 Solution.py:9:0: R0903: Too few public methods (1/2) (too-few-public-methods)
 Solution.py:16:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:18:1: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:22:2: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:19:5: W0612: Unused variable 'i' (unused-variable)
+Solution.py:28:3: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:25:6: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.45/10 (previous run: -5.45/10, +0.00)
+Your code has been rated at -3.33/10 (previous run: -5.45/10, +2.12)
 

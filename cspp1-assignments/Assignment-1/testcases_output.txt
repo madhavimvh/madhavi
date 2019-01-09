@@ -33,6 +33,11 @@ question text 4
 Total Score: 10
 
 Your Output: 
+['LOAD_QUESTIONS', '4']
+|----------------|
+| Load Questions |
+|----------------|
+4 are added to the quiz
 question text 1
 question text 2
 question text 3
@@ -74,6 +79,11 @@ question text 4
 Total Score: -10
 
 Your Output: 
+['LOAD_QUESTIONS', '4']
+|----------------|
+| Load Questions |
+|----------------|
+4 are added to the quiz
 question text 1
 question text 2
 question text 3
@@ -115,6 +125,11 @@ question text 4
 Total Score: -5
 
 Your Output: 
+['LOAD_QUESTIONS', '4']
+|----------------|
+| Load Questions |
+|----------------|
+4 are added to the quiz
 question text 1
 question text 2
 question text 3
@@ -186,6 +201,11 @@ question j
 Total Score: 3
 
 Your Output: 
+['LOAD_QUESTIONS', '10']
+|----------------|
+| Load Questions |
+|----------------|
+10 are added to the quiz
 question a
 question b
 question c
@@ -218,6 +238,11 @@ question text 1
 Total Score: -4
 
 Your Output: 
+['LOAD_QUESTIONS', '1']
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
 question text 1
 ----------------------------------------
 
@@ -235,7 +260,11 @@ Quiz does not have questions
 |--------------|
 
 Your Output: 
-
+['LOAD_QUESTIONS', '0']
+|----------------|
+| Load Questions |
+|----------------|
+0 are added to the quiz
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -252,6 +281,11 @@ Error! Malformed question
 |--------------|
 
 Your Output: 
+['LOAD_QUESTIONS', '1']
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
 question text 1
 ----------------------------------------
 
@@ -269,6 +303,11 @@ Error! Correct answer choice number is out of range for question text 1
 |--------------|
 
 Your Output: 
+['LOAD_QUESTIONS', '1']
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
 question text 1
 ----------------------------------------
 
@@ -286,6 +325,11 @@ trick question  does not have enough answer choices
 |--------------|
 
 Your Output: 
+['LOAD_QUESTIONS', '1']
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
 trick question
 ----------------------------------------
 
@@ -309,6 +353,11 @@ question about sony
 Total Score: 1
 
 Your Output: 
+['LOAD_QUESTIONS', '1']
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
 question about sony
 ----------------------------------------
 
@@ -326,6 +375,11 @@ Invalid max marks for question about sony
 |--------------|
 
 Your Output: 
+['LOAD_QUESTIONS', '1']
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
 question about sony
 ----------------------------------------
 
@@ -343,6 +397,11 @@ Invalid penalty for question about sony
 |--------------|
 
 Your Output: 
+['LOAD_QUESTIONS', '1']
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
 question about sony
 ----------------------------------------
 
@@ -360,6 +419,10 @@ Error! Malformed question
 |--------------|
 
 Your Output: 
-
+['LOAD_QUESTIONS', '1']
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
 ----------------------------------------
 
