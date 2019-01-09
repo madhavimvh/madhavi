@@ -56,19 +56,19 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-['3', '1', '2', '4']
+3
 3
  Correct Answer! - Marks Awarded: 1
 question text 2
-['1', '2', '4']
+1
 1
  Correct Answer! - Marks Awarded: 2
 question text 3
-['2', '4']
+2
 2
  Correct Answer! - Marks Awarded: 3
 question text 4
-['4']
+4
 4
  Correct Answer! - Marks Awarded: 4
 Total Score: 10
@@ -132,21 +132,25 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-['1', '2', '4', '3']
 1
-Wrong Answer! - Penalty: -4
-question text 2
-['2', '4', '3']
-2
-Wrong Answer! - Penalty: -3
-question text 3
-['4', '3']
-4
-Wrong Answer! - Penalty: -2
-question text 4
-['3']
 3
+Wrong Answer! - Penalty: -4
+4
+question text 2
+2
+1
+Wrong Answer! - Penalty: -3
+7
+question text 3
+4
+2
+Wrong Answer! - Penalty: -2
+9
+question text 4
+3
+4
 Wrong Answer! - Penalty: -1
+10
 Total Score: 10
 ----------------------------------------
 
@@ -208,21 +212,24 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-['3', '3', '3', '3']
+3
 3
  Correct Answer! - Marks Awarded: 1
 question text 2
-['3', '3', '3']
 3
+1
 Wrong Answer! - Penalty: -3
+4
 question text 3
-['3', '3']
 3
+2
 Wrong Answer! - Penalty: -2
+6
 question text 4
-['3']
 3
+4
 Wrong Answer! - Penalty: -1
+7
 Total Score: 7
 ----------------------------------------
 
@@ -332,45 +339,55 @@ choice a	choice b	choice c	choice d
 | Score Report |
 |--------------|
 question a
-['c', 'a', 'b', 'd', 'c', 'a', 'b', 'd', 'c', 'a']
 c
+1
 Wrong Answer! - Penalty: 0
+0
 question b
-['a', 'b', 'd', 'c', 'a', 'b', 'd', 'c', 'a']
 a
+3
 Wrong Answer! - Penalty: 0
+0
 question c
-['b', 'd', 'c', 'a', 'b', 'd', 'c', 'a']
 b
+2
 Wrong Answer! - Penalty: 0
+0
 question d
-['d', 'c', 'a', 'b', 'd', 'c', 'a']
 d
+1
 Wrong Answer! - Penalty: 0
+0
 question e
-['c', 'a', 'b', 'd', 'c', 'a']
 c
+4
 Wrong Answer! - Penalty: 0
+0
 question f
-['a', 'b', 'd', 'c', 'a']
 a
+3
 Wrong Answer! - Penalty: 0
+0
 question g
-['b', 'd', 'c', 'a']
 b
+1
 Wrong Answer! - Penalty: 0
+0
 question h
-['d', 'c', 'a']
 d
+1
 Wrong Answer! - Penalty: 0
+0
 question i
-['c', 'a']
 c
+4
 Wrong Answer! - Penalty: 0
+0
 question j
-['a']
 a
+2
 Wrong Answer! - Penalty: 0
+0
 Total Score: 0
 ----------------------------------------
 
@@ -408,9 +425,10 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-['1']
 1
+3
 Wrong Answer! - Penalty: -4
+4
 Total Score: 4
 ----------------------------------------
 
@@ -469,15 +487,15 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-['1']
 1
+3
 Wrong Answer! - Penalty: 
 Traceback (most recent call last):
-  File "Solution.py", line 93, in <module>
+  File "Solution.py", line 95, in <module>
     main()
-  File "Solution.py", line 90, in main
+  File "Solution.py", line 92, in main
     quiz.matchans()
-  File "Solution.py", line 55, in matchans
+  File "Solution.py", line 56, in matchans
     self.totscore -= int(each.getnegmarks())
 ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
@@ -510,9 +528,10 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 question text 1
-['1']
 1
+6
 Wrong Answer! - Penalty: -1
+1
 Total Score: 1
 ----------------------------------------
 
@@ -544,9 +563,10 @@ choice 4
 | Score Report |
 |--------------|
 trick question 
-['1']
 1
+6
 Wrong Answer! - Penalty: -1
+1
 Total Score: 1
 ----------------------------------------
 
@@ -584,9 +604,10 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
-['4']
 4
+1
 Wrong Answer! - Penalty: -1
+1
 Total Score: 1
 ----------------------------------------
 
@@ -618,9 +639,10 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
-['4']
 4
+1
 Wrong Answer! - Penalty: -1
+1
 Total Score: 1
 ----------------------------------------
 
@@ -652,9 +674,10 @@ choice 4	choice 2
 | Score Report |
 |--------------|
 question about sony
-['4']
 4
+1
 Wrong Answer! - Penalty: 1
+-1
 Total Score: -1
 ----------------------------------------
 
@@ -686,9 +709,10 @@ choice 1	choice 2	choice 3	choice 4
 | Score Report |
 |--------------|
 
-['1']
 1
+3
 Wrong Answer! - Penalty: -1
+1
 Total Score: 1
 ----------------------------------------
 

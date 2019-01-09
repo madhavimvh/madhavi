@@ -43,8 +43,9 @@ class Quiz:
 		for each in self.allquestions:
 			print(each.getquestext())
 			for part_ch in self.partchoice:
-				print(self.partchoice)
+				# print(self.partchoice)
 				print(part_ch)
+				print(each.getcorrectans())
 				if each.getcorrectans() == part_ch:
 					print(" Correct Answer! - Marks Awarded: " + each.getmaxmarks())
 					self.totscore += int(each.getmaxmarks())
@@ -53,6 +54,7 @@ class Quiz:
 				else:
 					print("Wrong Answer! - Penalty: " + each.getnegmarks())
 					self.totscore -= int(each.getnegmarks())
+					print(self.totscore)
 					del self.partchoice[self.partchoice.index(part_ch)]
 					break
 		print("Total Score: " + str(self.totscore))
