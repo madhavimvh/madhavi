@@ -3,6 +3,7 @@ Solution.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-ind
 Solution.py:3:18: C0326: Exactly one space required after comma
 	def __init__(self,question, options, correctans, maxmarks, negmarks):
                   ^ (bad-whitespace)
+Solution.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -136,5 +137,5 @@ Solution.py:83:10: W0612: Unused variable 'i' (unused-variable)
 Solution.py:67:0: R0912: Too many branches (16/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.55/10 (previous run: -2.62/10, +0.07)
+Your code has been rated at -2.52/10 (previous run: -2.55/10, +0.02)
 

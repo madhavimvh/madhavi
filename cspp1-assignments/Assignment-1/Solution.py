@@ -1,7 +1,7 @@
 adict = {'a': '1', 'b': '2', 'c': '3', 'd': '4'}
 class Question:
 	def __init__(self,question, options, correctans, maxmarks, negmarks):
-		# print(question)
+		print(correctans)
 		self.question = question
 		self.options = options
 		self.correctans = correctans

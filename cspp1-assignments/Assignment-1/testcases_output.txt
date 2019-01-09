@@ -36,6 +36,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+3
+1
+2
+4
 4 are added to the quiz
 |------------|
 | Start Quiz |
@@ -116,6 +120,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+3
+1
+2
+4
 4 are added to the quiz
 |------------|
 | Start Quiz |
@@ -196,6 +204,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+3
+1
+2
+4
 4 are added to the quiz
 |------------|
 | Start Quiz |
@@ -306,6 +318,16 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+1
+3
+2
+1
+4
+3
+1
+1
+4
+2
 10 are added to the quiz
 |------------|
 | Start Quiz |
@@ -419,6 +441,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+3
 1 are added to the quiz
 |------------|
 | Start Quiz |
@@ -564,6 +587,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+1
 1 are added to the quiz
 |------------|
 | Start Quiz |
@@ -599,6 +623,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+1
 1 are added to the quiz
 |------------|
 | Start Quiz |
@@ -634,6 +659,7 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
+1
 1 are added to the quiz
 |------------|
 | Start Quiz |
