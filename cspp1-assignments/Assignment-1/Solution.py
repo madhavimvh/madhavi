@@ -1,3 +1,4 @@
+adict = {'a': '1', 'b': '2', 'c': '3', 'd': '4'}
 class Question:
 	def __init__(self,question, options, correctans, maxmarks, negmarks):
 		# print(question)
@@ -37,8 +38,11 @@ class Quiz:
 	def partoptions(self, list1):
 		for each in list1:
 			eachx = each.split()
-			self.partchoice.append(eachx[1])
-		# print(self.partchoice)
+			if eachx[1] in adict:
+				self.partchoice.append(adict[eachx[1]])
+			else:
+				self.partchoice.append(eachx[1])
+		print(self.partchoice)
 	def matchans(self):
 		for each in self.allquestions:
 			print(each.getquestext())
@@ -85,11 +89,11 @@ def main():
 				for i in range(int(n[1])):
 					list1.append(input())
 				quiz.partoptions(list1)
-			if n[0] == "SCORE_REPORT":
-				print("|--------------|")
-				print("| Score Report |")
-				print("|--------------|")
-				quiz.matchans()
+			# if n[0] == "SCORE_REPORT":
+				# print("|--------------|")
+				# print("| Score Report |")
+				# print("|--------------|")
+				# quiz.matchans()
 	except EOFError:
 		pass
 main()
