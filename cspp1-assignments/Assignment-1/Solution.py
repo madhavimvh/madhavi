@@ -21,6 +21,7 @@ class Question:
 class Quiz:
 	allquestions = []
 	partchoice = []
+	totscore = 0
 	def __init__(self):
 		pass
 	def addquestion(self, Question):
@@ -36,6 +37,17 @@ class Quiz:
 	def partoptions(self, list1):
 		self.partchoice = list1
 		print(self.partchoice)
+	def matchans():
+		for each in self.allquestions:
+			print(each.getquestext())
+			for part_ch in self.partchoice:
+				if each.getcorrectans == part_ch:
+					print(" Correct Answer! - Marks Awarded: " + each.getmaxmarks())
+					totscore += int(each.getmaxmarks())
+				else:
+					print("Wrong Answer! - Penalty: " + each.getnegmarks())
+					totscore -= int(each.getnegmarks())
+		print("Total Score: " + str(totscore))
 
 
 def main():
