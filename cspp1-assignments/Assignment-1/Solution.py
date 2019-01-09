@@ -114,6 +114,9 @@ def main():
 							elif int(string[3]) < 0:
 								k = "0"
 								raise Exception("Invalid max marks for question about sony")
+							elif int(string[4]) > 0:
+								k = "0"
+								raise Exception("Invalid penalty for " + string[0])
 							else:
 								Ques = Question(string[0], string[1], string[2], string[3], string[4])
 								quiz.addquestion(Ques)

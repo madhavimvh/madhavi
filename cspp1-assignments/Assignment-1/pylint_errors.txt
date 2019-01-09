@@ -89,9 +89,9 @@ Solution.py:117:0: W0312: Found indentation with tabs instead of spaces (mixed-i
 Solution.py:118:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:119:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:120:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:124:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:125:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:126:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:121:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:122:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:123:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:127:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:128:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:129:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -109,7 +109,10 @@ Solution.py:140:0: W0312: Found indentation with tabs instead of spaces (mixed-i
 Solution.py:141:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:142:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:143:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:144:0: C0304: Final newline missing (missing-final-newline)
+Solution.py:144:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:145:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:146:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:147:0: C0304: Final newline missing (missing-final-newline)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0103: Constant name "adict" doesn't conform to UPPER_CASE naming style (invalid-name)
@@ -131,13 +134,14 @@ Solution.py:56:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:64:1: C0111: Missing method docstring (missing-docstring)
 Solution.py:84:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:89:3: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:124:11: W0703: Catching too general exception Exception (broad-except)
-Solution.py:118:8: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:124:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:127:11: W0703: Catching too general exception Exception (broad-except)
+Solution.py:121:8: C0103: Variable name "Ques" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:127:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:87:1: R1702: Too many nested blocks (7/5) (too-many-nested-blocks)
 Solution.py:100:10: W0612: Unused variable 'i' (unused-variable)
-Solution.py:84:0: R0912: Too many branches (17/12) (too-many-branches)
+Solution.py:84:0: R0912: Too many branches (18/12) (too-many-branches)
+Solution.py:84:0: R0915: Too many statements (53/50) (too-many-statements)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.59/10 (previous run: -2.67/10, +0.07)
+Your code has been rated at -2.61/10 (previous run: -2.59/10, -0.02)
 

@@ -536,7 +536,7 @@ Invalid max marks for question about sony
 |--------------|
 ----------------------------------------
 
-########## Testcase 11: Failed ##########
+########## Testcase 11: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -553,19 +553,13 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-1 are added to the quiz
+Invalid penalty for question about sony
 |------------|
 | Start Quiz |
 |------------|
-question about sony(1)
-choice 4	choice 2
-
 |--------------|
 | Score Report |
 |--------------|
-question about sony
- Correct Answer! - Marks Awarded: 1
-Total Score: 1
 ----------------------------------------
 
 ########## Testcase 12: Passed ##########
