@@ -84,10 +84,10 @@ def main():
 							string = input().split(":")
 							# print(string)
 							# try:
+							print(string[1])
 							if string[0] == "" or string[1] == "" or string[2] == "" or string[3] == "" or string[4] == "":
 								k = "0"
 								raise Exception("Error! Malformed question")
-
 							elif len(string[1]) < 2:
 								k = "0"
 								raise Exception(string[0] + " does not have enough answer choices")
