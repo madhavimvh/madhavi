@@ -43,6 +43,7 @@ def listtodict(s):
 		# print(each[0], each[1])
 		orddict1[each[0]] = each[1]
 	# print(orddict1)
+	return orddict1
 
 
 

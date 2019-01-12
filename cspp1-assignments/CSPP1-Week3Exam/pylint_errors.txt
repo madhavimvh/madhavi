@@ -38,7 +38,7 @@ week3exam.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-i
 week3exam.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week3exam.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:46:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:54:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:55:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -54,24 +54,23 @@ week3exam.py:64:0: W0312: Found indentation with tabs instead of spaces (mixed-i
 week3exam.py:65:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:66:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:67:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week3exam.py:70:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:68:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:71:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:72:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:73:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:1:0: C0111: Missing module docstring (missing-docstring)
 week3exam.py:2:0: C0111: Missing function docstring (missing-docstring)
 week3exam.py:10:0: C0111: Missing function docstring (missing-docstring)
 week3exam.py:22:2: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
 week3exam.py:23:2: C0103: Variable name "s1" doesn't conform to snake_case naming style (invalid-name)
-week3exam.py:26:2: E1111: Assigning to function call which doesn't return (assignment-from-no-return)
-week3exam.py:27:2: E1111: Assigning to function call which doesn't return (assignment-from-no-return)
 week3exam.py:34:18: E0602: Undefined variable 'orddict2dd' (undefined-variable)
 week3exam.py:40:0: C0103: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
 week3exam.py:40:0: C0111: Missing function docstring (missing-docstring)
-week3exam.py:51:0: C0111: Missing function docstring (missing-docstring)
-week3exam.py:54:2: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-week3exam.py:56:7: W0612: Unused variable 'i' (unused-variable)
+week3exam.py:52:0: C0111: Missing function docstring (missing-docstring)
+week3exam.py:55:2: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+week3exam.py:57:7: W0612: Unused variable 'i' (unused-variable)
 week3exam.py:1:0: W0611: Unused OrderedDict imported from collections (unused-import)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.81/10 (previous run: -5.00/10, +0.19)
+Your code has been rated at -2.91/10 (previous run: -4.81/10, +1.91)
 
