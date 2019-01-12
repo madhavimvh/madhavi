@@ -4,7 +4,7 @@ Expected Output:
 1235: 100.0%
 
 Your Output: 
-Invalid Points
+1234: 0.0%
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -16,15 +16,15 @@ Expected Output:
 1239: 0.0%
 
 Your Output: 
-Invalid Points
+1234: 0.0%
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 Invalid Points
 
 Your Output: 
-Invalid Points
+1234: 0.0%
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -40,7 +40,7 @@ Expected Output:
 12311: 0.0%
 
 Your Output: 
-Invalid Points
+1239: 100.0%
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -50,14 +50,14 @@ Expected Output:
 12349: 50.0%
 
 Your Output: 
-Invalid Points
+12349: 100.0%
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 12345: 100.0%
 
 Your Output: 
-Invalid Points
+12345: 100.0%
 ----------------------------------------
 
