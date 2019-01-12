@@ -19,8 +19,8 @@ def display(adict, adict1):
 					print(key1 + ": " + str(float(score)) + "%")
 	else:
 		sorteddict = sorted(adict.items(), key=lambda s: len(s[0]))
-		print(sorteddict)
-
+		for key in sorteddict:
+			print(key)
 
 def main():
 		adict = {}
