@@ -1,17 +1,22 @@
-def display(adict, adict1):
-	score = 0
+def checklength(adict):
 	maxno = 0
 	maxno = max(len(x) for x in adict)
 	for each in adict:
-		if len(each) == maxno:
-			for key1 in sorted(adict):
-				for key2 in sorted(adict1):
-					if key1 == key2:
-						# print(adict[key1], adict1[key2])
-						score = int((adict[key1]/adict1[key2])*100)
-						if score < 0:
-							score = 0
-						print(key1 + ": " + str(float(score)) + "%")
+		if len(each) != maxno:
+			return False
+	return True
+
+def display(adict, adict1):
+	score = 0
+	if checklength(adict):
+		for key1 in sorted(adict):
+			for key2 in sorted(adict1):
+				if key1 == key2:
+					# print(adict[key1], adict1[key2])
+					score = int((adict[key1]/adict1[key2])*100)
+					if score < 0:
+						score = 0
+					print(key1 + ": " + str(float(score)) + "%")
 		else:
 			for key in sorted(adict.items(), key=lambda s: len(s[0])):
 				print(key, adict[key])
