@@ -1,3 +1,4 @@
+from collections import OrderedDict
 def checklength(adict):
 	maxno = 0
 	maxno = max(len(x) for x in adict)
@@ -18,9 +19,14 @@ def display(adict, adict1):
 						score = 0
 					print(key1 + ": " + str(float(score)) + "%")
 	else:
-		sorteddict = sorted(adict, key=lambda s: (len(s[0])))
-		for key in sorteddict:
-			print(key)
+		s = sorted(adict.items(),key=lambda x: (len(x[0]), x),reverse=True)
+		print(s)
+
+
+
+
+
+
 
 def main():
 		adict = {}
