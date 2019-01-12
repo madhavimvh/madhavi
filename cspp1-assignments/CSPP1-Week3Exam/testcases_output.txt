@@ -5,14 +5,9 @@ Expected Output:
 
 Your Output: 
 {'1234': 10, '1235': 3}
-Traceback (most recent call last):
-  File "week3exam.py", line 41, in <module>
-    main()
-  File "week3exam.py", line 34, in main
-    display(adict, adict1)
-  File "week3exam.py", line 5, in display
-    maxno = max(len(x) for x in d)
-NameError: name 'd' is not defined
+4
+1234: 45.0%
+1235: 100.0%
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -25,14 +20,12 @@ Expected Output:
 
 Your Output: 
 {'1234': -44, '1233': 8, '1235': -4, '1236': 0, '1239': -4}
-Traceback (most recent call last):
-  File "week3exam.py", line 41, in <module>
-    main()
-  File "week3exam.py", line 34, in main
-    display(adict, adict1)
-  File "week3exam.py", line 5, in display
-    maxno = max(len(x) for x in d)
-NameError: name 'd' is not defined
+4
+1233: 100.0%
+1234: 0.0%
+1235: 0.0%
+1236: 0.0%
+1239: 0.0%
 ----------------------------------------
 
 ########## Testcase 2: Passed ##########
@@ -57,14 +50,16 @@ Expected Output:
 
 Your Output: 
 {'1235': 35, '1233': -15, '1234': -4, '1236': 3, '1237': -8, '1238': 2, '1239': -14, '12310': -12, '12311': -8}
-Traceback (most recent call last):
-  File "week3exam.py", line 41, in <module>
-    main()
-  File "week3exam.py", line 34, in main
-    display(adict, adict1)
-  File "week3exam.py", line 5, in display
-    maxno = max(len(x) for x in d)
-NameError: name 'd' is not defined
+5
+12310: 0.0%
+12311: 0.0%
+1233: 0.0%
+1234: 0.0%
+1235: 59.0%
+1236: 33.0%
+1237: 0.0%
+1238: 11.0%
+1239: 0.0%
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -75,14 +70,10 @@ Expected Output:
 
 Your Output: 
 {'12345': 8, '12349': 6, '12342': 10}
-Traceback (most recent call last):
-  File "week3exam.py", line 41, in <module>
-    main()
-  File "week3exam.py", line 34, in main
-    display(adict, adict1)
-  File "week3exam.py", line 5, in display
-    maxno = max(len(x) for x in d)
-NameError: name 'd' is not defined
+5
+12342: 100.0%
+12345: 57.0%
+12349: 50.0%
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -91,13 +82,7 @@ Expected Output:
 
 Your Output: 
 {'12345': 40}
-Traceback (most recent call last):
-  File "week3exam.py", line 41, in <module>
-    main()
-  File "week3exam.py", line 34, in main
-    display(adict, adict1)
-  File "week3exam.py", line 5, in display
-    maxno = max(len(x) for x in d)
-NameError: name 'd' is not defined
+5
+12345: 100.0%
 ----------------------------------------
 

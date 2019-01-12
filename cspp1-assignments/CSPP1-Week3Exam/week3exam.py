@@ -2,7 +2,7 @@ def display(adict, adict1):
 	score = 0
 	maxno = 0
 	print(adict)
-	maxno = max(len(x) for x in d)
+	maxno = max(len(x) for x in adict)
 	print(maxno)
 	for key1 in sorted(adict):
 		for key2 in sorted(adict1):
