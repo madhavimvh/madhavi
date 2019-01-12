@@ -17,11 +17,8 @@ week3exam.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-i
 week3exam.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:22:26: C0326: Exactly one space required after comma
-		s = sorted(adict.items(),key=lambda x: (len(x[0]), x),reverse=True)
+		s = sorted(adict.items(),key=lambda x: (len(x[0]), x))
                           ^ (bad-whitespace)
-week3exam.py:22:55: C0326: Exactly one space required after comma
-		s = sorted(adict.items(),key=lambda x: (len(x[0]), x),reverse=True)
-                                                       ^ (bad-whitespace)
 week3exam.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -52,5 +49,5 @@ week3exam.py:36:7: W0612: Unused variable 'i' (unused-variable)
 week3exam.py:1:0: W0611: Unused OrderedDict imported from collections (unused-import)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.05/10 (previous run: -1.28/10, -0.77)
+Your code has been rated at -1.79/10 (previous run: -2.05/10, +0.26)
 

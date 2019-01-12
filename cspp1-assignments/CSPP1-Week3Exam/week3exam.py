@@ -19,7 +19,7 @@ def display(adict, adict1):
 						score = 0
 					print(key1 + ": " + str(float(score)) + "%")
 	else:
-		s = sorted(adict.items(),key=lambda x: (len(x[0]), x),reverse=True)
+		s = sorted(adict.items(),key=lambda x: (len(x[0]), x))
 		print(s)
 
 
