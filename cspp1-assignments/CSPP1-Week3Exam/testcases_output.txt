@@ -5,15 +5,14 @@ Expected Output:
 
 Your Output: 
 {'1234': 10, '1235': 3}
-4
 Traceback (most recent call last):
-  File "week3exam.py", line 43, in <module>
+  File "week3exam.py", line 41, in <module>
     main()
-  File "week3exam.py", line 36, in main
+  File "week3exam.py", line 34, in main
     display(adict, adict1)
-  File "week3exam.py", line 7, in display
-    maxno = max(len(each))
-TypeError: 'int' object is not iterable
+  File "week3exam.py", line 5, in display
+    maxno = max(len(x) for x in d)
+NameError: name 'd' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -26,15 +25,14 @@ Expected Output:
 
 Your Output: 
 {'1234': -44, '1233': 8, '1235': -4, '1236': 0, '1239': -4}
-4
 Traceback (most recent call last):
-  File "week3exam.py", line 43, in <module>
+  File "week3exam.py", line 41, in <module>
     main()
-  File "week3exam.py", line 36, in main
+  File "week3exam.py", line 34, in main
     display(adict, adict1)
-  File "week3exam.py", line 7, in display
-    maxno = max(len(each))
-TypeError: 'int' object is not iterable
+  File "week3exam.py", line 5, in display
+    maxno = max(len(x) for x in d)
+NameError: name 'd' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Passed ##########
@@ -59,15 +57,14 @@ Expected Output:
 
 Your Output: 
 {'1235': 35, '1233': -15, '1234': -4, '1236': 3, '1237': -8, '1238': 2, '1239': -14, '12310': -12, '12311': -8}
-4
 Traceback (most recent call last):
-  File "week3exam.py", line 43, in <module>
+  File "week3exam.py", line 41, in <module>
     main()
-  File "week3exam.py", line 36, in main
+  File "week3exam.py", line 34, in main
     display(adict, adict1)
-  File "week3exam.py", line 7, in display
-    maxno = max(len(each))
-TypeError: 'int' object is not iterable
+  File "week3exam.py", line 5, in display
+    maxno = max(len(x) for x in d)
+NameError: name 'd' is not defined
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -78,15 +75,14 @@ Expected Output:
 
 Your Output: 
 {'12345': 8, '12349': 6, '12342': 10}
-5
 Traceback (most recent call last):
-  File "week3exam.py", line 43, in <module>
+  File "week3exam.py", line 41, in <module>
     main()
-  File "week3exam.py", line 36, in main
+  File "week3exam.py", line 34, in main
     display(adict, adict1)
-  File "week3exam.py", line 7, in display
-    maxno = max(len(each))
-TypeError: 'int' object is not iterable
+  File "week3exam.py", line 5, in display
+    maxno = max(len(x) for x in d)
+NameError: name 'd' is not defined
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -95,14 +91,13 @@ Expected Output:
 
 Your Output: 
 {'12345': 40}
-5
 Traceback (most recent call last):
-  File "week3exam.py", line 43, in <module>
+  File "week3exam.py", line 41, in <module>
     main()
-  File "week3exam.py", line 36, in main
+  File "week3exam.py", line 34, in main
     display(adict, adict1)
-  File "week3exam.py", line 7, in display
-    maxno = max(len(each))
-TypeError: 'int' object is not iterable
+  File "week3exam.py", line 5, in display
+    maxno = max(len(x) for x in d)
+NameError: name 'd' is not defined
 ----------------------------------------
 
