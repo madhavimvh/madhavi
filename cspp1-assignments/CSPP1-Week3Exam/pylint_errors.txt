@@ -21,13 +21,23 @@ week3exam.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-i
 week3exam.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:1:0: C0111: Missing module docstring (missing-docstring)
 week3exam.py:1:0: C0111: Missing function docstring (missing-docstring)
 week3exam.py:11:0: C0111: Missing function docstring (missing-docstring)
-week3exam.py:14:1: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-week3exam.py:15:5: W0612: Unused variable 'i' (unused-variable)
+week3exam.py:14:2: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+week3exam.py:33:9: W0703: Catching too general exception Exception (broad-except)
+week3exam.py:18:6: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+week3exam.py:33:2: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+week3exam.py:15:6: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -1.67/10 (previous run: -1.82/10, +0.15)
+Your code has been rated at -2.67/10 (previous run: -1.67/10, -1.00)
 

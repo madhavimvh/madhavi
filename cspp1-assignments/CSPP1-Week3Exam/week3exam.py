@@ -9,23 +9,30 @@ def display(adict, adict1):
 					score = 0
 				print(key1 + ": " + str(float(score)) + "%")
 def main():
-	adict = {}
-	adict1 = {}
-	n = int(input())
-	for i in range(n):
-		string = input().split("|")
-		if string[0] not in adict:
-			adict[string[0]] = 0
-			adict1[string[0]] = int(string[4])
-		else:
-			adict1[string[0]] += int(string[4])
-		if string[2] == string[3]:
-			adict[string[0]] += int(string[4])
-		else:
-			adict[string[0]] -= int(string[4])
-	# print(adict)
-	# print(adict1)
-	display(adict, adict1)
+		adict = {}
+		adict1 = {}
+		n = int(input())
+		for i in range(n):
+			string = input().split("|")
+		try:
+			if type(string[4]) in [str]:
+				raise Exception("Invalid Points")
+			else:
+				if string[0] not in adict:
+					adict[string[0]] = 0
+					adict1[string[0]] = int(string[4])
+				else:
+					adict1[string[0]] += int(string[4])
+				if string[2] == string[3]:
+					adict[string[0]] += int(string[4])
+				else:
+					adict[string[0]] -= int(string[4])
+			# print(adict)
+			# print(adict1)
+			display(adict, adict1)
+		except Exception as e:
+			print(e)
+			return
 
 
 main()
