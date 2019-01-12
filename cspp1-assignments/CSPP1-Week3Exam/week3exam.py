@@ -23,6 +23,7 @@ def display(adict, adict1):
 		s1 = sorted(adict1.items(),key=lambda x: (len(x[0]), x))
 		print(s)
 		print(s1)
+		listtodict(s)
 		for key1 in s:
 			for key2 in sorted(s1):
 				if key1 == key2:
@@ -33,7 +34,9 @@ def display(adict, adict1):
 					print(key1 + ": " + str(float(score)) + "%")	
 
 
-
+def listtodict(s):
+	for each in s:
+		print(each[0], each[1])
 
 
 
