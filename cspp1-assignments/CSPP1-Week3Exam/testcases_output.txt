@@ -8,7 +8,7 @@ Your Output:
 1235: 100.0%
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 1233: 100.0%
 1234: 0.0%
@@ -18,10 +18,10 @@ Expected Output:
 
 Your Output: 
 1233: 100.0%
-1234: -57.0%
-1235: -100.0%
+1234: 0.0%
+1235: 0.0%
 1236: 0.0%
-1239: -100.0%
+1239: 0.0%
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -30,9 +30,9 @@ Invalid Points
 
 Your Output: 
 Traceback (most recent call last):
-  File "week3exam.py", line 29, in <module>
+  File "week3exam.py", line 31, in <module>
     main()
-  File "week3exam.py", line 19, in main
+  File "week3exam.py", line 21, in main
     adict1[string[0]] += int(string[4])
 ValueError: invalid literal for int() with base 10: 'a'
 ----------------------------------------
@@ -50,15 +50,15 @@ Expected Output:
 12311: 0.0%
 
 Your Output: 
-12310: -50.0%
-12311: -44.0%
-1233: -51.0%
-1234: -14.0%
+12310: 0.0%
+12311: 0.0%
+1233: 0.0%
+1234: 0.0%
 1235: 59.0%
 1236: 33.0%
-1237: -40.0%
+1237: 0.0%
 1238: 11.0%
-1239: -53.0%
+1239: 0.0%
 ----------------------------------------
 
 ########## Testcase 4: Passed ##########
