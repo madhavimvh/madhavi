@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 1234: 45.0%
 1235: 100.0%
@@ -6,17 +6,9 @@ Expected Output:
 Your Output: 
 1234: 45.0%
 1235: 100.0%
-Traceback (most recent call last):
-  File "week3exam.py", line 51, in <module>
-    main()
-  File "week3exam.py", line 44, in main
-    display(adict, adict1)
-  File "week3exam.py", line 22, in display
-    print(key, adict[key])
-KeyError: ('1234', 10)
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 1233: 100.0%
 1234: 0.0%
@@ -30,14 +22,6 @@ Your Output:
 1235: 0.0%
 1236: 0.0%
 1239: 0.0%
-Traceback (most recent call last):
-  File "week3exam.py", line 51, in <module>
-    main()
-  File "week3exam.py", line 44, in main
-    display(adict, adict1)
-  File "week3exam.py", line 22, in display
-    print(key, adict[key])
-KeyError: ('1234', -44)
 ----------------------------------------
 
 ########## Testcase 2: Passed ##########
@@ -61,10 +45,17 @@ Expected Output:
 12311: 0.0%
 
 Your Output: 
-
+Traceback (most recent call last):
+  File "week3exam.py", line 51, in <module>
+    main()
+  File "week3exam.py", line 44, in main
+    display(adict, adict1)
+  File "week3exam.py", line 22, in display
+    print(key, adict[key])
+KeyError: ('1235', 35)
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 12342: 100.0%
 12345: 57.0%
@@ -74,29 +65,13 @@ Your Output:
 12342: 100.0%
 12345: 57.0%
 12349: 50.0%
-Traceback (most recent call last):
-  File "week3exam.py", line 51, in <module>
-    main()
-  File "week3exam.py", line 44, in main
-    display(adict, adict1)
-  File "week3exam.py", line 22, in display
-    print(key, adict[key])
-KeyError: ('12345', 8)
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 12345: 100.0%
 
 Your Output: 
 12345: 100.0%
-Traceback (most recent call last):
-  File "week3exam.py", line 51, in <module>
-    main()
-  File "week3exam.py", line 44, in main
-    display(adict, adict1)
-  File "week3exam.py", line 22, in display
-    print(key, adict[key])
-KeyError: ('12345', 40)
 ----------------------------------------
 

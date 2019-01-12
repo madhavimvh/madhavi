@@ -39,11 +39,10 @@ week3exam.py:46:0: W0312: Found indentation with tabs instead of spaces (mixed-i
 week3exam.py:1:0: C0111: Missing module docstring (missing-docstring)
 week3exam.py:1:0: C0111: Missing function docstring (missing-docstring)
 week3exam.py:9:0: C0111: Missing function docstring (missing-docstring)
-week3exam.py:20:2: W0120: Else clause on loop without a break statement (useless-else-on-loop)
 week3exam.py:25:0: C0111: Missing function docstring (missing-docstring)
 week3exam.py:28:2: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
 week3exam.py:30:7: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -1.58/10 (previous run: -1.76/10, +0.19)
+Your code has been rated at -1.32/10 (previous run: -1.58/10, +0.26)
 
