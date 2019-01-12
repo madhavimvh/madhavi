@@ -35,8 +35,12 @@ def display(adict, adict1):
 
 
 def listtodict(s):
+	orddict1 = {}
 	for each in s:
-		print(each[0], each[1])
+		# print(each[0], each[1])
+		orddict1[each[0]] = each[1]
+	print(orddict1)
+
 
 
 
