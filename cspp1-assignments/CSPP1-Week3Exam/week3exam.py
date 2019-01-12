@@ -15,23 +15,23 @@ def main():
 		for i in range(n):
 			string = input().split("|")
 		try:
-			if string[4].isdigit():
+			if int(string[4]):
 				raise Exception("Invalid Points")
-			else:
-				if string[0] not in adict:
-					adict[string[0]] = 0
-					adict1[string[0]] = int(string[4])
-				else:
-					adict1[string[0]] += int(string[4])
-				if string[2] == string[3]:
-					adict[string[0]] += int(string[4])
-				else:
-					adict[string[0]] -= int(string[4])
-			# print(adict)
-			# print(adict1)
-			display(adict, adict1)
 		except Exception as e:
 			print(e)
+			return
+			if string[0] not in adict:
+				adict[string[0]] = 0
+				adict1[string[0]] = int(string[4])
+			else:
+				adict1[string[0]] += int(string[4])
+			if string[2] == string[3]:
+				adict[string[0]] += int(string[4])
+			else:
+				adict[string[0]] -= int(string[4])
+		# print(adict)
+		# print(adict1)
+		display(adict, adict1)
 
 
 
