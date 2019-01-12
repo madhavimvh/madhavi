@@ -1,6 +1,10 @@
 def display(adict, adict1):
 	score = 0
+	maxno = 0
 	print(adict)
+	for each in adict:
+		maxno = max(len(each))
+	print(maxno)
 	for key1 in sorted(adict):
 		for key2 in sorted(adict1):
 			if key1 == key2:
