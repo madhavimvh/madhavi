@@ -27,16 +27,17 @@ week3exam.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-i
 week3exam.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week3exam.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:1:0: C0111: Missing module docstring (missing-docstring)
 week3exam.py:1:0: C0111: Missing function docstring (missing-docstring)
 week3exam.py:11:0: C0111: Missing function docstring (missing-docstring)
 week3exam.py:14:2: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-week3exam.py:20:9: W0703: Catching too general exception Exception (broad-except)
-week3exam.py:20:2: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
-week3exam.py:23:3: W0101: Unreachable code (unreachable)
+week3exam.py:21:9: W0703: Catching too general exception Exception (broad-except)
+week3exam.py:21:2: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+week3exam.py:24:3: W0101: Unreachable code (unreachable)
 week3exam.py:15:6: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.33/10 (previous run: -2.41/10, +0.08)
+Your code has been rated at -2.26/10 (previous run: -2.33/10, +0.08)
 

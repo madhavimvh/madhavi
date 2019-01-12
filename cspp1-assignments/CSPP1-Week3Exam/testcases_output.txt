@@ -4,6 +4,7 @@ Expected Output:
 1235: 100.0%
 
 Your Output: 
+3
 Invalid Points
 ----------------------------------------
 
@@ -16,14 +17,16 @@ Expected Output:
 1239: 0.0%
 
 Your Output: 
+4
 Invalid Points
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 Invalid Points
 
 Your Output: 
+4
 Invalid Points
 ----------------------------------------
 
@@ -40,6 +43,7 @@ Expected Output:
 12311: 0.0%
 
 Your Output: 
+3
 Invalid Points
 ----------------------------------------
 
@@ -50,6 +54,7 @@ Expected Output:
 12349: 50.0%
 
 Your Output: 
+5
 Invalid Points
 ----------------------------------------
 
@@ -58,6 +63,7 @@ Expected Output:
 12345: 100.0%
 
 Your Output: 
+2
 Invalid Points
 ----------------------------------------
 
