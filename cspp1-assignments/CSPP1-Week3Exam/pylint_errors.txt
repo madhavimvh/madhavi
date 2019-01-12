@@ -16,6 +16,9 @@ week3exam.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-i
 week3exam.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:21:53: C0326: Exactly one space required after comma
+		sorteddict = sorted(adict, key=lambda s: (len(s[0]),s))
+                                                     ^ (bad-whitespace)
 week3exam.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -45,5 +48,5 @@ week3exam.py:28:2: C0103: Variable name "n" doesn't conform to snake_case naming
 week3exam.py:30:7: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -1.28/10 (previous run: -1.28/10, +0.00)
+Your code has been rated at -1.54/10 (previous run: -1.28/10, -0.26)
 
