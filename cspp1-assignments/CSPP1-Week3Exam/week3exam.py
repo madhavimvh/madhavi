@@ -3,6 +3,7 @@ def display(adict, adict1):
 	maxno = 0
 	print(adict)
 	for each in adict:
+		print(each)
 		maxno = max(len(each))
 	print(maxno)
 	for key1 in sorted(adict):
