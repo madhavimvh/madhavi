@@ -74,5 +74,5 @@ week3exam.py:58:7: W0612: Unused variable 'i' (unused-variable)
 week3exam.py:1:0: W0611: Unused OrderedDict imported from collections (unused-import)
 
 --------------------------------------------------------------------
-Your code has been rated at -1.90/10 (previous run: -2.08/10, +0.18)
+Your code has been rated at -1.90/10 (previous run: -1.90/10, +0.00)
 

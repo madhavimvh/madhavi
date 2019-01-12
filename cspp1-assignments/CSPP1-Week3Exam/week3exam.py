@@ -21,8 +21,8 @@ def display(adict, adict1):
 	else:
 		s = sorted(adict.items(),key=lambda x: (len(x[0]), x))
 		s1 = sorted(adict1.items(),key=lambda x: (len(x[0]), x))
-		print(s)
-		print(s1)
+		print(adict)
+		print(adict1)
 		print("-------")
 		orddict2 = listtodict(s)
 		orddict3 = listtodict(s1)
