@@ -26,8 +26,8 @@ def display(adict, adict1):
 		# print("-------")
 		orddict2 = listtodict(s)
 		orddict3 = listtodict(s1)
-		# print(orddict2)
-		# print(orddict3)
+		print(orddict2)
+		print(orddict3)
 		for key1 in orddict2:
 			for key2 in orddict3:
 				if key1 == key2:
