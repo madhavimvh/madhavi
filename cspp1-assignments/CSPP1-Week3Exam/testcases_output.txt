@@ -47,14 +47,15 @@ Expected Output:
 Your Output: 
 {'1233': -15, '1234': -4, '1235': 35, '1236': 3, '1237': -8, '1238': 2, '1239': -14, '12310': -12, '12311': -8}
 {'1233': 29, '1234': 28, '1235': 59, '1236': 9, '1237': 20, '1238': 18, '1239': 26, '12310': 24, '12311': 18}
-Traceback (most recent call last):
-  File "week3exam.py", line 78, in <module>
-    main()
-  File "week3exam.py", line 71, in main
-    display(adict, adict1)
-  File "week3exam.py", line 34, in display
-    score = int((orddict2dd[key1]/orddict3[key2])*100)
-NameError: name 'orddict2dd' is not defined
+1233: 0.0%
+1234: 0.0%
+1235: 59.0%
+1236: 33.0%
+1237: 0.0%
+1238: 11.0%
+1239: 0.0%
+12310: 0.0%
+12311: 0.0%
 ----------------------------------------
 
 ########## Testcase 4: Passed ##########

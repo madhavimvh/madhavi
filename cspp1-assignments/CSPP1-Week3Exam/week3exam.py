@@ -31,7 +31,7 @@ def display(adict, adict1):
 			for key2 in orddict3:
 				if key1 == key2:
 					# print(adict[key1], adict1[key2])
-					score = int((orddict2dd[key1]/orddict3[key2])*100)
+					score = int((orddict2[key1]/orddict3[key2])*100)
 					if score < 0:
 						score = 0
 					print(key1 + ": " + str(float(score)) + "%")	
