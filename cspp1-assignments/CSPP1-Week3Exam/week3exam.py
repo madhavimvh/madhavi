@@ -12,9 +12,9 @@ def main():
 		adict = {}
 		adict1 = {}
 		n = int(input())
-		for i in range(n):
-			string = input().split("|")
-			try:
+		try:
+			for i in range(n):
+				string = input().split("|")
 				int(string[4])
 				if string[0] not in adict:
 					adict[string[0]] = 0
@@ -25,12 +25,11 @@ def main():
 					adict[string[0]] += int(string[4])
 				else:
 					adict[string[0]] -= int(string[4])
-			except ValueError:
-				print("sfjlkjf")
-				break
 			# print(adict)
 			# print(adict1)
 			display(adict, adict1)
+		except ValueError:
+			print("sfjlkjf")
 
 
 
