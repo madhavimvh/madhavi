@@ -20,11 +20,12 @@ def display(adict, adict1):
 					print(key1 + ": " + str(float(score)) + "%")
 	else:
 		s = sorted(adict.items(),key=lambda x: (len(x[0]), x))
-		for key1 in sorted(s):
-			for key2 in sorted(adict1):
+		s1 = sorted(adict1.items(),key=lambda x: (len(x[0]), x))
+		for key1 in s:
+			for key2 in sorted(s1):
 				if key1 == key2:
 					# print(adict[key1], adict1[key2])
-					score = int((s[key1]/adict1[key2])*100)
+					score = int((s[key1]/s1[key2])*100)
 					if score < 0:
 						score = 0
 					print(key1 + ": " + str(float(score)) + "%")	
