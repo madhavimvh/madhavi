@@ -15,7 +15,7 @@ def main():
 		for i in range(n):
 			string = input().split("|")
 		try:
-			if type(int(string[4])) in [str]:
+			if int(string[4]):
 				raise Exception("Invalid Points")
 			else:
 				if string[0] not in adict:
@@ -32,7 +32,7 @@ def main():
 			display(adict, adict1)
 		except Exception as e:
 			print(e)
-			return
+
 
 
 main()
