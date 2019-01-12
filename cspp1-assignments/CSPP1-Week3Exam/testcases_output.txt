@@ -45,14 +45,7 @@ Expected Output:
 12311: 0.0%
 
 Your Output: 
-Traceback (most recent call last):
-  File "week3exam.py", line 51, in <module>
-    main()
-  File "week3exam.py", line 44, in main
-    display(adict, adict1)
-  File "week3exam.py", line 22, in display
-    print(key, adict[key])
-KeyError: ('1235', 35)
+[('1235', 35), ('1233', -15), ('1234', -4), ('1236', 3), ('1237', -8), ('1238', 2), ('1239', -14), ('12310', -12), ('12311', -8)]
 ----------------------------------------
 
 ########## Testcase 4: Passed ##########
