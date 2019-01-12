@@ -11,11 +11,9 @@ week3exam.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-i
 week3exam.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week3exam.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week3exam.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week3exam.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -27,15 +25,21 @@ week3exam.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-i
 week3exam.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week3exam.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:1:0: C0111: Missing module docstring (missing-docstring)
 week3exam.py:1:0: C0111: Missing function docstring (missing-docstring)
-week3exam.py:15:0: C0111: Missing function docstring (missing-docstring)
-week3exam.py:18:2: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-week3exam.py:20:7: W0612: Unused variable 'i' (unused-variable)
+week3exam.py:5:1: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+week3exam.py:20:0: C0111: Missing function docstring (missing-docstring)
+week3exam.py:23:2: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+week3exam.py:25:7: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -1.25/10 (previous run: -2.81/10, +1.56)
+Your code has been rated at -1.76/10 (previous run: -1.25/10, -0.51)
 
