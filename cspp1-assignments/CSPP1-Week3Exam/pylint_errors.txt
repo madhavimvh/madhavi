@@ -26,6 +26,6 @@ week3exam.py:9:0: C0111: Missing function docstring (missing-docstring)
 week3exam.py:12:1: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
 week3exam.py:13:5: W0612: Unused variable 'i' (unused-variable)
 
-------------------------------------
-Your code has been rated at -1.82/10
+--------------------------------------------------------------------
+Your code has been rated at -1.82/10 (previous run: -1.82/10, +0.00)
 
