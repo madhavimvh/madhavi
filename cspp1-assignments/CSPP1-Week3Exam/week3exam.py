@@ -15,7 +15,7 @@ def main():
 		for i in range(n):
 			string = input().split("|")
 		try:
-			if int(string[4]):
+			if string[4].isdigit():
 				raise Exception("Invalid Points")
 			else:
 				if string[0] not in adict:
