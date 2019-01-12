@@ -15,8 +15,8 @@ def main():
 		for i in range(n):
 			string = input().split("|")
 		try:
-			print(string[4])
-			if int(string[4]):
+			# print(string[4])
+			if not int(string[4]):
 				raise Exception("Invalid Points")
 		except Exception as e:
 			print(e)

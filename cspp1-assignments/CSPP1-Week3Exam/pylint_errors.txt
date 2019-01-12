@@ -13,7 +13,6 @@ week3exam.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-i
 week3exam.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week3exam.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -39,5 +38,5 @@ week3exam.py:24:3: W0101: Unreachable code (unreachable)
 week3exam.py:15:6: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.26/10 (previous run: -2.33/10, +0.08)
+Your code has been rated at -2.33/10 (previous run: -2.26/10, -0.08)
 
