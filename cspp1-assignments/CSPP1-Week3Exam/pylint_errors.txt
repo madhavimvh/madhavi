@@ -33,5 +33,5 @@ week3exam.py:14:2: C0103: Variable name "n" doesn't conform to snake_case naming
 week3exam.py:16:7: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -1.43/10 (previous run: -1.38/10, -0.05)
+Your code has been rated at -1.43/10 (previous run: -1.43/10, +0.00)
 

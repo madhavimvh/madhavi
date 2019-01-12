@@ -29,7 +29,7 @@ def main():
 			# print(adict1)
 			display(adict, adict1)
 		except ValueError:
-			print("sfjlkjf")
+			print("Invalid Points")
 
 
 
