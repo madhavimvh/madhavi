@@ -48,24 +48,38 @@ def listtodict(s):
 def main():
 		adict = {}
 		adict1 = {}
+		ques = {}
 		n = int(input())
+		# try:
+		# 	for i in range(n):
+		# 		string = input().split("|")
+		# 		int(string[4])
+		# 		if string[0] not in adict:
+		# 			ques = {}
+		# 			adict[string[0]] = 0
+		# 			adict1[string[0]] = int(string[4])
+		# 		else:
+		# 			adict1[string[0]] += int(string[4])
+		# 		if string[2] == string[3]:
+		# 			adict[string[0]] += int(string[4])
+		# 		else:
+		# 			adict[string[0]] -= int(string[4])
+		# 	# print(adict)
+		# 	# print(adict1)
+		# 	display(adict, adict1)
+		# except ValueError:
+		# 	print("Invalid Points")
 		try:
 			for i in range(n):
-				string = input().split("|")
+				string = input.split("|")
 				int(string[4])
 				if string[0] not in adict:
-					adict[string[0]] = 0
-					adict1[string[0]] = int(string[4])
+					ques = {}
+					ques[string[1]] = int(string[4])
+					adict[string[0]] = ques
 				else:
-					adict1[string[0]] += int(string[4])
-				if string[2] == string[3]:
-					adict[string[0]] += int(string[4])
-				else:
-					adict[string[0]] -= int(string[4])
-			# print(adict)
-			# print(adict1)
-			display(adict, adict1)
+					ques[string[1]] = int(string[4])
+				print(ques)
 		except ValueError:
 			print("Invalid Points")
-
 main()
