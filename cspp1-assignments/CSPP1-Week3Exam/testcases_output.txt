@@ -45,12 +45,14 @@ Expected Output:
 12311: 0.0%
 
 Your Output: 
+None
+None
 Traceback (most recent call last):
-  File "week3exam.py", line 75, in <module>
+  File "week3exam.py", line 77, in <module>
     main()
-  File "week3exam.py", line 68, in main
+  File "week3exam.py", line 70, in main
     display(adict, adict1)
-  File "week3exam.py", line 28, in display
+  File "week3exam.py", line 30, in display
     for key1 in orddict2:
 TypeError: 'NoneType' object is not iterable
 ----------------------------------------
