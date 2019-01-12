@@ -21,14 +21,15 @@ def display(adict, adict1):
 	else:
 		s = sorted(adict.items(),key=lambda x: (len(x[0]), x))
 		s1 = sorted(adict1.items(),key=lambda x: (len(x[0]), x))
-		print(s)
-		print(s1)
-		listtodict(s)
-		for key1 in s:
-			for key2 in sorted(s1):
+		# print(s)
+		# print(s1)
+		orddict2 = listtodict(s)
+		orddict3 = listtodict(s1)
+		for key1 in orddict2:
+			for key2 in orddict3:
 				if key1 == key2:
 					# print(adict[key1], adict1[key2])
-					score = int((s[key1]/s1[key2])*100)
+					score = int((orddict2dd[key1]/orddict3[key2])*100)
 					if score < 0:
 						score = 0
 					print(key1 + ": " + str(float(score)) + "%")	
@@ -39,7 +40,7 @@ def listtodict(s):
 	for each in s:
 		# print(each[0], each[1])
 		orddict1[each[0]] = each[1]
-	print(orddict1)
+	# print(orddict1)
 
 
 

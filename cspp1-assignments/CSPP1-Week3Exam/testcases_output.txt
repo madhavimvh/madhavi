@@ -45,9 +45,14 @@ Expected Output:
 12311: 0.0%
 
 Your Output: 
-[('1233', -15), ('1234', -4), ('1235', 35), ('1236', 3), ('1237', -8), ('1238', 2), ('1239', -14), ('12310', -12), ('12311', -8)]
-[('1233', 29), ('1234', 28), ('1235', 59), ('1236', 9), ('1237', 20), ('1238', 18), ('1239', 26), ('12310', 24), ('12311', 18)]
-{'1233': -15, '1234': -4, '1235': 35, '1236': 3, '1237': -8, '1238': 2, '1239': -14, '12310': -12, '12311': -8}
+Traceback (most recent call last):
+  File "week3exam.py", line 75, in <module>
+    main()
+  File "week3exam.py", line 68, in main
+    display(adict, adict1)
+  File "week3exam.py", line 28, in display
+    for key1 in orddict2:
+TypeError: 'NoneType' object is not iterable
 ----------------------------------------
 
 ########## Testcase 4: Passed ##########
