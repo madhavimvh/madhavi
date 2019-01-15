@@ -102,7 +102,7 @@ def main():
 						adict[string[0]] = ques
 						adict1[string[0]] = int(string[4])
 						print(adict1)
-						print("---------")
+						print("------------------")
 
 				else:
 					adict1[string[0]] += int(string[4])
