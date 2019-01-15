@@ -114,8 +114,8 @@ def main():
 
 
 
-			# print(adict)
-			# print(adict1)
+			print(adict)
+			print(adict1)
 			displaynew(adict, adict1)
 
 		except ValueError:
