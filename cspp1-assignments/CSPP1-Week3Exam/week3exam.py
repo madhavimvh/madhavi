@@ -94,7 +94,7 @@ def main():
 						adict[string[0]] = ques
 						adict1[string[0]] = int(string[4])
 					else:
-						ques[string[1]] = "-" + string[4]
+						ques[string[1]] = (-1*int(string[4]))
 						adict[string[0]] = ques
 						adict1[string[0]] = int(string[4])
 
@@ -108,7 +108,7 @@ def main():
 								ques[string[1]] = int(string[4])
 							else:
 								ques = adict[string[0]]
-								ques[string[1]] = "-" + string[4]
+								ques[string[1]] = (-1*int(string[4]))
 
 
 
