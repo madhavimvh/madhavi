@@ -47,15 +47,17 @@ def listtodict(s):
 def displaynew(adict, adict1):
 	adictx = {}
 	for each in sorted(adict):
+		# print(each)
 		for eachx in sorted(adict1):
+			# print(eachx)
 			total = 0
 			if each == eachx:
 				adictx = adict[each]
-				print(adictx)
+				# print(adictx)
 				for each1 in adictx:
 					total += int(adictx[each1])
 				score = total/adict1[eachx]
-				print(eachx)
+				# print(eachx)
 				print(total)
 				print(score)
 
