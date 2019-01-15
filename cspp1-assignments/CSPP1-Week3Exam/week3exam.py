@@ -79,7 +79,7 @@ def displaynew(adict, adict1):
 					for each1 in adictx:
 						total += int(adictx[each1])
 					# print(adict[key1], adict1[key2])
-					score = int(round((total/orddict3[key2])*100, 2))
+					score = int(round((total/orddict3[key2]), 2)*100)
 					if score < 0:
 						score = 0
 					print(key1 + ": " + str(float(score)) + "%")
