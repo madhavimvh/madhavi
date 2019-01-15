@@ -124,7 +124,7 @@ def main():
 				tot = 0
 				temp = adict[no]
 				for q in temp:
-					tot += int(temp[q])
+					tot += abs(int(temp[q]))
 				adict1[no] = tot
 					
 			print(adict1)
