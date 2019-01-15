@@ -95,19 +95,19 @@ def main():
 						ques[string[1]] = int(string[4])
 						adict[string[0]] = ques
 						adict1[string[0]] = int(string[4])
-						print(adict1)
-						print("--------")
+						# print(adict1)
+						# print("--------")
 					else:
 						ques[string[1]] = (-1*int(string[4]))
 						adict[string[0]] = ques
 						adict1[string[0]] = int(string[4])
-						print(adict1)
-						print("------------------")
+						# print(adict1)
+						# print("------------------")
 
 				else:
 					if string[1] not in ques:
 						adict1[string[0]] += int(string[4])
-					print(adict1)
+					# print(adict1)
 					for each in adict:
 						if each == string[0]:
 							if string[2] == string[3]:
@@ -121,7 +121,7 @@ def main():
 
 			# print(adict)
 			# print(adict1)
-			# displaynew(adict, adict1)
+			displaynew(adict, adict1)
 
 		except ValueError:
 			print("Invalid Points")
