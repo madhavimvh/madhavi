@@ -120,7 +120,12 @@ def main():
 
 
 			print(adict)
-			# print(adict1)
+			for no in adict:
+				temp = adict[no]
+				for q in temp:
+					adict[no] += int(temp[q])
+					
+			print(adict1)
 			# displaynew(adict, adict1)
 
 		except ValueError:

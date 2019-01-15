@@ -5,6 +5,12 @@ Expected Output:
 
 Your Output: 
 {'1234': {'Q1': -3, 'Q2': 9, 'Q3': 4, 'Q4': 3, 'Q5': -3}, '1235': {'Q2': 3}}
+Traceback (most recent call last):
+  File "week3exam.py", line 133, in <module>
+    main()
+  File "week3exam.py", line 126, in main
+    adict[no] += int(temp[q])
+TypeError: unsupported operand type(s) for +=: 'dict' and 'int'
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -17,6 +23,12 @@ Expected Output:
 
 Your Output: 
 {'1234': {'Q1': -4, 'Q15': -4, 'Q8': -4, 'Q7': -4, 'Q5': -4, 'Q4': -4, 'Q3': 4}, '1233': {'Q1': 4}, '1235': {'Q6': -4}, '1236': {'Q3': -4, 'Q1': 4}, '1239': {'Q2': -4}}
+Traceback (most recent call last):
+  File "week3exam.py", line 133, in <module>
+    main()
+  File "week3exam.py", line 126, in main
+    adict[no] += int(temp[q])
+TypeError: unsupported operand type(s) for +=: 'dict' and 'int'
 ----------------------------------------
 
 ########## Testcase 2: Passed ##########
@@ -41,6 +53,12 @@ Expected Output:
 
 Your Output: 
 {'1235': {'Q1': -3, 'Q4': -3, 'Q5': 3, 'Q3': -3, 'Q7': -3}, '1233': {'Q2': 4, 'Q5': -3, 'Q7': -3, 'Q1': 3, 'Q3': -3}, '1234': {'Q3': 3, 'Q6': 2, 'Q8': -3, 'Q2': 1, 'Q4': 3, 'Q1': 3}, '1236': {'Q5': -3, 'Q4': 3, 'Q3': 3}, '1237': {'Q1': -5, 'Q2': -3, 'Q5': -3, 'Q8': 3, 'Q4': 3}, '1238': {'Q2': -2, 'Q3': 3, 'Q1': 3, 'Q4': 4}, '1239': {'Q3': 3, 'Q4': 3, 'Q2': -5, 'Q1': -3}, '12310': {'Q1': -5, 'Q10': -7, 'Q3': 3, 'Q5': -3, 'Q4': -3}, '12311': {'Q3': -3, 'Q1': 1, 'Q4': 4, 'Q5': -4}}
+Traceback (most recent call last):
+  File "week3exam.py", line 133, in <module>
+    main()
+  File "week3exam.py", line 126, in main
+    adict[no] += int(temp[q])
+TypeError: unsupported operand type(s) for +=: 'dict' and 'int'
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -51,6 +69,12 @@ Expected Output:
 
 Your Output: 
 {'12345': {'Q1': 4, 'Q2': 3, 'Q4': 4, 'Q5': -3}, '12349': {'Q1': -3, 'Q2': 3, 'Q3': 1, 'Q4': 5}, '12342': {'Q1': 10}}
+Traceback (most recent call last):
+  File "week3exam.py", line 133, in <module>
+    main()
+  File "week3exam.py", line 126, in main
+    adict[no] += int(temp[q])
+TypeError: unsupported operand type(s) for +=: 'dict' and 'int'
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -59,5 +83,11 @@ Expected Output:
 
 Your Output: 
 {'12345': {'Q1': 2}}
+Traceback (most recent call last):
+  File "week3exam.py", line 133, in <module>
+    main()
+  File "week3exam.py", line 126, in main
+    adict[no] += int(temp[q])
+TypeError: unsupported operand type(s) for +=: 'dict' and 'int'
 ----------------------------------------
 
