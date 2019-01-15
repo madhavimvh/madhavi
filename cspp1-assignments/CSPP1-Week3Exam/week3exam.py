@@ -121,9 +121,11 @@ def main():
 
 			print(adict)
 			for no in adict:
+				tot = 0
 				temp = adict[no]
 				for q in temp:
-					adict[no] += int(temp[q])
+					tot += int(temp[q])
+				adict1[no] = tot
 					
 			print(adict1)
 			# displaynew(adict, adict1)
