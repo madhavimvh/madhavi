@@ -53,7 +53,7 @@ def displaynew(adict, adict1):
 				adictx = adict[each]
 				print(adictx)
 				for each1 in adictx:
-					total += adictx[each1]
+					total += int(adictx[each1])
 				score = total/adict1[eachx]
 				print(eachx)
 				print(total)
