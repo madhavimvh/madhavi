@@ -69,8 +69,8 @@ def displaynew(adict, adict1):
 		# print("-------")
 		orddict2 = listtodict(s)
 		orddict3 = listtodict(s1)
-		print(orddict2)
-		print(orddict3)
+		# print(orddict2)
+		# print(orddict3)
 		for key1 in orddict2:
 			for key2 in orddict3:
 				total = 0
@@ -79,7 +79,7 @@ def displaynew(adict, adict1):
 					for each1 in adictx:
 						total += int(adictx[each1])
 					# print(adict[key1], adict1[key2])
-					score = int((total/orddict3[key2])*100)
+					score = int(round((total/orddict3[key2])*100, 2))
 					if score < 0:
 						score = 0
 					print(key1 + ": " + str(float(score)) + "%")

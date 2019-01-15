@@ -63,8 +63,6 @@ week3exam.py:66:28: C0326: Exactly one space required after comma
                             ^ (bad-whitespace)
 week3exam.py:70:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:71:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week3exam.py:72:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week3exam.py:73:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:74:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:75:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:76:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -130,5 +128,5 @@ week3exam.py:112:7: W0612: Unused variable 'i' (unused-variable)
 week3exam.py:1:0: W0611: Unused OrderedDict imported from collections (unused-import)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.10/10 (previous run: -2.19/10, +0.09)
+Your code has been rated at -2.14/10 (previous run: -2.10/10, -0.04)
 
