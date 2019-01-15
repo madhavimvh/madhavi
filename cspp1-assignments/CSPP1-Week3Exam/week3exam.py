@@ -56,9 +56,9 @@ def displaynew(adict, adict1):
 				# print(adictx)
 				for each1 in adictx:
 					total += int(adictx[each1])
-				score = total/adict1[eachx]
+				score = (total/adict1[eachx])*100
 				# print(eachx)
-				print(total)
+				# print(total)
 				print(score)
 
 def main():

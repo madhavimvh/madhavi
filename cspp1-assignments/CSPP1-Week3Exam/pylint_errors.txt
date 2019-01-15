@@ -48,7 +48,6 @@ week3exam.py:55:0: W0312: Found indentation with tabs instead of spaces (mixed-i
 week3exam.py:57:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:58:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:59:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-week3exam.py:61:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:62:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:65:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week3exam.py:66:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -98,5 +97,5 @@ week3exam.py:89:7: W0612: Unused variable 'i' (unused-variable)
 week3exam.py:1:0: W0611: Unused OrderedDict imported from collections (unused-import)
 
 --------------------------------------------------------------------
-Your code has been rated at -1.62/10 (previous run: -1.59/10, -0.04)
+Your code has been rated at -1.65/10 (previous run: -1.62/10, -0.02)
 
