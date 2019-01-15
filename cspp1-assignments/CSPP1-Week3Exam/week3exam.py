@@ -57,8 +57,8 @@ def displaynew(adict, adict1):
 				for each1 in adictx:
 					total += int(adictx[each1])
 				score = int((total/adict1[eachx])*100)
-				# print(eachx)
-				# print(total)
+				if score < 0:
+					score = 0
 				print(each + ": " + str(float(score)) + "%")
 
 def main():
