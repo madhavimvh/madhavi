@@ -105,7 +105,8 @@ def main():
 						print("------------------")
 
 				else:
-					adict1[string[0]] += int(string[4])
+					if string[1] not in ques:
+						adict1[string[0]] += int(string[4])
 					print(adict1)
 					for each in adict:
 						if each == string[0]:
