@@ -1,14 +1,23 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 1234: 45.0%
 1235: 100.0%
 
 Your Output: 
-1234: 45.0%
-1235: 100.0%
+{'1234': {'Q1': '-3', 'Q2': 9, 'Q3': 4, 'Q4': 3, 'Q5': '-3'}, '1235': {'Q2': 3}}
+{'1234': 22, '1235': 3}
+{'Q1': '-3', 'Q2': 9, 'Q3': 4, 'Q4': 3, 'Q5': '-3'}
+Traceback (most recent call last):
+  File "week3exam.py", line 121, in <module>
+    main()
+  File "week3exam.py", line 117, in main
+    displaynew(adict, adict1)
+  File "week3exam.py", line 56, in displaynew
+    total += adictx[each1]
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 1233: 100.0%
 1234: 0.0%
@@ -17,11 +26,21 @@ Expected Output:
 1239: 0.0%
 
 Your Output: 
-1233: 100.0%
-1234: 0.0%
-1235: 0.0%
-1236: 0.0%
-1239: 0.0%
+{'1234': {'Q1': '-4', 'Q15': '-4', 'Q8': '-4', 'Q7': '-4', 'Q5': '-4', 'Q4': '-4', 'Q3': 4}, '1233': {'Q1': 4}, '1235': {'Q6': '-4'}, '1236': {'Q3': '-4', 'Q1': 4}, '1239': {'Q2': '-4'}}
+{'1234': 76, '1233': 8, '1235': 4, '1236': 8, '1239': 4}
+{'Q1': 4}
+1233
+4
+0.5
+{'Q1': '-4', 'Q15': '-4', 'Q8': '-4', 'Q7': '-4', 'Q5': '-4', 'Q4': '-4', 'Q3': 4}
+Traceback (most recent call last):
+  File "week3exam.py", line 121, in <module>
+    main()
+  File "week3exam.py", line 117, in main
+    displaynew(adict, adict1)
+  File "week3exam.py", line 56, in displaynew
+    total += adictx[each1]
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 2: Passed ##########
@@ -45,39 +64,53 @@ Expected Output:
 12311: 0.0%
 
 Your Output: 
-{'1235': 35, '1233': -15, '1234': -4, '1236': 3, '1237': -8, '1238': 2, '1239': -14, '12310': -12, '12311': -8}
+{'1235': {'Q1': '-3', 'Q4': '-3', 'Q5': 3, 'Q3': '-3', 'Q7': '-3'}, '1233': {'Q2': 4, 'Q5': '-3', 'Q7': '-3', 'Q1': 3, 'Q3': '-3'}, '1234': {'Q3': 3, 'Q6': 2, 'Q8': '-3', 'Q2': 1, 'Q4': 3, 'Q1': 3}, '1236': {'Q5': '-3', 'Q4': 3, 'Q3': 3}, '1237': {'Q1': '-5', 'Q2': '-3', 'Q5': '-3', 'Q8': 3, 'Q4': 3}, '1238': {'Q2': '-2', 'Q3': 3, 'Q1': 3, 'Q4': 4}, '1239': {'Q3': 3, 'Q4': 3, 'Q2': '-5', 'Q1': '-3'}, '12310': {'Q1': '-5', 'Q10': '-7', 'Q3': 3, 'Q5': '-3', 'Q4': '-3'}, '12311': {'Q3': '-3', 'Q1': 1, 'Q4': 4, 'Q5': '-4'}}
 {'1235': 59, '1233': 29, '1234': 28, '1236': 9, '1237': 20, '1238': 18, '1239': 26, '12310': 24, '12311': 18}
--------
-{'1233': -15, '1234': -4, '1235': 35, '1236': 3, '1237': -8, '1238': 2, '1239': -14, '12310': -12, '12311': -8}
-{'1233': 29, '1234': 28, '1235': 59, '1236': 9, '1237': 20, '1238': 18, '1239': 26, '12310': 24, '12311': 18}
-1233: 0.0%
-1234: 0.0%
-1235: 59.0%
-1236: 33.0%
-1237: 0.0%
-1238: 11.0%
-1239: 0.0%
-12310: 0.0%
-12311: 0.0%
+{'Q1': '-5', 'Q10': '-7', 'Q3': 3, 'Q5': '-3', 'Q4': '-3'}
+Traceback (most recent call last):
+  File "week3exam.py", line 121, in <module>
+    main()
+  File "week3exam.py", line 117, in main
+    displaynew(adict, adict1)
+  File "week3exam.py", line 56, in displaynew
+    total += adictx[each1]
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
 ----------------------------------------
 
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 12342: 100.0%
 12345: 57.0%
 12349: 50.0%
 
 Your Output: 
-12342: 100.0%
-12345: 57.0%
-12349: 50.0%
+{'12345': {'Q1': 4, 'Q2': 3, 'Q4': 4, 'Q5': '-3'}, '12349': {'Q1': '-3', 'Q2': 3, 'Q3': 1, 'Q4': 5}, '12342': {'Q1': 10}}
+{'12345': 14, '12349': 12, '12342': 10}
+{'Q1': 10}
+12342
+10
+1.0
+{'Q1': 4, 'Q2': 3, 'Q4': 4, 'Q5': '-3'}
+Traceback (most recent call last):
+  File "week3exam.py", line 121, in <module>
+    main()
+  File "week3exam.py", line 117, in main
+    displaynew(adict, adict1)
+  File "week3exam.py", line 56, in displaynew
+    total += adictx[each1]
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
 ----------------------------------------
 
-########## Testcase 5: Passed ##########
+########## Testcase 5: Failed ##########
 Expected Output: 
 12345: 100.0%
 
 Your Output: 
-12345: 100.0%
+{'12345': {'Q1': 2}}
+{'12345': 40}
+{'Q1': 2}
+12345
+2
+0.05
 ----------------------------------------
 
