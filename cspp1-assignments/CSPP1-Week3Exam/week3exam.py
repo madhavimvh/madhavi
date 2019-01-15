@@ -119,7 +119,7 @@ def main():
 
 
 
-			print(adict)
+			# print(adict)
 			for no in adict:
 				tot = 0
 				temp = adict[no]
@@ -127,8 +127,8 @@ def main():
 					tot += abs(int(temp[q]))
 				adict1[no] = tot
 					
-			print(adict1)
-			# displaynew(adict, adict1)
+			# print(adict1)
+			displaynew(adict, adict1)
 
 		except ValueError:
 			print("Invalid Points")
