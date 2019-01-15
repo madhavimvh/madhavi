@@ -59,7 +59,7 @@ def displaynew(adict, adict1):
 				score = int((total/adict1[eachx])*100)
 				# print(eachx)
 				# print(total)
-				print(float(score))
+				print(each + ": " + str(float(score)) + "%")
 
 def main():
 		adict = {}
@@ -114,8 +114,8 @@ def main():
 
 
 
-			print(adict)
-			print(adict1)
+			# print(adict)
+			# print(adict1)
 			displaynew(adict, adict1)
 
 		except ValueError:
