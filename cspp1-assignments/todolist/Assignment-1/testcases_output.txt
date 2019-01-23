@@ -1,25 +1,25 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 task1, akshay, 30, Important, Urgent, todo
 
 Your Output: 
-task1, akshay, 30, Important, Urgent, todo
+local variable 'str1' referenced before assignment
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 task2, manoj, 10, Not Important, Not Urgent, done
 
 Your Output: 
-task2, manoj, 10, Not Important, Not Urgent, done
+local variable 'str1' referenced before assignment
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 taska, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-taska, tarun, 120, Important, Not Urgent, todo
+local variable 'str1' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 3: Passed ##########
@@ -46,19 +46,17 @@ Your Output:
 Title not provided
 ----------------------------------------
 
-########## Testcase 6: Passed ##########
+########## Testcase 6: Failed ##########
 Expected Output: 
 task1, akshay, 30, Important, Urgent, todo
 task2, manoj, 10, Not Important, Not Urgent, done
 taska, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-task1, akshay, 30, Important, Urgent, todo
-task2, manoj, 10, Not Important, Not Urgent, done
-taska, tarun, 120, Important, Not Urgent, todo
+local variable 'str1' referenced before assignment
 ----------------------------------------
 
-########## Testcase 7: Passed ##########
+########## Testcase 7: Failed ##########
 Expected Output: 
 task-1, akshay, 30, Important, Urgent, todo
 task-2, manoj, 10, Not Important, Not Urgent, done
@@ -83,27 +81,7 @@ task-x, manoj, 10, Not Important, Not Urgent, done
 task-z, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-task-1, akshay, 30, Important, Urgent, todo
-task-2, manoj, 10, Not Important, Not Urgent, done
-task-a, tarun, 120, Important, Not Urgent, todo
-task-b, akshay, 30, Important, Urgent, todo
-task-c, manoj, 10, Not Important, Not Urgent, done
-task-p, tarun, 120, Important, Not Urgent, todo
-task-q, akshay, 30, Important, Urgent, todo
-task-r, manoj, 10, Not Important, Not Urgent, done
-task-s, tarun, 120, Important, Not Urgent, todo
-task-9, akshay, 30, Important, Urgent, todo
-task-8, manoj, 10, Not Important, Not Urgent, done
-task-7, tarun, 120, Important, Not Urgent, todo
-task-6, akshay, 30, Important, Urgent, todo
-task-7, manoj, 10, Not Important, Not Urgent, done
-task-4, tarun, 120, Important, Not Urgent, todo
-task-3, akshay, 30, Important, Urgent, todo
-task-t, manoj, 10, Not Important, Not Urgent, done
-task-e, tarun, 120, Important, Not Urgent, todo
-task-h, akshay, 30, Important, Urgent, todo
-task-x, manoj, 10, Not Important, Not Urgent, done
-task-z, tarun, 120, Important, Not Urgent, todo
+local variable 'str1' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -113,19 +91,19 @@ null
 task-h, tarun, 27, Important, Not Urgent, todo
 
 Your Output: 
-task-1, akshay, 30, Important, Urgent, todo
+local variable 'str1' referenced before assignment
 null
-task-a, tarun, 120, Important, Urgent, todo
+local variable 'str1' referenced before assignment
 ----------------------------------------
 
-########## Testcase 9: Passed ##########
+########## Testcase 9: Failed ##########
 Expected Output: 
 task-j1, john, 30, Important, Not Urgent, todo
 task-ta, tom, 120, Important, Not Urgent, todo
 
 Your Output: 
-task-j1, john, 30, Important, Not Urgent, todo
-task-ta, tom, 120, Important, Not Urgent, todo
+local variable 'str1' referenced before assignment
+local variable 'str1' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -134,17 +112,8 @@ Expected Output:
 [task-tp, tom, 120, Important, Not Urgent, todo, task-th, tom, 27, Important, Not Urgent, todo, null]
 
 Your Output: 
-task-j1, john, 30, Important, Not Urgent, todo
-task-j6, john, 130, Important, Not Urgent, todo
-task-j2, john, 10, Important, Not Urgent, todo
-task-jb, john, 30, Important, Not Urgent, todo
-task-jc, john, 10, Important, Not Urgent, todo
-task-jc, john, 10, Important, Not Urgent, todo
-[None, None, None, None, None, None]
-task-ta, tom, 120, Important, Not Urgent, done
-task-tp, tom, 120, Important, Not Urgent, todo
-task-th, tom, 27, Important, Not Urgent, todo
-[None, None, None]
+local variable 'str1' referenced before assignment
+local variable 'str1' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########

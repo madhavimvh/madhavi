@@ -39,7 +39,8 @@ class Task:
 			self.urgent = "Urgent"
 		elif self.urgent == "n":
 			self.urgent = "Not Urgent"
-		print(self.title + ", " + self.pername  + ", " + self.time + ", " + self.imp  + ", " + self.urgent + ", " + self.status)
+		str1 += self.title + ", " + self.pername  + ", " + self.time + ", " + self.imp  + ", " + self.urgent + ", " + self.status
+		return str1
 
 class Todoist:
 	alltasks = []
@@ -82,7 +83,7 @@ def main():
 			try:
 				if string[0] == "task":
 					task = Task(string[1], string[2], string[3], string[4], string[5], string[6])
-					task.display()
+					print(task.display())
 				if string[0] == "add-task":
 					task1 = Task(string[1], string[2], string[3], string[4], string[5], string[6])
 					todoist.addtask(task1)
