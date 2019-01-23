@@ -31,7 +31,6 @@ class Task:
 		return self.urgent
 
 	def display(self):
-		str1 = ""
 		if self.imp == "y":
 			self.imp = "Important"
 		elif self.imp == "n":
@@ -40,8 +39,7 @@ class Task:
 			self.urgent = "Urgent"
 		elif self.urgent == "n":
 			self.urgent = "Not Urgent"
-		str1 += self.title + ", " + self.pername  + ", " + self.time + ", " + self.imp  + ", " + self.urgent + ", " + self.status
-		return str1
+		print(self.title + ", " + self.pername  + ", " + self.time + ", " + self.imp  + ", " + self.urgent + ", " + self.status)
 
 class Todoist:
 	alltasks = []
@@ -55,15 +53,12 @@ class Todoist:
 				if each.getimp() == "y":
 					if each.geturg() == "n":
 						if each.getstatus() == "todo":
-							print(each.display())
-							return
-		for each in self.alltasks:
-			if each.getpername() == personnme:
-				if each.getimp() == "y":
-					if each.geturg() == "y":
+							each.display()
+							break
+					elif each.geturg() == "y":
 						if each.getstatus() == "todo":
-							print(each.display())
-							return
+							each.display()
+							break
 		else:
 			print("null")
 	def getNextTaskN(self, persnname, count):
@@ -71,11 +66,10 @@ class Todoist:
 		for each in self.alltasks:
 			if each.getpername() == persnname:
 				list1.append(each.display())
-		print(list1)
 
 	def displayall(self):
 		for each in self.alltasks:
-			print(each.display())
+			each.display()
 	# def totalTime4Completion():
 
 
@@ -87,7 +81,7 @@ def main():
 			try:
 				if string[0] == "task":
 					task = Task(string[1], string[2], string[3], string[4], string[5], string[6])
-					print(task.display())
+					task.display()
 				if string[0] == "add-task":
 					task1 = Task(string[1], string[2], string[3], string[4], string[5], string[6])
 					todoist.addtask(task1)

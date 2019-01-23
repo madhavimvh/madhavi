@@ -106,16 +106,16 @@ task-x, manoj, 10, Not Important, Not Urgent, done
 task-z, tarun, 120, Important, Not Urgent, todo
 ----------------------------------------
 
-########## Testcase 8: Passed ##########
+########## Testcase 8: Failed ##########
 Expected Output: 
 task-b, akshay, 30, Important, Not Urgent, todo
 null
 task-h, tarun, 27, Important, Not Urgent, todo
 
 Your Output: 
-task-b, akshay, 30, Important, Not Urgent, todo
+task-1, akshay, 30, Important, Urgent, todo
 null
-task-h, tarun, 27, Important, Not Urgent, todo
+task-a, tarun, 120, Important, Urgent, todo
 ----------------------------------------
 
 ########## Testcase 9: Passed ##########
@@ -134,8 +134,15 @@ Expected Output:
 [task-tp, tom, 120, Important, Not Urgent, todo, task-th, tom, 27, Important, Not Urgent, todo, null]
 
 Your Output: 
-['task-j1, john, 30, Important, Not Urgent, todo', 'task-j6, john, 130, Important, Not Urgent, todo', 'task-j2, john, 10, Important, Not Urgent, todo', 'task-jb, john, 30, Important, Not Urgent, todo', 'task-jc, john, 10, Important, Not Urgent, todo', 'task-jc, john, 10, Important, Not Urgent, todo']
-['task-ta, tom, 120, Important, Not Urgent, done', 'task-tp, tom, 120, Important, Not Urgent, todo', 'task-th, tom, 27, Important, Not Urgent, todo']
+task-j1, john, 30, Important, Not Urgent, todo
+task-j6, john, 130, Important, Not Urgent, todo
+task-j2, john, 10, Important, Not Urgent, todo
+task-jb, john, 30, Important, Not Urgent, todo
+task-jc, john, 10, Important, Not Urgent, todo
+task-jc, john, 10, Important, Not Urgent, todo
+task-ta, tom, 120, Important, Not Urgent, done
+task-tp, tom, 120, Important, Not Urgent, todo
+task-th, tom, 27, Important, Not Urgent, todo
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
