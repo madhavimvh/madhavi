@@ -31,9 +31,19 @@ class Task:
 		return self.status
 	def getimp(self):
 		return self.imp
+	def getimpN(self):
+		if self.imp == "y":
+			self.imp = "Important"
+		elif self.imp == "n":
+			self.imp = "Not Important"
+		return self.imp
 	def geturg(self):
 		return self.urgent
-
+	def geturgN(self):
+		if self.urgent == "y":
+			self.urgent = "Urgent"
+		elif self.urgent == "n":
+			self.urgent = "Not Urgent"
 	def display(self):
 		if self.imp == "y":
 			self.imp = "Important"
@@ -76,8 +86,8 @@ class Todoist:
 					list1.append(each.gettask())
 					list1.append(each.getpername())
 					list1.append(each.gettime())
-					list1.append(each.getimp())
-					list1.append(each.geturg())
+					list1.append(each.getimpN())
+					list1.append(each.geturgN())
 					list1.append(each.getstatus())
 					# print(count)
 			if len(list1) == int(count)*6:

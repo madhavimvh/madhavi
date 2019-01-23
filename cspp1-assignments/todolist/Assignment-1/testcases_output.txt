@@ -134,8 +134,8 @@ Expected Output:
 [task-tp, tom, 120, Important, Not Urgent, todo, task-th, tom, 27, Important, Not Urgent, todo, null]
 
 Your Output: 
-[task-j1, john, 30, y, n, todo, task-j6, john, 130, y, n, todo, task-j2, john, 10, y, n, todo]
-[task-tp, tom, 120, y, n, todo, task-th, tom, 27, y, n, todo]
+sequence item 4: expected str instance, NoneType found
+sequence item 4: expected str instance, NoneType found
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
