@@ -72,7 +72,7 @@ class Todoist:
 
 	def displayall(self):
 		for each in self.alltasks:
-			each.display()
+			print(each.display())
 	# def totalTime4Completion():
 
 
