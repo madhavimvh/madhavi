@@ -1,25 +1,25 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 task1, akshay, 30, Important, Urgent, todo
 
 Your Output: 
-local variable 'str1' referenced before assignment
+task1, akshay, 30, Important, Urgent, todo
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 task2, manoj, 10, Not Important, Not Urgent, done
 
 Your Output: 
-local variable 'str1' referenced before assignment
+task2, manoj, 10, Not Important, Not Urgent, done
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 taska, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-local variable 'str1' referenced before assignment
+taska, tarun, 120, Important, Not Urgent, todo
 ----------------------------------------
 
 ########## Testcase 3: Passed ##########
@@ -53,7 +53,7 @@ task2, manoj, 10, Not Important, Not Urgent, done
 taska, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-local variable 'str1' referenced before assignment
+
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -81,7 +81,7 @@ task-x, manoj, 10, Not Important, Not Urgent, done
 task-z, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-local variable 'str1' referenced before assignment
+
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -91,9 +91,7 @@ null
 task-h, tarun, 27, Important, Not Urgent, todo
 
 Your Output: 
-local variable 'str1' referenced before assignment
 null
-local variable 'str1' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -102,8 +100,7 @@ task-j1, john, 30, Important, Not Urgent, todo
 task-ta, tom, 120, Important, Not Urgent, todo
 
 Your Output: 
-local variable 'str1' referenced before assignment
-local variable 'str1' referenced before assignment
+
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -112,8 +109,8 @@ Expected Output:
 [task-tp, tom, 120, Important, Not Urgent, todo, task-th, tom, 27, Important, Not Urgent, todo, null]
 
 Your Output: 
-local variable 'str1' referenced before assignment
-local variable 'str1' referenced before assignment
+['task-j1, john, 30, Important, Not Urgent, todo', 'task-j6, john, 130, Important, Not Urgent, todo', 'task-j2, john, 10, Important, Not Urgent, todo', 'task-jb, john, 30, Important, Not Urgent, todo', 'task-jc, john, 10, Important, Not Urgent, todo', 'task-jc, john, 10, Important, Not Urgent, todo']
+['task-ta, tom, 120, Important, Not Urgent, done', 'task-tp, tom, 120, Important, Not Urgent, todo', 'task-th, tom, 27, Important, Not Urgent, todo']
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########

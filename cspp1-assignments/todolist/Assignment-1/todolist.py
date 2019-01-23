@@ -31,6 +31,7 @@ class Task:
 		return self.urgent
 
 	def display(self):
+		str1 = ""
 		if self.imp == "y":
 			self.imp = "Important"
 		elif self.imp == "n":
