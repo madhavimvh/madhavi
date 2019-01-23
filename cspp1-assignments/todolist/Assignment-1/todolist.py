@@ -21,8 +21,12 @@ class Task:
 			raise Exception("Invalid status " + self.status)	
 		# except Exception as e:
 			# print(e)
+	def gettask(self):
+		return self.title
 	def getpername(self):
 		return self.pername
+	def gettime(self):
+		return self.time
 	def getstatus(self):
 		return self.status
 	def getimp(self):
@@ -68,7 +72,20 @@ class Todoist:
 		list1 = []
 		for each in self.alltasks:
 			if each.getpername() == persnname:
-				list1.append(each.display())
+				if each.getstatus() == "todo":
+					list1.append(each.gettask())
+					list1.append(each.getpername())
+					list1.append(each.gettime())
+					list1.append(each.getimp())
+					list1.append(each.geturg())
+					list1.append(each.getstatus())
+					# print(count)
+			if len(list1) == int(count)*6:
+				print("[%s]" % (', '.join(list1)))
+				# print(list1)
+				return
+		print("[%s]" % (', '.join(list1)))
+
 
 	def displayall(self):
 		for each in self.alltasks:

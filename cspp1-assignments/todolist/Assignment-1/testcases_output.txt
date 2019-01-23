@@ -134,15 +134,8 @@ Expected Output:
 [task-tp, tom, 120, Important, Not Urgent, todo, task-th, tom, 27, Important, Not Urgent, todo, null]
 
 Your Output: 
-task-j1, john, 30, Important, Not Urgent, todo
-task-j6, john, 130, Important, Not Urgent, todo
-task-j2, john, 10, Important, Not Urgent, todo
-task-jb, john, 30, Important, Not Urgent, todo
-task-jc, john, 10, Important, Not Urgent, todo
-task-jc, john, 10, Important, Not Urgent, todo
-task-ta, tom, 120, Important, Not Urgent, done
-task-tp, tom, 120, Important, Not Urgent, todo
-task-th, tom, 27, Important, Not Urgent, todo
+[task-j1, john, 30, y, n, todo, task-j6, john, 130, y, n, todo, task-j2, john, 10, y, n, todo]
+[task-tp, tom, 120, y, n, todo, task-th, tom, 27, y, n, todo]
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
