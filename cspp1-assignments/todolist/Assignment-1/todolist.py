@@ -55,11 +55,11 @@ class Todoist:
 				if each.getimp() == "y":
 					if each.geturg() == "n":
 						if each.getstatus() == "todo":
-							each.display()
+							print(each.display())
 							break
 					elif each.geturg() == "y":
 						if each.getstatus() == "todo":
-							each.display()
+							print(each.display())
 							break
 		else:
 			print("null")
