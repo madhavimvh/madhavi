@@ -1,27 +1,24 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 task1, akshay, 30, Important, Urgent, todo
 
 Your Output: 
-Invalid status todo
 task1, akshay, 30, Important, Urgent, todo
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 task2, manoj, 10, Not Important, Not Urgent, done
 
 Your Output: 
-Invalid status done
 task2, manoj, 10, Not Important, Not Urgent, done
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 taska, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-Invalid status todo
 taska, tarun, 120, Important, Not Urgent, todo
 ----------------------------------------
 
@@ -59,7 +56,7 @@ task2, manoj, 10, Not Important, Not Urgent, done
 taska, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-Invalid status todo
+
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -87,7 +84,7 @@ task-x, manoj, 10, Not Important, Not Urgent, done
 task-z, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-Invalid status todo
+
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -97,7 +94,7 @@ null
 task-h, tarun, 27, Important, Not Urgent, todo
 
 Your Output: 
-Invalid status todo
+
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -106,7 +103,7 @@ task-j1, john, 30, Important, Not Urgent, todo
 task-ta, tom, 120, Important, Not Urgent, todo
 
 Your Output: 
-Invalid status todo
+
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -115,7 +112,7 @@ Expected Output:
 [task-tp, tom, 120, Important, Not Urgent, todo, task-th, tom, 27, Important, Not Urgent, todo, null]
 
 Your Output: 
-Invalid status todo
+
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -123,7 +120,7 @@ Expected Output:
 337
 
 Your Output: 
-Invalid status todo
+
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -131,7 +128,7 @@ Expected Output:
 0
 
 Your Output: 
-Invalid status done
+
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -139,6 +136,6 @@ Expected Output:
 487
 
 Your Output: 
-Invalid status todo
+
 ----------------------------------------
 
