@@ -40,6 +40,7 @@ class Task:
 		elif self.urgent == "n":
 			self.urgent = "Not Urgent"
 		print(self.title + ", " + self.pername  + ", " + self.time + ", " + self.imp  + ", " + self.urgent + ", " + self.status)
+
 class Todoist:
 	alltasks = []
 	def __init__(self):
@@ -60,14 +61,17 @@ class Todoist:
 							break
 		else:
 			print("null")
-
-
-
-
+	def getNextTask(self, persnname, count):
+		list1 = []
+		for each in self.alltasks:
+			if each.getpername() == persnname:
+				list1.append(each.display())
+		print(list1)
 
 	def displayall(self):
 		for each in self.alltasks:
 			each.display()
+	# def totalTime4Completion():
 
 
 def main():
@@ -86,6 +90,9 @@ def main():
 					todoist.displayall()
 				elif string[0] == "get-next":
 					todoist.getNextTask(string[1])
+				elif string[0] == "get-next-n":
+					todoist.getNextTask(string[1], string[2])
+				# elif string[0] 
 			except Exception as e:
 					print(e)
 	except EOFError:

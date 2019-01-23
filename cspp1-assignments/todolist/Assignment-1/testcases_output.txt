@@ -113,19 +113,19 @@ null
 task-h, tarun, 27, Important, Not Urgent, todo
 
 Your Output: 
-task-1, akshay, 30, Important, Urgent, todo
-null
-task-a, tarun, 120, Important, Urgent, todo
+getNextTask() missing 1 required positional argument: 'count'
+getNextTask() missing 1 required positional argument: 'count'
+getNextTask() missing 1 required positional argument: 'count'
 ----------------------------------------
 
-########## Testcase 9: Passed ##########
+########## Testcase 9: Failed ##########
 Expected Output: 
 task-j1, john, 30, Important, Not Urgent, todo
 task-ta, tom, 120, Important, Not Urgent, todo
 
 Your Output: 
-task-j1, john, 30, Important, Not Urgent, todo
-task-ta, tom, 120, Important, Not Urgent, todo
+getNextTask() missing 1 required positional argument: 'count'
+getNextTask() missing 1 required positional argument: 'count'
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -134,7 +134,17 @@ Expected Output:
 [task-tp, tom, 120, Important, Not Urgent, todo, task-th, tom, 27, Important, Not Urgent, todo, null]
 
 Your Output: 
-
+task-j1, john, 30, Important, Not Urgent, todo
+task-j6, john, 130, Important, Not Urgent, todo
+task-j2, john, 10, Important, Not Urgent, todo
+task-jb, john, 30, Important, Not Urgent, todo
+task-jc, john, 10, Important, Not Urgent, todo
+task-jc, john, 10, Important, Not Urgent, todo
+[None, None, None, None, None, None]
+task-ta, tom, 120, Important, Not Urgent, done
+task-tp, tom, 120, Important, Not Urgent, todo
+task-th, tom, 27, Important, Not Urgent, todo
+[None, None, None]
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
