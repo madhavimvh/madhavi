@@ -47,13 +47,20 @@ class Todoist:
 	def addtask(self, Task):
 		self.alltasks.append(Task)
 	def getNextTask(self, personnme):
-		for each in alltasks:
+		for each in self.alltasks:
 			if each.getpername() == personnme:
 				if each.getimp() == "y":
-					if each.geturg() == "todo":
-						each.display()
+					if each.geturg() == "n":
+						if each.getstatus() == "todo":
+							each.display()
+							break
+					elif each.geturg() == "y":
+						if each.getstatus() == "todo":
+							each.display()
+							break
 		else:
 			print("null")
+
 
 
 
@@ -77,6 +84,8 @@ def main():
 					todoist.addtask(task1)
 				elif string[0] == "print-todoist":
 					todoist.displayall()
+				elif string[0] == "get-next":
+					todoist.getNextTask(string[1])
 			except Exception as e:
 					print(e)
 	except EOFError:
