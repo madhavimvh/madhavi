@@ -1,25 +1,49 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 task1, akshay, 30, Important, Urgent, todo
 
 Your Output: 
-task1, akshay, 30, Important, Urgent, todo
+'<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "todolist.py", line 38, in <module>
+    main()
+  File "todolist.py", line 37, in main
+    task.display()
+  File "todolist.py", line 22, in display
+    if self.imp == "y":
+AttributeError: 'Task' object has no attribute 'imp'
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 task2, manoj, 10, Not Important, Not Urgent, done
 
 Your Output: 
-task2, manoj, 10, Not Important, Not Urgent, done
+'<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "todolist.py", line 38, in <module>
+    main()
+  File "todolist.py", line 37, in main
+    task.display()
+  File "todolist.py", line 22, in display
+    if self.imp == "y":
+AttributeError: 'Task' object has no attribute 'imp'
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 taska, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-taska, tarun, 120, Important, Not Urgent, todo
+'<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "todolist.py", line 38, in <module>
+    main()
+  File "todolist.py", line 37, in main
+    task.display()
+  File "todolist.py", line 22, in display
+    if self.imp == "y":
+AttributeError: 'Task' object has no attribute 'imp'
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -27,7 +51,15 @@ Expected Output:
 Invalid status dud
 
 Your Output: 
-taskb, ram, 10, Not Important, Urgent, dud
+'<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "todolist.py", line 38, in <module>
+    main()
+  File "todolist.py", line 37, in main
+    task.display()
+  File "todolist.py", line 22, in display
+    if self.imp == "y":
+AttributeError: 'Task' object has no attribute 'imp'
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -35,7 +67,15 @@ Expected Output:
 Invalid timeToComplete -1
 
 Your Output: 
-taskb, ram, -1, Important, Urgent, todo
+'<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "todolist.py", line 38, in <module>
+    main()
+  File "todolist.py", line 37, in main
+    task.display()
+  File "todolist.py", line 22, in display
+    if self.imp == "y":
+AttributeError: 'Task' object has no attribute 'imp'
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -43,7 +83,15 @@ Expected Output:
 Title not provided
 
 Your Output: 
-, ram, 1, Important, Urgent, todo
+Title not provided
+Traceback (most recent call last):
+  File "todolist.py", line 38, in <module>
+    main()
+  File "todolist.py", line 37, in main
+    task.display()
+  File "todolist.py", line 22, in display
+    if self.imp == "y":
+AttributeError: 'Task' object has no attribute 'imp'
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -53,7 +101,7 @@ task2, manoj, 10, Not Important, Not Urgent, done
 taska, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-
+'<' not supported between instances of 'str' and 'int'
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -81,7 +129,7 @@ task-x, manoj, 10, Not Important, Not Urgent, done
 task-z, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-
+'<' not supported between instances of 'str' and 'int'
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -91,7 +139,7 @@ null
 task-h, tarun, 27, Important, Not Urgent, todo
 
 Your Output: 
-
+'<' not supported between instances of 'str' and 'int'
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -100,7 +148,7 @@ task-j1, john, 30, Important, Not Urgent, todo
 task-ta, tom, 120, Important, Not Urgent, todo
 
 Your Output: 
-
+'<' not supported between instances of 'str' and 'int'
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -109,7 +157,7 @@ Expected Output:
 [task-tp, tom, 120, Important, Not Urgent, todo, task-th, tom, 27, Important, Not Urgent, todo, null]
 
 Your Output: 
-
+'<' not supported between instances of 'str' and 'int'
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -117,7 +165,7 @@ Expected Output:
 337
 
 Your Output: 
-
+'<' not supported between instances of 'str' and 'int'
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -125,7 +173,7 @@ Expected Output:
 0
 
 Your Output: 
-
+'<' not supported between instances of 'str' and 'int'
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -133,6 +181,6 @@ Expected Output:
 487
 
 Your Output: 
-
+'<' not supported between instances of 'str' and 'int'
 ----------------------------------------
 
