@@ -21,6 +21,15 @@ class Task:
 			raise Exception("Invalid status " + self.status)	
 		# except Exception as e:
 			# print(e)
+	def getpername(self):
+		return self.pername
+	def getstatus(self):
+		return self.status
+	def getimp(self):
+		return self.imp
+	def geturg(self):
+		return self.urgent
+
 	def display(self):
 		if self.imp == "y":
 			self.imp = "Important"
@@ -37,6 +46,18 @@ class Todoist:
 		pass
 	def addtask(self, Task):
 		self.alltasks.append(Task)
+	def getNextTask(self, personnme):
+		for each in alltasks:
+			if each.getpername() == personnme:
+				if each.getimp() == "y":
+					if each.geturg() == "todo":
+						each.display()
+		else:
+			print("null")
+
+
+
+
 	def displayall(self):
 		for each in self.alltasks:
 			each.display()
