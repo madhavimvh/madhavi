@@ -1,14 +1,9 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 task1, akshay, 30, Important, Urgent, todo
 
 Your Output: 
-Traceback (most recent call last):
-  File "todolist.py", line 24, in <module>
-    main()
-  File "todolist.py", line 21, in main
-    task.display()
-TypeError: display() takes 0 positional arguments but 1 was given
+task1, akshay, 30, Important, Urgent, todo
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -16,12 +11,7 @@ Expected Output:
 task2, manoj, 10, Not Important, Not Urgent, done
 
 Your Output: 
-Traceback (most recent call last):
-  File "todolist.py", line 24, in <module>
-    main()
-  File "todolist.py", line 21, in main
-    task.display()
-TypeError: display() takes 0 positional arguments but 1 was given
+task2, manoj, 10, n, n, done
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -29,12 +19,7 @@ Expected Output:
 taska, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-Traceback (most recent call last):
-  File "todolist.py", line 24, in <module>
-    main()
-  File "todolist.py", line 21, in main
-    task.display()
-TypeError: display() takes 0 positional arguments but 1 was given
+taska, tarun, 120, Important, n, todo
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -42,12 +27,7 @@ Expected Output:
 Invalid status dud
 
 Your Output: 
-Traceback (most recent call last):
-  File "todolist.py", line 24, in <module>
-    main()
-  File "todolist.py", line 21, in main
-    task.display()
-TypeError: display() takes 0 positional arguments but 1 was given
+taskb, ram, 10, n, Urgent, dud
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -55,12 +35,7 @@ Expected Output:
 Invalid timeToComplete -1
 
 Your Output: 
-Traceback (most recent call last):
-  File "todolist.py", line 24, in <module>
-    main()
-  File "todolist.py", line 21, in main
-    task.display()
-TypeError: display() takes 0 positional arguments but 1 was given
+taskb, ram, -1, Important, Urgent, todo
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -68,12 +43,7 @@ Expected Output:
 Title not provided
 
 Your Output: 
-Traceback (most recent call last):
-  File "todolist.py", line 24, in <module>
-    main()
-  File "todolist.py", line 21, in main
-    task.display()
-TypeError: display() takes 0 positional arguments but 1 was given
+, ram, 1, Important, Urgent, todo
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########

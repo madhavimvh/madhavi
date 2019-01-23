@@ -6,12 +6,12 @@ class Task:
 		self.imp = imp
 		self.urgent = urgent
 		self.status = status
-	def display():
-		if imp == "y":
-			imp = "Important"
-		if urgent == "y":
-			urgent = "Urgent"
-		print(title + "," + pername  + "," + time + "," + imp  + "," + urgent + "," + status)
+	def display(self):
+		if self.imp == "y":
+			self.imp = "Important"
+		if self.urgent == "y":
+			self.urgent = "Urgent"
+		print(self.title + ", " + self.pername  + ", " + self.time + ", " + self.imp  + ", " + self.urgent + ", " + self.status)
 
 
 def main():
@@ -19,6 +19,4 @@ def main():
 	task = Task(string[1], string[2], string[3], string[4], string[5], string[6])
 	if string[0] == "task":
 		task.display()
-
-
 main()
