@@ -11,20 +11,24 @@ todolist.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 todolist.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:14:0: C0301: Line too long (122/100) (line-too-long)
 todolist.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:18:0: C0301: Line too long (122/100) (line-too-long)
 todolist.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:22:0: C0304: Final newline missing (missing-final-newline)
+todolist.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:26:0: C0304: Final newline missing (missing-final-newline)
 todolist.py:1:0: C0111: Missing module docstring (missing-docstring)
 todolist.py:1:0: C0111: Missing class docstring (missing-docstring)
 todolist.py:2:1: R0913: Too many arguments (7/5) (too-many-arguments)
 todolist.py:9:1: C0111: Missing method docstring (missing-docstring)
 todolist.py:1:0: R0903: Too few public methods (1/2) (too-few-public-methods)
-todolist.py:17:0: C0111: Missing function docstring (missing-docstring)
+todolist.py:21:0: C0111: Missing function docstring (missing-docstring)
 
-----------------------------------------------------------------------
-Your code has been rated at -2.50/10 (previous run: -22.00/10, +19.50)
+--------------------------------------------------------------------
+Your code has been rated at -2.08/10 (previous run: -2.50/10, +0.42)
 

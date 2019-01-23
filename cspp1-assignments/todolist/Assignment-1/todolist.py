@@ -9,8 +9,12 @@ class Task:
 	def display(self):
 		if self.imp == "y":
 			self.imp = "Important"
+		elif self.imp == "n":
+			self.imp = "Not Important"
 		if self.urgent == "y":
 			self.urgent = "Urgent"
+		elif self.urgent == "n":
+			self.urgent = "Not Urgent"
 		print(self.title + ", " + self.pername  + ", " + self.time + ", " + self.imp  + ", " + self.urgent + ", " + self.status)
 
 
