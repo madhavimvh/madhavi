@@ -31,14 +31,34 @@ class Task:
 		elif self.urgent == "n":
 			self.urgent = "Not Urgent"
 		print(self.title + ", " + self.pername  + ", " + self.time + ", " + self.imp  + ", " + self.urgent + ", " + self.status)
+class Todoist:
+	alltasks = []
+	def __init__(self):
+		pass
+	def addtask(self, Task):
+		self.alltasks.append(Task)
+	def displayall(self):
+		for each in self.alltasks:
+			each.display()
 
 
 def main():
-	string = input().split(",")
 	try:
-		if string[0] == "task":
-			task = Task(string[1], string[2], string[3], string[4], string[5], string[6])
-			task.display()
-	except Exception as e:
-			print(e)
+		while True:
+			todoist = Todoist()
+			string = input().split(",")
+			try:
+				if string[0] == "task":
+					task = Task(string[1], string[2], string[3], string[4], string[5], string[6])
+					task.display()
+				if string[0] == "add-task":
+					task1 = Task(string[1], string[2], string[3], string[4], string[5], string[6])
+					todoist.addtask(task1)
+				elif string[0] == "print-todoist":
+					todoist.displayall()
+			except Exception as e:
+					print(e)
+	except EOFError:
+		pass
+
 main()
