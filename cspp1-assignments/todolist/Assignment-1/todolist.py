@@ -1,21 +1,22 @@
 class Task:
 	def __init__(self, title, pername, time, imp, urgent, status):
+		self.pername = pername
+		self.imp = imp
+		self.urgent = urgent
+		self.title = title
+		self.status = status
+		self.time = time
 		try:
 			if title == "":
 				raise Exception("Title not provided")
-			else:
-				self.title = title
-			if time < 0:
+			# else:
+				# self.title = title
+			elif int(time) < 0:
 				raise Exception("Invalid timeToComplete " + time)
-			else:
-				self.time = time
-			if status == "todo" or status == "done":
-				self.status = status
-			else:
+			# else:
+				# self.time = time
+			elif status != "todo" or status != "done":
 				raise Exception("Invalid status " + status)	
-			self.pername = pername
-			self.imp = imp
-			self.urgent = urgent
 		except Exception as e:
 			print(e)
 	def display(self):
