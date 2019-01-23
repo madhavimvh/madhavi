@@ -56,11 +56,14 @@ class Todoist:
 					if each.geturg() == "n":
 						if each.getstatus() == "todo":
 							print(each.display())
-							break
-					elif each.geturg() == "y":
+							return
+		for each in self.alltasks:
+			if each.getpername() == personnme:
+				if each.getimp() == "y":
+					if each.geturg() == "y":
 						if each.getstatus() == "todo":
 							print(each.display())
-							break
+							return
 		else:
 			print("null")
 	def getNextTaskN(self, persnname, count):
