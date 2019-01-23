@@ -61,7 +61,7 @@ class Todoist:
 							break
 		else:
 			print("null")
-	def getNextTask(self, persnname, count):
+	def getNextTaskN(self, persnname, count):
 		list1 = []
 		for each in self.alltasks:
 			if each.getpername() == persnname:
@@ -91,7 +91,7 @@ def main():
 				elif string[0] == "get-next":
 					todoist.getNextTask(string[1])
 				elif string[0] == "get-next-n":
-					todoist.getNextTask(string[1], string[2])
+					todoist.getNextTaskN(string[1], string[2])
 				# elif string[0] 
 			except Exception as e:
 					print(e)

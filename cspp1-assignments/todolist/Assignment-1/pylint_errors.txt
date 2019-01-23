@@ -102,16 +102,14 @@ todolist.py:48:1: C0111: Missing method docstring (missing-docstring)
 todolist.py:48:19: W0621: Redefining name 'Task' from outer scope (line 1) (redefined-outer-name)
 todolist.py:50:1: C0103: Method name "getNextTask" doesn't conform to snake_case naming style (invalid-name)
 todolist.py:50:1: C0111: Missing method docstring (missing-docstring)
-todolist.py:64:1: E0102: method already defined line 50 (function-redefined)
-todolist.py:64:1: C0103: Method name "getNextTask" doesn't conform to snake_case naming style (invalid-name)
+todolist.py:64:1: C0103: Method name "getNextTaskN" doesn't conform to snake_case naming style (invalid-name)
 todolist.py:64:1: C0111: Missing method docstring (missing-docstring)
-todolist.py:64:34: W0613: Unused argument 'count' (unused-argument)
+todolist.py:64:35: W0613: Unused argument 'count' (unused-argument)
 todolist.py:71:1: C0111: Missing method docstring (missing-docstring)
 todolist.py:77:0: C0111: Missing function docstring (missing-docstring)
 todolist.py:96:10: W0703: Catching too general exception Exception (broad-except)
-todolist.py:94:5: E1121: Too many positional arguments for method call (too-many-function-args)
 todolist.py:96:3: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.12/10 (previous run: -2.73/10, -1.39)
+Your code has been rated at -2.94/10 (previous run: -4.12/10, +1.18)
 
