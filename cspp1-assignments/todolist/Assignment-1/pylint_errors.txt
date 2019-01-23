@@ -47,5 +47,5 @@ todolist.py:42:8: W0703: Catching too general exception Exception (broad-except)
 todolist.py:42:1: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.14/10 (previous run: -2.42/10, -0.72)
+Your code has been rated at -3.14/10 (previous run: -3.14/10, +0.00)
 

@@ -22,31 +22,28 @@ Your Output:
 taska, tarun, 120, Important, Not Urgent, todo
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 Invalid status dud
 
 Your Output: 
 Invalid status dud
-taskb, ram, 10, Not Important, Urgent, dud
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 Invalid timeToComplete -1
 
 Your Output: 
 Invalid timeToComplete -1
-taskb, ram, -1, Important, Urgent, todo
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 Title not provided
 
 Your Output: 
 Title not provided
-, ram, 1, Important, Urgent, todo
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
