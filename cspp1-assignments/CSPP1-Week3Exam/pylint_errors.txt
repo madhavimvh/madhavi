@@ -14,13 +14,13 @@ sol2.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 sol2.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sol2.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sol2.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sol2.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sol2.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -28,8 +28,8 @@ sol2.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 sol2.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sol2.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sol2.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sol2.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sol2.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -44,14 +44,19 @@ sol2.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 sol2.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:54:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:55:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sol2.py:58:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sol2.py:56:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sol2.py:57:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sol2.py:60:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sol2.py:61:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sol2.py:62:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sol2.py:1:0: C0111: Missing module docstring (missing-docstring)
 sol2.py:1:0: C0111: Missing function docstring (missing-docstring)
 sol2.py:14:0: C0111: Missing function docstring (missing-docstring)
 sol2.py:16:1: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-sol2.py:17:5: W0612: Unused variable 'i' (unused-variable)
-sol2.py:14:0: R0912: Too many branches (15/12) (too-many-branches)
+sol2.py:17:1: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+sol2.py:18:6: W0612: Unused variable 'i' (unused-variable)
+sol2.py:14:0: R0912: Too many branches (16/12) (too-many-branches)
 
-------------------------------------
-Your code has been rated at -2.09/10
+--------------------------------------------------------------------
+Your code has been rated at -2.13/10 (previous run: -2.09/10, -0.03)
 

@@ -29,12 +29,7 @@ Expected Output:
 Invalid Points
 
 Your Output: 
-Traceback (most recent call last):
-  File "sol2.py", line 59, in <module>
-    main()
-  File "sol2.py", line 35, in main
-    ques[string[1]] = -1*int(string[4])
-ValueError: invalid literal for int() with base 10: 'a'
+Invalid points
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
