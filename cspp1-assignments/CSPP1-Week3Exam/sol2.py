@@ -18,7 +18,8 @@ def display(adict1):
 				else:
 					print(each + ": " + str(float(per)) + "%")
 	else:
-		s1 = sorted(adict1.items(),key=lambda x: (len(x[0]), x))
+		orddict = sorted(adict1.items(),key=lambda x: (len(x[0]), x))
+		s1 = listtodict(orddict)
 		for each in s1:
 			for i in range(len(adict1[each]) - 1):
 				per = int((adict1[each][i]/adict1[each][i + 1])*100)
@@ -27,7 +28,11 @@ def display(adict1):
 					print(each + ": " + str(float(per)) + "%")
 				else:
 					print(each + ": " + str(float(per)) + "%")
-
+def listtodict(s):
+	orddict = {}
+	for each in s:
+		orddict[each[0]] = each[1]
+	return orddict
 
 def main():
 	adict = {}
