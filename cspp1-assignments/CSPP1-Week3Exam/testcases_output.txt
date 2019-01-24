@@ -24,15 +24,20 @@ Your Output:
 1239: 0.0%
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 Invalid Points
 
 Your Output: 
-Invalid Points
+Traceback (most recent call last):
+  File "sol2.py", line 59, in <module>
+    main()
+  File "sol2.py", line 35, in main
+    ques[string[1]] = -1*int(string[4])
+ValueError: invalid literal for int() with base 10: 'a'
 ----------------------------------------
 
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 1233: 0.0%
 1234: 60.0%
@@ -45,15 +50,15 @@ Expected Output:
 12311: 0.0%
 
 Your Output: 
+12310: 0.0%
+12311: 0.0%
 1233: 0.0%
 1234: 60.0%
 1235: 0.0%
 1236: 33.0%
 1237: 0.0%
-1238: 67.0%
+1238: 66.0%
 1239: 0.0%
-12310: 0.0%
-12311: 0.0%
 ----------------------------------------
 
 ########## Testcase 4: Passed ##########
