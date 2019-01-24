@@ -128,13 +128,14 @@ task-j1, john, 30, Important, Not Urgent, todo
 task-ta, tom, 120, Important, Not Urgent, todo
 ----------------------------------------
 
-########## Testcase 10: Failed ##########
+########## Testcase 10: Passed ##########
 Expected Output: 
 [task-j1, john, 30, Important, Not Urgent, todo, task-j6, john, 130, Important, Not Urgent, todo, task-j2, john, 10, Important, Not Urgent, todo]
 [task-tp, tom, 120, Important, Not Urgent, todo, task-th, tom, 27, Important, Not Urgent, todo, null]
 
 Your Output: 
 [task-j1, john, 30, Important, Not Urgent, todo, task-j6, john, 130, Important, Not Urgent, todo, task-j2, john, 10, Important, Not Urgent, todo]
+[task-tp, tom, 120, Important, Not Urgent, todo, task-th, tom, 27, Important, Not Urgent, todo, null]
 ----------------------------------------
 
 ########## Testcase 11: Passed ##########

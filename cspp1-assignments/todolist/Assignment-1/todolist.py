@@ -95,6 +95,8 @@ class Todoist:
 				print("[%s]" % (', '.join(list1)))
 				# print(list1)
 				return
+		list1.append("null")
+		print("[%s]" % (', '.join(list1)))
 
 
 	def displayall(self):
