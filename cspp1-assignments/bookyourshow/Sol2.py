@@ -46,10 +46,14 @@ class Bookyourshow:
 
 	def getAshow(self, movname, date, time):
 		for each in self.allshows:
+			# print(movname)
 			if each.getmovname() == movname:
 				if each.getshowdate() == date:
 					if each.gettime() == time:
 						each.display()
+			else:
+				print("No show")
+				break
 	def checkseats(self, seatslist, cusseats):
 		# print(seatslist)
 		# print(cusseats)
@@ -105,6 +109,8 @@ def main():
 			# print(patron.getpatname())
 			bookyourshow.addApatron(patron)
 			bookyourshow.bookashow(str1[1], str2[0], str2[2], patron, cusseats)
+		if str1[0] == "get":
+			bookyourshow.getAshow(str1[1], str2[0], str2[2])
 		if str1[0] == "print":
 			bookyourshow.printTickets(str1[1], str2[0], str2[2], string[2])
 
