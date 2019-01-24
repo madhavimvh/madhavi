@@ -44,6 +44,7 @@ class Task:
 			self.urgent = "Urgent"
 		elif self.urgent == "n":
 			self.urgent = "Not Urgent"
+		return self.urgent
 	def display(self):
 		if self.imp == "y":
 			self.imp = "Important"
