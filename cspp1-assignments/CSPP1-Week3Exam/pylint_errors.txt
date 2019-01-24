@@ -86,5 +86,5 @@ sol2.py:41:6: W0612: Unused variable 'i' (unused-variable)
 sol2.py:37:0: R0912: Too many branches (16/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.03/10 (previous run: -2.06/10, +0.03)
+Your code has been rated at -2.03/10 (previous run: -2.03/10, +0.00)
 
