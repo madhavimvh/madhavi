@@ -22,7 +22,7 @@ def display(adict1):
 		s1 = listtodict(orddict)
 		for each in s1:
 			for i in range(len(adict1[each]) - 1):
-				per = int(round((adict1[each][i]/adict1[each][i + 1]))*100)
+				per = int(round((adict1[each][i]/adict1[each][i + 1]), 2)*100)
 				if per < 0:
 					per = 0
 					print(each + ": " + str(float(per)) + "%")
