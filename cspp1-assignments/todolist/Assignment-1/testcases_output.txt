@@ -135,30 +135,29 @@ Expected Output:
 
 Your Output: 
 [task-j1, john, 30, Important, Not Urgent, todo, task-j6, john, 130, Important, Not Urgent, todo, task-j2, john, 10, Important, Not Urgent, todo]
-[task-tp, tom, 120, Important, Not Urgent, todo, task-th, tom, 27, Important, Not Urgent, todo]
 ----------------------------------------
 
-########## Testcase 11: Failed ##########
+########## Testcase 11: Passed ##########
 Expected Output: 
 337
 
 Your Output: 
-
+337
 ----------------------------------------
 
-########## Testcase 12: Failed ##########
+########## Testcase 12: Passed ##########
 Expected Output: 
 0
 
 Your Output: 
-
+0
 ----------------------------------------
 
-########## Testcase 13: Failed ##########
+########## Testcase 13: Passed ##########
 Expected Output: 
 487
 
 Your Output: 
-
+487
 ----------------------------------------
 

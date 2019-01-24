@@ -95,13 +95,17 @@ class Todoist:
 				print("[%s]" % (', '.join(list1)))
 				# print(list1)
 				return
-		print("[%s]" % (', '.join(list1)))
 
 
 	def displayall(self):
 		for each in self.alltasks:
 			each.display()
-	# def totalTime4Completion():
+	def totalTime4Completion(self):
+		total = 0
+		for each in self.alltasks:
+			if each.getstatus() == "todo":
+				total += int(each.gettime())
+		print(total)
 
 
 def main():
@@ -122,7 +126,8 @@ def main():
 					todoist.getNextTask(string[1])
 				elif string[0] == "get-next-n":
 					todoist.getNextTaskN(string[1], string[2])
-				# elif string[0] 
+				elif string[0] == "total-time":
+					todoist.totalTime4Completion()
 			except Exception as e:
 					print(e)
 	except EOFError:
