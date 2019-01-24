@@ -1,15 +1,33 @@
+def checklength(adict):
+	maxno = 0
+	maxno = max(len(x) for x in adict)
+	for each in adict:
+		if len(each) != maxno:
+			return False
+	return True
 def display(adict1):
 	per = 0
-	for each in sorted(adict1):
-		# print(adict1[each])
-		for i in range(len(adict1[each]) - 1):
-			per = int((adict1[each][i]/adict1[each][i + 1])*100)
-			if per < 0:
-				per = 0
-				print(each + ": " + str(float(per)) + "%")
-			else:
-				print(each + ": " + str(float(per)) + "%")
-				
+	if checklength(adict1):
+		for each in sorted(adict1):
+			# print(adict1[each])
+			for i in range(len(adict1[each]) - 1):
+				per = int((adict1[each][i]/adict1[each][i + 1])*100)
+				if per < 0:
+					per = 0
+					print(each + ": " + str(float(per)) + "%")
+				else:
+					print(each + ": " + str(float(per)) + "%")
+	else:
+		s1 = sorted(adict1.items(),key=lambda x: (len(x[0]), x))
+		for each in s1:
+			for i in range(len(adict1[each]) - 1):
+				per = int((adict1[each][i]/adict1[each][i + 1])*100)
+				if per < 0:
+					per = 0
+					print(each + ": " + str(float(per)) + "%")
+				else:
+					print(each + ": " + str(float(per)) + "%")
+
 
 def main():
 	adict = {}
