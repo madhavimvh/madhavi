@@ -59,5 +59,5 @@ def main():
 		# print(adict1)
 		display(adict1)
 	except ValueError:
-		print("Invalid points")
+		print("Invalid Points")
 main()
