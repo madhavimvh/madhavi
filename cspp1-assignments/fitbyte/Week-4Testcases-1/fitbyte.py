@@ -112,27 +112,27 @@ def main():
 		string = input().split(" ")
 		if string[0] == "Food":
 			str1 = string[1].split(",")
-			dateset.add(str[1])
+			dateset.add(str1[1])
 			foodlg = FoodLog(str1[0], str1[1], str1[2])
 			fitbyte.addfoodlog(foodlg)
 		if string[0] == "Water":
 			str1 = string[1].split(",")
-			dateset.add(str[1])
+			dateset.add(str1[1])
 			waterlg = WaterLog(str1[0], str1[1], str1[2])
 			fitbyte.addwaterlog(waterlg)
 		if string[0] == "PhysicalActivity":
 			str1 = string[1].split(",")
-			dateset.add(str[1])
+			dateset.add(str1[1])
 			PAlog = PhysicalActivity(str1[0], str1[1], str1[2])
 			fitbyte.addphysicalact(PAlog)
 		if string[0] == "Weight":
 			str1 = string[1].split(",")
-			dateset.add(str[1])
+			dateset.add(str1[1])
 			weightlg = WeightLog(str1[0], str1[1], str1[2])
 			fitbyte.addweightlog(weightlg)
 		if string[0] == "Sleep":  
 			str1 = string[1].split(",")
-			dateset.add(str[1])
+			dateset.add(str1[1])
 			sleeplg = SleepLog(str1[0], str1[1], str1[2])
 			fitbyte.addsleeplog(sleeplg)
 		print(dateset)

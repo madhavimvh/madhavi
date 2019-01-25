@@ -207,14 +207,9 @@ fitbyte.py:102:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:102:1: R0201: Method could be a function (no-self-use)
 fitbyte.py:107:0: C0111: Missing function docstring (missing-docstring)
 fitbyte.py:110:1: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-fitbyte.py:115:15: E1136: Value 'str' is unsubscriptable (unsubscriptable-object)
-fitbyte.py:120:15: E1136: Value 'str' is unsubscriptable (unsubscriptable-object)
-fitbyte.py:125:15: E1136: Value 'str' is unsubscriptable (unsubscriptable-object)
 fitbyte.py:126:3: C0103: Variable name "PAlog" doesn't conform to snake_case naming style (invalid-name)
-fitbyte.py:130:15: E1136: Value 'str' is unsubscriptable (unsubscriptable-object)
-fitbyte.py:135:15: E1136: Value 'str' is unsubscriptable (unsubscriptable-object)
 fitbyte.py:111:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -6.21/10 (previous run: -4.41/10, -1.80)
+Your code has been rated at -4.48/10 (previous run: -6.21/10, +1.72)
 
