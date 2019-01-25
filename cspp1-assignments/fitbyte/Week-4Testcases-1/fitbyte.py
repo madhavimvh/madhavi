@@ -95,12 +95,12 @@ class FitByte:
 		self.sleeplogs.append(SleepLog)
 	def disFL(self, dateset):
 		for each1 in sorted(dateset, reverse = True):
-			print(each1 + ":")
 			for each in self.foodlogs:
 				if each1 in each.getdateF():
 					print("Food:")
 					break
 			for each in self.foodlogs:
+				print(each1 + ":")
 				if each.getdateF() == each1:
 					each.sumFL()
 	def disWaterlog(self):
