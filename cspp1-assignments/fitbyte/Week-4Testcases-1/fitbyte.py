@@ -99,8 +99,12 @@ class FitByte:
 		for each in self.sleeplogs:
 			each.sleeplogdis()
 
-	def summary(self):
+	def summary(self, dateset):
 		print("Summary:")
+		for each in foodlogs:
+			for each1 in dateset:
+				if each.getdateF() == each1:
+					print(each1)
 		
 
 
@@ -146,8 +150,8 @@ def main():
 		if string[0] == "Sleeplog":
 			fitbyte.disSleep()
 		if string[0] == "Summary":
-			print(dateset)
-			fitbyte.summary()
+			# print(dateset)
+			fitbyte.summary(dateset)
 
 			
 

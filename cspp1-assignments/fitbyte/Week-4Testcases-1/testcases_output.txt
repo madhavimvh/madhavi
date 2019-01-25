@@ -44,8 +44,15 @@ Weight:
 Sleep:
 18/9/2018:
 - 10:30: 8hr
-{'18/9/2018'}
 Summary:
+Traceback (most recent call last):
+  File "fitbyte.py", line 161, in <module>
+    main()
+  File "fitbyte.py", line 154, in main
+    fitbyte.summary(dateset)
+  File "fitbyte.py", line 104, in summary
+    for each in foodlogs:
+NameError: name 'foodlogs' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -141,8 +148,15 @@ Sleep:
 Sleep:
 17/9/2018:
 - 10:30: 8hr
-{'18/9/2018', '19/9/2018', '17/9/2018'}
 Summary:
+Traceback (most recent call last):
+  File "fitbyte.py", line 161, in <module>
+    main()
+  File "fitbyte.py", line 154, in main
+    fitbyte.summary(dateset)
+  File "fitbyte.py", line 104, in summary
+    for each in foodlogs:
+NameError: name 'foodlogs' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -229,8 +243,15 @@ Sleep:
 Sleep:
 23/9/2018:
 - 10:30PM: 9hrs
-{'20/9/2018', '18/9/2018', '22/9/2018', '21/9/2018', '19/9/2018', '23/9/2018'}
 Summary:
+Traceback (most recent call last):
+  File "fitbyte.py", line 161, in <module>
+    main()
+  File "fitbyte.py", line 154, in main
+    fitbyte.summary(dateset)
+  File "fitbyte.py", line 104, in summary
+    for each in foodlogs:
+NameError: name 'foodlogs' is not defined
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -389,7 +410,14 @@ Sleep:
 Sleep:
 23/9/2018:
 - 10:30PM: 9hrs
-{'22/9/2018', '16/9/2018', '21/9/2018', '23/9/2018', '18/9/2018', '19/9/2018', '17/9/2018', '20/9/2018'}
 Summary:
+Traceback (most recent call last):
+  File "fitbyte.py", line 161, in <module>
+    main()
+  File "fitbyte.py", line 154, in main
+    fitbyte.summary(dateset)
+  File "fitbyte.py", line 104, in summary
+    for each in foodlogs:
+NameError: name 'foodlogs' is not defined
 ----------------------------------------
 
