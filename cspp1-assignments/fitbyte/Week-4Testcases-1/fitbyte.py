@@ -103,18 +103,46 @@ class FitByte:
 			for each in self.foodlogs:
 				if each.getdateF() == each1:
 					each.sumFL()
-	def disWaterlog(self):
-		for each in self.waterlogs:
-			each.waterlogdis()
-	def disPAct(self):
-		for each in self.physicalacties:
-			each.PAdis()
-	def disWeight(self):
-		for each in self.weightlogs:
-			each.wtdis()
-	def disSleep(self):
-		for each in self.sleeplogs:
-			each.sleeplogdis()
+	def disWaterlog(self, dataset):
+		print("Water:")
+		for each1 in sorted(dateset, reverse = True):
+			for each in self.waterlogs:
+				if each1 in each.getdateW():
+					print(each1 + ":")
+					break
+			for each in self.waterlogs:
+				if each.getdateW() == each1:
+					each.sumWater()
+	def disPAct(self, dateset):
+		print("PhysicalActivity:")
+		for each1 in sorted(dateset, reverse = True):
+			for each in self.physicalacties:
+				if each1 in each.getdatePA():
+					print(each1 + ":")
+					break
+			for each in self.physicalacties:
+				if each.getdatePA() == each1:
+					each.sumPA()
+	def disWeight(self, dateset):
+		print("Weight:")
+		for each1 in sorted(dateset, reverse = True):
+			for each in self.weightlogs:
+				if each1 in each.getdateweight():
+					print(each1 + ":")
+					break
+			for each in self.weightlogs:
+				if each.getdateweight() == each1:
+					each.sumweight()
+	def disSleep(self, dateset):
+		print("Sleep:")
+		for each1 in sorted(dateset, reverse = True):
+			for each in self.sleeplogs:
+				if each1 in each.getdateSP():
+					print(each1 + ":")
+					break
+			for each in self.sleeplogs:
+				if each.getdateSP() == each1:
+					each.sumsleep()
 
 	def summary(self, dateset):
 		print("Summary:")
@@ -198,13 +226,13 @@ def main():
 		if string[0] == "Foodlog":
 			fitbyte.disFL(dateset)
 		if string[0] == "Waterlog":
-			fitbyte.disWaterlog()
+			fitbyte.disWaterlog(dateset)
 		if string[0] == "PhysicalActivitylog":
-			fitbyte.disPAct()
+			fitbyte.disPAct(dateset)
 		if string[0] == "Weightlog":
-			fitbyte.disWeight()
+			fitbyte.disWeight(dateset)
 		if string[0] == "Sleeplog":
-			fitbyte.disSleep()
+			fitbyte.disSleep(dateset)
 		if string[0] == "Summary":
 			# print(dateset)
 			fitbyte.summary(dateset)
