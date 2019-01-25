@@ -96,8 +96,9 @@ class FitByte:
 				if each.getdateF() == each1:
 					count += 1
 					each.sumFL()
-		if count != 0:
-			print(count)
+			if count != 0:
+				print(count)
+				break
 	def disWaterlog(self, dateset):
 		print("Water:")
 		for each1 in sorted(dateset, reverse = True):
