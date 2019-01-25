@@ -86,14 +86,12 @@ class FitByte:
 	def food1(self, each1):
 		for each in self.foodlogs:
 				if each.getdateF() == each1:
-					count += 1
 					each.sumFL()
 	def disFL(self, dateset):
 		print("Food:")
 		for each1 in sorted(dateset, reverse = True):
 			for each in self.foodlogs:
 				if each1 in each.getdateF():
-					count = 0
 					print(each1 + ":")
 					break
 			self.food1(each1)
