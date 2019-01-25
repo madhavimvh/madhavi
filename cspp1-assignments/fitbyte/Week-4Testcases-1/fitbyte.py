@@ -111,7 +111,7 @@ class FitByte:
 
 	def summary(self, dateset):
 		print("Summary:")
-		for each1 in dateset:
+		for each1 in sorted(dateset, reverse = True):
 			print(each1 + ":") 
 			print("Food:")
 			for each in self.foodlogs:

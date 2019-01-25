@@ -105,6 +105,9 @@ fitbyte.py:110:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 fitbyte.py:112:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:113:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:114:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+fitbyte.py:114:39: C0326: No space allowed around keyword argument assignment
+		for each1 in sorted(dateset, reverse = True):
+                                       ^ (bad-whitespace)
 fitbyte.py:115:21: C0303: Trailing whitespace (trailing-whitespace)
 fitbyte.py:115:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:116:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -250,5 +253,5 @@ fitbyte.py:162:3: C0103: Variable name "PAlog" doesn't conform to snake_case nam
 fitbyte.py:147:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.15/10 (previous run: -4.24/10, +0.10)
+Your code has been rated at -4.20/10 (previous run: -4.15/10, -0.06)
 
