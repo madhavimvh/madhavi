@@ -83,8 +83,12 @@ class FitByte:
 		self.weightlogs.append(WeightLog)
 	def addsleeplog(self, SleepLog):
 		self.sleeplogs.append(SleepLog)
+	def food1(self):
+		for each in self.foodlogs:
+				if each.getdateF() == each1:
+					count += 1
+					each.sumFL()
 	def disFL(self, dateset):
-		count = 0
 		print("Food:")
 		for each1 in sorted(dateset, reverse = True):
 			for each in self.foodlogs:
@@ -92,13 +96,7 @@ class FitByte:
 					count = 0
 					print(each1 + ":")
 					break
-			for each in self.foodlogs:
-				if each.getdateF() == each1:
-					count += 1
-					each.sumFL()
-			if count != 0:
-				print(count)
-				break
+			self.food1()
 	def disWaterlog(self, dateset):
 		print("Water:")
 		for each1 in sorted(dateset, reverse = True):
@@ -150,9 +148,7 @@ class FitByte:
 					# print(each.getdateF())
 					print("Food:")
 					break
-			for each in self.foodlogs:
-				if each.getdateF() == each1:
-					each.sumFL()
+			self.food1()
 			for each in self.waterlogs:
 				if each1 in each.getdateW():
 					print("Water:")
