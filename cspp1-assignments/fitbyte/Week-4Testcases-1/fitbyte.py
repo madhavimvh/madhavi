@@ -122,7 +122,9 @@ class FitByte:
 			# for each1 in dateset:
 				if each.getdateW() == each1:
 					each.sumWater()
-			print("PhysicalActivity:")
+			for each in self.physicalacties:
+				if each1 in each.getdatePA():
+					print("PhysicalActivity:")
 			for each in self.physicalacties:
 			# for each1 in dateset:
 				if each.getdatePA() == each1:

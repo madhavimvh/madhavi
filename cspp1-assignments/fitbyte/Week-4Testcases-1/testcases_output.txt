@@ -158,7 +158,6 @@ Food:
 - 12:30PM: Biryani
 Water:
 - 8:40PM: 1250
-PhysicalActivity:
 Weight:
 - 6:30AM: 61KG
 Sleep:
@@ -272,14 +271,12 @@ Summary:
 23/9/2018:
 Food:
 Water:
-PhysicalActivity:
 Weight:
 Sleep:
 - 10:30PM: 9hrs
 22/9/2018:
 Food:
 Water:
-PhysicalActivity:
 Weight:
 - 6:30AM: 55Kg
 Sleep:
@@ -287,21 +284,18 @@ Sleep:
 Food:
 Water:
 - 9:49PM: 1000
-PhysicalActivity:
 Weight:
 Sleep:
 20/9/2018:
 Food:
 - 8:30AM: Dosa
 Water:
-PhysicalActivity:
 Weight:
 Sleep:
 19/9/2018:
 Food:
 Water:
 - 9:45AM: 500
-PhysicalActivity:
 Weight:
 Sleep:
 18/9/2018:
@@ -310,7 +304,6 @@ Food:
 Water:
 - 9:45AM: 500
 - 9:49PM: 1000
-PhysicalActivity:
 Weight:
 - 6:30AM: 55Kg
 Sleep:
@@ -477,14 +470,12 @@ Summary:
 23/9/2018:
 Food:
 Water:
-PhysicalActivity:
 Weight:
 Sleep:
 - 10:30PM: 9hrs
 22/9/2018:
 Food:
 Water:
-PhysicalActivity:
 Weight:
 - 6:30AM: 55Kg
 Sleep:
@@ -492,21 +483,18 @@ Sleep:
 Food:
 Water:
 - 9:49PM: 1000
-PhysicalActivity:
 Weight:
 Sleep:
 20/9/2018:
 Food:
 - 8:30AM: Dosa
 Water:
-PhysicalActivity:
 Weight:
 Sleep:
 19/9/2018:
 Food:
 Water:
 - 9:45AM: 500
-PhysicalActivity:
 Weight:
 Sleep:
 18/9/2018:
@@ -515,7 +503,6 @@ Food:
 Water:
 - 9:45AM: 500
 - 9:49PM: 1000
-PhysicalActivity:
 Weight:
 - 6:30AM: 55Kg
 Sleep:
