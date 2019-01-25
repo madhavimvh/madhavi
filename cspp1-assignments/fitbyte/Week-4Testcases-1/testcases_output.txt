@@ -229,9 +229,6 @@ Sleep:
 
 Your Output: 
 Food:
-0
-0
-0
 20/9/2018:
 - 8:30AM: Dosa
 1
@@ -383,9 +380,6 @@ Sleep:
 
 Your Output: 
 Food:
-0
-0
-0
 20/9/2018:
 - 8:30AM: Dosa
 1
