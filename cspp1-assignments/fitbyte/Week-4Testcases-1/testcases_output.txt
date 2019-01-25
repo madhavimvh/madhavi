@@ -38,14 +38,24 @@ Water:
 PhysicalActivity:
 18/9/2018:
 - 7:00AM: walking
-Traceback (most recent call last):
-  File "fitbyte.py", line 153, in <module>
-    main()
-  File "fitbyte.py", line 142, in main
-    fitbyte.disWeight()
-  File "fitbyte.py", line 97, in disWeight
-    each.waterlogdis()
-AttributeError: 'WeightLog' object has no attribute 'waterlogdis'
+Weight:
+18/9/2018:
+- 6:30AM: 61KG
+Food:
+18/9/2018:
+- 8:30AM: Dosa
+Water:
+18/9/2018:
+- 8:40PM: 1250
+PhysicalActivity:
+18/9/2018:
+- 7:00AM: walking
+Weight:
+18/9/2018:
+- 6:30AM: 61KG
+Sleep:
+18/9/2018:
+- 10:30: 8hr
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -129,14 +139,48 @@ PhysicalActivity:
 PhysicalActivity:
 17/9/2018:
 - 7:00AM: walking
-Traceback (most recent call last):
-  File "fitbyte.py", line 153, in <module>
-    main()
-  File "fitbyte.py", line 142, in main
-    fitbyte.disWeight()
-  File "fitbyte.py", line 97, in disWeight
-    each.waterlogdis()
-AttributeError: 'WeightLog' object has no attribute 'waterlogdis'
+Weight:
+18/9/2018:
+- 6:30AM: 61KG
+Weight:
+19/9/2018:
+- 6:30AM: 61KG
+Food:
+18/9/2018:
+- 8:30AM: Dosa
+Food:
+18/9/2018:
+- 12:30PM: Biryani
+Food:
+19/9/2018:
+- 8:30AM: Dosa
+Food:
+19/9/2018:
+- 12:30PM: Biryani
+Water:
+18/9/2018:
+- 8:40PM: 1250
+Water:
+19/9/2018:
+- 8:40PM: 1250
+PhysicalActivity:
+18/9/2018:
+- 7:00AM: walking
+PhysicalActivity:
+17/9/2018:
+- 7:00AM: walking
+Weight:
+18/9/2018:
+- 6:30AM: 61KG
+Weight:
+19/9/2018:
+- 6:30AM: 61KG
+Sleep:
+18/9/2018:
+- 10:30: 8hr
+Sleep:
+17/9/2018:
+- 10:30: 8hr
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -211,14 +255,42 @@ Water:
 Water:
 21/9/2018:
 - 9:49PM: 1000
-Traceback (most recent call last):
-  File "fitbyte.py", line 153, in <module>
-    main()
-  File "fitbyte.py", line 142, in main
-    fitbyte.disWeight()
-  File "fitbyte.py", line 97, in disWeight
-    each.waterlogdis()
-AttributeError: 'WeightLog' object has no attribute 'waterlogdis'
+Weight:
+18/9/2018:
+- 6:30AM: 55Kg
+Weight:
+22/9/2018:
+- 6:30AM: 55Kg
+Food:
+18/9/2018:
+- 8:30AM: Dosa
+Food:
+20/9/2018:
+- 8:30AM: Dosa
+Water:
+18/9/2018:
+- 9:45AM: 500
+Water:
+18/9/2018:
+- 9:49PM: 1000
+Water:
+19/9/2018:
+- 9:45AM: 500
+Water:
+21/9/2018:
+- 9:49PM: 1000
+Weight:
+18/9/2018:
+- 6:30AM: 55Kg
+Weight:
+22/9/2018:
+- 6:30AM: 55Kg
+Sleep:
+18/9/2018:
+- 10:30PM: 9hrs
+Sleep:
+23/9/2018:
+- 10:30PM: 9hrs
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -353,13 +425,77 @@ PhysicalActivity:
 PhysicalActivity:
 16/9/2018:
 - 7:00AM: bicycling
-Traceback (most recent call last):
-  File "fitbyte.py", line 153, in <module>
-    main()
-  File "fitbyte.py", line 142, in main
-    fitbyte.disWeight()
-  File "fitbyte.py", line 97, in disWeight
-    each.waterlogdis()
-AttributeError: 'WeightLog' object has no attribute 'waterlogdis'
+Weight:
+17/9/2018:
+- 6:30AM: 100Kg
+Weight:
+16/9/2018:
+- 6:30AM: 56Kg
+Weight:
+18/9/2018:
+- 6:30AM: 55Kg
+Weight:
+22/9/2018:
+- 6:30AM: 55Kg
+Food:
+17/9/2018:
+- 8:30AM: Idli
+Food:
+16/9/2018:
+- 8:30AM: Idli
+Food:
+18/9/2018:
+- 8:30AM: Dosa
+Food:
+20/9/2018:
+- 8:30AM: Dosa
+Water:
+17/9/2018:
+- 3PM: 1250
+Water:
+16/9/2018:
+- 6PM: 1250
+Water:
+18/9/2018:
+- 9:45AM: 500
+Water:
+18/9/2018:
+- 9:49PM: 1000
+Water:
+19/9/2018:
+- 9:45AM: 500
+Water:
+21/9/2018:
+- 9:49PM: 1000
+PhysicalActivity:
+17/9/2018:
+- 7:00AM: walking
+PhysicalActivity:
+16/9/2018:
+- 7:00AM: bicycling
+Weight:
+17/9/2018:
+- 6:30AM: 100Kg
+Weight:
+16/9/2018:
+- 6:30AM: 56Kg
+Weight:
+18/9/2018:
+- 6:30AM: 55Kg
+Weight:
+22/9/2018:
+- 6:30AM: 55Kg
+Sleep:
+17/9/2018:
+- 10:30PM: 5hrs
+Sleep:
+16/9/2018:
+- 10:30PM: 5hrs
+Sleep:
+18/9/2018:
+- 10:30PM: 9hrs
+Sleep:
+23/9/2018:
+- 10:30PM: 9hrs
 ----------------------------------------
 

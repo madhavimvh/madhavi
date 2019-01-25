@@ -94,7 +94,7 @@ class FitByte:
 			each.PAdis()
 	def disWeight(self):
 		for each in self.weightlogs:
-			each.waterlogdis()
+			each.wtdis()
 	def disSleep(self):
 		for each in self.sleeplogs:
 			each.sleeplogdis()
