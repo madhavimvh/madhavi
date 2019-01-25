@@ -286,7 +286,6 @@ fitbyte.py:84:1: C0103: Argument name "SleepLog" doesn't conform to snake_case n
 fitbyte.py:84:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:84:23: W0621: Redefining name 'SleepLog' from outer scope (line 54) (redefined-outer-name)
 fitbyte.py:86:1: C0111: Missing method docstring (missing-docstring)
-fitbyte.py:88:26: E0602: Undefined variable 'each1' (undefined-variable)
 fitbyte.py:91:1: C0103: Method name "disFL" doesn't conform to snake_case naming style (invalid-name)
 fitbyte.py:91:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:96:5: W0612: Unused variable 'count' (unused-variable)
@@ -306,5 +305,5 @@ fitbyte.py:206:3: C0103: Variable name "PAlog" doesn't conform to snake_case nam
 fitbyte.py:191:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.62/10 (previous run: -3.24/10, -0.38)
+Your code has been rated at -3.39/10 (previous run: -3.62/10, +0.23)
 

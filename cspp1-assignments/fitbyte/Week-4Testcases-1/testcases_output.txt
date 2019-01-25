@@ -37,10 +37,10 @@ Traceback (most recent call last):
   File "fitbyte.py", line 219, in main
     fitbyte.disFL(dateset)
   File "fitbyte.py", line 99, in disFL
-    self.food1()
-  File "fitbyte.py", line 88, in food1
-    if each.getdateF() == each1:
-NameError: name 'each1' is not defined
+    self.food1(each1)
+  File "fitbyte.py", line 89, in food1
+    count += 1
+UnboundLocalError: local variable 'count' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -108,10 +108,10 @@ Traceback (most recent call last):
   File "fitbyte.py", line 219, in main
     fitbyte.disFL(dateset)
   File "fitbyte.py", line 99, in disFL
-    self.food1()
-  File "fitbyte.py", line 88, in food1
-    if each.getdateF() == each1:
-NameError: name 'each1' is not defined
+    self.food1(each1)
+  File "fitbyte.py", line 89, in food1
+    count += 1
+UnboundLocalError: local variable 'count' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -169,16 +169,17 @@ Sleep:
 
 Your Output: 
 Food:
+20/9/2018:
 Traceback (most recent call last):
   File "fitbyte.py", line 237, in <module>
     main()
   File "fitbyte.py", line 219, in main
     fitbyte.disFL(dateset)
   File "fitbyte.py", line 99, in disFL
-    self.food1()
-  File "fitbyte.py", line 88, in food1
-    if each.getdateF() == each1:
-NameError: name 'each1' is not defined
+    self.food1(each1)
+  File "fitbyte.py", line 89, in food1
+    count += 1
+UnboundLocalError: local variable 'count' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -278,15 +279,16 @@ Sleep:
 
 Your Output: 
 Food:
+20/9/2018:
 Traceback (most recent call last):
   File "fitbyte.py", line 237, in <module>
     main()
   File "fitbyte.py", line 219, in main
     fitbyte.disFL(dateset)
   File "fitbyte.py", line 99, in disFL
-    self.food1()
-  File "fitbyte.py", line 88, in food1
-    if each.getdateF() == each1:
-NameError: name 'each1' is not defined
+    self.food1(each1)
+  File "fitbyte.py", line 89, in food1
+    count += 1
+UnboundLocalError: local variable 'count' referenced before assignment
 ----------------------------------------
 
