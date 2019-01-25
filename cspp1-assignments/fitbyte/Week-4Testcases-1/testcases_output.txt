@@ -120,11 +120,9 @@ Food:
 19/9/2018:
 - 8:30AM: Dosa
 - 12:30PM: Biryani
-2
 18/9/2018:
 - 8:30AM: Dosa
 - 12:30PM: Biryani
-2
 2
 Water:
 19/9/2018:
@@ -231,8 +229,6 @@ Your Output:
 Food:
 20/9/2018:
 - 8:30AM: Dosa
-1
-1
 18/9/2018:
 - 8:30AM: Dosa
 1
@@ -382,14 +378,10 @@ Your Output:
 Food:
 20/9/2018:
 - 8:30AM: Dosa
-1
-1
 18/9/2018:
 - 8:30AM: Dosa
-1
 17/9/2018:
 - 8:30AM: Idli
-1
 16/9/2018:
 - 8:30AM: Idli
 1
