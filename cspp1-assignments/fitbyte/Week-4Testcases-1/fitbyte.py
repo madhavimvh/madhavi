@@ -101,7 +101,7 @@ class FitByte:
 
 	def summary(self, dateset):
 		print("Summary:")
-		for each in foodlogs:
+		for each in self.foodlogs:
 			for each1 in dateset:
 				if each.getdateF() == each1:
 					print(each1)

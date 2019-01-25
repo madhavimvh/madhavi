@@ -207,13 +207,11 @@ fitbyte.py:95:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:98:1: C0103: Method name "disSleep" doesn't conform to snake_case naming style (invalid-name)
 fitbyte.py:98:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:102:1: C0111: Missing method docstring (missing-docstring)
-fitbyte.py:104:14: E0602: Undefined variable 'foodlogs' (undefined-variable)
-fitbyte.py:102:1: R0201: Method could be a function (no-self-use)
 fitbyte.py:111:0: C0111: Missing function docstring (missing-docstring)
 fitbyte.py:114:1: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
 fitbyte.py:130:3: C0103: Variable name "PAlog" doesn't conform to snake_case naming style (invalid-name)
 fitbyte.py:115:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.73/10 (previous run: -4.48/10, -0.25)
+Your code has been rated at -4.32/10 (previous run: -4.73/10, +0.41)
 
