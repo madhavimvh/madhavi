@@ -192,7 +192,6 @@ fitbyte.py:25:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:27:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:29:1: C0103: Method name "sumWater" doesn't conform to snake_case naming style (invalid-name)
 fitbyte.py:29:1: C0111: Missing method docstring (missing-docstring)
-fitbyte.py:30:52: E1101: Instance of 'WaterLog' has no 'fooditem' member (no-member)
 fitbyte.py:32:0: C0111: Missing class docstring (missing-docstring)
 fitbyte.py:37:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:39:1: C0103: Method name "getdatePA" doesn't conform to snake_case naming style (invalid-name)
@@ -209,7 +208,6 @@ fitbyte.py:54:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:56:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:58:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:60:1: C0111: Missing method docstring (missing-docstring)
-fitbyte.py:61:53: E1101: Instance of 'WeightLog' has no 'fooditem' member (no-member)
 fitbyte.py:62:0: C0111: Missing class docstring (missing-docstring)
 fitbyte.py:67:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:69:1: C0103: Method name "getdateSP" doesn't conform to snake_case naming style (invalid-name)
@@ -218,7 +216,6 @@ fitbyte.py:71:1: C0103: Method name "gettimeSP" doesn't conform to snake_case na
 fitbyte.py:71:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:73:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:75:1: C0111: Missing method docstring (missing-docstring)
-fitbyte.py:76:52: E1101: Instance of 'SleepLog' has no 'fooditem' member (no-member)
 fitbyte.py:78:0: C0111: Missing class docstring (missing-docstring)
 fitbyte.py:86:1: C0103: Argument name "FoodLog" doesn't conform to snake_case naming style (invalid-name)
 fitbyte.py:86:1: C0111: Missing method docstring (missing-docstring)
@@ -253,5 +250,5 @@ fitbyte.py:157:3: C0103: Variable name "PAlog" doesn't conform to snake_case nam
 fitbyte.py:142:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.09/10 (previous run: -5.51/10, +0.42)
+Your code has been rated at -4.23/10 (previous run: -5.09/10, +0.86)
 
