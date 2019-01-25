@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Food:
 18/9/2018:
@@ -34,17 +34,31 @@ Food:
 - 8:30AM: Dosa
 Water:
 18/9/2018:
-Traceback (most recent call last):
-  File "fitbyte.py", line 231, in <module>
-    main()
-  File "fitbyte.py", line 215, in main
-    fitbyte.disWaterlog(dateset)
-  File "fitbyte.py", line 121, in disWaterlog
-    water1(each1)
-NameError: name 'water1' is not defined
+- 8:40PM: 1250
+PhysicalActivity:
+18/9/2018:
+- 7:00AM: walking
+Weight:
+18/9/2018:
+- 6:30AM: 61KG
+Sleep:
+18/9/2018:
+- 10:30: 8hr
+Summary:
+18/9/2018:
+Food:
+- 8:30AM: Dosa
+Water:
+- 8:40PM: 1250
+PhysicalActivity:
+- 7:00AM: walking
+Weight:
+- 6:30AM: 61KG
+Sleep:
+- 10:30: 8hr
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 Food:
 19/9/2018:
@@ -110,17 +124,53 @@ Food:
 - 12:30PM: Biryani
 Water:
 19/9/2018:
-Traceback (most recent call last):
-  File "fitbyte.py", line 231, in <module>
-    main()
-  File "fitbyte.py", line 215, in main
-    fitbyte.disWaterlog(dateset)
-  File "fitbyte.py", line 121, in disWaterlog
-    water1(each1)
-NameError: name 'water1' is not defined
+- 8:40PM: 1250
+18/9/2018:
+- 8:40PM: 1250
+PhysicalActivity:
+18/9/2018:
+- 7:00AM: walking
+17/9/2018:
+- 7:00AM: walking
+Weight:
+19/9/2018:
+- 6:30AM: 61KG
+18/9/2018:
+- 6:30AM: 61KG
+Sleep:
+18/9/2018:
+- 10:30: 8hr
+17/9/2018:
+- 10:30: 8hr
+Summary:
+19/9/2018:
+Food:
+- 8:30AM: Dosa
+- 12:30PM: Biryani
+Water:
+- 8:40PM: 1250
+Weight:
+- 6:30AM: 61KG
+18/9/2018:
+Food:
+- 8:30AM: Dosa
+- 12:30PM: Biryani
+Water:
+- 8:40PM: 1250
+PhysicalActivity:
+- 7:00AM: walking
+Weight:
+- 6:30AM: 61KG
+Sleep:
+- 10:30: 8hr
+17/9/2018:
+PhysicalActivity:
+- 7:00AM: walking
+Sleep:
+- 10:30: 8hr
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 Food:
 20/9/2018:
@@ -180,17 +230,53 @@ Food:
 18/9/2018:
 - 8:30AM: Dosa
 Water:
-Traceback (most recent call last):
-  File "fitbyte.py", line 231, in <module>
-    main()
-  File "fitbyte.py", line 215, in main
-    fitbyte.disWaterlog(dateset)
-  File "fitbyte.py", line 121, in disWaterlog
-    water1(each1)
-NameError: name 'water1' is not defined
+21/9/2018:
+- 9:49PM: 1000
+19/9/2018:
+- 9:45AM: 500
+18/9/2018:
+- 9:45AM: 500
+- 9:49PM: 1000
+PhysicalActivity:
+Weight:
+22/9/2018:
+- 6:30AM: 55Kg
+18/9/2018:
+- 6:30AM: 55Kg
+Sleep:
+23/9/2018:
+- 10:30PM: 9hrs
+18/9/2018:
+- 10:30PM: 9hrs
+Summary:
+23/9/2018:
+Sleep:
+- 10:30PM: 9hrs
+22/9/2018:
+Weight:
+- 6:30AM: 55Kg
+21/9/2018:
+Water:
+- 9:49PM: 1000
+20/9/2018:
+Food:
+- 8:30AM: Dosa
+19/9/2018:
+Water:
+- 9:45AM: 500
+18/9/2018:
+Food:
+- 8:30AM: Dosa
+Water:
+- 9:45AM: 500
+- 9:49PM: 1000
+Weight:
+- 6:30AM: 55Kg
+Sleep:
+- 10:30PM: 9hrs
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 Food:
 20/9/2018:
@@ -296,13 +382,87 @@ Food:
 16/9/2018:
 - 8:30AM: Idli
 Water:
-Traceback (most recent call last):
-  File "fitbyte.py", line 231, in <module>
-    main()
-  File "fitbyte.py", line 215, in main
-    fitbyte.disWaterlog(dateset)
-  File "fitbyte.py", line 121, in disWaterlog
-    water1(each1)
-NameError: name 'water1' is not defined
+21/9/2018:
+- 9:49PM: 1000
+19/9/2018:
+- 9:45AM: 500
+18/9/2018:
+- 9:45AM: 500
+- 9:49PM: 1000
+17/9/2018:
+- 3PM: 1250
+16/9/2018:
+- 6PM: 1250
+PhysicalActivity:
+17/9/2018:
+- 7:00AM: walking
+16/9/2018:
+- 7:00AM: bicycling
+Weight:
+22/9/2018:
+- 6:30AM: 55Kg
+18/9/2018:
+- 6:30AM: 55Kg
+17/9/2018:
+- 6:30AM: 100Kg
+16/9/2018:
+- 6:30AM: 56Kg
+Sleep:
+23/9/2018:
+- 10:30PM: 9hrs
+18/9/2018:
+- 10:30PM: 9hrs
+17/9/2018:
+- 10:30PM: 5hrs
+16/9/2018:
+- 10:30PM: 5hrs
+Summary:
+23/9/2018:
+Sleep:
+- 10:30PM: 9hrs
+22/9/2018:
+Weight:
+- 6:30AM: 55Kg
+21/9/2018:
+Water:
+- 9:49PM: 1000
+20/9/2018:
+Food:
+- 8:30AM: Dosa
+19/9/2018:
+Water:
+- 9:45AM: 500
+18/9/2018:
+Food:
+- 8:30AM: Dosa
+Water:
+- 9:45AM: 500
+- 9:49PM: 1000
+Weight:
+- 6:30AM: 55Kg
+Sleep:
+- 10:30PM: 9hrs
+17/9/2018:
+Food:
+- 8:30AM: Idli
+Water:
+- 3PM: 1250
+PhysicalActivity:
+- 7:00AM: walking
+Weight:
+- 6:30AM: 100Kg
+Sleep:
+- 10:30PM: 5hrs
+16/9/2018:
+Food:
+- 8:30AM: Idli
+Water:
+- 6PM: 1250
+PhysicalActivity:
+- 7:00AM: bicycling
+Weight:
+- 6:30AM: 56Kg
+Sleep:
+- 10:30PM: 5hrs
 ----------------------------------------
 

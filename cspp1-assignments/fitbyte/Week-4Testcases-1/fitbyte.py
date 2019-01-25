@@ -118,7 +118,7 @@ class FitByte:
 				if each1 in each.getdateW():
 					print(each1 + ":")
 					break
-			water1(each1)
+			self.water1(each1)
 	def disPAct(self, dateset):
 		print("PhysicalActivity:")
 		for each1 in sorted(dateset, reverse = True):
@@ -126,7 +126,7 @@ class FitByte:
 				if each1 in each.getdatePA():
 					print(each1 + ":")
 					break
-			PA1(each1)
+			self.PA1(each1)
 	def disWeight(self, dateset):
 		print("Weight:")
 		for each1 in sorted(dateset, reverse = True):
@@ -134,7 +134,7 @@ class FitByte:
 				if each1 in each.getdateweight():
 					print(each1 + ":")
 					break
-			weight1(each1)
+			self.weight1(each1)
 	def disSleep(self, dateset):
 		print("Sleep:")
 		for each1 in sorted(dateset, reverse = True):
@@ -142,7 +142,7 @@ class FitByte:
 				if each1 in each.getdateSP():
 					print(each1 + ":")
 					break
-			sleep1(each1)
+			self.sleep1(each1)
 
 	def summary(self, dateset):
 		print("Summary:")
@@ -159,22 +159,22 @@ class FitByte:
 				if each1 in each.getdateW():
 					print("Water:")
 					break
-			water1(each1)
+			self.water1(each1)
 			for each in self.physicalacties:
 				if each1 in each.getdatePA():
 					print("PhysicalActivity:")
 					break
-			PA1(each1)
+			self.PA1(each1)
 			for each in self.weightlogs:
 				if each1 in each.getdateweight():
 					print("Weight:")
 					break
-			weight1(each1)
+			self.weight1(each1)
 			for each in self.sleeplogs:
 				if each1 in each.getdateSP():
 					print("Sleep:")
 					break
-			sleep1(each1)
+			self.sleep1(each1)
 		
 
 

@@ -293,26 +293,18 @@ fitbyte.py:106:1: C0103: Method name "disFL" doesn't conform to snake_case namin
 fitbyte.py:106:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:114:1: C0103: Method name "disWaterlog" doesn't conform to snake_case naming style (invalid-name)
 fitbyte.py:114:1: C0111: Missing method docstring (missing-docstring)
-fitbyte.py:121:3: E0602: Undefined variable 'water1' (undefined-variable)
 fitbyte.py:122:1: C0103: Method name "disPAct" doesn't conform to snake_case naming style (invalid-name)
 fitbyte.py:122:1: C0111: Missing method docstring (missing-docstring)
-fitbyte.py:129:3: E0602: Undefined variable 'PA1' (undefined-variable)
 fitbyte.py:130:1: C0103: Method name "disWeight" doesn't conform to snake_case naming style (invalid-name)
 fitbyte.py:130:1: C0111: Missing method docstring (missing-docstring)
-fitbyte.py:137:3: E0602: Undefined variable 'weight1' (undefined-variable)
 fitbyte.py:138:1: C0103: Method name "disSleep" doesn't conform to snake_case naming style (invalid-name)
 fitbyte.py:138:1: C0111: Missing method docstring (missing-docstring)
-fitbyte.py:145:3: E0602: Undefined variable 'sleep1' (undefined-variable)
 fitbyte.py:147:1: C0111: Missing method docstring (missing-docstring)
-fitbyte.py:162:3: E0602: Undefined variable 'water1' (undefined-variable)
-fitbyte.py:167:3: E0602: Undefined variable 'PA1' (undefined-variable)
-fitbyte.py:172:3: E0602: Undefined variable 'weight1' (undefined-variable)
-fitbyte.py:177:3: E0602: Undefined variable 'sleep1' (undefined-variable)
 fitbyte.py:181:0: C0111: Missing function docstring (missing-docstring)
 fitbyte.py:184:1: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
 fitbyte.py:200:3: C0103: Variable name "PAlog" doesn't conform to snake_case naming style (invalid-name)
 fitbyte.py:185:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.42/10 (previous run: -3.38/10, -2.04)
+Your code has been rated at -3.56/10 (previous run: -5.42/10, +1.85)
 
