@@ -113,9 +113,9 @@ class FitByte:
 		print("Summary:")
 		for each1 in dateset:
 			print(each1 + ":") 
+			print("Food:")
 			for each in self.foodlogs:
 				if each.getdateF() == each1:
-					print("Food:")
 					each.sumFL()
 			for each in self.waterlogs:
 			# for each1 in dateset:
