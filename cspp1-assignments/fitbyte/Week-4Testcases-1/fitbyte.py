@@ -103,7 +103,7 @@ class FitByte:
 			for each in self.foodlogs:
 				if each.getdateF() == each1:
 					each.sumFL()
-	def disWaterlog(self, dataset):
+	def disWaterlog(self, dateset):
 		print("Water:")
 		for each1 in sorted(dateset, reverse = True):
 			for each in self.waterlogs:

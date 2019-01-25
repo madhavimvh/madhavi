@@ -305,8 +305,6 @@ fitbyte.py:96:1: C0103: Method name "disFL" doesn't conform to snake_case naming
 fitbyte.py:96:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:106:1: C0103: Method name "disWaterlog" doesn't conform to snake_case naming style (invalid-name)
 fitbyte.py:106:1: C0111: Missing method docstring (missing-docstring)
-fitbyte.py:108:22: E0602: Undefined variable 'dateset' (undefined-variable)
-fitbyte.py:106:23: W0613: Unused argument 'dataset' (unused-argument)
 fitbyte.py:116:1: C0103: Method name "disPAct" doesn't conform to snake_case naming style (invalid-name)
 fitbyte.py:116:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:126:1: C0103: Method name "disWeight" doesn't conform to snake_case naming style (invalid-name)
@@ -321,5 +319,5 @@ fitbyte.py:214:3: C0103: Variable name "PAlog" doesn't conform to snake_case nam
 fitbyte.py:199:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.81/10 (previous run: -3.84/10, +0.03)
+Your code has been rated at -3.54/10 (previous run: -3.81/10, +0.27)
 
