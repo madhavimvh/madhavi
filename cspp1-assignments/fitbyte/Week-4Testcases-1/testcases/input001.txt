@@ -1,0 +1,24 @@
+18
+Food Dosa,18/9/2018,8:30AM
+Food Biryani,18/9/2018,12:30PM
+Water 1250,18/9/2018,8:40PM
+PhysicalActivity walking,18/9/2018,7:00AM
+Weight 61KG,18/9/2018,6:30AM
+Sleep 8hr,18/9/2018,10:30
+Food Dosa,19/9/2018,8:30AM
+Food Biryani,19/9/2018,12:30PM
+Water 1250,19/9/2018,8:40PM
+PhysicalActivity walking,17/9/2018,7:00AM
+Weight 61KG,19/9/2018,6:30AM
+Sleep 8hr,17/9/2018,10:30
+Foodlog
+Waterlog
+PhysicalActivitylog
+Weightlog
+Sleeplog
+Summary
+
+
+
+
+

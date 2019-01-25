@@ -1,0 +1,92 @@
+Food:
+20/9/2018:
+- 8:30AM: Dosa
+18/9/2018:
+- 8:30AM: Dosa
+17/9/2018:
+- 8:30AM: Idli
+16/9/2018:
+- 8:30AM: Idli
+Water:
+21/9/2018:
+- 9:49PM: 1000
+19/9/2018:
+- 9:45AM: 500
+18/9/2018:
+- 9:45AM: 500
+- 9:49PM: 1000
+17/9/2018:
+- 3PM: 1250
+16/9/2018:
+- 6PM: 1250
+PhysicalActivity:
+17/9/2018:
+- 7:00AM: walking
+16/9/2018:
+- 7:00AM: bicycling
+Weight:
+22/9/2018:
+- 6:30AM: 55Kg
+18/9/2018:
+- 6:30AM: 55Kg
+17/9/2018:
+- 6:30AM: 100Kg
+16/9/2018:
+- 6:30AM: 56Kg
+Sleep:
+23/9/2018:
+- 10:30PM: 9hrs
+18/9/2018:
+- 10:30PM: 9hrs
+17/9/2018:
+- 10:30PM: 5hrs
+16/9/2018:
+- 10:30PM: 5hrs
+Summary:
+23/9/2018:
+Sleep:
+- 10:30PM: 9hrs
+22/9/2018:
+Weight:
+- 6:30AM: 55Kg
+21/9/2018:
+Water:
+- 9:49PM: 1000
+20/9/2018:
+Food:
+- 8:30AM: Dosa
+19/9/2018:
+Water:
+- 9:45AM: 500
+18/9/2018:
+Food:
+- 8:30AM: Dosa
+Water:
+- 9:45AM: 500
+- 9:49PM: 1000
+Weight:
+- 6:30AM: 55Kg
+Sleep:
+- 10:30PM: 9hrs
+17/9/2018:
+Food:
+- 8:30AM: Idli
+Water:
+- 3PM: 1250
+PhysicalActivity:
+- 7:00AM: walking
+Weight:
+- 6:30AM: 100Kg
+Sleep:
+- 10:30PM: 5hrs
+16/9/2018:
+Food:
+- 8:30AM: Idli
+Water:
+- 6PM: 1250
+PhysicalActivity:
+- 7:00AM: bicycling
+Weight:
+- 6:30AM: 56Kg
+Sleep:
+- 10:30PM: 5hrs

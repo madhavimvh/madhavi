@@ -1,0 +1,32 @@
+26
+Food Idli,17/9/2018,8:30AM
+Water 1250,17/9/2018,3PM
+PhysicalActivity walking,17/9/2018,7:00AM
+Weight 100Kg,17/9/2018,6:30AM
+Sleep 5hrs,17/9/2018,10:30PM
+Food Idli,16/9/2018,8:30AM
+Water 1250,16/9/2018,6PM
+PhysicalActivity bicycling,16/9/2018,7:00AM
+Weight 56Kg,16/9/2018,6:30AM
+Sleep 5hrs,16/9/2018,10:30PM
+Food Dosa,18/9/2018,8:30AM
+Water 500,18/9/2018,9:45AM
+Water 1000,18/9/2018,9:49PM
+Weight 55Kg,18/9/2018,6:30AM
+Sleep 9hrs,18/9/2018,10:30PM
+Food Dosa,20/9/2018,8:30AM
+Water 500,19/9/2018,9:45AM
+Water 1000,21/9/2018,9:49PM
+Weight 55Kg,22/9/2018,6:30AM
+Sleep 9hrs,23/9/2018,10:30PM
+Foodlog
+Waterlog
+PhysicalActivitylog
+Weightlog
+Sleeplog
+Summary
+
+
+
+
+

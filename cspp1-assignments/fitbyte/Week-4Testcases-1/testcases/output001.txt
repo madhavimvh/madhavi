@@ -1,0 +1,53 @@
+Food:
+19/9/2018:
+- 8:30AM: Dosa
+- 12:30PM: Biryani
+18/9/2018:
+- 8:30AM: Dosa
+- 12:30PM: Biryani
+Water:
+19/9/2018:
+- 8:40PM: 1250
+18/9/2018:
+- 8:40PM: 1250
+PhysicalActivity:
+18/9/2018:
+- 7:00AM: walking
+17/9/2018:
+- 7:00AM: walking
+Weight:
+19/9/2018:
+- 6:30AM: 61KG
+18/9/2018:
+- 6:30AM: 61KG
+Sleep:
+18/9/2018:
+- 10:30: 8hr
+17/9/2018:
+- 10:30: 8hr
+Summary:
+19/9/2018:
+Food:
+- 8:30AM: Dosa
+- 12:30PM: Biryani
+Water:
+- 8:40PM: 1250
+Weight:
+- 6:30AM: 61KG
+18/9/2018:
+Food:
+- 8:30AM: Dosa
+- 12:30PM: Biryani
+Water:
+- 8:40PM: 1250
+PhysicalActivity:
+- 7:00AM: walking
+Weight:
+- 6:30AM: 61KG
+Sleep:
+- 10:30: 8hr
+17/9/2018:
+PhysicalActivity:
+- 7:00AM: walking
+Sleep:
+- 10:30: 8hr

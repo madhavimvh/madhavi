@@ -1,0 +1,27 @@
+Food:
+18/9/2018:
+- 8:30AM: Dosa
+Water:
+18/9/2018:
+- 8:40PM: 1250
+PhysicalActivity:
+18/9/2018:
+- 7:00AM: walking
+Weight:
+18/9/2018:
+- 6:30AM: 61KG
+Sleep:
+18/9/2018:
+- 10:30: 8hr
+Summary:
+18/9/2018:
+Food:
+- 8:30AM: Dosa
+Water:
+- 8:40PM: 1250
+PhysicalActivity:
+- 7:00AM: walking
+Weight:
+- 6:30AM: 61KG
+Sleep:
+- 10:30: 8hr
