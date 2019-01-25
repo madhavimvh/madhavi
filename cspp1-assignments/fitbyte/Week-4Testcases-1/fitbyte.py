@@ -12,7 +12,7 @@ class FoodLog:
 	def Foodlogdis(self):
 		print("Food:" + "\n" + self.date + ":" + "\n" + "- " + self.time + ": " + self.fooditem)
 	def sumFL(self):
-		print("Food:" + "\n" + "- " + self.time + ": " + self.fooditem)
+		print("- " + self.time + ": " + self.fooditem)
 class WaterLog:
 	def __init__(self, waterquan, date, time):
 		self.waterquan = waterquan
@@ -27,7 +27,7 @@ class WaterLog:
 	def waterlogdis(self):
 		print("Water:" + "\n" + self.date + ":" + "\n" + "- " + self.time + ": " + self.waterquan)
 	def sumWater(self):
-		print("Water:" + "\n" + "- " + self.time + ": " + self.waterquan)
+		print("- " + self.time + ": " + self.waterquan)
 
 class PhysicalActivity:
 	def __init__(self, activity, date, time):
@@ -43,7 +43,7 @@ class PhysicalActivity:
 	def PAdis(self):
 		print("PhysicalActivity:" + "\n" + self.date + ":" + "\n" + "- " + self.time + ": " + self.activity)
 	def sumPA(self):
-		print("PhysicalActivity:" + "\n" + "- " + self.time + ": " + self.activity)
+		print("- " + self.time + ": " + self.activity)
 class WeightLog:
 	def __init__(self, weight, date, time):
 		self.weight = weight
@@ -58,7 +58,7 @@ class WeightLog:
 	def wtdis(self):
 		print("Weight:" + "\n" + self.date + ":" + "\n" + "- " + self.time + ": " + self.weight)
 	def sumweight(self):
-		print("Weight:" + "\n" + "- " + self.time + ": " + self.weight)
+		print("- " + self.time + ": " + self.weight)
 class SleepLog:
 	def __init__(self, sleephrs, date, time):
 		self.sleephrs = sleephrs
@@ -73,7 +73,7 @@ class SleepLog:
 	def sleeplogdis(self):
 		print("Sleep:" + "\n" + self.date + ":" + "\n" + "- " + self.time + ": " + self.sleephrs)
 	def sumsleep(self):
-		print("Sleep:" + "\n" + "- " + self.time + ": " + self.sleephrs)
+		print("- " + self.time + ": " + self.sleephrs)
 
 class FitByte:
 	foodlogs = []
@@ -114,6 +114,7 @@ class FitByte:
 		for each1 in dateset:
 			print(each1 + ":") 
 			for each in self.foodlogs:
+				print("Food:")
 				if each.getdateF() == each1:
 					each.sumFL()
 			for each in self.waterlogs:
