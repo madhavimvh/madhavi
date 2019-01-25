@@ -89,10 +89,10 @@ fitbyte.py:94:0: W0312: Found indentation with tabs instead of spaces (mixed-ind
 fitbyte.py:95:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:96:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:97:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-fitbyte.py:97:39: C0326: No space allowed around keyword argument assignment
+fitbyte.py:98:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+fitbyte.py:98:39: C0326: No space allowed around keyword argument assignment
 		for each1 in sorted(dateset, reverse = True):
                                        ^ (bad-whitespace)
-fitbyte.py:98:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:99:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:100:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:101:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
