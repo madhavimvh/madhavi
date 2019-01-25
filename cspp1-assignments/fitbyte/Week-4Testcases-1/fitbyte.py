@@ -96,10 +96,10 @@ class FitByte:
 	def disFL(self, dateset):
 		print("Food:")
 		for each1 in sorted(dateset, reverse = True):
-			for each in self.foodlogs:
-				if each1 in each.getdateF():
-					print(each1 + ":")
-					break
+			# for each in self.foodlogs:
+				# if each1 in each.getdateF():
+			print(each1 + ":")
+			break
 			for each in self.foodlogs:
 				if each.getdateF() == each1:
 					each.sumFL()

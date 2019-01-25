@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Food:
 18/9/2018:
@@ -31,7 +31,6 @@ Sleep:
 Your Output: 
 Food:
 18/9/2018:
-- 8:30AM: Dosa
 Water:
 18/9/2018:
 - 8:40PM: 1250
@@ -117,11 +116,6 @@ Sleep:
 Your Output: 
 Food:
 19/9/2018:
-- 8:30AM: Dosa
-- 12:30PM: Biryani
-18/9/2018:
-- 8:30AM: Dosa
-- 12:30PM: Biryani
 Water:
 18/9/2018:
 - 8:40PM: 1250
@@ -229,10 +223,7 @@ Sleep:
 
 Your Output: 
 Food:
-20/9/2018:
-- 8:30AM: Dosa
-18/9/2018:
-- 8:30AM: Dosa
+23/9/2018:
 Water:
 18/9/2018:
 - 9:45AM: 500
@@ -382,14 +373,7 @@ Sleep:
 
 Your Output: 
 Food:
-20/9/2018:
-- 8:30AM: Dosa
-18/9/2018:
-- 8:30AM: Dosa
-17/9/2018:
-- 8:30AM: Idli
-16/9/2018:
-- 8:30AM: Idli
+23/9/2018:
 Water:
 17/9/2018:
 - 3PM: 1250
