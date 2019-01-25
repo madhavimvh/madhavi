@@ -87,6 +87,22 @@ class FitByte:
 		for each in self.foodlogs:
 				if each.getdateF() == each1:
 					each.sumFL()
+	def water1(self, each1):
+		for each in self.waterlogs:
+				if each.getdateW() == each1:
+					each.sumWater()
+	def PA1(self, each1):
+		for each in self.physicalacties:
+				if each.getdatePA() == each1:
+					each.sumPA()
+	def weight1(self, each1):
+		for each in self.weightlogs:
+				if each.getdateweight() == each1:
+					each.sumweight()
+	def sleep1(self, each1):
+		for each in self.sleeplogs:
+				if each.getdateSP() == each1:
+					each.sumsleep()
 	def disFL(self, dateset):
 		print("Food:")
 		for each1 in sorted(dateset, reverse = True):
@@ -102,9 +118,7 @@ class FitByte:
 				if each1 in each.getdateW():
 					print(each1 + ":")
 					break
-			for each in self.waterlogs:
-				if each.getdateW() == each1:
-					each.sumWater()
+			water1(each1)
 	def disPAct(self, dateset):
 		print("PhysicalActivity:")
 		for each1 in sorted(dateset, reverse = True):
@@ -112,9 +126,7 @@ class FitByte:
 				if each1 in each.getdatePA():
 					print(each1 + ":")
 					break
-			for each in self.physicalacties:
-				if each.getdatePA() == each1:
-					each.sumPA()
+			PA1(each1)
 	def disWeight(self, dateset):
 		print("Weight:")
 		for each1 in sorted(dateset, reverse = True):
@@ -122,9 +134,7 @@ class FitByte:
 				if each1 in each.getdateweight():
 					print(each1 + ":")
 					break
-			for each in self.weightlogs:
-				if each.getdateweight() == each1:
-					each.sumweight()
+			weight1(each1)
 	def disSleep(self, dateset):
 		print("Sleep:")
 		for each1 in sorted(dateset, reverse = True):
@@ -132,9 +142,7 @@ class FitByte:
 				if each1 in each.getdateSP():
 					print(each1 + ":")
 					break
-			for each in self.sleeplogs:
-				if each.getdateSP() == each1:
-					each.sumsleep()
+			sleep1(each1)
 
 	def summary(self, dateset):
 		print("Summary:")
@@ -151,34 +159,22 @@ class FitByte:
 				if each1 in each.getdateW():
 					print("Water:")
 					break
-			for each in self.waterlogs:
-			# for each1 in dateset:
-				if each.getdateW() == each1:
-					each.sumWater()
+			water1(each1)
 			for each in self.physicalacties:
 				if each1 in each.getdatePA():
 					print("PhysicalActivity:")
 					break
-			for each in self.physicalacties:
-			# for each1 in dateset:
-				if each.getdatePA() == each1:
-					each.sumPA()
+			PA1(each1)
 			for each in self.weightlogs:
 				if each1 in each.getdateweight():
 					print("Weight:")
 					break
-			for each in self.weightlogs:
-			# for each1 in dateset:
-				if each.getdateweight() == each1:
-					each.sumweight()
+			weight1(each1)
 			for each in self.sleeplogs:
 				if each1 in each.getdateSP():
 					print("Sleep:")
 					break
-			for each in self.sleeplogs:
-			# for each1 in dateset:
-				if each.getdateSP() == each1:
-					each.sumsleep()
+			sleep1(each1)
 		
 
 
