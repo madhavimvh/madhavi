@@ -45,8 +45,19 @@ Sleep:
 18/9/2018:
 - 10:30: 8hr
 Summary:
+18/9/2018:
 Food:
 - 8:30AM: Dosa
+Traceback (most recent call last):
+  File "fitbyte.py", line 188, in <module>
+    main()
+  File "fitbyte.py", line 181, in main
+    fitbyte.summary(dateset)
+  File "fitbyte.py", line 122, in summary
+    each.sumWater()
+  File "fitbyte.py", line 30, in sumWater
+    print("Water:" + "\n" + "- " + self.time + ": " + self.fooditem)
+AttributeError: 'WaterLog' object has no attribute 'fooditem'
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -143,14 +154,28 @@ Sleep:
 17/9/2018:
 - 10:30: 8hr
 Summary:
+18/9/2018:
 Food:
 - 8:30AM: Dosa
+18/9/2018:
 Food:
 - 12:30PM: Biryani
+19/9/2018:
 Food:
 - 8:30AM: Dosa
+19/9/2018:
 Food:
 - 12:30PM: Biryani
+Traceback (most recent call last):
+  File "fitbyte.py", line 188, in <module>
+    main()
+  File "fitbyte.py", line 181, in main
+    fitbyte.summary(dateset)
+  File "fitbyte.py", line 122, in summary
+    each.sumWater()
+  File "fitbyte.py", line 30, in sumWater
+    print("Water:" + "\n" + "- " + self.time + ": " + self.fooditem)
+AttributeError: 'WaterLog' object has no attribute 'fooditem'
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -238,10 +263,22 @@ Sleep:
 23/9/2018:
 - 10:30PM: 9hrs
 Summary:
+18/9/2018:
 Food:
 - 8:30AM: Dosa
+20/9/2018:
 Food:
 - 8:30AM: Dosa
+Traceback (most recent call last):
+  File "fitbyte.py", line 188, in <module>
+    main()
+  File "fitbyte.py", line 181, in main
+    fitbyte.summary(dateset)
+  File "fitbyte.py", line 122, in summary
+    each.sumWater()
+  File "fitbyte.py", line 30, in sumWater
+    print("Water:" + "\n" + "- " + self.time + ": " + self.fooditem)
+AttributeError: 'WaterLog' object has no attribute 'fooditem'
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -401,13 +438,27 @@ Sleep:
 23/9/2018:
 - 10:30PM: 9hrs
 Summary:
+17/9/2018:
 Food:
 - 8:30AM: Idli
+16/9/2018:
 Food:
 - 8:30AM: Idli
+18/9/2018:
 Food:
 - 8:30AM: Dosa
+20/9/2018:
 Food:
 - 8:30AM: Dosa
+Traceback (most recent call last):
+  File "fitbyte.py", line 188, in <module>
+    main()
+  File "fitbyte.py", line 181, in main
+    fitbyte.summary(dateset)
+  File "fitbyte.py", line 122, in summary
+    each.sumWater()
+  File "fitbyte.py", line 30, in sumWater
+    print("Water:" + "\n" + "- " + self.time + ": " + self.fooditem)
+AttributeError: 'WaterLog' object has no attribute 'fooditem'
 ----------------------------------------
 
