@@ -93,9 +93,16 @@ class FitByte:
 		self.weightlogs.append(WeightLog)
 	def addsleeplog(self, SleepLog):
 		self.sleeplogs.append(SleepLog)
-	def disFL(self):
-		for each in self.foodlogs:
-			each.Foodlogdis()
+	def disFL(self, dateset):
+		for each1 in sorted(dateset, reverse = True):
+			print(each1 + ":")
+			for each in self.foodlogs:
+				if each1 in each.getdateF():
+					print("Food:")
+					break
+			for each in self.foodlogs:
+				if each.getdateF() == each1:
+					each.sumFL()
 	def disWaterlog(self):
 		for each in self.waterlogs:
 			each.waterlogdis()
@@ -189,7 +196,7 @@ def main():
 			sleeplg = SleepLog(str1[0], str1[1], str1[2])
 			fitbyte.addsleeplog(sleeplg)
 		if string[0] == "Foodlog":
-			fitbyte.disFL()
+			fitbyte.disFL(dateset)
 		if string[0] == "Waterlog":
 			fitbyte.disWaterlog()
 		if string[0] == "PhysicalActivitylog":
