@@ -148,32 +148,24 @@ Sleep:
 17/9/2018:
 - 10:30: 8hr
 Summary:
-17/9/2018:
-Food:
-Food:
-Food:
-Food:
-- 7:00AM: walking
-- 10:30: 8hr
-19/9/2018:
-Food:
-Food:
-Food:
-- 8:30AM: Dosa
-Food:
-- 12:30PM: Biryani
-- 8:40PM: 1250
-- 6:30AM: 61KG
 18/9/2018:
 Food:
 - 8:30AM: Dosa
 Food:
 - 12:30PM: Biryani
-Food:
-Food:
 - 8:40PM: 1250
 - 7:00AM: walking
 - 6:30AM: 61KG
+- 10:30: 8hr
+19/9/2018:
+Food:
+- 8:30AM: Dosa
+Food:
+- 12:30PM: Biryani
+- 8:40PM: 1250
+- 6:30AM: 61KG
+17/9/2018:
+- 7:00AM: walking
 - 10:30: 8hr
 ----------------------------------------
 
@@ -262,33 +254,23 @@ Sleep:
 23/9/2018:
 - 10:30PM: 9hrs
 Summary:
+22/9/2018:
+- 6:30AM: 55Kg
+19/9/2018:
+- 9:45AM: 500
+20/9/2018:
+Food:
+- 8:30AM: Dosa
 18/9/2018:
 Food:
 - 8:30AM: Dosa
-Food:
 - 9:45AM: 500
 - 9:49PM: 1000
 - 6:30AM: 55Kg
 - 10:30PM: 9hrs
-20/9/2018:
-Food:
-Food:
-- 8:30AM: Dosa
-19/9/2018:
-Food:
-Food:
-- 9:45AM: 500
 23/9/2018:
-Food:
-Food:
 - 10:30PM: 9hrs
-22/9/2018:
-Food:
-Food:
-- 6:30AM: 55Kg
 21/9/2018:
-Food:
-Food:
 - 9:49PM: 1000
 ----------------------------------------
 
@@ -449,65 +431,37 @@ Sleep:
 23/9/2018:
 - 10:30PM: 9hrs
 Summary:
-16/9/2018:
-Food:
-Food:
-- 8:30AM: Idli
-Food:
-Food:
-- 6PM: 1250
-- 7:00AM: bicycling
-- 6:30AM: 56Kg
-- 10:30PM: 5hrs
-20/9/2018:
-Food:
-Food:
-Food:
-Food:
-- 8:30AM: Dosa
-18/9/2018:
-Food:
-Food:
-Food:
-- 8:30AM: Dosa
-Food:
-- 9:45AM: 500
-- 9:49PM: 1000
-- 6:30AM: 55Kg
-- 10:30PM: 9hrs
-19/9/2018:
-Food:
-Food:
-Food:
-Food:
-- 9:45AM: 500
 17/9/2018:
 Food:
 - 8:30AM: Idli
-Food:
-Food:
-Food:
 - 3PM: 1250
 - 7:00AM: walking
 - 6:30AM: 100Kg
 - 10:30PM: 5hrs
-23/9/2018:
+19/9/2018:
+- 9:45AM: 500
+18/9/2018:
 Food:
-Food:
-Food:
-Food:
-- 10:30PM: 9hrs
-21/9/2018:
-Food:
-Food:
-Food:
-Food:
+- 8:30AM: Dosa
+- 9:45AM: 500
 - 9:49PM: 1000
-22/9/2018:
-Food:
-Food:
-Food:
-Food:
 - 6:30AM: 55Kg
+- 10:30PM: 9hrs
+22/9/2018:
+- 6:30AM: 55Kg
+21/9/2018:
+- 9:49PM: 1000
+23/9/2018:
+- 10:30PM: 9hrs
+20/9/2018:
+Food:
+- 8:30AM: Dosa
+16/9/2018:
+Food:
+- 8:30AM: Idli
+- 6PM: 1250
+- 7:00AM: bicycling
+- 6:30AM: 56Kg
+- 10:30PM: 5hrs
 ----------------------------------------
 
