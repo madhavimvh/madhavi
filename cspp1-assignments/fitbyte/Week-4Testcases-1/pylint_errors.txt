@@ -98,7 +98,7 @@ fitbyte.py:104:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 fitbyte.py:105:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:106:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:107:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-fitbyte.py:111:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+fitbyte.py:108:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:112:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:113:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:114:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -118,8 +118,8 @@ fitbyte.py:127:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 fitbyte.py:128:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:129:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:130:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-fitbyte.py:131:26: C0303: Trailing whitespace (trailing-whitespace)
 fitbyte.py:131:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+fitbyte.py:132:26: C0303: Trailing whitespace (trailing-whitespace)
 fitbyte.py:132:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:133:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:134:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -135,8 +135,9 @@ fitbyte.py:143:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 fitbyte.py:144:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:145:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 fitbyte.py:146:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-fitbyte.py:148:0: C0303: Trailing whitespace (trailing-whitespace)
-fitbyte.py:153:0: C0304: Final newline missing (missing-final-newline)
+fitbyte.py:147:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+fitbyte.py:149:0: C0303: Trailing whitespace (trailing-whitespace)
+fitbyte.py:154:0: C0304: Final newline missing (missing-final-newline)
 fitbyte.py:1:0: C0111: Missing module docstring (missing-docstring)
 fitbyte.py:1:0: C0111: Missing class docstring (missing-docstring)
 fitbyte.py:6:1: C0111: Missing method docstring (missing-docstring)
@@ -200,11 +201,11 @@ fitbyte.py:95:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:98:1: C0103: Method name "disSleep" doesn't conform to snake_case naming style (invalid-name)
 fitbyte.py:98:1: C0111: Missing method docstring (missing-docstring)
 fitbyte.py:102:1: C0111: Missing method docstring (missing-docstring)
-fitbyte.py:110:0: C0111: Missing function docstring (missing-docstring)
-fitbyte.py:112:1: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
-fitbyte.py:125:3: C0103: Variable name "PAlog" doesn't conform to snake_case naming style (invalid-name)
-fitbyte.py:113:5: W0612: Unused variable 'i' (unused-variable)
+fitbyte.py:111:0: C0111: Missing function docstring (missing-docstring)
+fitbyte.py:113:1: C0103: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+fitbyte.py:126:3: C0103: Variable name "PAlog" doesn't conform to snake_case naming style (invalid-name)
+fitbyte.py:114:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.44/10 (previous run: -4.44/10, +0.00)
+Your code has been rated at -4.41/10 (previous run: -4.44/10, +0.03)
 

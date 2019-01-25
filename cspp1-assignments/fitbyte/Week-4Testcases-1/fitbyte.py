@@ -100,6 +100,7 @@ class FitByte:
 			each.sleeplogdis()
 
 	def summary(self):
+		print("Summary:")
 		self.disFL()
 		self.disWaterlog()
 		self.disPAct()
