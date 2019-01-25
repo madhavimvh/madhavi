@@ -9,8 +9,6 @@ class FoodLog:
 		return self.date
 	def gettimeF(self):
 		return self.time
-	def Foodlogdis(self):
-		print("Food:" + "\n" + self.date + ":" + "\n" + "- " + self.time + ": " + self.fooditem)
 	def sumFL(self):
 		print("- " + self.time + ": " + self.fooditem)
 class WaterLog:
@@ -24,8 +22,6 @@ class WaterLog:
 		return self.date
 	def gettimeW(self):
 		return self.time
-	def waterlogdis(self):
-		print("Water:" + "\n" + self.date + ":" + "\n" + "- " + self.time + ": " + self.waterquan)
 	def sumWater(self):
 		print("- " + self.time + ": " + self.waterquan)
 
@@ -40,8 +36,6 @@ class PhysicalActivity:
 		return self.date
 	def gettimePA(self):
 		return self.time
-	def PAdis(self):
-		print("PhysicalActivity:" + "\n" + self.date + ":" + "\n" + "- " + self.time + ": " + self.activity)
 	def sumPA(self):
 		print("- " + self.time + ": " + self.activity)
 class WeightLog:
@@ -55,8 +49,6 @@ class WeightLog:
 		return self.date
 	def gettimeweight(self):
 		return self.time
-	def wtdis(self):
-		print("Weight:" + "\n" + self.date + ":" + "\n" + "- " + self.time + ": " + self.weight)
 	def sumweight(self):
 		print("- " + self.time + ": " + self.weight)
 class SleepLog:
@@ -70,8 +62,6 @@ class SleepLog:
 		return self.date
 	def gettimeSP(self):
 		return self.time
-	def sleeplogdis(self):
-		print("Sleep:" + "\n" + self.date + ":" + "\n" + "- " + self.time + ": " + self.sleephrs)
 	def sumsleep(self):
 		print("- " + self.time + ": " + self.sleephrs)
 
