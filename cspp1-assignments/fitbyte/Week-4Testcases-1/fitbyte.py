@@ -98,9 +98,9 @@ class FitByte:
 			for each in self.foodlogs:
 				if each1 in each.getdateF():
 					print("Food:")
+					print(each1 + ":")
 					break
 			for each in self.foodlogs:
-				print(each1 + ":")
 				if each.getdateF() == each1:
 					each.sumFL()
 	def disWaterlog(self):
