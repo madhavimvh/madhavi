@@ -115,6 +115,8 @@ class FitByte:
 			print(each1 + ":") 
 			for each in self.foodlogs:
 				if each1 in each.getdateF():
+					print(each1)
+					print(each.getdateF())
 					print("Food:")
 			for each in self.foodlogs:
 				if each.getdateF() == each1:
