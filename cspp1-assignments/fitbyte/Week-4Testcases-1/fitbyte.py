@@ -11,6 +11,8 @@ class FoodLog:
 		return self.time
 	def Foodlogdis(self):
 		print("Food:" + "\n" + self.date + ":" + "\n" + "- " + self.time + ": " + self.fooditem)
+	def sumFL(self):
+		print("Food:" + "\n" + "- " + self.time + ": " + self.fooditem)
 class WaterLog:
 	def __init__(self, waterquan, date, time):
 		self.waterquan = waterquan
@@ -24,6 +26,8 @@ class WaterLog:
 		return self.time
 	def waterlogdis(self):
 		print("Water:" + "\n" + self.date + ":" + "\n" + "- " + self.time + ": " + self.waterquan)
+	def sumWater(self):
+		print("Water:" + "\n" + "- " + self.time + ": " + self.fooditem)
 
 class PhysicalActivity:
 	def __init__(self, activity, date, time):
@@ -38,6 +42,8 @@ class PhysicalActivity:
 		return self.time
 	def PAdis(self):
 		print("PhysicalActivity:" + "\n" + self.date + ":" + "\n" + "- " + self.time + ": " + self.activity)
+	def sumPA(self):
+		print("PhysicalActivity:" + "\n" + "- " + self.time + ": " + self.activity)
 class WeightLog:
 	def __init__(self, weight, date, time):
 		self.weight = weight
@@ -51,6 +57,8 @@ class WeightLog:
 		return self.time
 	def wtdis(self):
 		print("Weight:" + "\n" + self.date + ":" + "\n" + "- " + self.time + ": " + self.weight)
+	def sumweight(self):
+		print("Weight:" + "\n" + "- " + self.time + ": " + self.fooditem)
 class SleepLog:
 	def __init__(self, sleephrs, date, time):
 		self.sleephrs = sleephrs
@@ -64,6 +72,8 @@ class SleepLog:
 		return self.time
 	def sleeplogdis(self):
 		print("Sleep:" + "\n" + self.date + ":" + "\n" + "- " + self.time + ": " + self.sleephrs)
+	def sumsleep(self):
+		print("Sleep:" + "\n" + "- " + self.time + ": " + self.fooditem)
 
 class FitByte:
 	foodlogs = []
@@ -104,7 +114,9 @@ class FitByte:
 		for each in self.foodlogs:
 			for each1 in dateset:
 				if each.getdateF() == each1:
-					print(each1)
+					# print(each1)
+					each.sumFL()
+
 		
 
 
