@@ -117,18 +117,22 @@ class FitByte:
 			for each in self.foodlogs:
 				if each.getdateF() == each1:
 					each.sumFL()
+			print("Water:")
 			for each in self.waterlogs:
 			# for each1 in dateset:
 				if each.getdateW() == each1:
 					each.sumWater()
+			print("PhysicalActivity:")
 			for each in self.physicalacties:
 			# for each1 in dateset:
 				if each.getdatePA() == each1:
 					each.sumPA()
+			print("Weight:")
 			for each in self.weightlogs:
 			# for each1 in dateset:
 				if each.getdateweight() == each1:
 					each.sumweight()
+			print("Sleep:")
 			for each in self.sleeplogs:
 			# for each1 in dateset:
 				if each.getdateSP() == each1:
