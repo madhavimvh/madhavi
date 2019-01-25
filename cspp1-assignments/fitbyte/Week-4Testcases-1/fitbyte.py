@@ -89,6 +89,7 @@ class FitByte:
 		for each1 in sorted(dateset, reverse = True):
 			for each in self.foodlogs:
 				if each1 in each.getdateF():
+					count = 0
 					print(each1 + ":")
 					break
 			for each in self.foodlogs:
