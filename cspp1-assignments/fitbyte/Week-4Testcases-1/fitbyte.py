@@ -141,7 +141,7 @@ def main():
 			fitbyte.disPAct()
 		if string[0] == "Weightlog":
 			fitbyte.disWeight()
-		if string[0] == "SleepLog":
+		if string[0] == "Sleeplog":
 			fitbyte.disSleep()
 		if string[0] == "Summary":
 			fitbyte.summary()

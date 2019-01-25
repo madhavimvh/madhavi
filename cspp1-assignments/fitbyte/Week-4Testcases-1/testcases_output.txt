@@ -41,6 +41,9 @@ PhysicalActivity:
 Weight:
 18/9/2018:
 - 6:30AM: 61KG
+Sleep:
+18/9/2018:
+- 10:30: 8hr
 Summary:
 Food:
 18/9/2018:
@@ -146,6 +149,12 @@ Weight:
 Weight:
 19/9/2018:
 - 6:30AM: 61KG
+Sleep:
+18/9/2018:
+- 10:30: 8hr
+Sleep:
+17/9/2018:
+- 10:30: 8hr
 Summary:
 Food:
 18/9/2018:
@@ -263,6 +272,12 @@ Weight:
 Weight:
 22/9/2018:
 - 6:30AM: 55Kg
+Sleep:
+18/9/2018:
+- 10:30PM: 9hrs
+Sleep:
+23/9/2018:
+- 10:30PM: 9hrs
 Summary:
 Food:
 18/9/2018:
@@ -440,6 +455,18 @@ Weight:
 Weight:
 22/9/2018:
 - 6:30AM: 55Kg
+Sleep:
+17/9/2018:
+- 10:30PM: 5hrs
+Sleep:
+16/9/2018:
+- 10:30PM: 5hrs
+Sleep:
+18/9/2018:
+- 10:30PM: 9hrs
+Sleep:
+23/9/2018:
+- 10:30PM: 9hrs
 Summary:
 Food:
 17/9/2018:
