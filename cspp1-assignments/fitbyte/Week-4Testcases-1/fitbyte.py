@@ -135,7 +135,6 @@ def main():
 			dateset.add(str1[1])
 			sleeplg = SleepLog(str1[0], str1[1], str1[2])
 			fitbyte.addsleeplog(sleeplg)
-		print(dateset)
 		if string[0] == "Foodlog":
 			fitbyte.disFL()
 		if string[0] == "Waterlog":
@@ -147,6 +146,7 @@ def main():
 		if string[0] == "Sleeplog":
 			fitbyte.disSleep()
 		if string[0] == "Summary":
+			print(dateset)
 			fitbyte.summary()
 
 			

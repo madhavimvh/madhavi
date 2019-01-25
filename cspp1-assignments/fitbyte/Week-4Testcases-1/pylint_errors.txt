@@ -211,5 +211,5 @@ fitbyte.py:126:3: C0103: Variable name "PAlog" doesn't conform to snake_case nam
 fitbyte.py:111:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.48/10 (previous run: -6.21/10, +1.72)
+Your code has been rated at -4.48/10 (previous run: -4.48/10, +0.00)
 
