@@ -113,11 +113,15 @@ class FitByte:
 		print("Summary:")
 		for each1 in sorted(dateset, reverse = True):
 			print(each1 + ":") 
-			print("Food:")
+			for each in self.foodlogs:
+				if each1 in each.getdateF():
+					print("Food:")
 			for each in self.foodlogs:
 				if each.getdateF() == each1:
 					each.sumFL()
-			print("Water:")
+			for each in self.waterlogs:
+				if each1 in each.getdateW():
+					print("Water:")
 			for each in self.waterlogs:
 			# for each1 in dateset:
 				if each.getdateW() == each1:
@@ -129,7 +133,9 @@ class FitByte:
 			# for each1 in dateset:
 				if each.getdatePA() == each1:
 					each.sumPA()
-			print("Weight:")
+			for each in self.weightlogs:
+				if each1 in each.getdateweight():
+					print("Weight:")
 			for each in self.weightlogs:
 			# for each1 in dateset:
 				if each.getdateweight() == each1:
