@@ -155,31 +155,30 @@ Summary:
 18/9/2018:
 Food:
 - 8:30AM: Dosa
-18/9/2018:
 Food:
 - 12:30PM: Biryani
+Water:
+- 8:40PM: 1250
+PhysicalActivity:
+- 7:00AM: walking
+Weight:
+- 6:30AM: 61KG
+Sleep:
+- 10:30: 8hr
+17/9/2018:
+PhysicalActivity:
+- 7:00AM: walking
+Sleep:
+- 10:30: 8hr
 19/9/2018:
 Food:
 - 8:30AM: Dosa
-19/9/2018:
 Food:
 - 12:30PM: Biryani
 Water:
 - 8:40PM: 1250
-Water:
-- 8:40PM: 1250
-PhysicalActivity:
-- 7:00AM: walking
-PhysicalActivity:
-- 7:00AM: walking
 Weight:
 - 6:30AM: 61KG
-Weight:
-- 6:30AM: 61KG
-Sleep:
-- 10:30: 8hr
-Sleep:
-- 10:30: 8hr
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -270,25 +269,29 @@ Summary:
 18/9/2018:
 Food:
 - 8:30AM: Dosa
+Water:
+- 9:45AM: 500
+Water:
+- 9:49PM: 1000
+Weight:
+- 6:30AM: 55Kg
+Sleep:
+- 10:30PM: 9hrs
+19/9/2018:
+Water:
+- 9:45AM: 500
+21/9/2018:
+Water:
+- 9:49PM: 1000
+22/9/2018:
+Weight:
+- 6:30AM: 55Kg
+23/9/2018:
+Sleep:
+- 10:30PM: 9hrs
 20/9/2018:
 Food:
 - 8:30AM: Dosa
-Water:
-- 9:45AM: 500
-Water:
-- 9:49PM: 1000
-Water:
-- 9:45AM: 500
-Water:
-- 9:49PM: 1000
-Weight:
-- 6:30AM: 55Kg
-Weight:
-- 6:30AM: 55Kg
-Sleep:
-- 10:30PM: 9hrs
-Sleep:
-- 10:30PM: 9hrs
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -448,49 +451,53 @@ Sleep:
 23/9/2018:
 - 10:30PM: 9hrs
 Summary:
-17/9/2018:
-Food:
-- 8:30AM: Idli
-16/9/2018:
-Food:
-- 8:30AM: Idli
-18/9/2018:
-Food:
-- 8:30AM: Dosa
 20/9/2018:
 Food:
 - 8:30AM: Dosa
+18/9/2018:
+Food:
+- 8:30AM: Dosa
 Water:
-- 3PM: 1250
+- 9:45AM: 500
+Water:
+- 9:49PM: 1000
+Weight:
+- 6:30AM: 55Kg
+Sleep:
+- 10:30PM: 9hrs
+23/9/2018:
+Sleep:
+- 10:30PM: 9hrs
+19/9/2018:
+Water:
+- 9:45AM: 500
+22/9/2018:
+Weight:
+- 6:30AM: 55Kg
+16/9/2018:
+Food:
+- 8:30AM: Idli
 Water:
 - 6PM: 1250
-Water:
-- 9:45AM: 500
-Water:
-- 9:49PM: 1000
-Water:
-- 9:45AM: 500
-Water:
-- 9:49PM: 1000
-PhysicalActivity:
-- 7:00AM: walking
 PhysicalActivity:
 - 7:00AM: bicycling
 Weight:
-- 6:30AM: 100Kg
-Weight:
 - 6:30AM: 56Kg
-Weight:
-- 6:30AM: 55Kg
-Weight:
-- 6:30AM: 55Kg
 Sleep:
 - 10:30PM: 5hrs
+17/9/2018:
+Food:
+- 8:30AM: Idli
+Water:
+- 3PM: 1250
+PhysicalActivity:
+- 7:00AM: walking
+Weight:
+- 6:30AM: 100Kg
 Sleep:
 - 10:30PM: 5hrs
-Sleep:
-- 10:30PM: 9hrs
-Sleep:
-- 10:30PM: 9hrs
+21/9/2018:
+Water:
+- 9:49PM: 1000
 ----------------------------------------
 

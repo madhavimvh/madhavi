@@ -111,25 +111,25 @@ class FitByte:
 
 	def summary(self, dateset):
 		print("Summary:")
-		for each in self.foodlogs:
-			for each1 in dateset:
+		for each1 in dateset:
+			print(each1 + ":") 
+			for each in self.foodlogs:
 				if each.getdateF() == each1:
-					print(each1 + ":") 
 					each.sumFL()
-		for each in self.waterlogs:
-			for each1 in dateset:
+			for each in self.waterlogs:
+			# for each1 in dateset:
 				if each.getdateW() == each1:
 					each.sumWater()
-		for each in self.physicalacties:
-			for each1 in dateset:
+			for each in self.physicalacties:
+			# for each1 in dateset:
 				if each.getdatePA() == each1:
 					each.sumPA()
-		for each in self.weightlogs:
-			for each1 in dateset:
+			for each in self.weightlogs:
+			# for each1 in dateset:
 				if each.getdateweight() == each1:
 					each.sumweight()
-		for each in self.sleeplogs:
-			for each1 in dateset:
+			for each in self.sleeplogs:
+			# for each1 in dateset:
 				if each.getdateSP() == each1:
 					each.sumsleep()
 		
