@@ -1,18 +1,21 @@
 ************* Module listspractice
 listspractice.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 listspractice.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+listspractice.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+listspractice.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+listspractice.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+listspractice.py:7:15: C0303: Trailing whitespace (trailing-whitespace)
 listspractice.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-listspractice.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-listspractice.py:9:14: C0303: Trailing whitespace (trailing-whitespace)
 listspractice.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 listspractice.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-listspractice.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-listspractice.py:14:0: C0304: Final newline missing (missing-final-newline)
+listspractice.py:12:0: C0304: Final newline missing (missing-final-newline)
 listspractice.py:1:0: C0111: Missing module docstring (missing-docstring)
 listspractice.py:1:0: C0111: Missing function docstring (missing-docstring)
-listspractice.py:10:0: C0111: Missing function docstring (missing-docstring)
-listspractice.py:11:10: W0123: Use of eval (eval-used)
+listspractice.py:4:5: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+listspractice.py:4:23: E1135: Value 'list' doesn't support membership test (unsupported-membership-test)
+listspractice.py:8:0: C0111: Missing function docstring (missing-docstring)
+listspractice.py:9:10: W0123: Use of eval (eval-used)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.00/10 (previous run: -2.73/10, -0.27)
+Your code has been rated at -8.18/10 (previous run: -3.00/10, -5.18)
 
