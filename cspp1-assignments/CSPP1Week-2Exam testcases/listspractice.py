@@ -1,6 +1,7 @@
 def  lists(input1):
 	summ = 0
 	for each in input1:
+		print(each)
 		if type(each) not in list:
 			for num in each:
 				summ += num
