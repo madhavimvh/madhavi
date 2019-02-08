@@ -5,7 +5,13 @@ def  lists(input1):
 		if type(each) not in list:
 			for num in each:
 				summ += num
-				print(summ) 
+				print(summ)
+		else:
+			if type(each) not in list:
+				for num in each:
+					summ += num
+					print(summ)
+
 def main():
 	input1 = eval(input())
 	# print(input1)
