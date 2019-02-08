@@ -1,11 +1,15 @@
 ************* Module listspractice
 listspractice.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 listspractice.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-listspractice.py:4:0: C0304: Final newline missing (missing-final-newline)
+listspractice.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+listspractice.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+listspractice.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+listspractice.py:8:0: C0304: Final newline missing (missing-final-newline)
 listspractice.py:1:0: C0111: Missing module docstring (missing-docstring)
 listspractice.py:1:0: C0111: Missing function docstring (missing-docstring)
-listspractice.py:2:10: W0123: Use of eval (eval-used)
+listspractice.py:4:0: C0111: Missing function docstring (missing-docstring)
+listspractice.py:5:10: W0123: Use of eval (eval-used)
 
-------------------------------------
-Your code has been rated at -5.00/10
+--------------------------------------------------------------------
+Your code has been rated at -2.50/10 (previous run: -5.00/10, +2.50)
 
