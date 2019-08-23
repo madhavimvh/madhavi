@@ -81,7 +81,8 @@ def retsum(lol):
 	global sum1
 	for each in lol:
 		if type(each) not in [list]:
-			sum1 += each
+			if(type(each) not in [str]):
+				sum1 += each
 		else:
 			# print(each)
 			retsum(each)

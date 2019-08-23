@@ -8,22 +8,14 @@ Your Output:
 6
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 5.5
 1
 
 Your Output: 
-Traceback (most recent call last):
-  File "listsoflists.py", line 111, in <module>
-    main()
-  File "listsoflists.py", line 109, in main
-    lists(lol)
-  File "listsoflists.py", line 77, in lists
-    sum1 = retsum(lol)
-  File "listsoflists.py", line 84, in retsum
-    sum1 += each
-TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+5.5
+1
 ----------------------------------------
 
 ########## Testcase 2: Passed ##########
@@ -56,25 +48,13 @@ Your Output:
 8
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 5654134.9
 10
 
 Your Output: 
-Traceback (most recent call last):
-  File "listsoflists.py", line 111, in <module>
-    main()
-  File "listsoflists.py", line 109, in main
-    lists(lol)
-  File "listsoflists.py", line 77, in lists
-    sum1 = retsum(lol)
-  File "listsoflists.py", line 87, in retsum
-    retsum(each)
-  File "listsoflists.py", line 87, in retsum
-    retsum(each)
-  File "listsoflists.py", line 84, in retsum
-    sum1 += each
-TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+5654134.9
+10
 ----------------------------------------
 
