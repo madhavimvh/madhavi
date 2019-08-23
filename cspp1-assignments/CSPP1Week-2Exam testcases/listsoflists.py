@@ -69,10 +69,44 @@
 # 	# print(list_depth(string))
 # main()
 
+global sum
+sum1 = 0
+global count 
+count = 0
+def lists(lol):
+	sum1 = retsum(lol)
+	print(sum1)
+	
+def retsum(lol):
+	global sum1
+	for each in lol:
+		if type(each) not in [list]:
+			sum1 += each
+		else:
+			# print(each)
+			retsum(each)
+	return sum1
+def depth(lol):
+	global count
+	# if(isinstance(lol, int)):
+	# 	break
+	for each in lol:
+		# print(each)
+		if(type(each) in [list]):
+			count = count + 1
+			# print(each)
+			depth(each)
+		# else:
+		# 	# print(each)
+		# 	continue
+	return count
+
+
 
 def main():
 	global string
-	string = eval(input())
-	print(string)
+	lol = eval(input())
+	lists(lol)
+	print(depth(lol))
 main()
 
